@@ -11,7 +11,7 @@
 - D24 保存只读核验记录：文件可读，但完整/区间集水区分别有36/97个环自交要素；没有擅自修复边界。[检查记录](dataset/D24_CLEAR/_provenance/readability_check_20261027.json)
 - 模型随附[本机Run01报告](models/reservoir_inventory/RUN_REPORT.md)、[结果包](models/reservoir_inventory/Reservoir_Inventory_Run01.zip)、实际输入/输出与日志；原模型源码和默认参数未修改。
 
-增量包含224个新增、12个修改、361个旧D01文件删除操作，236个payload文件共4,845,018,397字节，压缩为14个不超过350,000,000字节的分卷。详细文件哈希与操作见 [updates/local-data-20261027](updates/local-data-20261027/)。完整恢复需先还原原快照，再按[增量恢复说明](tools/RESTORE_DELTA_使用说明.md)应用本次更新；工具会拒绝覆盖未知用户修改。
+本次按用户选择仅发布云南子集和检查/复现记录，全球NetCDF与原下载ZIP保留本机。增量包含220个新增、12个修改、361个旧D01文件删除操作，232个payload文件共82,769,865字节，压缩为1个34,584,723字节附件。详细文件哈希与操作见 [updates/local-data-20261027](updates/local-data-20261027/)。完整恢复需先还原原快照，再按[增量恢复说明](tools/RESTORE_DELTA_使用说明.md)应用本次更新；工具会拒绝覆盖未知用户修改。
 
 本仓库保存用户指定的五个本地目录。完整快照包含全部原始文件、已下载的压缩包、解压数据、溯源记录与未完成下载分片，保持原目录名和文件字节。
 

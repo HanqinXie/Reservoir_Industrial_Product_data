@@ -1,11 +1,11 @@
 {
-  "verified_utc": "2026-10-27T12:15:09.628800+00:00",
+  "verified_utc": "2026-10-27T13:30:31.320654+00:00",
   "passed": true,
-  "members_verified": 236,
-  "source_bytes_verified": 4845018397,
-  "compressed_bytes": 4603979089,
-  "part_count": 14,
-  "maximum_part_bytes": 350000000,
+  "members_verified": 232,
+  "source_bytes_verified": 82769865,
+  "compressed_bytes": 34584723,
+  "part_count": 1,
+  "maximum_part_bytes": 34584723,
   "all_part_hashes_match": true,
   "all_member_sizes_and_hashes_match": true,
   "zstandard_full_stream_and_checksum_verified": true

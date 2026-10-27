@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "created_utc": "2026-10-27T12:14:29.572320+00:00",
+  "created_utc": "2026-10-27T13:30:30.167480+00:00",
   "path_basis": "workspace-relative POSIX paths",
-  "source_file_count": 236,
-  "source_bytes": 4845018397,
+  "source_file_count": 232,
+  "source_bytes": 82769865,
   "files": [
     {
       "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/ENCODING_REPAIR.md",
@@ -456,14 +456,9 @@
       "sha256": "ac49b95f49fe583d55a4dfe8d9c5e54af78c34dbfb466e643e74bec57c0a744a"
     },
     {
-      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/235669be661d3114f1b100f81b164504.zip",
-      "bytes": 2372499291,
-      "sha256": "a96b655a9dbb8e47cac247dc3ef14293e939bff6c187a90f2ab65ff10dec0f3b"
-    },
-    {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/SOURCE.md",
-      "bytes": 1963,
-      "sha256": "1610b7dff03d45f2adf566b0bdc0f127cf580d91a34e3133587e6dabe228d264"
+      "bytes": 2219,
+      "sha256": "c2c7b1ebff535ace2e90655e8fb655e038666aae428f48a526b9c6be2dd1ba9e"
     },
     {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extract_yunnan_bbox.py",
@@ -474,11 +469,6 @@
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extraction_attempts/attempt01.json",
       "bytes": 429,
       "sha256": "a4f29745fea7cb3e3d9bb938f2107231f4a2c245b227c0ad57ae93d7094a27ea"
-    },
-    {
-      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extraction_attempts/attempt01.partial.nc",
-      "bytes": 17113700,
-      "sha256": "0cedcd688175d776c50e2d8a3966b33f76d6515d7a3b4f021794f5c6ef14eb30"
     },
     {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/status_before_data_verification_20261027.md",
@@ -501,14 +491,9 @@
       "sha256": "22219081b543b91fc5484c4dfa755912453eb903a8a70020610345590031859c"
     },
     {
-      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/data_0.nc",
-      "bytes": 2372137099,
-      "sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501"
-    },
-    {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/manifest.json",
-      "bytes": 8430,
-      "sha256": "790ec926eecb02bf370a9b663d848c86bf25ec4ccc6913585b6569c33af116b0"
+      "bytes": 8721,
+      "sha256": "3507a31b633c50c2308ec9f03c0d8dc8f41663bd9f8cdca0f02f0e35e6f8131a"
     },
     {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/yunnan_bbox_2015_README.txt",
@@ -522,13 +507,8 @@
     },
     {
       "path": "dataset/D02_Copernicus GloFAS历史流量再分析/下载状态.md",
-      "bytes": 1251,
-      "sha256": "49feb927461a00c815ed26ac8c0ee21d1f8009fd88b9eeab1d132619084a1eff"
-    },
-    {
-      "path": "dataset/D03_GRADES自然化河流流量/44007315_history_series.csv",
-      "bytes": 499245,
-      "sha256": "a971a9812bb7cf52fd323eac50c638f5083fdf3c687c23d0e40d966cf8b2a522"
+      "bytes": 1507,
+      "sha256": "3895584ce7e41fc119842a48be6140a3dfe7e94144ec49be5848e1e772be0fc1"
     },
     {
       "path": "dataset/D24_CLEAR/_provenance/gis_readability_check_20261027.json",

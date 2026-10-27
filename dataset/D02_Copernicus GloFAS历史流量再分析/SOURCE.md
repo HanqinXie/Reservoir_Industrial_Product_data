@@ -9,3 +9,6 @@
 `yunnan_bbox_2015_glofas_v4.nc`是从该全球文件按北纬21—29度、东经97—107度筛选的矩形派生子集；网格中心实际范围为21.025—28.975°N、97.025—106.975°E，尺寸365×160×200。未做省界掩膜，不代表完整相关上游流域，未插值、重采样或填补缺失值。其17,113,700字节文件SHA-256为`f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22`；全部11,680,000个float32值已独立逐位比对。
 
 请求、坐标、时间、文件哈希、ZIP核验及派生关系见[manifest.json](manifest.json)；全值检查见[_provenance/yunnan_bbox_2015_independent_check.json](_provenance/yunnan_bbox_2015_independent_check.json)。许可原文和早期元数据保留在`_provenance/`。本次仅更新取得状态与目录，不改原ZIP、全球NetCDF或矩形子集。
+
+
+GitHub发布范围：按用户选择，仅发布云南附近矩形子集和检查/来源记录。全球data_0.nc及原始下载ZIP保留本机，不包含在本次Git或Release增量中；manifest的原始文件核验描述本机实际取得情况。

@@ -230,5 +230,11 @@
   "history": {
     "prior_metadata_only_manifest": "_provenance/manifest.json",
     "prior_status_text": "_provenance/status_before_data_verification_20261027.md"
+  },
+  "github_publication": {
+    "scope": "Yunnan rectangle and inspection/provenance records only",
+    "global_netcdf_and_original_download_zip": "retained locally; not uploaded",
+    "published_netcdf": "yunnan_bbox_2015_glofas_v4.nc",
+    "province_boundary_mask_applied": false
   }
 }
