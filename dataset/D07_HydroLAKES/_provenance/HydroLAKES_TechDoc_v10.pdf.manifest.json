@@ -1,0 +1,20 @@
+{
+  "id": "D07",
+  "directory": "D07_HydroLAKES",
+  "name": "HydroLAKES_TechDoc_v10.pdf",
+  "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroLAKES_TechDoc_v10.pdf",
+  "expected_bytes": null,
+  "expected_md5": null,
+  "license": "CC-BY 4.0",
+  "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points",
+  "started_utc": "2026-10-26T17:59:03.263396+00:00",
+  "status": "downloaded",
+  "path": "D07_HydroLAKES\\HydroLAKES_TechDoc_v10.pdf",
+  "byte_size": 989557,
+  "sha256": "3d1e30abb0691750127fd8e2ff6a149c83f36b93619fb44774476663e0f01f47",
+  "md5": "ca4f758d92f91390f63f7897c5655ebd",
+  "official_md5_verified": false,
+  "finished_utc": "2026-10-26T17:59:03.269094+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:10.191586+00:00"
+}

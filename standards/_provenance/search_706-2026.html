@@ -1,0 +1,876 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>全国标准信息公共服务平台</title>
+		<link rel="stylesheet" href="/statics/lib/layui/css/layui.css" />
+		<link rel="stylesheet" href="/statics/lib/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/statics/lib/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="/statics/lib/bootstrap-table/bootstrap-table.min.css">
+		<link rel="stylesheet" href="/statics/portal/css/index.css" type="text/css" />
+		<link rel="stylesheet" href="/statics/lib/filtermore/filtermore.min.css" type="text/css" />
+		<!--[if lt IE 9]>
+	      <script src="/statics/lib/bootstrap/3.3.7/html5shiv.min.js"></script>
+	      <script src="/statics/lib/bootstrap/3.3.7/respond.min.js"></script>
+	    <![endif]-->
+		<link rel="stylesheet" type="text/css" href="/statics/lib/pace/pace-theme-flash.min.css"/>
+		<script src="/statics/lib/pace/pace.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?bc6f61eace617162b31b982f796830e6";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+			function addCSS(cssText){
+				var style = document.createElement('style'),  //创建一个style元素
+						head = document.head || document.getElementsByTagName('head')[0]; //获取head元素
+				var textNode = document.createTextNode(cssText);
+				style.appendChild(textNode);
+				head.appendChild(style);
+			}
+			addCSS('#demo{ height: 30px; background:#f00;}');
+			var userAgent = window.navigator.userAgent;
+			if(userAgent.indexOf("HBuilderX")>-1||userAgent.indexOf("uni-app")>-1){
+				addCSS('#top-bg,#zjxmt,#footer-area{display:none;}');
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="top-area" style="background:url(/statics/hb/bgrep.jpg) top repeat-x;width:100%;background-color: #187ed0;">
+			<div class="container">
+				<div class="row" style="overflow: visible;">
+					<div id="top-bg" class="col-sm-12" style="overflow: visible;width:100%;font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;z-index:2;">
+						<img class="hidden-xs" src="/statics/hb/bgrep.gif" style="position:absolute;right:-180px;top:0;height:100%;z-index:-1;">
+						<img class="hidden-xs" src="/statics/hb/logonew.png" style="z-index:2;">
+
+						<div style="padding:5px 0;padding-right:30px;" class="visible-xs">
+							<button class=" navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a style="color:white;padding:15px 0;" href="https://std.samr.gov.cn/" class="navbar-brand">
+								<img style="display:inline-block;margin-right:10px;margin-top:-5px;" width="30px" src="/statics/hb/shareLogo.png">
+								全国标准信息公共服务平台
+							</a>
+							<div style="clear:both;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<ul>
+							<li data-href="https://std.samr.gov.cn/">
+								首页
+							</li>
+							<li data-href="/">
+								行业标准
+							</li>
+							<li data-href="/stdList">
+								标准查询
+							</li>
+							<li data-href="/rnList">
+								月报查询
+							</li>
+							<li data-href="/snList">
+								标准公告查询
+							</li>
+							<li data-href="/help">
+								帮助中心
+							</li>
+							<li data-href="/admin" style="width:auto;float:right;padding:0 10px;" id="enter">
+								行业标准备案用户登录入口
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<style>
+		.trade-div{padding: 5px 0;overflow: hidden;cursor: pointer;}
+		.trade-no{font-size:12px;background-color:#428bca;color:#fff;padding:2px;border-radius:5px;width:28px;display:inline-block;margin-right:2px;text-align:center;}
+		.trade-active{background-color: #18a689 !important;color:#fff;text-align: center;border-radius: 5px;}
+		.trade-active>span{background-color: inherit;color: #fff !important;}
+        .searchbox{width: 100%;}
+        .search-ssq{
+            background-color: #005da8;
+            display: inline-block;
+            color: #fff;
+            font-size: 16px;
+            margin: 8px;
+            line-height: 40px;
+            width: 244px;
+            text-align: center;
+        }
+        .menu-item{
+            margin:2px 8px 0;
+            cursor: pointer;
+            position: relative;
+            padding:0 8px;
+            line-height: 22px;
+        }
+        .menu-item:hover,.dept-active{
+            background-color: #18a689;
+            color: #fff;
+            border-radius: 3px;
+        }
+        .code{
+            background-color: #f1f9ff;
+            padding: 4px 9px;
+            margin-left: 4px;
+            border: solid 1px #d7edfd;
+            color: #78b1e3;
+            cursor: pointer;
+        }
+        .code:hover, .code-active{
+            background-color: #fff;
+            border: solid 1px #fc854d;
+        }
+        .trade-div{padding-left: 4px}
+		</style>
+		<div class="container main-body">
+			<div class="row">
+				<div class="col-sm-12">
+                    <div class="input-group">
+                        <input id="keyword" type="text" class="form-control" required="" placeholder="请输入标准号或标准名称关键字" value="706-2026">
+                        <div id="searchBtn" class="input-group-addon" style="background-color: #428bca; color: white;">
+                            <span class="glyphicon glyphicon-search"></span> 查询
+                        </div>
+                        <div id="resetBtn" class="input-group-addon" style="background-color: #ccc; color: white;">
+                            <span class="glyphicon glyphicon-repeat"></span> 重置
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 15px;">
+                    <table>
+                        <tr>
+                            <td style="vertical-align: top;background-color: #efefef;">
+                                <div class="search-ssq">部 委</div>
+                                <div class="searchbox-bw">
+                                    <div class="input-group" style="margin:0 8px;">
+                                        <input type="text" id="search-input" class="form-control" placeholder="" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" style="cursor: pointer" onclick="$('#search-input').val('');$('.menu-item').show();">清空</span>
+                                    </div>
+                                </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('fgw',this)">国家发展和改革委员会<span style="float: right;">(142)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('jyb',this)">教育部<span style="float: right;">(323)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gxb',this)">工业和信息化部<span style="float: right;">(43,531)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gab',this)">公安部<span style="float: right;">(2,941)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('mzb',this)">民政部<span style="float: right;">(239)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('sfb',this)">司法部<span style="float: right;">(177)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('rlsb',this)">人力资源和社会保障部<span style="float: right;">(212)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('zrzyb',this)">自然资源部<span style="float: right;">(1,283)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('sthjb',this)">生态环境部<span style="float: right;">(1,350)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('zfcxjsb',this)">住房和城乡建设部<span style="float: right;">(1,118)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('jtysb',this)">交通运输部<span style="float: right;">(1,368)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('slb',this)">水利部<span style="float: right;">(767)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('ncnyb',this)">农业农村部<span style="float: right;">(5,647)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('swb',this)">商务部<span style="float: right;">(769)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('whlyb',this)">文化和旅游部<span style="float: right;">(219)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('wsjkwyh',this)">卫生健康委员会<span style="float: right;">(976)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('yjglb',this)">应急管理部<span style="float: right;">(378)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('rmyh',this)">中国人民银行<span style="float: right;">(422)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('hgzs',this)">海关总署<span style="float: right;">(5,879)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('swj',this)">国家税务总局<span style="float: right;">(1)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('scjg',this)">国家市场监督管理总局<span style="float: right;">(2)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gbdszj',this)">国家广播电视总局<span style="float: right;">(318)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('tyzj',this)">国家体育总局<span style="float: right;">(86)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('jgswglj',this)">国家机关事务管理局<span style="float: right;">(3)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('qxj',this)">中国气象局<span style="float: right;">(795)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('lswzcbj',this)">国家粮食和物资储备局<span style="float: right;">(304)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('nyj',this)">国家能源局<span style="float: right;">(10,376)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gfkgj',this)">国防科工局<span style="float: right;">(1,005)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('yczmj',this)">国家烟草专卖局<span style="float: right;">(623)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('lycyj',this)">国家林业和草原局<span style="float: right;">(2,169)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('tlj',this)">国家铁路局<span style="float: right;">(907)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('myhkj',this)">中国民用航空局<span style="float: right;">(291)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('yzj',this)">国家邮政局<span style="float: right;">(227)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('wwj',this)">国家文物局<span style="float: right;">(118)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('zyyj',this)">国家中医药局<span style="float: right;">(10)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('mkaqjcj',this)">国家矿山安全监察局<span style="float: right;">(1,894)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('yjj',this)">国家药监局<span style="float: right;">(1,874)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gjdyj',this)">国家电影局<span style="float: right;">(57)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('daj',this)">国家档案局<span style="float: right;">(106)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('mmglj',this)">国家密码管理局<span style="float: right;">(161)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('scjdglzj',this)">国家认证认可监督管理委员会<span style="float: right;">(279)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('xwcbs',this)">国家新闻出版署<span style="float: right;">(328)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('dzj',this)">中国地震局<span style="float: right;">(145)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gxhzs',this)">中华全国供销合作总社<span style="float: right;">(447)</span></div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div onclick="doSearchByDept('gjxfjyj',this)">国家消防救援局<span style="float: right;">(184)</span></div>
+                                    </div>
+                            </td>
+                            <td style="vertical-align: top;padding-left: 8px;">
+                                <div id="codes-div">
+                                    <b>行业代码：</b>
+                                </div>
+                                <div class="row" id="codes-area" style="margin: 0 auto;border-bottom: dashed 1px #ccc;padding-bottom: 9px;padding-top: 9px;">
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="AQ 安全生产(308)" data-trade="安全生产">
+                                            <span class="trade-no">AQ</span>安全生产(<span style="color:#ce4844;">308</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="BB 包装(88)" data-trade="包装">
+                                            <span class="trade-no">BB</span>包装(<span style="color:#ce4844;">88</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="CB 船舶(1,482)" data-trade="船舶">
+                                            <span class="trade-no">CB</span>船舶(<span style="color:#ce4844;">1,482</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="CH 测绘(198)" data-trade="测绘">
+                                            <span class="trade-no">CH</span>测绘(<span style="color:#ce4844;">198</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="CJ 城镇建设(524)" data-trade="城镇建设">
+                                            <span class="trade-no">CJ</span>城镇建设(<span style="color:#ce4844;">524</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="CY 新闻出版(328)" data-trade="新闻出版">
+                                            <span class="trade-no">CY</span>新闻出版(<span style="color:#ce4844;">328</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="DA 档案(106)" data-trade="档案">
+                                            <span class="trade-no">DA</span>档案(<span style="color:#ce4844;">106</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="DB 地震(145)" data-trade="地震">
+                                            <span class="trade-no">DB</span>地震(<span style="color:#ce4844;">145</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="DL 电力(3,485)" data-trade="电力">
+                                            <span class="trade-no">DL</span>电力(<span style="color:#ce4844;">3,485</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="DY 电影(23)" data-trade="电影">
+                                            <span class="trade-no">DY</span>电影(<span style="color:#ce4844;">23</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="DZ 地质矿产(737)" data-trade="地质矿产">
+                                            <span class="trade-no">DZ</span>地质矿产(<span style="color:#ce4844;">737</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="EJ 核工业(835)" data-trade="核工业">
+                                            <span class="trade-no">EJ</span>核工业(<span style="color:#ce4844;">835</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="FZ 纺织(2,153)" data-trade="纺织">
+                                            <span class="trade-no">FZ</span>纺织(<span style="color:#ce4844;">2,153</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GA 公共安全(2,941)" data-trade="公共安全">
+                                            <span class="trade-no">GA</span>公共安全(<span style="color:#ce4844;">2,941</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GC 国家物资储备(3)" data-trade="国家物资储备">
+                                            <span class="trade-no">GC</span>国家物资储备(<span style="color:#ce4844;">3</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GF 国防工业(0)" data-trade="国防工业">
+                                            <span class="trade-no">GF</span>国防工业(<span style="color:#ce4844;">0</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GH 供销合作(447)" data-trade="供销合作">
+                                            <span class="trade-no">GH</span>供销合作(<span style="color:#ce4844;">447</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GM 国密(161)" data-trade="国密">
+                                            <span class="trade-no">GM</span>国密(<span style="color:#ce4844;">161</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="GY 广播电视和网络视听(352)" data-trade="广播电视和网络视听">
+                                            <span class="trade-no">GY</span>广播电视和网络视听(<span style="color:#ce4844;">352</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="HB 航空(591)" data-trade="航空">
+                                            <span class="trade-no">HB</span>航空(<span style="color:#ce4844;">591</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="HG 化工(4,485)" data-trade="化工">
+                                            <span class="trade-no">HG</span>化工(<span style="color:#ce4844;">4,485</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="HJ 环境保护(1,350)" data-trade="环境保护">
+                                            <span class="trade-no">HJ</span>环境保护(<span style="color:#ce4844;">1,350</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="HS 海关(85)" data-trade="海关">
+                                            <span class="trade-no">HS</span>海关(<span style="color:#ce4844;">85</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="HY 海洋(258)" data-trade="海洋">
+                                            <span class="trade-no">HY</span>海洋(<span style="color:#ce4844;">258</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JB 机械(13,327)" data-trade="机械">
+                                            <span class="trade-no">JB</span>机械(<span style="color:#ce4844;">13,327</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JC 建材(1,904)" data-trade="建材">
+                                            <span class="trade-no">JC</span>建材(<span style="color:#ce4844;">1,904</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JG 建筑工程(594)" data-trade="建筑工程">
+                                            <span class="trade-no">JG</span>建筑工程(<span style="color:#ce4844;">594</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JR 金融(422)" data-trade="金融">
+                                            <span class="trade-no">JR</span>金融(<span style="color:#ce4844;">422</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JS 机关事务(3)" data-trade="机关事务">
+                                            <span class="trade-no">JS</span>机关事务(<span style="color:#ce4844;">3</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JT 交通(1,368)" data-trade="交通">
+                                            <span class="trade-no">JT</span>交通(<span style="color:#ce4844;">1,368</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="JY 教育(323)" data-trade="教育">
+                                            <span class="trade-no">JY</span>教育(<span style="color:#ce4844;">323</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="KA 矿山安全(638)" data-trade="矿山安全">
+                                            <span class="trade-no">KA</span>矿山安全(<span style="color:#ce4844;">638</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="LB 旅游(103)" data-trade="旅游">
+                                            <span class="trade-no">LB</span>旅游(<span style="color:#ce4844;">103</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="LD 劳动和劳动安全(212)" data-trade="劳动和劳动安全">
+                                            <span class="trade-no">LD</span>劳动和劳动安全(<span style="color:#ce4844;">212</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="LS 粮食(301)" data-trade="粮食">
+                                            <span class="trade-no">LS</span>粮食(<span style="color:#ce4844;">301</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="LY 林业(2,169)" data-trade="林业">
+                                            <span class="trade-no">LY</span>林业(<span style="color:#ce4844;">2,169</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="MH 民用航空(291)" data-trade="民用航空">
+                                            <span class="trade-no">MH</span>民用航空(<span style="color:#ce4844;">291</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="MR 市场监管(2)" data-trade="市场监管">
+                                            <span class="trade-no">MR</span>市场监管(<span style="color:#ce4844;">2</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="MT 煤炭(1,424)" data-trade="煤炭">
+                                            <span class="trade-no">MT</span>煤炭(<span style="color:#ce4844;">1,424</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="MZ 民政(271)" data-trade="民政">
+                                            <span class="trade-no">MZ</span>民政(<span style="color:#ce4844;">271</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="NB 能源(4,055)" data-trade="能源">
+                                            <span class="trade-no">NB</span>能源(<span style="color:#ce4844;">4,055</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="NY 农业(4,818)" data-trade="农业">
+                                            <span class="trade-no">NY</span>农业(<span style="color:#ce4844;">4,818</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="QB 轻工(4,323)" data-trade="轻工">
+                                            <span class="trade-no">QB</span>轻工(<span style="color:#ce4844;">4,323</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="QC 汽车(868)" data-trade="汽车">
+                                            <span class="trade-no">QC</span>汽车(<span style="color:#ce4844;">868</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="QJ 航天(0)" data-trade="航天">
+                                            <span class="trade-no">QJ</span>航天(<span style="color:#ce4844;">0</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="QX 气象(795)" data-trade="气象">
+                                            <span class="trade-no">QX</span>气象(<span style="color:#ce4844;">795</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="RB 认证认可(279)" data-trade="认证认可">
+                                            <span class="trade-no">RB</span>认证认可(<span style="color:#ce4844;">279</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="RF 人民防空(4)" data-trade="人民防空">
+                                            <span class="trade-no">RF</span>人民防空(<span style="color:#ce4844;">4</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SB 国内贸易(944)" data-trade="国内贸易">
+                                            <span class="trade-no">SB</span>国内贸易(<span style="color:#ce4844;">944</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SC 水产(829)" data-trade="水产">
+                                            <span class="trade-no">SC</span>水产(<span style="color:#ce4844;">829</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SF 司法(177)" data-trade="司法">
+                                            <span class="trade-no">SF</span>司法(<span style="color:#ce4844;">177</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SH 石油化工(962)" data-trade="石油化工">
+                                            <span class="trade-no">SH</span>石油化工(<span style="color:#ce4844;">962</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SJ 电子(1,937)" data-trade="电子">
+                                            <span class="trade-no">SJ</span>电子(<span style="color:#ce4844;">1,937</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SL 水利(767)" data-trade="水利">
+                                            <span class="trade-no">SL</span>水利(<span style="color:#ce4844;">767</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SN 出入境检验检疫(5,794)" data-trade="出入境检验检疫">
+                                            <span class="trade-no">SN</span>出入境检验检疫(<span style="color:#ce4844;">5,794</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SW 税务(1)" data-trade="税务">
+                                            <span class="trade-no">SW</span>税务(<span style="color:#ce4844;">1</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="SY 石油天然气(2,694)" data-trade="石油天然气">
+                                            <span class="trade-no">SY</span>石油天然气(<span style="color:#ce4844;">2,694</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="TB 铁路(907)" data-trade="铁路">
+                                            <span class="trade-no">TB</span>铁路(<span style="color:#ce4844;">907</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="TD 土地管理(90)" data-trade="土地管理">
+                                            <span class="trade-no">TD</span>土地管理(<span style="color:#ce4844;">90</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="TY 体育(86)" data-trade="体育">
+                                            <span class="trade-no">TY</span>体育(<span style="color:#ce4844;">86</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WB 物资管理(138)" data-trade="物资管理">
+                                            <span class="trade-no">WB</span>物资管理(<span style="color:#ce4844;">138</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WH 文化(116)" data-trade="文化">
+                                            <span class="trade-no">WH</span>文化(<span style="color:#ce4844;">116</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WJ 兵工民品(193)" data-trade="兵工民品">
+                                            <span class="trade-no">WJ</span>兵工民品(<span style="color:#ce4844;">193</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WM 外经贸(20)" data-trade="外经贸">
+                                            <span class="trade-no">WM</span>外经贸(<span style="color:#ce4844;">20</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WS 卫生(976)" data-trade="卫生">
+                                            <span class="trade-no">WS</span>卫生(<span style="color:#ce4844;">976</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="WW 文物保护(118)" data-trade="文物保护">
+                                            <span class="trade-no">WW</span>文物保护(<span style="color:#ce4844;">118</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="XB 稀土(200)" data-trade="稀土">
+                                            <span class="trade-no">XB</span>稀土(<span style="color:#ce4844;">200</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="XF 消防救援(184)" data-trade="消防救援">
+                                            <span class="trade-no">XF</span>消防救援(<span style="color:#ce4844;">184</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YB 黑色冶金(1,964)" data-trade="黑色冶金">
+                                            <span class="trade-no">YB</span>黑色冶金(<span style="color:#ce4844;">1,964</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YC 烟草(623)" data-trade="烟草">
+                                            <span class="trade-no">YC</span>烟草(<span style="color:#ce4844;">623</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YD 通信(6,268)" data-trade="通信">
+                                            <span class="trade-no">YD</span>通信(<span style="color:#ce4844;">6,268</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YJ 减灾救灾与综合性应急管理(38)" data-trade="减灾救灾与综合性应急管理">
+                                            <span class="trade-no">YJ</span>减灾救灾与综合性应急管理(<span style="color:#ce4844;">38</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YS 有色金属(2,761)" data-trade="有色金属">
+                                            <span class="trade-no">YS</span>有色金属(<span style="color:#ce4844;">2,761</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YY 医药(1,874)" data-trade="医药">
+                                            <span class="trade-no">YY</span>医药(<span style="color:#ce4844;">1,874</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="YZ 邮政(227)" data-trade="邮政">
+                                            <span class="trade-no">YZ</span>邮政(<span style="color:#ce4844;">227</span>)
+                                        </div>
+                                        <div class="col-xs-2 text-ellipsis trade-div" title="ZY 中医药(10)" data-trade="中医药">
+                                            <span class="trade-no">ZY</span>中医药(<span style="color:#ce4844;">10</span>)
+                                        </div>
+                                </div>
+                                <div class="searchbox" id="searchbox-area"></div>
+                                <table class="table-no-bordered table-bordered" data-mobile-responsive="true" id="hbtable"></table>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+			</div>
+		</div>
+
+<div class="footer-body" id="footer-area" style="background-color: #0566ab;font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;">
+			<div class="container">
+				<div class="row" style="padding:15px 0;">
+					<div class="col-sm-5 col-xs-6">
+						<ul style="list-style:none;">
+							<li style="margin: 10px 0px;">
+								<h6 style="color:white;font-weight: bold;line-height: 1.1;font-size: 14px;">版权所有 侵权必究</h6></li>
+							<li style="margin: 2px 0px;color:#bec8ce;">主管：国家标准化管理委员会</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">主办：国家市场监督管理总局国家标准技术审评中心</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">技术支持：北京中标赛宇科技有限公司</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">支持电话：13261900266</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<ul style="list-style:none;">
+							<li style="margin: 10px 0px">
+								<h6 style="color:white;font-weight: bold;line-height: 1.1;font-size: 14px;">友情链接</h6></li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="http://www.sac.gov.cn/" target="_blank">国家标准化管理委员会</a>
+							</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="https://www.qybz.org.cn/" target="_blank">企业标准信息公共服务平台</a>
+							</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="http://www.ttbz.org.cn/" target="_blank">全国团体标准信息平台</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 hidden-xs" style="text-align:center;">
+						<img src="/statics/hb/ewm.jpg" style="height: 128px;" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/statics/lib/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/filtermore/filtermore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/bootstrap-table/bootstrap-table.min.js"></script>
+		<script src="/statics/lib/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+		<script src="/statics/lib/layui/layui.all.js"></script>
+		<script src="/statics/portal/js/uni-webview-js@0.0.3/index.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('[data-href]').bind('click',function(){
+					location.href = $(this).data('href');
+				});
+				$('.navbar-toggle').click(function(){
+					$('.nav-menu').toggleClass("nav-menu-show");
+				});
+			})
+			function timestampToTime(timestamp, full) {
+				if(!(timestamp))return '-';
+		        var date = new Date(timestamp);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+		        var Y = date.getFullYear() + '-';
+		        var M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+		        var D = date.getDate()<10?'0'+date.getDate():date.getDate();
+		        var h=m=s='';
+		        if(full){
+			        h = date.getHours() + ':';
+			        m = date.getMinutes() + ':';
+			        s = date.getSeconds();
+		        }
+		        return Y+M+D+h+m+s;
+		    }
+		    var portal={
+		    	showNav: function(index){
+		    		$('.nav_in').removeClass('nav_in');
+					$('.nav-menu li:eq('+index+')').addClass('nav_in');
+		    	}
+		    }
+
+			var isAppPlus=false;
+			document.addEventListener('UniAppJSBridgeReady', function() {
+				uni.webView.getEnv(function(res) {
+					console.log('当前环境：' + JSON.stringify(res));
+					if(res.plus||(res.h5&&(userAgent.indexOf("HBuilderX")>-1||userAgent.indexOf("uni-app")>-1))){
+						isAppPlus = true;
+						$(document).on("click", "a", function (event) {
+							event.preventDefault()
+							var href = $(this).attr('href');
+							if(href!=null&&href!=''){
+								uni.navigateTo({
+									url: '/pages/outter/outter?title=国标通-信息查询&src='+location.protocol+'//'+location.host+href
+								});
+								event.stopPropagation();
+								return false;
+							}
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html><script type="text/javascript">
+function showIndustryCode(code){
+    //jquery找到span.trade-no文本文字以code开头的元素，设置父级元素的背景色为#f1f9ff
+    $('#codes-area .trade-no').each(function(){
+        $(this).parent().css('background-color','#fff');
+        if(code==''){
+            $(this).parent().css('background-color','#fff');
+        }else if($(this).text().indexOf(code)===0){
+            $(this).parent().css('background-color','#cccccc');
+        }
+    })
+}
+portal.showNav(2);
+var searchBox={ministry:'', trade:'',
+    pubTime:'', date:'', status:['即将实施','现行']};
+$(function(){
+    $('#codes-div').append('<span val="" class="code code-active">全部</span>');
+    for(var i=65;i<91;i++){
+        let tmp=String.fromCharCode(i);
+        if(tmp=='I'||tmp=='K'||tmp=='O'||tmp=='P'||tmp=='U'||tmp=='V')continue;
+        $('#codes-div').append('<span val="'+tmp+'" class="code">'+tmp+'</span>');
+    }
+    $('#codes-div .code').click(function (){
+        $('.code-active').removeClass('code-active');
+        $(this).addClass('code-active');
+        showIndustryCode($(this).attr('val'))
+    })
+    $('#codes-div .code').hover(function (){
+        showIndustryCode($(this).attr('val'))
+    })
+	if(searchBox.trade){
+		$('[data-trade=""]').addClass('trade-active');
+	}
+	$('#searchBtn').bind('click', doSearch);
+	$('#keyword').bind('keyup',function(e){
+		if(e.keyCode=='13')
+			doSearch();
+	});
+	$('#resetBtn').bind('click',function(){
+		// $('#keyword').val('');
+		// setSearchBoxVal([]);
+        // searchBox.trade=searchBox.pubTime=searchBox.date='';
+        // $('.trade-active').removeClass('trade-active');
+		// doSearch();
+        location.href='/stdList'
+	});
+	initSearchBox();
+	table = tableInit();
+
+	$('.trade-div').bind('click',function(){
+		$('.trade-active').removeClass('trade-active');
+		var trade=$(this).data('trade');
+		if(trade!=searchBox.trade){
+			$(this).addClass('trade-active');
+			searchBox.trade=trade;
+            searchBox.ministry=''
+            $('.dept-active').removeClass('dept-active')
+		}else{
+			searchBox.trade='';
+		}
+		doSearch();
+	});
+
+    // 监听输入框的keyup事件
+    $('#search-input').on('keyup', function() {
+        var searchText = $(this).val();
+        $('.menu-item').each(function() {
+            var text = $(this).text();
+            if (text.indexOf(searchText) === -1) {
+                $(this).hide();
+            } else {
+                $(this).show();
+            }
+        });
+    });
+});
+function initSearchBox(){
+	var options = {
+        //查询事件
+        "search": function (paramList) {
+            // searchBox.ministry=paramList[0].ValueList[0]?paramList[0].ValueList[0]:'';
+            searchBox.pubTime=paramList[0].ValueList[0]?paramList[0].ValueList[0]:'';
+            searchBox.status= paramList[1].ValueList?paramList[1].ValueList:'[]';
+            doSearch();
+        },
+        //默认展开条件数
+        "expandRow": 2,
+        //查询条件
+        "searchBoxs": [
+            {
+                "id": "pubdate",
+                "title": "备案日期",
+                "data": [
+                    { "value": "-1", "text": "近一月" },
+                    { "value": "-3", "text": "近三月" },
+                    { "value": "-6", "text": "近半年" },
+                    { "value": "-12", "text": "近一年" },
+                    { "value": "-24", "text": "近两年" },
+                    { "value": "-36", "text": "近三年" }
+                ]
+            },
+            {
+                "id": "status",
+                "title": "标准状态",
+                "isMultiple":true,
+                "data": [
+                    { "value": "即将实施", "text": "即将实施" },
+                    { "value": "现行", "text": "现行" },
+                    { "value": "废止", "text": "废止" },
+                ]
+            }
+        ]
+    };
+    $(".searchbox").fiterMore(options);
+   	setSearchBoxVal();
+}
+function setSearchBoxVal(){
+	$(".searchbox").searchFunctionCall({'setValue':[
+   		{"ValueList":searchBox.ministry?[searchBox.ministry]:[],"id":"ministry"},
+        {"ValueList":searchBox.pubTime?[searchBox.pubTime]:[],"id":"pubdate"},
+        {"ValueList":searchBox.status?searchBox.status:[],"id":"status"},
+    ]});
+}
+var offset = 0;
+function tableInit(){
+	return $('#hbtable').bootstrapTable({
+		url: '/stdQueryList',
+		method: 'post',cardView:($(window).width() < 768), //卡片视图模式
+		dataType: "json",
+		cache: false,
+		pagination: true,
+		queryParams: queryParams,
+		sidePagination: "server",
+		contentType: "application/x-www-form-urlencoded",
+		pageNumber:1,
+        pageSize: 15,
+        pageList: [15, 25, 50, 100], 
+        smartDisplay: false,
+        responseHandler: function(res){
+        	return {total:res.total,rows:res.records}
+        },
+        striped: true,
+        columns: [{
+        	title: '#',
+            formatter: function (value,row,index) {
+                return offset+index+1;
+            },
+            valign:"middle",
+            align:"center",
+            width :"50"
+        }, {
+            field: 'code',
+            title: '标准号',width: "150"
+        },
+        {
+            field: 'chName',
+            title: '标准名称',
+            formatter: function(value, row, index){
+            	return '<div class="text-ellipsis" style="width:302px;max-width:450px;"><a href="/stdDetail/'+row.pk+'" target="_blank" title="'+value+'">'+value+'</a></div>';
+            }
+        },
+        {
+            field: 'industry',
+            title: '行业领域'
+        },
+        {
+            field: 'status',
+            title: '状态',
+            formatter: function(value, row, index){
+            	var state = "success";
+            	if(value=="废止")
+            		state = 'danger';
+                if(row.actDate>new Date())
+                {
+                    state = 'warning';
+                    value="即将实施"
+                }
+            	return '<span class="label label-'+state+'">'+value+'</span>';
+            }
+        },
+        {
+            field: 'issueDate',
+            title: '批准日期',width: '92',
+            formatter: function(value){
+	            return timestampToTime(value);
+            }
+        },
+        {
+            field: 'actDate',
+            title: '实施日期',width: '92',
+            formatter: function(value){
+	            return timestampToTime(value);
+            }
+        },
+        ]
+	});
+}
+function queryParams(params){
+	offset = params.offset;
+	return {current:params.offset/params.limit+1, size:params.limit, key:$('#keyword').val(), ministry:searchBox.ministry, industry:searchBox.trade, pubdate:searchBox.pubTime, date:searchBox.date, status:searchBox.status};
+}
+function doSearch(){
+	$('#hbtable').bootstrapTable('refresh',{silent: true});
+}
+var tableId = '#hbtable';
+$(window).resize(function () {
+    setDataCardView(tableId);
+});
+function setDataCardView(id) {
+    var options = $(id).bootstrapTable('getOptions');
+    if ($(window).width() < 768) {
+        if (options.cardView === false) {
+            $(id).bootstrapTable('toggleView');
+        }
+    } else {
+        if (options.cardView === true) {
+            $(id).bootstrapTable('toggleView');
+        }
+    }
+}
+function doSearchByDept(dept,obj){
+    let p=$(obj).parents('.menu-item');
+    if(p.hasClass('dept-active')){
+        searchBox.ministry = '';
+        $('.dept-active').removeClass('dept-active')
+    }else {
+        searchBox.trade=''
+        $('.trade-active').removeClass('trade-active');
+        searchBox.ministry = dept;
+        $('.dept-active').removeClass('dept-active')
+        $(obj).parents('.menu-item').addClass('dept-active');
+    }
+    doSearch();
+}
+</script>

@@ -1,0 +1,63 @@
+{
+  "id": "D07",
+  "directory": "D07_HydroLAKES",
+  "name": "HydroLAKES_points_v10_shp.zip",
+  "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_points_v10_shp.zip",
+  "expected_bytes": 78725399,
+  "expected_md5": null,
+  "license": "CC-BY 4.0",
+  "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points",
+  "started_utc": "2026-10-26T17:59:01.608376+00:00",
+  "status": "downloaded_and_extracted",
+  "path": "D07_HydroLAKES\\HydroLAKES_points_v10_shp.zip",
+  "byte_size": 78725399,
+  "sha256": "587df22034639230899498775d6272966c93adcfbda831fc704bb36b6cc9d681",
+  "md5": "304abfe5c370f97b5bbb1633779b675d",
+  "official_md5_verified": false,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp",
+    "member_count": 7,
+    "uncompressed_bytes": 441491546,
+    "members": [
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.dbf",
+        "byte_size": 376910338,
+        "sha256": "7155f56b9336c963c68f0bee690c0268076e2155ac0fdc0e272d2bc368687887"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.prj",
+        "byte_size": 219,
+        "sha256": "514d90b133d45328d2d8a70e74c01e5cddc18196b90fff7cf818f0f381a11673"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.sbn",
+        "byte_size": 12028492,
+        "sha256": "df548769eb27e18cb5320964b9a1ef46d165b3039f3b9a5c1dbb07d41ecd0af3"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.sbx",
+        "byte_size": 165972,
+        "sha256": "b2f230a1c4dfd91d603699cc01adadebee6db9f3811b8bba51cc8ce6401af6ca"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.shp",
+        "byte_size": 39975364,
+        "sha256": "378d17f631befdf18b0b85f4e6ab7e8192da9b9429f39a85805103744c5255df"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10_shp\\HydroLAKES_points_v10.shx",
+        "byte_size": 11421604,
+        "sha256": "50e6881c09c1496e7ae48f3b48b99a091e598b6d406601a2834a26576b165d96"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp\\HydroLAKES_TechDoc_v10.pdf",
+        "byte_size": 989557,
+        "sha256": "3d1e30abb0691750127fd8e2ff6a149c83f36b93619fb44774476663e0f01f47"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:59:03.198739+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:10.183951+00:00"
+}

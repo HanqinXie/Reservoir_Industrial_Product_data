@@ -1,0 +1,281 @@
+{
+  "generated_utc": "2026-10-26T18:02:10.811161+00:00",
+  "status": "complete",
+  "checks": [
+    {
+      "id": "D05",
+      "name": "B full catchments.zip",
+      "status": "passed",
+      "original_bytes": 4667799460,
+      "extracted_bytes": 12296931847,
+      "sha256": "ce892f0ab57e73e8a5c03189ef8f999a1393a48f0f476fe499f436d8ebac566e",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 3272,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "BasinATLAS_v10_shp.zip",
+      "status": "passed",
+      "original_bytes": 4276492333,
+      "extracted_bytes": 11595801195,
+      "sha256": "fb41ddde334708c2240e4e2d57d108990239ea134634093045ffc61e710ffeee",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 75,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "RiverATLAS_v10_shp.zip",
+      "status": "passed",
+      "original_bytes": 2418581202,
+      "extracted_bytes": 13040487569,
+      "sha256": "d8781793a2c2aae425417641a0e62b7f8f07efbba2b01357387acf898c82eae4",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 63,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "LakeATLAS_v10_shp.zip",
+      "status": "passed",
+      "original_bytes": 1612526498,
+      "extracted_bytes": 6403136157,
+      "sha256": "c86adb8cca007adc3f42b237f1a2be158ff6ff08bcd296e592db29e9b4d6fe94",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 27,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "C intermediate catchments.zip",
+      "status": "passed",
+      "original_bytes": 677215357,
+      "extracted_bytes": 1702259867,
+      "sha256": "7e70a28ca1834a5369aa0e14edf4c0bfe08aae4153c720e7f5dda740de55c696",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 452,
+      "issues": []
+    },
+    {
+      "id": "D01",
+      "name": "data.zip",
+      "status": "passed",
+      "original_bytes": 106509944,
+      "extracted_bytes": 147601763,
+      "sha256": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 553,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "D reservoir states.zip",
+      "status": "passed",
+      "original_bytes": 132813229,
+      "extracted_bytes": 309302597,
+      "sha256": "1a3700ab1663e7453863cd6edd08a89f0d2710a1add481da697322881f472181",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 13170,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "geogreservoir.csv",
+      "status": "passed",
+      "original_bytes": 589722,
+      "extracted_bytes": 0,
+      "sha256": "e1d2ffaf92dce98e2a3bf254b8e938c8978081b92e279d01fcb551cf3aa5a87b",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "E info_english.zip",
+      "status": "passed",
+      "original_bytes": 111472,
+      "extracted_bytes": 626226,
+      "sha256": "f2cf6127942a7f29ef89e475f273543fb5a6fcb1b7b53c152accf805ecb3bad0",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 9,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "A shapefiles.zip",
+      "status": "passed",
+      "original_bytes": 26909496,
+      "extracted_bytes": 125853050,
+      "sha256": "33696cf62073af97dc413c9989bfffbd3e46829496b89654192cf5019989744a",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 32,
+      "issues": []
+    },
+    {
+      "id": "D05",
+      "name": "validation_figures.zip",
+      "status": "passed",
+      "original_bytes": 56675613,
+      "extracted_bytes": 59449192,
+      "sha256": "f119e135d5701bb3870db39c6d2fb9b47c29e4702e36732d614dea681cd64b41",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 354,
+      "issues": []
+    },
+    {
+      "id": "D24",
+      "name": "Appendix1.xlsx",
+      "status": "passed",
+      "original_bytes": 106395,
+      "extracted_bytes": 0,
+      "sha256": "13e31a83ce1fbc7576a9b376652ed1801de70e8b9882922f19edec9aec0b91da",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D24",
+      "name": "Appendix2.xlsx",
+      "status": "passed",
+      "original_bytes": 384089,
+      "extracted_bytes": 0,
+      "sha256": "9853e7124725bd9cfa80dee11e579ec6dfc42d711128f34658dc1217b615d5bd",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D24",
+      "name": "Appendix3.zip",
+      "status": "passed",
+      "original_bytes": 47699156,
+      "extracted_bytes": 181239253,
+      "sha256": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 24,
+      "issues": []
+    },
+    {
+      "id": "D24",
+      "name": "CLEARv1.2UpdateLog.docx",
+      "status": "passed",
+      "original_bytes": 24874,
+      "extracted_bytes": 0,
+      "sha256": "3985603fae54c31a90576d49bb2e9b750991fa621181e2b61dcb7b116cba0aaa",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D06",
+      "name": "GDW_TechDoc_v1_0.pdf",
+      "status": "passed",
+      "original_bytes": 716288,
+      "extracted_bytes": 0,
+      "sha256": "b299aacbd4744ccf7cd4be7aae1fe0e6f691b9269a02e407a55e87d45cdc1889",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D06",
+      "name": "GDW_v1_0_gdb.zip",
+      "status": "passed",
+      "original_bytes": 57476758,
+      "extracted_bytes": 90707938,
+      "sha256": "5ebb1092e355f1833132be8a16340da7de979314d06aba00e57eb7412884f09f",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 49,
+      "issues": []
+    },
+    {
+      "id": "D07",
+      "name": "HydroLAKES_polys_v10_shp.zip",
+      "status": "passed",
+      "original_bytes": 820295132,
+      "extracted_bytes": 1513564626,
+      "sha256": "9ef63498569dd7ccd0b8d8852da026e009a75f42d293f00e483f3b9fcfe8e1f9",
+      "official_md5_verified": false,
+      "extraction_member_sizes_verified": 7,
+      "issues": []
+    },
+    {
+      "id": "D07",
+      "name": "HydroLAKES_points_v10_shp.zip",
+      "status": "passed",
+      "original_bytes": 78725399,
+      "extracted_bytes": 441491546,
+      "sha256": "587df22034639230899498775d6272966c93adcfbda831fc704bb36b6cc9d681",
+      "official_md5_verified": false,
+      "extraction_member_sizes_verified": 7,
+      "issues": []
+    },
+    {
+      "id": "D07",
+      "name": "HydroLAKES_TechDoc_v10.pdf",
+      "status": "passed",
+      "original_bytes": 989557,
+      "extracted_bytes": 0,
+      "sha256": "3d1e30abb0691750127fd8e2ff6a149c83f36b93619fb44774476663e0f01f47",
+      "official_md5_verified": false,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "HydroATLAS_TechDoc_v10_1.pdf",
+      "status": "passed",
+      "original_bytes": 3656999,
+      "extracted_bytes": 0,
+      "sha256": "0ad77c88140d8a0b569d79d5cceadf727b558a7e422a36b9c394cc593db2ccab",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "BasinATLAS_Catalog_v10.pdf",
+      "status": "passed",
+      "original_bytes": 60341549,
+      "extracted_bytes": 0,
+      "sha256": "c512796abee4cca0b41ee4b8700de5c95bbbbe32a66456189596e51c63ed5e47",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "RiverATLAS_Catalog_v10.pdf",
+      "status": "passed",
+      "original_bytes": 68738715,
+      "extracted_bytes": 0,
+      "sha256": "aee0bd1793767f2b47c681e931e77c256ed53341bcc6a154a952f41bf8b98f73",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D08",
+      "name": "LakeATLAS_Catalog_v10.pdf",
+      "status": "passed",
+      "original_bytes": 54055742,
+      "extracted_bytes": 0,
+      "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 0,
+      "issues": []
+    },
+    {
+      "id": "D25",
+      "name": "CRD v1.1.zip",
+      "status": "passed",
+      "original_bytes": 114521234,
+      "extracted_bytes": 718492840,
+      "sha256": "9aa0bdaaeab9002a602f7b047f62e88a00c33a12830056253ce080e8ef87bfb4",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 74,
+      "issues": []
+    }
+  ]
+}

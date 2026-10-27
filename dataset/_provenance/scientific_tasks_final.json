@@ -1,0 +1,310 @@
+[
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "B full catchments.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/B%20full%20catchments.zip/content",
+    "expected_bytes": 4667799460,
+    "expected_md5": "55433ecf1fc6f55b2b6ee2fd415152df",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "BasinATLAS_v10_shp.zip",
+    "source_url": "https://ndownloader.figshare.com/files/20087237",
+    "expected_bytes": 4276492333,
+    "expected_md5": "ce5013294bdcb6f884ff6cdf1a1acae0",
+    "license": "CC-BY 4.0",
+    "title": "HydroATLAS v1.0 complete global shapefile dataset",
+    "official_filename": "BasinATLAS_Data_v10_shp.zip"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "RiverATLAS_v10_shp.zip",
+    "source_url": "https://ndownloader.figshare.com/files/20087486",
+    "expected_bytes": 2418581202,
+    "expected_md5": "7a6d74226ce8fe6e7e0eb20e2abe71ee",
+    "license": "CC-BY 4.0",
+    "title": "HydroATLAS v1.0 complete global shapefile dataset",
+    "official_filename": "RiverATLAS_Data_v10_shp.zip"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "LakeATLAS_v10_shp.zip",
+    "source_url": "https://ndownloader.figshare.com/files/35959547",
+    "expected_bytes": 1612526498,
+    "expected_md5": "28816de9f22804f8c7354d021d5fdeb1",
+    "license": "CC-BY 4.0",
+    "title": "HydroATLAS v1.0 complete global shapefile dataset",
+    "official_filename": "LakeATLAS_Data_v10_shp.zip"
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "C intermediate catchments.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/C%20intermediate%20catchments.zip/content",
+    "expected_bytes": 677215357,
+    "expected_md5": "27b903425d8f350523e9130e43ff041f",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D01",
+    "directory": "D01_Nature_Energy_Industrial_Overcapacity",
+    "name": "data.zip",
+    "source_url": "https://zenodo.org/api/records/19600477/files/data.zip/content",
+    "expected_bytes": 106509944,
+    "expected_md5": "f8f102698b1f143ae25083f91e337c98",
+    "title": "Industrial overcapacity can enable seasonal flexibility in electricity use: Supplementary Data",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "D reservoir states.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/D%20reservoir%20states.zip/content",
+    "expected_bytes": 132813229,
+    "expected_md5": "e0e59e4c609061726bf15d0426e8beae",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "geogreservoir.csv",
+    "source_url": "https://zenodo.org/api/records/7664489/files/geogreservoir.csv/content",
+    "expected_bytes": 589722,
+    "expected_md5": "333bb63ea749fb5598b18e0eca291baa",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "E info_english.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/E%20info_english.zip/content",
+    "expected_bytes": 111472,
+    "expected_md5": "b58b95ae9880b2adedbb48a7707bddeb",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "A shapefiles.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/A%20shapefiles.zip/content",
+    "expected_bytes": 26909496,
+    "expected_md5": "e4cdb62cd024c29b0c36143ae962127b",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D05",
+    "directory": "D05_Res-CN",
+    "name": "validation_figures.zip",
+    "source_url": "https://zenodo.org/api/records/7664489/files/validation_figures.zip/content",
+    "expected_bytes": 56675613,
+    "expected_md5": "9d2dc70f8464bec83a90b629d0b88d69",
+    "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+    "version": null,
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "id": "D24",
+    "directory": "D24_CLEAR",
+    "name": "Appendix1.xlsx",
+    "source_url": "https://ndownloader.figshare.com/files/61008652",
+    "expected_bytes": 106395,
+    "expected_md5": "02a822f1ece36ed68ce1831f4bae2d4a",
+    "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+    "version": 3,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D24",
+    "directory": "D24_CLEAR",
+    "name": "Appendix2.xlsx",
+    "source_url": "https://ndownloader.figshare.com/files/61008682",
+    "expected_bytes": 384089,
+    "expected_md5": "8841fe650968596aa27200045dd90f51",
+    "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+    "version": 3,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D24",
+    "directory": "D24_CLEAR",
+    "name": "Appendix3.zip",
+    "source_url": "https://ndownloader.figshare.com/files/61008688",
+    "expected_bytes": 47699156,
+    "expected_md5": "887ce086d7f89648befa8bc4efc8a697",
+    "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+    "version": 3,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D24",
+    "directory": "D24_CLEAR",
+    "name": "CLEARv1.2UpdateLog.docx",
+    "source_url": "https://ndownloader.figshare.com/files/61008691",
+    "expected_bytes": 24874,
+    "expected_md5": "decb32193ff9b934edf3c05e6276b381",
+    "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+    "version": 3,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D06",
+    "directory": "D06_Global_Dam_Watch",
+    "name": "GDW_TechDoc_v1_0.pdf",
+    "source_url": "https://ndownloader.figshare.com/files/47913739",
+    "expected_bytes": 716288,
+    "expected_md5": "5b2fc93c384f674414fa711b657bef5e",
+    "title": "Global Dam Watch database version 1.0",
+    "version": 1,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D06",
+    "directory": "D06_Global_Dam_Watch",
+    "name": "GDW_v1_0_gdb.zip",
+    "source_url": "https://ndownloader.figshare.com/files/47913742",
+    "expected_bytes": 57476758,
+    "expected_md5": "410d1ed16312ac613975fd092c193c65",
+    "title": "Global Dam Watch database version 1.0",
+    "version": 1,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "D07",
+    "directory": "D07_HydroLAKES",
+    "name": "HydroLAKES_polys_v10_shp.zip",
+    "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_polys_v10_shp.zip",
+    "expected_bytes": 820295132,
+    "expected_md5": null,
+    "license": "CC-BY 4.0",
+    "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points"
+  },
+  {
+    "id": "D07",
+    "directory": "D07_HydroLAKES",
+    "name": "HydroLAKES_points_v10_shp.zip",
+    "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_points_v10_shp.zip",
+    "expected_bytes": 78725399,
+    "expected_md5": null,
+    "license": "CC-BY 4.0",
+    "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points"
+  },
+  {
+    "id": "D07",
+    "directory": "D07_HydroLAKES",
+    "name": "HydroLAKES_TechDoc_v10.pdf",
+    "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroLAKES_TechDoc_v10.pdf",
+    "expected_bytes": null,
+    "expected_md5": null,
+    "license": "CC-BY 4.0",
+    "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "HydroATLAS_TechDoc_v10_1.pdf",
+    "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroATLAS_TechDoc_v10_1.pdf",
+    "expected_bytes": 3656999,
+    "expected_md5": "f37085c99a987752a37d8327c0a96922",
+    "license": "CC-BY 4.0",
+    "official_filename": "HydroATLAS_TechDoc_v10_1.pdf"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "BasinATLAS_Catalog_v10.pdf",
+    "source_url": "https://data.hydrosheds.org/file/technical-documentation/BasinATLAS_Catalog_v10.pdf",
+    "expected_bytes": 60341549,
+    "expected_md5": "2431a6fd7b381b0435133edcc23efecf",
+    "license": "CC-BY 4.0",
+    "official_filename": "BasinATLAS_Catalog_v10.pdf"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "RiverATLAS_Catalog_v10.pdf",
+    "source_url": "https://data.hydrosheds.org/file/technical-documentation/RiverATLAS_Catalog_v10.pdf",
+    "expected_bytes": 68738715,
+    "expected_md5": "a3eba9288783053eaaecd12ecaccb519",
+    "license": "CC-BY 4.0",
+    "official_filename": "RiverATLAS_Catalog_v10.pdf"
+  },
+  {
+    "id": "D08",
+    "directory": "D08_HydroATLAS",
+    "name": "LakeATLAS_Catalog_v10.pdf",
+    "source_url": "https://data.hydrosheds.org/file/technical-documentation/LakeATLAS_Catalog_v10.pdf",
+    "expected_bytes": 54055742,
+    "expected_md5": "dfb3501640ed034360486a8304d00d8b",
+    "license": "CC-BY 4.0",
+    "official_filename": "LakeATLAS_Catalog_v10.pdf"
+  },
+  {
+    "id": "D25",
+    "directory": "D25_ScienceDB_China_Reservoir_Database",
+    "name": "CRD v1.1.zip",
+    "source_url": "https://china.scidb.cn/download?fileId=c9a0f6e772607265bc453bf35087bb5f",
+    "expected_bytes": 114521234,
+    "expected_md5": "1f43947de64309a13876a7b176423f65",
+    "title": "A comprehensive geospatial database of nearly 100,000 reservoirs in China",
+    "version": "V3, CRD v1.1",
+    "license": "CC-BY 4.0"
+  }
+]

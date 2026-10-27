@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <title>
+        微信扫码登录 - 扬州市先进制造业标准信息服务平台
+    </title>
+    <link rel="icon" href="/favicon.ico?v=1.0" type="image/x-icon" />
+    <link href="/Content/cssHome?v=skEF70R5Jk8FtcVGgmIVzflkq90wdUjdbE5euTjOpDg1" rel="stylesheet"/>
+
+        <link rel="stylesheet" href="/Content/scripts/libs/bootstrap-select.min.css" />
+        <script src="/Content/scripts/libs/jquery.min.js"></script>
+        <script src="/Content/scripts/libs/jquery.cookie.min.js"></script>
+        <script src="/Content/scripts/libs/jquery.validate.min.js"></script>
+        <script src="/Content/scripts/libs/jquery.validate.unobtrusive.min.js"></script>
+        <script src="/Content/scripts/libs/bs.min.js"></script>
+        <script src="/Content/scripts/libs/waves.min.js"></script>
+        <script src="/Content/scripts/libs/jquery.tmpl.min.js"></script>
+        <script src="/Content/scripts/libs/bootstrap-select.min.js"></script>
+        <script src="/Content/scripts/libs/sweetalert2.all.min.js"></script>
+    <script src="/Content/jsHome?v=LX5bnEq0TqLRCaZ5bzbFqzqxFk90AER0SDGsHizn5ks1"></script>
+
+
+    
+    <script type="text/javascript">
+        $(function () {
+            function checkState() {
+                $.ajax('/User/CheckLogin', {
+                    type: "post",
+                    showLoading: false,
+                    contentType: "application/json",
+                    success: function (state) {
+                        if (state) {
+                            $.goTo('/Account/GetBzFile/6b7d065a85d148ad9e83b0209eba76e4');
+                        }
+                        else {
+                            setTimeout(checkState, 2000);
+                        }
+                    }
+                });
+            }
+            checkState();
+        })
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div class="navbar-custom">
+            <div class="container-lg">
+                <div class="top-bg-right"></div>
+                <div class="top-bg-left"></div>
+
+                <ul class="topnav-menu">
+                        <li>
+                            <a class="waves-effect waves-light" href="/User/Register">注册</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light" href="/User/Login">登录</a>
+                        </li>
+                </ul>
+
+                <div class="wx-2dcode">
+                    <img class="user-select-none" src="/Content/imgs/wx.jpg?v=1.0" alt="微信二维码" />
+                    <p>微信端入口</p>
+                </div>
+
+                <div class="brand">扬州市先进制造业标准信息服务平台</div>
+
+            </div>
+        </div>
+
+        <div class="topnav d-none d-lg-block">
+            <div class="container-lg">
+                <ul>
+                    <li>
+                        <a class="waves-effect waves-light" href="/">首页</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Zhcx">标准查询</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Account/Bzcx">标准查新</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Notices/4">标准孵化</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="http://www.tbtguide.com/c/mypt/yz.jhtml" target="_blank">WTO/TBT</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="http://wsdt.ancc.org.cn/anccoh/" target="_blank">商品条码</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Experts">专家库</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Notices/5">知识库</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Notices/2">地方标准</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Notices/3">团体标准</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Notices/0">通知公告</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light" href="/Account/Questions">互动咨询</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-page container-lg">
+            
+
+<h4 class="page-title">
+    <a class="float-right" href="/User/Register">注册</a>
+    微信扫码登录
+</h4>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <h4 class="text-warning">请用微信扫码登录！</h4>
+                            <img class="mw-100" src="/User/GetLogin2DCode?tm=-8584085707221505091" alt="2Dcode" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="footer">
+            <div class="container-lg">
+                <img class="user-select-none" src="/Content/imgs/wx.jpg?v=1.0" alt="微信二维码" />
+                <div class="row">
+                    <div style="width:80px;height:80px;">
+                        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='https://dcs.conac.cn/js/nis/32/10/00/69c841400aa944a52d0b53c045f13cbb/12321000E895444863-20007267.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                    </div>
+                    <div>
+                        <p>主办单位：扬州市标准化中心</p>
+                        <p>联系电话：<a href="tel:平台服务微信号：qbs8888">平台服务微信号：qbs8888</a></p>
+                        <p class="hide">技术支持：<a href="//www.xysrj.com" target="_blank">扬州市新元素软件科技有限公司</a></p>
+                        <p>
+                            Copyright 2020 © All Rights Reserved.
+                            <a href="https://beian.miit.gov.cn/" target="_blank" class="mx-2">苏ICP备2025165321号</a>
+                            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32100202010268" target="_blank"><img src="//www.beian.gov.cn/img/ghs.png" alt="">苏公网安备 32100202010268号</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadingBg" class="modal-backdrop fade">
+        <div class="spinner-border text-secondary">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    
+</body>
+</html>

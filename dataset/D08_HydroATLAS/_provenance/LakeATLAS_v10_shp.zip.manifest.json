@@ -1,0 +1,169 @@
+{
+  "id": "D08",
+  "directory": "D08_HydroATLAS",
+  "name": "LakeATLAS_v10_shp.zip",
+  "source_url": "https://ndownloader.figshare.com/files/35959547",
+  "expected_bytes": 1612526498,
+  "expected_md5": "28816de9f22804f8c7354d021d5fdeb1",
+  "license": "CC-BY 4.0",
+  "title": "HydroATLAS v1.0 complete global shapefile dataset",
+  "official_filename": "LakeATLAS_Data_v10_shp.zip",
+  "started_utc": "2026-10-26T17:52:48.292449+00:00",
+  "range_probe": {
+    "status_code": 206,
+    "content_range": "bytes 0-0/1612526498",
+    "validated": true
+  },
+  "status": "downloaded_and_extracted",
+  "path": "D08_HydroATLAS\\LakeATLAS_v10_shp.zip",
+  "byte_size": 1612526498,
+  "sha256": "c86adb8cca007adc3f42b237f1a2be158ff6ff08bcd296e592db29e9b4d6fe94",
+  "md5": "28816de9f22804f8c7354d021d5fdeb1",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp",
+    "member_count": 27,
+    "uncompressed_bytes": 6403136157,
+    "members": [
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\HydroATLAS_TechDoc_v10_1.pdf",
+        "byte_size": 3656999,
+        "sha256": "0ad77c88140d8a0b569d79d5cceadf727b558a7e422a36b9c394cc593db2ccab"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\HydroATLAS_v10_Legends.xlsx",
+        "byte_size": 83700,
+        "sha256": "314bcb7c1dcee3b55aaf3c843839cc9b39ebd37000753930c4610476009b848b"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_Catalog_v10.pdf",
+        "byte_size": 54055742,
+        "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.dbf",
+        "byte_size": 678048334,
+        "sha256": "8c1e69bb8e72238fcd7a39ca410cecd1daaeabff50517d150f6b1a3e4151bf94"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.sbn",
+        "byte_size": 3346260,
+        "sha256": "0291d85392c45d061339170c1cc79325da1522e595b53316757b6e8e3d0b7156"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.sbx",
+        "byte_size": 81484,
+        "sha256": "9440267a43ac16cf9557063640afbb96c047dbbbae879820084d9123d5eca560"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.shp",
+        "byte_size": 10535660,
+        "sha256": "a754e58632a2d108d0c15051c318707715a2d7384ac720ffa4412384e8fb838d"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.shx",
+        "byte_size": 3010260,
+        "sha256": "ef3124a75cd03aa03a47c71f5d54ffff45b0b19d088b01886a6f62b57c7b22de"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.dbf",
+        "byte_size": 1894665030,
+        "sha256": "ced71296073d92ff6a371c103a3d4dfe8f3b153cc49d8ad6e3c61a17478d5823"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.sbn",
+        "byte_size": 8973772,
+        "sha256": "986b91f33bbc8d4f184f3593c79ed933815194b00bac2d1727ee65d6eda6a5a4"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.sbx",
+        "byte_size": 121412,
+        "sha256": "6d1a1428cc5892609cb67bef3906ee9d23ab73f3f9a6e03cd087d7e765cfa8ee"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.shp",
+        "byte_size": 29439804,
+        "sha256": "72e4f7c7cc202643680d826fbda78521ec6c0a8e855a94723be6042d4bc25ef9"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.shx",
+        "byte_size": 8411444,
+        "sha256": "9be3704fe4054ed08ba1547d9badc07baaaf8a317ecd8199696a2b5ff5ce09f6"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.dbf",
+        "byte_size": 678048334,
+        "sha256": "8c1e69bb8e72238fcd7a39ca410cecd1daaeabff50517d150f6b1a3e4151bf94"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.sbn",
+        "byte_size": 3345956,
+        "sha256": "fdb9a194dc812f8851976aabb57a233f395ff35ddba11674af316b7884e4b973"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.sbx",
+        "byte_size": 81180,
+        "sha256": "f2acf370287e390e8e64e2bf65ce4117db15c17bd3b976d0d3df79b9c4ff62c8"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.shp",
+        "byte_size": 190183832,
+        "sha256": "5ce5d04abeb7ba26e5a0c787e9a41915e197a544735b831155bbdd41ece105b7"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.shx",
+        "byte_size": 3010260,
+        "sha256": "ec7d5f6c06e9ee23c6e0c912c956f552fbb27c3f3d63c75fb134ebb69986b2d8"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.dbf",
+        "byte_size": 1894665030,
+        "sha256": "ced71296073d92ff6a371c103a3d4dfe8f3b153cc49d8ad6e3c61a17478d5823"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.sbn",
+        "byte_size": 8973636,
+        "sha256": "2074d0e3d0064d1a027f2ce09a81ec03152ea8fc675288f70d3a2f4af9f15bab"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.sbx",
+        "byte_size": 121276,
+        "sha256": "49805580355ae8833268704c34e6d71843a60edfa34ab51d9e8d7afa16b930f7"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.shp",
+        "byte_size": 921864728,
+        "sha256": "16a463cd50042750f0cc51d54333837582a92366357f44db609cc00dce951b0e"
+      },
+      {
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.shx",
+        "byte_size": 8411444,
+        "sha256": "94ecf9c97b6dc460dbfc969ee0b0f0ef62abb13b56c4af4168cf38c9a8d30ae9"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T18:00:02.548553+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:03.830672+00:00"
+}

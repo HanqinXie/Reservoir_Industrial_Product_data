@@ -1,0 +1,663 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>全国标准信息公共服务平台</title>
+		<link rel="stylesheet" href="/statics/lib/layui/css/layui.css" />
+		<link rel="stylesheet" href="/statics/lib/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="/statics/lib/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="/statics/lib/bootstrap-table/bootstrap-table.min.css">
+		<link rel="stylesheet" href="/statics/portal/css/index.css" type="text/css" />
+		<link rel="stylesheet" href="/statics/lib/filtermore/filtermore.min.css" type="text/css" />
+		<!--[if lt IE 9]>
+	      <script src="/statics/lib/bootstrap/3.3.7/html5shiv.min.js"></script>
+	      <script src="/statics/lib/bootstrap/3.3.7/respond.min.js"></script>
+	    <![endif]-->
+		<link rel="stylesheet" type="text/css" href="/statics/lib/pace/pace-theme-flash.min.css"/>
+		<script src="/statics/lib/pace/pace.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?bc6f61eace617162b31b982f796830e6";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+			function addCSS(cssText){
+				var style = document.createElement('style'),  //创建一个style元素
+						head = document.head || document.getElementsByTagName('head')[0]; //获取head元素
+				var textNode = document.createTextNode(cssText);
+				style.appendChild(textNode);
+				head.appendChild(style);
+			}
+			addCSS('#demo{ height: 30px; background:#f00;}');
+			var userAgent = window.navigator.userAgent;
+			if(userAgent.indexOf("HBuilderX")>-1||userAgent.indexOf("uni-app")>-1){
+				addCSS('#top-bg,#zjxmt,#footer-area{display:none;}');
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="top-area" style="background:url(/statics/hb/bgrep.jpg) top repeat-x;width:100%;background-color: #187ed0;">
+			<div class="container">
+				<div class="row" style="overflow: visible;">
+					<div id="top-bg" class="col-sm-12" style="overflow: visible;width:100%;font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;z-index:2;">
+						<img class="hidden-xs" src="/statics/hb/bgrep.gif" style="position:absolute;right:-180px;top:0;height:100%;z-index:-1;">
+						<img class="hidden-xs" src="/statics/hb/logonew.png" style="z-index:2;">
+
+						<div style="padding:5px 0;padding-right:30px;" class="visible-xs">
+							<button class=" navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a style="color:white;padding:15px 0;" href="https://std.samr.gov.cn/" class="navbar-brand">
+								<img style="display:inline-block;margin-right:10px;margin-top:-5px;" width="30px" src="/statics/hb/shareLogo.png">
+								全国标准信息公共服务平台
+							</a>
+							<div style="clear:both;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<ul>
+							<li data-href="https://std.samr.gov.cn/">
+								首页
+							</li>
+							<li data-href="/">
+								行业标准
+							</li>
+							<li data-href="/stdList">
+								标准查询
+							</li>
+							<li data-href="/rnList">
+								月报查询
+							</li>
+							<li data-href="/snList">
+								标准公告查询
+							</li>
+							<li data-href="/help">
+								帮助中心
+							</li>
+							<li data-href="/admin" style="width:auto;float:right;padding:0 10px;" id="enter">
+								行业标准备案用户登录入口
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+<style>
+	.titbg1{height: 38px;background: none;padding-left: 10px;color:#333;font-weight: bold;border-bottom: 0;}
+	.bgpic1-new {
+		border: 1px #e3e3e3 solid;
+		border-bottom: 0;
+		padding: 0 14px;
+		line-height: 40px;
+	}
+	.titbg1new{background-color: #2167A6;color: #fff;}
+</style>
+		<div class="container main-body">
+			<div class="index-search">
+				<div class="input-group" style="width: 100%; margin: 0 auto;">
+					<input id="keyword" type="text" class="form-control" required="" placeholder="请输入标准号或标准名称关键字">
+					<div id="searchBtn" class="input-group-addon" style="background-color: #428bca; color: white;">
+						<span class="glyphicon glyphicon-search" style="color:#fff;"></span> 查 询
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 16px;">
+				<div class="col-sm-8 col-md-9">
+					<div class="bgpic1-new">
+						<img src="/statics/portal/images/icon1.jpg">
+						<span style="font-weight: bold;padding-left: 8px;font-size: 18px;">最新数据</span>
+						<img src="/statics/portal/images/iconbg1.jpg" style="float: right; margin-top: -32px; height: 22px; width: 100%;">
+					</div>
+					<div class="borcl pd1" style="border-top:none;">
+						<div class="hb-list" style="width:100%;height: 555px;overflow: hidden;">
+							<table class="table table-striped" style="margin-bottom: 0;width:100%;">
+								<tr>
+									<th style="width:150px">标准号</th>
+									<th>标准名称</th>
+									<th style="width:95px" class="hidden-xs">行业领域</th>
+									<th style="width:95px" class="hidden-xs">备案日期</th>
+								</tr>
+
+							</table>
+							<table style="margin-bottom: 0;margin-top: 0;width:100%;">
+								<tr>
+									<td>
+										<div id=rolllinkk style="OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 530px">
+											<div id=rolllinkk1>
+												<table class="table table-striped" style="margin-bottom: 0;margin-top: 0;width:100%;">
+														<tr>
+															<td style="width:150px">YB/T 6551-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="贫磁铁矿石资源化利用技术规范" href="/stdDetail/5a497fa40e08068ac5d1008d19c4cbafbe8eb72cd81a2fb7ba63d58bdcb40e61" style="color:#025ab9;" target="_blank">贫磁铁矿石资源化利用技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 6552-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="钢铁企业除尘管网系统节能优化技术规范" href="/stdDetail/5a497fa40e08068ac5d1008d19c4cbafc3a46a03ba989ca1f01f799185d78307" style="color:#025ab9;" target="_blank">钢铁企业除尘管网系统节能优化技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4726.17-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="含铁尘泥 多元素含量的测定 电感耦合等离子体发射光谱法" href="/stdDetail/e2f8f6d2ebea1f73d61bbaa6796ccb0b6efaff1a1ad1816e55ab9c6f2a098252" style="color:#025ab9;" target="_blank">含铁尘泥 多元素含量的测定 电感耦合等离子体发射光谱法</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4726.16-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="含铁尘泥 灼烧减量的测定 重量法" href="/stdDetail/e2f8f6d2ebea1f73d61bbaa6796ccb0bd95a5b452db9abb79b1e64e60a5da305" style="color:#025ab9;" target="_blank">含铁尘泥 灼烧减量的测定 重量法</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4601-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="发泡混凝土砌块用钢渣砂" href="/stdDetail/e2f8f6d2ebea1f73d61bbaa6796ccb0b8f9ddab9831a6e76ce22c94455b3e300" style="color:#025ab9;" target="_blank">发泡混凝土砌块用钢渣砂</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 6550-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="钢渣 氧化镁含量的测定 EDTA滴定法" href="/stdDetail/e2f8f6d2ebea1f73d61bbaa6796ccb0bee6732ca0f0cfa0e02d1b17433901585" style="color:#025ab9;" target="_blank">钢渣 氧化镁含量的测定 EDTA滴定法</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4315-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="炼钢用含铁尘泥团块" href="/stdDetail/677f1c5b8e5c225c08640f6677729bea9dc648c3aa355e85df7d88b0b98a0938" style="color:#025ab9;" target="_blank">炼钢用含铁尘泥团块</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 6544-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="钢铁行业产城融合水资源高效循环利用指南" href="/stdDetail/677f1c5b8e5c225c08640f6677729bea08b4e21bc68fd7eac17e514ff1b224cd" style="color:#025ab9;" target="_blank">钢铁行业产城融合水资源高效循环利用指南</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4468-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="炭素材料高效节能混捏机技术规范" href="/stdDetail/677f1c5b8e5c225c08640f6677729bea15d6ecb765230e2fc9c85d16f91405d2" style="color:#025ab9;" target="_blank">炭素材料高效节能混捏机技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4269-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="高炉鼓风机前冷凝脱湿技术规范" href="/stdDetail/677f1c5b8e5c225c08640f6677729bea72880b128d835545726619bd16ec77e4" style="color:#025ab9;" target="_blank">高炉鼓风机前冷凝脱湿技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4243-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="钢铁工业冷轧板带工业炉节能设计规范" href="/stdDetail/3c1c1f686fd72d40203fc8d0ed29788ad3fef4e7801a7e811661676174f57ecf" style="color:#025ab9;" target="_blank">钢铁工业冷轧板带工业炉节能设计规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 4415-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="钢包加盖保温技术规范" href="/stdDetail/3c1c1f686fd72d40203fc8d0ed29788a1385cea3464c54fbc14e1b4fce121100" style="color:#025ab9;" target="_blank">钢包加盖保温技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 6543-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="超厚料层烧结技术规范" href="/stdDetail/3c1c1f686fd72d40203fc8d0ed29788aa22ab5788bb36dffcfecd2297b7fd27c" style="color:#025ab9;" target="_blank">超厚料层烧结技术规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+														<tr>
+															<td style="width:150px">YB/T 6560-2026</td>
+															<td><div class="text-ellipsis" style="width:350px;"><a title="活性炭法烧结球团烟气净化工程设计规范" href="/stdDetail/3c1c1f686fd72d40203fc8d0ed29788a6b5d729870f03901ba476aaa4d1a10fd" style="color:#025ab9;" target="_blank">活性炭法烧结球团烟气净化工程设计规范</a></div></td>
+															<td style="width:95px">黑色冶金</td>
+															<td style="width:95px">2026-10-26</td>
+														</tr>
+												</table>								
+											</div>
+					                        <div id=rolllinkk2 style="OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 530px">
+					                            <div> </div>
+					                        </div>											
+										</div>
+									</td>
+								</tr>
+							</table>								
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="connew1_r">
+						<div class="borcl" style="height: 630px;">
+							<div class="titbg1">
+								<img src="/statics/portal/images/icon2.jpg">
+								行业标准备案月报
+								<a href="/rnList" style="float: right; margin: 10px 10px"><img src="/statics/hb/more.gif" class="more" /></a>
+							</div>
+							<div style="padding: 12px;">
+								<img src="/statics/portal/images/pic1.jpg" style="width: 100%">
+							</div>
+							<ul class="listnew3">
+									<li class="line">
+										<a href="/rnDetail/a230fb3fb8ae2a85e4eeadb8fc5bd3857dc2a23593f3d83e1da0c582c894fb2a" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第9号(总第317号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/87b39be6d031947ddb7ea82bb1b3a045f3b8fce04e0824396d490ffd0f93d73a" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第8号(总第316号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/32cd74b3b8c086af1189179cbcac44dfc12a3ded8ecf243688f82c29e3af93ed" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第7号(总第315号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/344b751dd38da942bbb01803ed01dc70388309fb9a5cc16327b37167f2b6eb82" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第6号(总第314号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/65600f0db4467a20d27a2db729392104844384554af755502cb6e1bf6a2dc457" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第5号(总第313号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/798822821d08f0c24aca7c7b63e7d9d72fb4cdad41986ddc93f7e453ab559448" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第4号(总第312号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/540677d943b15b34d447b51097d974d46448d94f140125e11b8302496e5429d1" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第3号(总第311号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/43439533e96afd1deb53906219713ddcf818d7f0f0a65c5f6a389ae956ddc2c2" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第2号(总第310号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/98508660e4d6b8469e2bbfbd4475b06898884355223c5e88259bce5728e39f95" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2026年第1号(总第309号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/9d105fa3123ab2b992c2dba947885b8573a9dcdf45a6ef07a020faf39c693998" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第12号(总第308号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/87a522e47ed05f0f25a490476a9786462cd166af3dc62689d5d431c11b862189" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第11号(总第307号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/e27b3f0b35f935f597ed3b520f3b31f85ca6149b88772a4d3979277565ef3e22" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第10号(总第306号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/df027775ed799f60c6116fb26d2196dafc2058f9bdc5b0aaf63ac4287ab37657" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第9号(总第305号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/7bbec2fe4ce92e1611e5cb89234fcea6fc724053a9b1f855bb1cf313c57b5ca8" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第8号(总第304号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/6a1a4b6ab5cb72841110b7726068e25b72880b128d835545726619bd16ec77e4" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第7号(总第303号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/0a73988858940707eb9546e62aa7de9841984bccf9cbdf637c42d54452e2f02e" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第6号(总第302号)</h2>
+										</a>
+									</li>
+									<li class="line">
+										<a href="/rnDetail/5ac16a2fd6131e2b0f4b4bb937e87686b85b89d2cd2bf9a286304aa0c68f1c54" target="_blank">
+											<h2><img src="/statics/hb/point.jpg" alt="" style="margin-right: 19px;"/>2025年第5号(总第301号)</h2>
+										</a>
+									</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6" style="clear: both;">
+					<div class="borcl">
+						<div class="titbg1 titbg1new">
+							行业标准发布公告
+							<a href="/snList?snType=pub" style="float: right; margin: 10px 10px"><img src="/statics/hb/more.gif" class="more" /></a>
+						</div>
+						<div style="padding: 5px;">
+							<table class="table table-striped" style="margin-top:5px; margin-bottom:0;">
+								<tr>
+									<th style="width:120px">公告号</th>
+									<th>发布单位</th>
+									<th style="width:120px">发布日期</th>
+								</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第20号" href="/snDetail/9234f6af92c4064f0d45d1ae19f8a1f6c5e1d4fe3b5baca32c5bd15811814518" style="color:#025ab9;" target="_blank">
+													2026年第20号
+												</a>
+											</div>
+										</td>
+										<td>中国民用航空局</td>
+										<td style="width:120px">2026-09-22</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="银发〔2026〕180号" href="/snDetail/4a25c98d44f2cf07766eb3563698fa3d3cc1e42303be14714492e37e5d26f637" style="color:#025ab9;" target="_blank">
+													银发〔2026〕180号
+												</a>
+											</div>
+										</td>
+										<td>中国人民银行</td>
+										<td style="width:120px">2026-09-19</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第19号" href="/snDetail/67dbd4b6be63f1b39235528d99d98feb14aada6518a7b31e91c021843b26fcea" style="color:#025ab9;" target="_blank">
+													2026年第19号
+												</a>
+											</div>
+										</td>
+										<td>中国民用航空局</td>
+										<td style="width:120px">2026-09-17</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="中华人民共和国工业和信息化部公告（2026年 第23号）" href="/snDetail/9dd082636842f85ec6547bdf16719be8c5e1d4fe3b5baca32c5bd15811814518" style="color:#025ab9;" target="_blank">
+													中华人民共和国工业和信息化部公告（2026年 第23号）
+												</a>
+											</div>
+										</td>
+										<td>工业和信息化部</td>
+										<td style="width:120px">2026-09-01</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="中华人民共和国工业和信息化部公告（2026年 第23号）" href="/snDetail/2cad243e0466665b89d82f305399c4f7063b5022cb598cb3a0cd1e83892dc8b8" style="color:#025ab9;" target="_blank">
+													中华人民共和国工业和信息化部公告（2026年 第23号）
+												</a>
+											</div>
+										</td>
+										<td>工业和信息化部</td>
+										<td style="width:120px">2026-09-01</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="中华人民共和国工业和信息化部公告（2026年 第23号）" href="/snDetail/a32750b20aa8b4d257a3d134bbf6fc4c412d03612769d38e7074e4744461c75f" style="color:#025ab9;" target="_blank">
+													中华人民共和国工业和信息化部公告（2026年 第23号）
+												</a>
+											</div>
+										</td>
+										<td>工业和信息化部</td>
+										<td style="width:120px">2026-09-01</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第79号" href="/snDetail/cf1ae85fac5f19769101650b8fff52487c07e693e998d3f871f4fd1b63e71e65" style="color:#025ab9;" target="_blank">
+													2026年第79号
+												</a>
+											</div>
+										</td>
+										<td>国家药监局</td>
+										<td style="width:120px">2026-08-24</td>
+									</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6">
+					<div class="borcl">
+						<div class="titbg1 titbg1new">
+							行业标准废止公告
+							<a href="/snList?snType=fz" style="float: right; margin: 10px 10px"><img src="/statics/hb/more.gif" class="more" /></a>
+						</div>
+						<div style="padding: 5px;">
+							<table class="table table-striped" style="margin-top:5px; margin-bottom:0;">
+								<tr>
+									<th style="width:120px">公告号</th>
+									<th>发布单位</th>
+									<th style="width:120px">发布日期</th>
+								</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第5号" href="/snDetail/dfc28021aa759e3f94ba9fc55c4e98648a96d460f6a4b80d29570d921080a402" style="color:#025ab9;" target="_blank">
+													2026年第5号
+												</a>
+											</div>
+										</td>
+										<td>国家粮食和物资储备局</td>
+										<td style="width:120px">2026-09-07</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="国家消防救援局 2026年  第2号" href="/snDetail/002b555d643c7faa21115dfc4e8b237c9d3fe899e6b7b63ba00fbed412651ec8" style="color:#025ab9;" target="_blank">
+													国家消防救援局 2026年  第2号
+												</a>
+											</div>
+										</td>
+										<td>国家消防救援局</td>
+										<td style="width:120px">2026-08-03</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="金标委发〔2026〕3号" href="/snDetail/b700e6706f03ee8e7bd44145b9e174c42da5502a82aba82eb3d48a6e28b00e73" style="color:#025ab9;" target="_blank">
+													金标委发〔2026〕3号
+												</a>
+											</div>
+										</td>
+										<td>中国人民银行</td>
+										<td style="width:120px">2026-06-23</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第56号" href="/snDetail/a1b975abbc107f80751dcec9d38adac59eabb7defc7b8b5bd99412139d9bfbd0" style="color:#025ab9;" target="_blank">
+													2026年第56号
+												</a>
+											</div>
+										</td>
+										<td>国家药监局</td>
+										<td style="width:120px">2026-06-04</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="国家矿山安全监察局  公 告  2026年 第2号" href="/snDetail/097f02d5040a98c2ec1673180b56d6676b5d729870f03901ba476aaa4d1a10fd" style="color:#025ab9;" target="_blank">
+													国家矿山安全监察局  公 告  2026年 第2号
+												</a>
+											</div>
+										</td>
+										<td>国家矿山安全监察局</td>
+										<td style="width:120px">2026-04-21</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="2026年第26号" href="/snDetail/323254cb83fc179ec0c6d953dad15f200891b5740cf0a9798806ebbaef65d4a6" style="color:#025ab9;" target="_blank">
+													2026年第26号
+												</a>
+											</div>
+										</td>
+										<td>国家药监局</td>
+										<td style="width:120px">2026-03-13</td>
+									</tr>
+									<tr>
+										<td style="width:120px">
+											<div class="text-ellipsis" style="width:120px;">
+												<a title="金标委发〔2026〕1号" href="/snDetail/d5bf55c89c2652fd0976107f2cbc1ce7d08945701ef856fd7f0ba4f072352821" style="color:#025ab9;" target="_blank">
+													金标委发〔2026〕1号
+												</a>
+											</div>
+										</td>
+										<td>中国人民银行</td>
+										<td style="width:120px">2026-03-05</td>
+									</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="footer-body" id="footer-area" style="background-color: #0566ab;font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;">
+			<div class="container">
+				<div class="row" style="padding:15px 0;">
+					<div class="col-sm-5 col-xs-6">
+						<ul style="list-style:none;">
+							<li style="margin: 10px 0px;">
+								<h6 style="color:white;font-weight: bold;line-height: 1.1;font-size: 14px;">版权所有 侵权必究</h6></li>
+							<li style="margin: 2px 0px;color:#bec8ce;">主管：国家标准化管理委员会</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">主办：国家市场监督管理总局国家标准技术审评中心</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">技术支持：北京中标赛宇科技有限公司</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">支持电话：13261900266</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<ul style="list-style:none;">
+							<li style="margin: 10px 0px">
+								<h6 style="color:white;font-weight: bold;line-height: 1.1;font-size: 14px;">友情链接</h6></li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="http://www.sac.gov.cn/" target="_blank">国家标准化管理委员会</a>
+							</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="https://www.qybz.org.cn/" target="_blank">企业标准信息公共服务平台</a>
+							</li>
+							<li style="margin: 2px 0px;color:#bec8ce;">
+								<a style="color:#bec8ce;" href="http://www.ttbz.org.cn/" target="_blank">全国团体标准信息平台</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 hidden-xs" style="text-align:center;">
+						<img src="/statics/hb/ewm.jpg" style="height: 128px;" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/statics/lib/jquery1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/filtermore/filtermore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/statics/lib/bootstrap-table/bootstrap-table.min.js"></script>
+		<script src="/statics/lib/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+		<script src="/statics/lib/layui/layui.all.js"></script>
+		<script src="/statics/portal/js/uni-webview-js@0.0.3/index.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('[data-href]').bind('click',function(){
+					location.href = $(this).data('href');
+				});
+				$('.navbar-toggle').click(function(){
+					$('.nav-menu').toggleClass("nav-menu-show");
+				});
+			})
+			function timestampToTime(timestamp, full) {
+				if(!(timestamp))return '-';
+		        var date = new Date(timestamp);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+		        var Y = date.getFullYear() + '-';
+		        var M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+		        var D = date.getDate()<10?'0'+date.getDate():date.getDate();
+		        var h=m=s='';
+		        if(full){
+			        h = date.getHours() + ':';
+			        m = date.getMinutes() + ':';
+			        s = date.getSeconds();
+		        }
+		        return Y+M+D+h+m+s;
+		    }
+		    var portal={
+		    	showNav: function(index){
+		    		$('.nav_in').removeClass('nav_in');
+					$('.nav-menu li:eq('+index+')').addClass('nav_in');
+		    	}
+		    }
+
+			var isAppPlus=false;
+			document.addEventListener('UniAppJSBridgeReady', function() {
+				uni.webView.getEnv(function(res) {
+					console.log('当前环境：' + JSON.stringify(res));
+					if(res.plus||(res.h5&&(userAgent.indexOf("HBuilderX")>-1||userAgent.indexOf("uni-app")>-1))){
+						isAppPlus = true;
+						$(document).on("click", "a", function (event) {
+							event.preventDefault()
+							var href = $(this).attr('href');
+							if(href!=null&&href!=''){
+								uni.navigateTo({
+									url: '/pages/outter/outter?title=国标通-信息查询&src='+location.protocol+'//'+location.host+href
+								});
+								event.stopPropagation();
+								return false;
+							}
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
+<script>
+portal.showNav(1);
+$(function(){
+	$('#searchBtn').bind('click', doSearch);
+	$('#keyword').bind('keyup',function(e){
+		if(e.keyCode=='13')
+			doSearch();
+	});
+});
+function doSearch(){
+	var key=$('#keyword').val();
+	location.href='/stdList?key='+key+(searchBox.ministry?'&ministry='+searchBox.ministry:'')+(searchBox.trade?'&trade='+searchBox.trade:'')+(searchBox.pubTime?'&pubtime='+searchBox.pubTime:'');
+}
+var searchBox={ministry:'', trade:'', pubTime:''};
+
+//滚动
+var rollspeed = 30;
+rolllinkk2.innerHTML = rolllinkk1.innerHTML; 
+function Marquee1() {
+    if (rolllinkk2.offsetTop - rolllinkk.scrollTop <= 0){
+        rolllinkk.scrollTop -= rolllinkk1.offsetHeight; 
+    }else {
+        rolllinkk.scrollTop++;
+    }
+}
+
+var MyMar1 = setInterval(Marquee1, rollspeed); //
+rolllinkk.onmouseover = function () {
+    clearInterval(MyMar1);
+}
+rolllinkk.onmouseout = function () {
+    MyMar1 = setInterval(Marquee1, rollspeed);
+}
+</script>

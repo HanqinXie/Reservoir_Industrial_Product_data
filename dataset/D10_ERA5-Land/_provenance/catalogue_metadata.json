@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "reanalysis-era5-land",
+  "stac_version": "1.1.0",
+  "title": "ERA5-Land hourly data from 1950 to present",
+  "description": "ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. Reanalysis produces data that goes several decades back in time, providing an accurate description of the climate of the past. \nERA5-Land uses as input to control the simulated land fields ERA5 atmospheric variables, such as air temperature and air humidity. This is called the atmospheric forcing. Without the constraint of the atmospheric forcing, the model-based estimates can rapidly deviate from reality. Therefore, while observations are not directly used in the production of ERA5-Land, they have an indirect influence through the atmospheric forcing used to run the simulation. In addition, the input air temperature, air humidity and pressure used to run ERA5-Land are corrected to account for the altitude difference between the grid of the forcing and the higher resolution grid of ERA5-Land. This correction is called 'lapse rate correction'.    \nThe ERA5-Land dataset, as any other simulation, provides estimates which have some degree of uncertainty. Numerical models can only provide a more or less accurate representation of the real physical processes governing different components of the Earth System. In general, the uncertainty of model estimates grows as we go back in time, because the number of observations available to create a good quality atmospheric forcing is lower. ERA5-land parameter fields can currently be used in combination with the uncertainty of the equivalent ERA5 fields. \nThe temporal and spatial resolutions of ERA5-Land makes this dataset very useful for all kind of land surface applications such as flood or drought forecasting. The temporal and spatial resolution of this dataset, the period covered in time, as well as the fixed grid used for the data distribution at any period enables decisions makers, businesses and individuals to access and use more accurate information on land states.",
+  "summaries": {},
+  "providers": [
+    {
+      "name": "ECMWF"
+    }
+  ],
+  "keywords": [
+    "Product type: Reanalysis",
+    "Temporal coverage: Past",
+    "Spatial coverage: Global",
+    "Variable domain: Land (biosphere)",
+    "Variable domain: Land (hydrology)",
+    "Provider: Copernicus C3S",
+    "Variable domain: Land (physics)"
+  ],
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.0,
+          -89.0,
+          360.0,
+          89.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1950-01-01T00:00:00+00:00",
+          "2026-10-20T00:00:00+00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "license",
+      "href": "https://spdx.org/licenses/CC-BY-4.0",
+      "title": "CC-BY licence",
+      "rev": 1,
+      "id": "cc-by"
+    },
+    {
+      "rel": "form",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/form_3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "constraints",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/constraints_09d7de5617672e21a32e39e70807dde96475ff426d1eb0b7f4d95b39c1a8f908.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "retrieve",
+      "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land",
+      "type": "application/json"
+    },
+    {
+      "rel": "costing_api",
+      "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land/costing",
+      "type": "application/json"
+    },
+    {
+      "rel": "layout",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/layout_fbebc7b65b84bf161b98ad6a508329dd80031da8c68080d724b53e040843aff8.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land-monthly-means",
+      "title": "ERA5-Land monthly averaged data from 1950 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/derived-era5-land-daily-statistics",
+      "title": "ERA5-Land post-processed daily statistics from 1950 to present"
+    },
+    {
+      "rel": "related",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land-timeseries",
+      "title": "ERA5 Land hourly time-series data from 1950 to present"
+    },
+    {
+      "rel": "messages",
+      "href": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-era5-land/messages",
+      "title": "All active messages on ERA5-Land hourly data from 1950 to present"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/overview_b1aff34cd85b75516f935463b89486af284bdeb61afeb565d6e5d273bcfb4ac6.png",
+      "type": "image/jpg",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "published": "2019-07-12T00:00:00Z",
+  "updated": "2026-10-26T00:00:00Z",
+  "sci:doi": "10.24381/cds.e2161bac",
+  "cads:disabled_reason": null,
+  "cads:sanity_check": {
+    "status": "available",
+    "timestamp": "2026-10-26T17:16:30.897542+00:00"
+  },
+  "cads:update_frequency": "Daily",
+  "cads:fair": 92
+}

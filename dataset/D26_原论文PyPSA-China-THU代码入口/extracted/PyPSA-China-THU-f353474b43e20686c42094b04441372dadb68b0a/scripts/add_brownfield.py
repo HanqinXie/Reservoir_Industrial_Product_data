@@ -1,0 +1,161 @@
+# SPDX-FileCopyrightText: : 2024 The PyPSA-China Authors
+#
+# SPDX-License-Identifier: MIT
+
+import logging
+logger = logging.getLogger(__name__)
+
+import pandas as pd
+idx = pd.IndexSlice
+
+import pypsa
+import numpy as np
+import xarray as xr
+
+from add_existing_baseyear import add_build_year_to_new_assets
+from _helpers import override_component_attrs
+from functions import pro_names, offwind_nodes
+
+
+def basename(x):
+    return x.split("-2")[0]
+
+
+def component_static(c):
+    return c.static if hasattr(c, "static") else c.df
+
+
+def add_brownfield(n, n_p, year):
+
+    print("adding brownfield")
+
+    # electric transmission grid set optimised capacities of previous as minimum
+    n.lines.s_nom_min = n_p.lines.s_nom_opt
+    # dc_i = n.links[n.links.carrier=="DC"].index
+    # n.links.loc[dc_i, "p_nom_min"] = n_p.links.loc[dc_i, "p_nom_opt"]
+    # update links
+    n.links.loc[(n.links.length>0) & (n.links.lifetime==np.inf),"p_nom"] = n_p.links.loc[(n_p.links.carrier=='AC') & (n_p.links.build_year==0),"p_nom_opt"]
+    n.links.loc[(n.links.length>0) & (n.links.lifetime==np.inf),"p_nom_min"] = n_p.links.loc[(n_p.links.carrier=='AC') & (n_p.links.build_year==0),"p_nom_opt"]
+
+    if year == 2025:
+        add_build_year_to_new_assets(n_p, 2020)
+
+    for c in n_p.iterate_components(["Link", "Generator", "Store"]):
+
+        attr = "e" if c.name == "Store" else "p"
+        static = component_static(c)
+
+        # first, remove generators, links and stores that track
+        # CO2 or global EU values since these are already in n
+        n_p.mremove(
+            c.name,
+            static.index[static.lifetime==np.inf]
+        )
+        static = component_static(c)
+        # remove assets whose build_year + lifetime < year
+        n_p.mremove(
+            c.name,
+            static.index[static.build_year + static.lifetime < year]
+        )
+        static = component_static(c)
+        # remove assets if their optimized nominal capacity is lower than a threshold
+        # since CHP heat Link is proportional to CHP electric Link, make sure threshold is compatible
+        chp_heat = static.index[(
+            static[attr + "_nom_extendable"]
+            & static.index.str.contains("CHP")
+        )]
+
+        threshold = snakemake.config['existing_capacities']['threshold_capacity']
+
+        if not chp_heat.empty:
+            threshold_chp_heat = threshold*static.loc[chp_heat].efficiency2/static.loc[chp_heat].efficiency
+            n_p.mremove(
+                c.name,
+                chp_heat[static.loc[chp_heat, attr + "_nom_opt"] < threshold_chp_heat]
+            )
+            static = component_static(c)
+
+        n_p.mremove(
+            c.name,
+            static.index[static[attr + "_nom_extendable"] & ~static.index.isin(chp_heat) & (static[attr + "_nom_opt"] < threshold)]
+        )
+        static = component_static(c)
+
+        # copy over assets but fix their capacity
+        static[attr + "_nom"] = np.maximum(static[attr + "_nom"], static[attr + "_nom_opt"])
+        static[attr + "_nom_extendable"] = False
+        static[attr + "_nom_max"] = np.inf
+
+        # Import static component attributes into the current network.
+        # PyPSA's import helpers differ across versions; PyPSA 1.2.0 uses the
+        # internal `_import_components_from_df`, while some older versions expose
+        # `import_components_from_dataframe`.
+        try:
+            n.import_components_from_dataframe(static, c.name, overwrite=True)
+        except AttributeError:
+            n._import_components_from_df(static, c.name, overwrite=True)
+
+        # copy time-dependent
+        selection = (
+            n.component_attrs[c.name].type.str.contains("series")
+            & n.component_attrs[c.name].status.str.contains("Input")
+        )
+
+        for tattr in n.component_attrs[c.name].index[selection]:
+            series_df = c.pnl[tattr].set_index(n.snapshots)
+            try:
+                n.import_series_from_dataframe(series_df, c.name, tattr)
+            except AttributeError:
+                n._import_series_from_df(series_df, c.name, tattr, overwrite=True)
+
+
+    for tech in ['onwind', 'offwind', 'solar']:
+        ds_tech = xr.open_dataset(snakemake.input['profile_' + tech])
+        p_nom_max_initial = ds_tech['p_nom_max'].to_pandas()
+
+        if tech == 'offwind':
+            for node in offwind_nodes:
+                n.generators.loc[(n.generators.bus == node) & (n.generators.carrier == tech) & (n.generators.build_year == year),"p_nom_max"] = \
+                p_nom_max_initial[node] - n_p.generators[(n_p.generators.bus == node) & (n_p.generators.carrier == tech)].p_nom_opt.sum()
+        else:
+            for node in pro_names:
+                n.generators.loc[(n.generators.bus == node) & (n.generators.carrier == tech) & (n.generators.build_year == year),"p_nom_max"] = \
+                p_nom_max_initial[node] - n_p.generators[(n_p.generators.bus == node) & (n_p.generators.carrier == tech)].p_nom_opt.sum()
+
+    n.generators.loc[(n.generators.p_nom_max < 0), "p_nom_max"] = 0
+
+    ## retrofit coal power plant with carbon capture
+    n.generators.loc[n.generators.carrier == 'coal power plant', 'p_nom_extendable'] = True
+    n.generators.loc[n.generators.index.str.contains("retrofit") & ~n.generators.index.str.contains(
+        str(year)), "p_nom_extendable"] = False
+
+
+
+#%%
+
+if __name__ == '__main__':
+
+    if 'snakemake' not in globals():
+        from _helpers import mock_snakemake
+        snakemake = mock_snakemake('add_brownfield',
+                                   opts='ll',
+                                   topology='current+FCG',
+                                   pathway='linear-275',
+                                   co2_reduction='1.0',
+                                   planning_horizons=2025)
+
+    print(snakemake.input.network_p)
+    logging.basicConfig(level=snakemake.config['logging_level'])
+
+    year = int(snakemake.wildcards.planning_horizons)
+
+    overrides = override_component_attrs(snakemake.input.overrides)
+    n = pypsa.Network(snakemake.input.network, override_component_attrs=overrides)
+
+    add_build_year_to_new_assets(n, year)
+
+    n_p = pypsa.Network(snakemake.input.network_p, override_component_attrs=overrides)
+
+    add_brownfield(n, n_p, year)
+
+    n.export_to_netcdf(snakemake.output.network_name)

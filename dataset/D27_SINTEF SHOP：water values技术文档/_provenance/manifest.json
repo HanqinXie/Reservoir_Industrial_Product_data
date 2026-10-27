@@ -1,0 +1,36 @@
+{
+  "id": "D27",
+  "title": "SINTEF SHOP：water values技术文档",
+  "source_url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+  "files": [
+    {
+      "path": "D27_SINTEF SHOP：water values技术文档\\SINTEF_SHOP_water_values.html",
+      "bytes": 30488,
+      "sha256": "c768d28a1099d1c4f112c9a71bfcb0b744c938ad2736add12e45915b9c808a3f",
+      "url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+      "final_url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+      "content_type": "text/html",
+      "processing": "Offline reading HTML generated from official article; images are local assets, inter-document links point to official absolute URLs. Original HTML preserved in _provenance."
+    }
+  ],
+  "assets": [
+    {
+      "path": "D27_SINTEF SHOP：water values技术文档\\assets\\water_value_table_marginal.png",
+      "bytes": 448300,
+      "sha256": "1cad5e24d6d617c2f40c793135a5c3c39501306b70287fa66b50867397dde7ba",
+      "url": "https://docs.shop.sintef.energy/_images/water_value_table_marginal.png",
+      "final_url": "https://docs.shop.sintef.energy/_images/water_value_table_marginal.png",
+      "content_type": "image/png"
+    },
+    {
+      "path": "D27_SINTEF SHOP：water values技术文档\\assets\\water_value_table_total.png",
+      "bytes": 554621,
+      "sha256": "fb7dd67337edb73f2b23c57c701141f2d0525b001a903beb1e7ce640ef1c9bb6",
+      "url": "https://docs.shop.sintef.energy/_images/water_value_table_total.png",
+      "final_url": "https://docs.shop.sintef.energy/_images/water_value_table_total.png",
+      "content_type": "image/png"
+    }
+  ],
+  "status": "downloaded_documentation",
+  "reason": "已保存指定水价值技术文档正文和图像；不是商业SHOP软件或运行数据。"
+}

@@ -1,0 +1,416 @@
+{
+  "id": "D25",
+  "title": "A comprehensive geospatial database of nearly 100,000 reservoirs in China",
+  "directory": "D25_ScienceDB_China_Reservoir_Database",
+  "status": "complete",
+  "expected_file_count": 1,
+  "verified_file_count": 1,
+  "original_bytes": 114521234,
+  "extracted_bytes": 718492840,
+  "files": [
+    {
+      "id": "D25",
+      "directory": "D25_ScienceDB_China_Reservoir_Database",
+      "name": "CRD v1.1.zip",
+      "source_url": "https://china.scidb.cn/download?fileId=c9a0f6e772607265bc453bf35087bb5f",
+      "expected_bytes": 114521234,
+      "expected_md5": "1f43947de64309a13876a7b176423f65",
+      "title": "A comprehensive geospatial database of nearly 100,000 reservoirs in China",
+      "version": "V3, CRD v1.1",
+      "license": "CC-BY 4.0",
+      "started_utc": "2026-10-26T17:59:32.537711+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/114521234",
+        "validated": true
+      },
+      "status": "downloaded_and_extracted",
+      "path": "D25_ScienceDB_China_Reservoir_Database\\CRD v1.1.zip",
+      "byte_size": 114521234,
+      "sha256": "9aa0bdaaeab9002a602f7b047f62e88a00c33a12830056253ce080e8ef87bfb4",
+      "md5": "1f43947de64309a13876a7b176423f65",
+      "official_md5_verified": true,
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1",
+        "member_count": 74,
+        "uncompressed_bytes": 718492840,
+        "members": [
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000001.gdbindexes",
+            "byte_size": 110,
+            "sha256": "80ba95b873e151074244f7655f9e29ce8967aab1bd57ff4c06a329b723a3d46c"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000001.gdbtable",
+            "byte_size": 367,
+            "sha256": "5036222dc6f2a9adb0f4ad244910eb4be0ef2b08fab8e12654b9d89c45977030"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000001.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "7307535a5babe931821af1564f37d846905608b540e97ca0ee26c2b910c905e1"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000001.TablesByName.atx",
+            "byte_size": 4118,
+            "sha256": "460c1162bbaeef7626b8f4a2b2721f3dd8f43fb2afe7dfd1242130adc384b5ec"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000002.gdbtable",
+            "byte_size": 2055,
+            "sha256": "9efa50dc62a40e109a546054943ae5ad4b3d41aa81ece0dfa026b7b23cb09da8"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000002.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "f3ac9865dec6ab40e73d91dd1f5c2eef0248e66e359d4abb1d97edba92b5df88"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000003.gdbindexes",
+            "byte_size": 42,
+            "sha256": "de0911d18e2f304380c04ae123ea18057d262d788301f7cc3148298231c7c618"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000003.gdbtable",
+            "byte_size": 758,
+            "sha256": "437a85eb80b030c87d93606b6e851f517c4dc1c57371d72ef1f6d36ecd542bb8"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000003.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "d63fd5f8a490aa6aeffde1336e80ce35b5399af5752a72b316570a670b09d167"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.CatItemsByPhysicalName.atx",
+            "byte_size": 4118,
+            "sha256": "008b63eca4343c32d0026352c1e9bf3989012c21c687b9cebad0c6197d99f874"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.CatItemsByType.atx",
+            "byte_size": 4118,
+            "sha256": "a1872664ebc12542690555b456ffced4ff1161c305572a3bdebe0d0e724bfd5b"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.FDO_UUID.atx",
+            "byte_size": 4118,
+            "sha256": "ea6210c597182f72ed082fbefcbba92a7f0f62468eb312d117eaadeed90113b5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.freelist",
+            "byte_size": 12632,
+            "sha256": "9a44fd1b651e2c46aca752389cc8eb25ed01597d897bbba7a68645748bc5bc90"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.gdbindexes",
+            "byte_size": 310,
+            "sha256": "f29887c93b126a3feb0e20958cd73cc774f76ab79284b9c7286dc12eb05db858"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.gdbtable",
+            "byte_size": 180334,
+            "sha256": "e1bed6c4645ca6f08ffa028feb239efd0ed3a9ccd673abcbb50937726d0a7789"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "c5654440926aab6b198f10e66555fbc305ee092828ee8ee02da05bac3ff5c7b5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.horizon",
+            "byte_size": 32,
+            "sha256": "9fab34115b351a30fb6adb5818d8f08e4dd3a024b7247dbbc61c56929ab6e223"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000004.spx",
+            "byte_size": 4118,
+            "sha256": "027866f78134de031571290fab2599ab7879bd7df84030ee324b233b891058aa"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.CatItemTypesByName.atx",
+            "byte_size": 12310,
+            "sha256": "5e901522888a8153c398e005ac61c7352e3fe920bf2b7a84d76d2b4caeee9817"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.CatItemTypesByParentTypeID.atx",
+            "byte_size": 4118,
+            "sha256": "d8ba35a73b3e10a55caae8ccf875f10ca3288d1c0d18aad51bf52182b322ec0e"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.CatItemTypesByUUID.atx",
+            "byte_size": 4118,
+            "sha256": "480f1f90818c3dc361c6e9ffc09330781a1c55ba52f7cb1a1925b2d791beba5e"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.gdbindexes",
+            "byte_size": 296,
+            "sha256": "c21e650994b48cc72d174b3caf2ac1bd19e2d7305c8087aaae97e24caecf98a5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.gdbtable",
+            "byte_size": 2071,
+            "sha256": "457b2ef15090d858e7c3e88d41131d1054b241836d2f4cc6d61d082bbf7e6aa3"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000005.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "fbe2191ecb633ff3a4c3d449dd4dcd964389c72dc6686aa02f6ce6fcea31cc6f"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.CatRelsByDestinationID.atx",
+            "byte_size": 4118,
+            "sha256": "1b6e85702bbab42a6dd52b5c36ce1b740aaa0b65e4a9721e0034533fe6716e84"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.CatRelsByOriginID.atx",
+            "byte_size": 4118,
+            "sha256": "fd2ac0ee95877a6949363ffa09685e403cda7d1ce4fc7e32fb1a9997bee13d30"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.CatRelsByType.atx",
+            "byte_size": 4118,
+            "sha256": "aa53240ee75e8c593725d635ce036cc0994d0c8cffb556660dc9dfd55f3641e1"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.FDO_UUID.atx",
+            "byte_size": 4118,
+            "sha256": "2ac67cb230e860100b37039b965594a4b0c2e1ff85d9df5a5a86a1645f412dc6"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.gdbindexes",
+            "byte_size": 318,
+            "sha256": "1919a00326f198a90dc97545ec448c10b2b90d367020222212f7b00433fe09b5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.gdbtable",
+            "byte_size": 336,
+            "sha256": "e0af727171e8ff6c2261a04b575169955512d46f0b036d241b959ff373bc9165"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000006.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "24c4808826c22c92628c9f4d16cc80287e08b7fe2ae820e73a8599d96eacfe97"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByBackwardLabel.atx",
+            "byte_size": 12310,
+            "sha256": "1d51717d5b9de760d2488edb544637d875f131ad96483b96bf95aecff7f679d5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByDestItemTypeID.atx",
+            "byte_size": 4118,
+            "sha256": "655a5548325b8adf939e69851f9f52ae3b61244d998df60811169142a1a77648"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByForwardLabel.atx",
+            "byte_size": 12310,
+            "sha256": "c3471d1b80a6cc2ac1a094743a52f72a6dd6bbcca787604cacaa0ba409a9b583"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByName.atx",
+            "byte_size": 12310,
+            "sha256": "3e4d57cabb14dc7b1f3510441e0b5ebd94f01e7412f272993b98502eea3d9577"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByOriginItemTypeID.atx",
+            "byte_size": 4118,
+            "sha256": "9c7f665eb045df2a910a6800d0919af507bed2a42d2e9547a4004ba235fec5de"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.CatRelTypesByUUID.atx",
+            "byte_size": 4118,
+            "sha256": "209099cc5bdb713a603488740c831b805af7138397499f5d946a2c8aed69d446"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.gdbindexes",
+            "byte_size": 602,
+            "sha256": "dc98e24d04eddd7f38905d176c1ea43c547a3a2daa0c80091a20d3443c726621"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.gdbtable",
+            "byte_size": 3626,
+            "sha256": "f6cc24256e330ab468b5c594309b1493c2028fe072c9f13e5fe41b2084ce9a16"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000007.gdbtablx",
+            "byte_size": 5152,
+            "sha256": "1d81aa3c399da5feba68a24ae6461edfca18cfaa9d81a1f1dab9b8b8a64e590c"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.freelist",
+            "byte_size": 4440,
+            "sha256": "a6fd10e543b80cc4f642c9d3ed5ad319b30c1a0ecc0dd7a8032ef61eb278c148"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.gdbindexes",
+            "byte_size": 116,
+            "sha256": "760bd4864717c60d5e7c0c6461a622062680e6f79f51250f49456aa609b43774"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.gdbtable",
+            "byte_size": 69863986,
+            "sha256": "b954efec810fa27c616301fb13b777c56ae5785618d99bdd7513b017c6ac741d"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.gdbtablx",
+            "byte_size": 491552,
+            "sha256": "6f44865bc8a07e6f79a7a30438b4ba55b320f12f2f9f78b48f12375f101989e5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.horizon",
+            "byte_size": 32,
+            "sha256": "9fab34115b351a30fb6adb5818d8f08e4dd3a024b7247dbbc61c56929ab6e223"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a00000009.spx",
+            "byte_size": 1376278,
+            "sha256": "88412c88a78231696ed8440df6debc5485458c71835ddc6b237639a30443aae1"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.freelist",
+            "byte_size": 8536,
+            "sha256": "ee4acd1a74998d334d575cbed6f57c46d8042f48fb1c07796fe0df03a6085b94"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.gdbindexes",
+            "byte_size": 116,
+            "sha256": "760bd4864717c60d5e7c0c6461a622062680e6f79f51250f49456aa609b43774"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.gdbtable",
+            "byte_size": 22382061,
+            "sha256": "4b086bcd1e1e59d0df25b92f1512f8c84bf82e58300a3f0ed9c460ad37f63b82"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.gdbtablx",
+            "byte_size": 30752,
+            "sha256": "c46f7216a17af0f8bc01eaa74ae5a44f2bb9e1733fdf9e1d7403a1e4d4279f26"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.horizon",
+            "byte_size": 32,
+            "sha256": "9fab34115b351a30fb6adb5818d8f08e4dd3a024b7247dbbc61c56929ab6e223"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\a0000000a.spx",
+            "byte_size": 77846,
+            "sha256": "881e2b0b48f48cae2deab415cccf8a3506b65dac78e1dff1ff00974ebed0f5c7"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\gdb",
+            "byte_size": 4,
+            "sha256": "2594b6a92ebfb1c3312deb7d01c015fb95e9fbe9bd7bc6b527af07813ec7b910"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_V1.1.gdb\\timestamps",
+            "byte_size": 400,
+            "sha256": "9b74fee1c7590441a73b97a853689623210e3818ae353386a572aa6e843dcfc5"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v1.1_all_reservoirs.csv",
+            "byte_size": 8052492,
+            "sha256": "0091d32f07d2b66bb43eaddbcf990038958b71a218356865f1415443dce1e718"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v1.1_record_reservoirs.csv",
+            "byte_size": 412141,
+            "sha256": "1b39c2b20f39596d83302f66d248e45772479893cb7736d249a938a3ba11242b"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.cpg",
+            "byte_size": 5,
+            "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.dbf",
+            "byte_size": 113025018,
+            "sha256": "30e11f7f05a36844ed84ad015b9e104df879c844d196625e5ff186ccd05ad895"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.sbn",
+            "byte_size": 927748,
+            "sha256": "aaa85ae42bc0c03042cb1600e26c79f2c866dbf6ea74b34953c233c4256383ca"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.sbx",
+            "byte_size": 27908,
+            "sha256": "d46e360e5175cece71b9e4c015f39d8ca95ef99f3c5d0a924c54600c0714b5e1"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.shp",
+            "byte_size": 353891464,
+            "sha256": "82ed9c5101a45a5aacb3c800f1777c016836a0893860720249a0af38a1f7b96f"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.shp.xml",
+            "byte_size": 27671,
+            "sha256": "84e168f589370c5df95aa22d286ece98444ff37a7473cd5e34f953a654a3171d"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_all_reservoirs.shx",
+            "byte_size": 779580,
+            "sha256": "726acf38293ba190291522f1e74f4e8bc6521a6723ecadd9e2e2b342b56fdf1b"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.cpg",
+            "byte_size": 5,
+            "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.dbf",
+            "byte_size": 10944754,
+            "sha256": "ba04e5549de63d80edde0ca58dbcd26078a802b5262c2ffd19369f7f432d6825"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.sbn",
+            "byte_size": 50860,
+            "sha256": "3c6477071061d71e4b84e6dd557d6dc2d4c8a1bfddef4fe7139b3beefceaa645"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.sbx",
+            "byte_size": 2284,
+            "sha256": "9acafe6b95ade6982e1dd0df6a7d6d7cb221f73b8f473a7197312fce3a8b0595"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.shp",
+            "byte_size": 135679952,
+            "sha256": "13babac6891f4184c0128bb1dcc49fc0c9f5f8a921a1695597c0ff1659b09275"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.shp.xml",
+            "byte_size": 21452,
+            "sha256": "31289b9d49f5623c0fe50af41dfd904e463e9f5dc6588ab2856d5898a5391b24"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\CRD_v11_record_reservoirs.shx",
+            "byte_size": 41244,
+            "sha256": "ccd02170cfa11a0d17cd5ab1b3e0701aef9f94ea9b07af04c5b9436aa32f217a"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\CRD v1.1\\Readme_CRD_v1.1.docx",
+            "byte_size": 24814,
+            "sha256": "f6bb30ec237ee839a73c2e1bbf9716051a18a721f11c4d84b1f83d8d97d2b0df"
+          },
+          {
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1\\~$adme_CRD_v1.1ScienceDB.docx",
+            "byte_size": 162,
+            "sha256": "247f2fa9f7cc614100750ed77690a368b21bcae9ffd7ab71864ba2c771c44bae"
+          }
+        ]
+      },
+      "finished_utc": "2026-10-26T18:00:06.410692+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:10.730506+00:00"
+    }
+  ]
+}

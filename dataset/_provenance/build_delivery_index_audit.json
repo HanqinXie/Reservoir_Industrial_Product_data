@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-10-26T18:04:39.033553+00:00",
+  "status": "passed",
+  "unique_source_ids": 29,
+  "unavailable_ids": [
+    "D02",
+    "D03",
+    "D04",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D23"
+  ],
+  "fragment_files_counted_as_data": 0,
+  "sources_with_missing_counted_files": 0,
+  "summary": {
+    "available": 20,
+    "in_progress": 0,
+    "unavailable": 9,
+    "source_count": 29,
+    "scientific_planned_files": 25,
+    "scientific_completed_files": 25,
+    "available_original_file_count": 957,
+    "available_original_bytes": 15626745526
+  },
+  "warnings": []
+}

@@ -1,0 +1,4 @@
+﻿from pathlib import Path
+import json,re,hashlib,fitz
+p=Path('standards/_provenance');items=json.loads((p/'manifest_standards.json').read_text(encoding='utf-8'));a=next(a for a in items if a['id']=='S03');source=(p/'S03_mirror_response.bin').read_bytes();offset=source.find(b'%PDF');b=source[offset:];out=Path('standards')/a['files'][0];out.write_bytes(b);d=fitz.open(out);a.update(pdf_header_offset=0,original_pdf_header_offset=offset,source_bytes=len(source),source_sha256=hashlib.sha256(source).hexdigest(),bytes=len(b),sha256=hashlib.sha256(b).hexdigest(),normalization='removed 33-byte non-PDF prefix; original bytes retained in _provenance/S03_mirror_response.bin',reason='公开下载页PDF副本；扫描版37张双页，含正文与条文说明至第58页。下载源前有33字节非PDF提示，保留原始字节于_provenance，交付副本仅去除该前缀以恢复标准PDF头；页面图像未改。')
+(p/'manifest_standards.json').write_text(json.dumps(items,ensure_ascii=False,indent=2),encoding='utf-8');print('S03 normalized',len(b),len(d),b[:8])

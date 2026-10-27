@@ -1,0 +1,25 @@
+{
+  "id": "D06",
+  "directory": "D06_Global_Dam_Watch",
+  "name": "GDW_TechDoc_v1_0.pdf",
+  "source_url": "https://ndownloader.figshare.com/files/47913739",
+  "expected_bytes": 716288,
+  "expected_md5": "5b2fc93c384f674414fa711b657bef5e",
+  "title": "Global Dam Watch database version 1.0",
+  "version": 1,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "started_utc": "2026-10-26T17:58:42.230938+00:00",
+  "status": "downloaded",
+  "path": "D06_Global_Dam_Watch\\GDW_TechDoc_v1_0.pdf",
+  "byte_size": 716288,
+  "sha256": "b299aacbd4744ccf7cd4be7aae1fe0e6f691b9269a02e407a55e87d45cdc1889",
+  "md5": "5b2fc93c384f674414fa711b657bef5e",
+  "official_md5_verified": true,
+  "finished_utc": "2026-10-26T17:58:42.235342+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.643596+00:00"
+}

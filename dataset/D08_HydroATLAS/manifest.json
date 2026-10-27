@@ -1,0 +1,1040 @@
+{
+  "id": "D08",
+  "title": "HydroATLAS v1.0 complete global shapefile dataset",
+  "directory": "D08_HydroATLAS",
+  "status": "complete",
+  "expected_file_count": 7,
+  "verified_file_count": 7,
+  "original_bytes": 8494393038,
+  "extracted_bytes": 31039424921,
+  "files": [
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "BasinATLAS_v10_shp.zip",
+      "source_url": "https://ndownloader.figshare.com/files/20087237",
+      "expected_bytes": 4276492333,
+      "expected_md5": "ce5013294bdcb6f884ff6cdf1a1acae0",
+      "license": "CC-BY 4.0",
+      "title": "HydroATLAS v1.0 complete global shapefile dataset",
+      "official_filename": "BasinATLAS_Data_v10_shp.zip",
+      "started_utc": "2026-10-26T17:51:19.902371+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/4276492333",
+        "validated": true
+      },
+      "status": "downloaded_and_extracted",
+      "path": "D08_HydroATLAS\\BasinATLAS_v10_shp.zip",
+      "byte_size": 4276492333,
+      "sha256": "fb41ddde334708c2240e4e2d57d108990239ea134634093045ffc61e710ffeee",
+      "md5": "ce5013294bdcb6f884ff6cdf1a1acae0",
+      "official_md5_verified": true,
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp",
+        "member_count": 75,
+        "uncompressed_bytes": 11595801195,
+        "members": [
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_Catalog_v10.pdf",
+            "byte_size": 60341549,
+            "sha256": "c512796abee4cca0b41ee4b8700de5c95bbbbe32a66456189596e51c63ed5e47"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.dbf",
+            "byte_size": 23342,
+            "sha256": "62a6ab1422f7c7cff2148846433566f944b0cadac8bab93bc8b6c1f4e8a69ef3"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.sbn",
+            "byte_size": 236,
+            "sha256": "8bc719efd2cfb6a3dce0260dabb30c83eba33ad014bc3dde33ed2f735eca6613"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.sbx",
+            "byte_size": 132,
+            "sha256": "405de826985c155c64353f4efae8e3822e5f0a294ed0b703b572187f88634f1e"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.shp",
+            "byte_size": 25939060,
+            "sha256": "2bf3d559e672abe8cc1daa042720c668f4a011d306fa17866b7c3c6ef879ab4f"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev01.shx",
+            "byte_size": 180,
+            "sha256": "5e35cdad3f2cbee6accfef76580d3799846ba1a3fc042b765e5a019685b02142"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.dbf",
+            "byte_size": 95622,
+            "sha256": "2d44b5d1e6aa4d3a2c1e56154cf1d494f650fa3a1f5d736ded2d1648846a50ab"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.sbn",
+            "byte_size": 796,
+            "sha256": "38fb95a0a40cca9797de061f3a8dfea7eb71784936317a4dab58d0151e1255d2"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.sbx",
+            "byte_size": 196,
+            "sha256": "47e5bb86598947b5effe3c8126a846b6a808d9bea408cb117aae5372e8c8affd"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.shp",
+            "byte_size": 34754364,
+            "sha256": "0105fd79661bbfa94eaa88a5284232099aa0a348b1a5f69fc6e5a42fbd54e6b8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev02.shx",
+            "byte_size": 596,
+            "sha256": "61eb2014114ef8934116d30cd4b06a85ef582c4ca3707f3999e9b0fb85f85c15"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.dbf",
+            "byte_size": 415322,
+            "sha256": "4968e908f84ecf7fc541d606c3acca4663a70cab13aa565be11d5eef56747fa5"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.sbn",
+            "byte_size": 3300,
+            "sha256": "f780dc9d8f78c70c71e6c27897883774a4fe71b4bd43b6ea88b12ffcd89bb0ae"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.sbx",
+            "byte_size": 492,
+            "sha256": "eee29463032a86296fe87ae57f098b41358196a8f08a36cf95e81c439ad0ea47"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.shp",
+            "byte_size": 45838964,
+            "sha256": "11af7e15d2d17f2bba0ac7d46e2856902cd79a67e6b0e7b7cd518422703f7b81"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev03.shx",
+            "byte_size": 2436,
+            "sha256": "8ae94a87bd9f72ae0321473726d0719311df64368bc547e7a6667297eaf0971b"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.dbf",
+            "byte_size": 1874822,
+            "sha256": "bbfe321f47bea310fac2331091e145f4c96dccdab9013025db66e6c72973d48a"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.sbn",
+            "byte_size": 13884,
+            "sha256": "5e04d2d531105e629165e2a01df1fa7f7932f457d557fbdd587dbfa411340707"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.sbx",
+            "byte_size": 1236,
+            "sha256": "5773034693ccf3f4da0f1e26413a08cb17df6e624e286e9a3a3eecd483d02f06"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.shp",
+            "byte_size": 75437640,
+            "sha256": "8eaf6b93575654dfedcae985a0c592c534e5cb2239fe5ad9daeba3355f6057ad"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev04.shx",
+            "byte_size": 10836,
+            "sha256": "44614539176b73e4cfbff12cc035375eb62c63fe2c9233ac1036a1a91cd2bd97"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.dbf",
+            "byte_size": 6589702,
+            "sha256": "a53a8ffa0bf0c94fb98520056e4fbbf71a0ecc5b8a5affe677812186bf6bc224"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.sbn",
+            "byte_size": 49212,
+            "sha256": "8d2f034df6f01caeed303e5fcaa72a3b0b95e27f8e9f6a1440459f2aacde2be4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.sbx",
+            "byte_size": 3676,
+            "sha256": "e0924a6eb624852e3bfe40783bd5380a7441bef08652afbc10908919be39ff66"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.shp",
+            "byte_size": 120818604,
+            "sha256": "218f8807a5160c3b85ce260710ef5ce7b846b73dd669a5572d18013bb0f376c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev05.shx",
+            "byte_size": 37972,
+            "sha256": "301c2e0a46633378aa6c13684da081cceb61d0e20221d77fe11dda3cd5987204"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.dbf",
+            "byte_size": 22801272,
+            "sha256": "4f2bb9a9c81e454382d5075701ce8010fd1b2dd93c6e1f84d80e8f52dd92c99c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.sbn",
+            "byte_size": 173492,
+            "sha256": "eb980203c5e8eb187d45bc6485ef740fe7f2b045b5e2483e47658b80fba0dc95"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.sbx",
+            "byte_size": 11652,
+            "sha256": "606cd2e17e77e34fe261d2bbba53adcaa1e8f3d66eeab0e90e36e0c319bf72e8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.shp",
+            "byte_size": 198729416,
+            "sha256": "dc61ea0eca354d6d7fa981ce738a1f9558f0c9dbee48d7a360de69c339c9d229"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev06.shx",
+            "byte_size": 131276,
+            "sha256": "b30843b3ad36272f7fa1ce2a1554db81a0d550ff16561482b8dba469ce7d176a"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.dbf",
+            "byte_size": 80137382,
+            "sha256": "1c73db5c07cb02ee6d10b963a0fc9fa4321fab55ff43721e8d6cd5c1054fb113"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.sbn",
+            "byte_size": 546988,
+            "sha256": "1f2bbfaa0573efb281bd7f1f704e2923a1c18c8faeedc8ddc3e79946e0b68331"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.sbx",
+            "byte_size": 24468,
+            "sha256": "ded7cac697d0cb18ef04cd6fdbcc02c33b01a5a1bbff09590ff397f6dfa10898"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.shp",
+            "byte_size": 336760180,
+            "sha256": "6991415fff00a69dc21aaa2f193e773f071527debe2c1709d63326f2c6092acc"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev07.shx",
+            "byte_size": 461268,
+            "sha256": "1d8e305fdba55514a5fe4ebc8d81cd7234862c485885f6eeaf0dfec73a7045a4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.dbf",
+            "byte_size": 265047692,
+            "sha256": "5d5bd719701fd5a4ec597a6e936321212fbe5d168c16f1a308d0d176a3c86b1d"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.sbn",
+            "byte_size": 1848860,
+            "sha256": "0e7be36aaf54fe1e17c1b609a4f70e58fde55f78b4a86aaf313a89e21a7aae16"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.sbx",
+            "byte_size": 78012,
+            "sha256": "fc50dc7abfe50a4c8e71b88630fe66f40711c31d8a817defc64893c486da0279"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.shp",
+            "byte_size": 570237436,
+            "sha256": "bcb58c63b2aee54b3fd772acabb929648f879f000235e122a72376fb9eb5046b"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev08.shx",
+            "byte_size": 1525500,
+            "sha256": "0eb50b6478df955f24151ef8aa725cfe5c9029f7ea34f157d923739514a94a73"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.dbf",
+            "byte_size": 706393542,
+            "sha256": "03a0e276e81ca1db568c307b8428af1ab814728dd64cdeb992a823b092901573"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.sbn",
+            "byte_size": 4610748,
+            "sha256": "3e0830c8e2aa44514700d20ce20ca1c20042b5bce333ddcb9b1255377ce057e1"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.sbx",
+            "byte_size": 106964,
+            "sha256": "b2bc17ebb3e4fa682f5fc953e664f603c03c26583be3a2e6dead43cc92ff1079"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.shp",
+            "byte_size": 911567600,
+            "sha256": "9c36c38c599f2f45b8e48e7c68a924b61fe4e433741f26491e3afc2e0e9ab156"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev09.shx",
+            "byte_size": 4065620,
+            "sha256": "3abde3d777cde9c81a73d1a19fb9c2c9dc76e02944c28f869a8ef42116549bbf"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.dbf",
+            "byte_size": 1308016122,
+            "sha256": "0ba90446a5b40de864c2b80f0272ca9de915a090b94622806e9eb31d2e84445c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.sbn",
+            "byte_size": 8102204,
+            "sha256": "4231cfadc636cb922e3089d3706f539f02716524f56399297031d60095a6416c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.sbx",
+            "byte_size": 133108,
+            "sha256": "ac4febfa394a694d8df2dce8b099990ea666fea2eb08babf282f424944214225"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.shp",
+            "byte_size": 1253243052,
+            "sha256": "a0f6fbb1003fb1b1533c9d50c31e6c72ac82097ada422ffc0d3e12b3e5cc4bdc"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev10.shx",
+            "byte_size": 7528196,
+            "sha256": "f75fcac6e80c01dfbffdfcf05af020bf0faafc9e8d8a03047092aadd7e7390d7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.dbf",
+            "byte_size": 1434190592,
+            "sha256": "da3df5842a412aaa5183ef87c6919ec6d6a1c6575bbeb0bd5c77f656087946e1"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.sbn",
+            "byte_size": 8834812,
+            "sha256": "401de959acf97bd2400a8775eae5df5ce752bf705b3317334c9bca3134eb0261"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.sbx",
+            "byte_size": 139532,
+            "sha256": "3be7fc1ff94ff830a8a1c355888937008d2d7e4be2d1b3b73179da832e5d3c5f"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.shp",
+            "byte_size": 1316212988,
+            "sha256": "fda0e779dfc1dff09ad1796e92f40ca8cb9992b776085c71187e2f71898076b7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev11.shx",
+            "byte_size": 8254380,
+            "sha256": "6c9959f8449366ea2fc00c9ec3ec95cb0d14cb9ec5fe9d7221550309ea6a4cc9"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.dbf",
+            "byte_size": 1437384812,
+            "sha256": "8dcf9fa22ee5575fa071cfa5f76435b280a15c402e600281591ed8feffad9baf"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.sbn",
+            "byte_size": 8853404,
+            "sha256": "7bc2e2e39c3214fc0dea3576f9d588319744b4896caa9862385e6454e4b96d56"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.sbx",
+            "byte_size": 139724,
+            "sha256": "65a2dc1d9e97a6b81aca9526ae8d7032f43731687a49de61144124fbc564bef8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.shp",
+            "byte_size": 1317872444,
+            "sha256": "c0d0237fb2a3ab33ab62d10552f97b1a96e4f5721a7c9bf1b25acfb75f2fb94f"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\BasinATLAS_v10_shp\\BasinATLAS_v10_lev12.shx",
+            "byte_size": 8272764,
+            "sha256": "01b4ce1bf40014c0a2990fc1b70bbdc8fe22bc8f4092923660af945b13b752df"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\HydroATLAS_TechDoc_v10.pdf",
+            "byte_size": 1024082,
+            "sha256": "c9abc3ae7436a858dc55168201ed3637e53046570029a252f286aa9e29b710af"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp\\HydroATLAS_v10_Legends.xlsx",
+            "byte_size": 83700,
+            "sha256": "314bcb7c1dcee3b55aaf3c843839cc9b39ebd37000753930c4610476009b848b"
+          }
+        ]
+      },
+      "finished_utc": "2026-10-26T17:54:50.315879+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:01:57.373727+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "RiverATLAS_v10_shp.zip",
+      "source_url": "https://ndownloader.figshare.com/files/20087486",
+      "expected_bytes": 2418581202,
+      "expected_md5": "7a6d74226ce8fe6e7e0eb20e2abe71ee",
+      "license": "CC-BY 4.0",
+      "title": "HydroATLAS v1.0 complete global shapefile dataset",
+      "official_filename": "RiverATLAS_Data_v10_shp.zip",
+      "started_utc": "2026-10-26T17:51:19.903874+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/2418581202",
+        "validated": true
+      },
+      "status": "downloaded_and_extracted",
+      "path": "D08_HydroATLAS\\RiverATLAS_v10_shp.zip",
+      "byte_size": 2418581202,
+      "sha256": "d8781793a2c2aae425417641a0e62b7f8f07efbba2b01357387acf898c82eae4",
+      "md5": "7a6d74226ce8fe6e7e0eb20e2abe71ee",
+      "official_md5_verified": true,
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp",
+        "member_count": 63,
+        "uncompressed_bytes": 13040487569,
+        "members": [
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\HydroATLAS_TechDoc_v10.pdf",
+            "byte_size": 1024082,
+            "sha256": "c9abc3ae7436a858dc55168201ed3637e53046570029a252f286aa9e29b710af"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\HydroATLAS_v10_Legends.xlsx",
+            "byte_size": 83700,
+            "sha256": "314bcb7c1dcee3b55aaf3c843839cc9b39ebd37000753930c4610476009b848b"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_Catalog_v10.pdf",
+            "byte_size": 68738715,
+            "sha256": "aee0bd1793767f2b47c681e931e77c256ed53341bcc6a154a952f41bf8b98f73"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.dbf",
+            "byte_size": 2086644140,
+            "sha256": "bfa16b5805cef1426f6f84778488051fdbce26fcd12dfee64e699370f7fa4af1"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.sbn",
+            "byte_size": 12661852,
+            "sha256": "5be771f85bdc92dbb7d1675e98b9ad662596d3da225db8b3a70c6f1e3eadd83c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.sbx",
+            "byte_size": 201180,
+            "sha256": "01653e8f6fea8fa4cc29c87d2bce9631a1711ae40660ca211399238f8031150f"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.shp",
+            "byte_size": 237075756,
+            "sha256": "3d8b8c421243bf6b88852df03cbb033c5ff19abf67bec80043ee5378d3d65dd6"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_af.shx",
+            "byte_size": 12220508,
+            "sha256": "be0c91972afdf3514f94bada6361d1a83cc5af3044d2b89992ebf74a256f6baa"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.dbf",
+            "byte_size": 442700022,
+            "sha256": "0f5ff04da1f42d9b4ddc4fcef66e9674e324c3889f04e53bee24817b7dc7e184"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.sbn",
+            "byte_size": 3195708,
+            "sha256": "20192dee24bb3498db38a6c3cc69972941c7d01373a8f38eb0657f9191dfbb74"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.sbx",
+            "byte_size": 99620,
+            "sha256": "a381287aa42631831f084fe156ee1c607b54338274b714c1bb6aef0c0eece211"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.shp",
+            "byte_size": 47747620,
+            "sha256": "33101f9a1e600f0c4b3b84998d7757f1831b0d25f08c45938cff246642616d18"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_ar.shx",
+            "byte_size": 2592724,
+            "sha256": "55a6d50ef2c162f27089a818f2c76b07a833a1ecf09b5a881a4f66e75c0f5605"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.dbf",
+            "byte_size": 1951967468,
+            "sha256": "3cf6df5af0b7d93b39ed25630767df9161911dacef3076ea10b249fbd1b0ee1b"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.sbn",
+            "byte_size": 12055780,
+            "sha256": "7335a4e6d72abe4ce2572cd1099fdb9798582ca39d51508d55fdc31e765cf2ec"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.sbx",
+            "byte_size": 182788,
+            "sha256": "489f64c2adf5eb8c5981e8125fb69cfa4ca65f0b96cf457f31b6ea9f6742f0d6"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.shp",
+            "byte_size": 207445068,
+            "sha256": "827e03a8e419b9578d5f246bcce1c93de1a0bd561a9f572fe84606c5d36d31fa"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_as.shx",
+            "byte_size": 11431772,
+            "sha256": "c2627246c48acddb2a9b748964d3e7cbe39b5fdd0c94cbd480f6644a707a6654"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.dbf",
+            "byte_size": 1142630226,
+            "sha256": "025eb5153e735e977996387555124e77b71e04f35fc754534491f7f8e66bc14d"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.sbn",
+            "byte_size": 7227836,
+            "sha256": "23859b3afe64cbc5620bd56102fcf59fc83df3b833041afdb036451b94baa7d6"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.sbx",
+            "byte_size": 93956,
+            "sha256": "0e95dbb9e1c022545047c9ad98eed381ace746539c6579d534bbe4f7a0dcd94c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.shp",
+            "byte_size": 114678148,
+            "sha256": "56bde2b19df7af9aadbbe58df57bbfffb7710b22ce439fd919f9ed2581e9f92a"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_au.shx",
+            "byte_size": 6691876,
+            "sha256": "7d18a9a80a0220dd34723f29bacf815280ff71db1f70813a45a1515223f79144"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.dbf",
+            "byte_size": 1282060578,
+            "sha256": "d68aca83ed8d995cc31d9a2f6df08663f2b2172a40f79eb5b2f8e7421ea63d71"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.sbn",
+            "byte_size": 8086380,
+            "sha256": "98b1737b186e9168056b3a809c0a5079f4b430be9dbf27d639f84fd10527ae81"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.sbx",
+            "byte_size": 135684,
+            "sha256": "9828db846ac670d762ab0e118a719a2ac417394c87bc8e3a552ef407e9711b5a"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.shp",
+            "byte_size": 151566516,
+            "sha256": "24a0fa331ecc714f1199ad8f6400e2267ad4b7a89f7c1b8af57a232a9c7badaf"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_eu.shx",
+            "byte_size": 7508452,
+            "sha256": "f642c970b6378a763a48a1af2a8c11ffa48cf2c8d11ed307aa1d6c8dba9a7a60"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.dbf",
+            "byte_size": 187271682,
+            "sha256": "3ba238d5a996c6720e2024de18f878573cd8ca7849f153c12ba826ab84ebb5bd"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.sbn",
+            "byte_size": 1399996,
+            "sha256": "188a7bdc888add56e4fb332e22e280cffe9c0df1a8804e375d0706504823aac3"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.sbx",
+            "byte_size": 59548,
+            "sha256": "a7489cff8a6a1a8d19fe7237094fd80b3ea87bbcb8d45551e7691d2035b09b8a"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.shp",
+            "byte_size": 20009988,
+            "sha256": "0c91f6d5b112323ce3e630662ecd0f046d80beb55c9d68b88891bb8965dc1eb7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_gr.shx",
+            "byte_size": 1096804,
+            "sha256": "098d9c2b97311b090f0d7e857f3c55aa2061fc0b46cc9980bccef4be51f2be14"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.dbf",
+            "byte_size": 1347517932,
+            "sha256": "a7d20622e5c7e8a2f0f28a2c1fe204048554a8c344f456d6cd0596425aa399f8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.sbn",
+            "byte_size": 8472676,
+            "sha256": "dea0a6627180fc60b30f117c9b06dc8e91e611e73b8e4691af83f996b4a0594d"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.sbx",
+            "byte_size": 143028,
+            "sha256": "6b6d6947516650eccd31e6f233e63bfdd3cf53a903350fc168188f8a5e7871c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.shp",
+            "byte_size": 151192524,
+            "sha256": "d95a49105dc2336eeba777acd19acdbd8b7f1e577c07b6edc6c6299711412d2c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_na.shx",
+            "byte_size": 7891804,
+            "sha256": "797a9d2a8a3e95694c4883094a892a16479e21aab0c600f7bf3c27eff19191b8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.dbf",
+            "byte_size": 1562299576,
+            "sha256": "ac9196a997ad62d8ade4326eae8ec4e0c79aff7cf4120a2eebbd407aa5581ea1"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.sbn",
+            "byte_size": 9779924,
+            "sha256": "d4a6d9cbb2ddc527cda43c01f746c58cb38aadebcd87d9d164636e139eaef258"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.sbx",
+            "byte_size": 172628,
+            "sha256": "74329179e865ba06ab0a423a0e9f2ed755212ddf603534f2297ad8c58a05116e"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.shp",
+            "byte_size": 140462204,
+            "sha256": "5f78f47dc6d0462a9a2d3ba93fb2ae8b573384fce45bb57db37b7f627f196bd7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_north.shx",
+            "byte_size": 9149676,
+            "sha256": "6846619c48a85aaf173c9d658b1714f0b123977c0f5a7d9079a4d84554c9722c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.dbf",
+            "byte_size": 651954830,
+            "sha256": "f4f5508376a06f531bd7287b880ef55522825e0e854ac525801641f7f9be67d5"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.sbn",
+            "byte_size": 4175292,
+            "sha256": "5542603719ba2e265f1901725d8537afe37591b505c15b584d956178058e8f59"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.sbx",
+            "byte_size": 96900,
+            "sha256": "115a608b0c2ab21620a6a2390d017aa03af263918b81c74761f80c91a467331c"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.shp",
+            "byte_size": 71865508,
+            "sha256": "a237dde3e81058d60b0bd4c75f43e3860816cccd8a48f61dca611b25216ae294"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_sa_south.shx",
+            "byte_size": 3818228,
+            "sha256": "043814081381888d4c72a0405a509198f8396307b527bb407128f3f68faf0993"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.dbf",
+            "byte_size": 925836464,
+            "sha256": "7eb22e38cd63cd3e1e910282296282ab38224291c5b7a0383bbeca663e2cf46d"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.sbn",
+            "byte_size": 6087772,
+            "sha256": "012aa21955c9de6c4238ee5cdbfc86fae5c1327c5b55ca7b01ea680e69540300"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.sbx",
+            "byte_size": 159052,
+            "sha256": "bddb57c166c8ea5f1095424f3cd8da1714a87a2ad78a100b7cdc464ee14f76d9"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.shp",
+            "byte_size": 105401708,
+            "sha256": "c32da0874c254b87a94117db88579005ed67d6d88752e45259280575ddf140e7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp\\RiverATLAS_v10_shp\\RiverATLAS_v10_si.shx",
+            "byte_size": 5422220,
+            "sha256": "254df79341e5c8b3905ef34f2a430122c725a4b1d0402f7a3337340cd2b06313"
+          }
+        ]
+      },
+      "finished_utc": "2026-10-26T17:52:48.290594+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:01.255235+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "LakeATLAS_v10_shp.zip",
+      "source_url": "https://ndownloader.figshare.com/files/35959547",
+      "expected_bytes": 1612526498,
+      "expected_md5": "28816de9f22804f8c7354d021d5fdeb1",
+      "license": "CC-BY 4.0",
+      "title": "HydroATLAS v1.0 complete global shapefile dataset",
+      "official_filename": "LakeATLAS_Data_v10_shp.zip",
+      "started_utc": "2026-10-26T17:52:48.292449+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/1612526498",
+        "validated": true
+      },
+      "status": "downloaded_and_extracted",
+      "path": "D08_HydroATLAS\\LakeATLAS_v10_shp.zip",
+      "byte_size": 1612526498,
+      "sha256": "c86adb8cca007adc3f42b237f1a2be158ff6ff08bcd296e592db29e9b4d6fe94",
+      "md5": "28816de9f22804f8c7354d021d5fdeb1",
+      "official_md5_verified": true,
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp",
+        "member_count": 27,
+        "uncompressed_bytes": 6403136157,
+        "members": [
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\HydroATLAS_TechDoc_v10_1.pdf",
+            "byte_size": 3656999,
+            "sha256": "0ad77c88140d8a0b569d79d5cceadf727b558a7e422a36b9c394cc593db2ccab"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\HydroATLAS_v10_Legends.xlsx",
+            "byte_size": 83700,
+            "sha256": "314bcb7c1dcee3b55aaf3c843839cc9b39ebd37000753930c4610476009b848b"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_Catalog_v10.pdf",
+            "byte_size": 54055742,
+            "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.dbf",
+            "byte_size": 678048334,
+            "sha256": "8c1e69bb8e72238fcd7a39ca410cecd1daaeabff50517d150f6b1a3e4151bf94"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.sbn",
+            "byte_size": 3346260,
+            "sha256": "0291d85392c45d061339170c1cc79325da1522e595b53316757b6e8e3d0b7156"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.sbx",
+            "byte_size": 81484,
+            "sha256": "9440267a43ac16cf9557063640afbb96c047dbbbae879820084d9123d5eca560"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.shp",
+            "byte_size": 10535660,
+            "sha256": "a754e58632a2d108d0c15051c318707715a2d7384ac720ffa4412384e8fb838d"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_east.shx",
+            "byte_size": 3010260,
+            "sha256": "ef3124a75cd03aa03a47c71f5d54ffff45b0b19d088b01886a6f62b57c7b22de"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.dbf",
+            "byte_size": 1894665030,
+            "sha256": "ced71296073d92ff6a371c103a3d4dfe8f3b153cc49d8ad6e3c61a17478d5823"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.sbn",
+            "byte_size": 8973772,
+            "sha256": "986b91f33bbc8d4f184f3593c79ed933815194b00bac2d1727ee65d6eda6a5a4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.sbx",
+            "byte_size": 121412,
+            "sha256": "6d1a1428cc5892609cb67bef3906ee9d23ab73f3f9a6e03cd087d7e765cfa8ee"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.shp",
+            "byte_size": 29439804,
+            "sha256": "72e4f7c7cc202643680d826fbda78521ec6c0a8e855a94723be6042d4bc25ef9"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pnt_west.shx",
+            "byte_size": 8411444,
+            "sha256": "9be3704fe4054ed08ba1547d9badc07baaaf8a317ecd8199696a2b5ff5ce09f6"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.dbf",
+            "byte_size": 678048334,
+            "sha256": "8c1e69bb8e72238fcd7a39ca410cecd1daaeabff50517d150f6b1a3e4151bf94"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.sbn",
+            "byte_size": 3345956,
+            "sha256": "fdb9a194dc812f8851976aabb57a233f395ff35ddba11674af316b7884e4b973"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.sbx",
+            "byte_size": 81180,
+            "sha256": "f2acf370287e390e8e64e2bf65ce4117db15c17bd3b976d0d3df79b9c4ff62c8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.shp",
+            "byte_size": 190183832,
+            "sha256": "5ce5d04abeb7ba26e5a0c787e9a41915e197a544735b831155bbdd41ece105b7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_east.shx",
+            "byte_size": 3010260,
+            "sha256": "ec7d5f6c06e9ee23c6e0c912c956f552fbb27c3f3d63c75fb134ebb69986b2d8"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.dbf",
+            "byte_size": 1894665030,
+            "sha256": "ced71296073d92ff6a371c103a3d4dfe8f3b153cc49d8ad6e3c61a17478d5823"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.sbn",
+            "byte_size": 8973636,
+            "sha256": "2074d0e3d0064d1a027f2ce09a81ec03152ea8fc675288f70d3a2f4af9f15bab"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.sbx",
+            "byte_size": 121276,
+            "sha256": "49805580355ae8833268704c34e6d71843a60edfa34ab51d9e8d7afa16b930f7"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.shp",
+            "byte_size": 921864728,
+            "sha256": "16a463cd50042750f0cc51d54333837582a92366357f44db609cc00dce951b0e"
+          },
+          {
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp\\LakeATLAS_v10_shp\\LakeATLAS_v10_pol_west.shx",
+            "byte_size": 8411444,
+            "sha256": "94ecf9c97b6dc460dbfc969ee0b0f0ef62abb13b56c4af4168cf38c9a8d30ae9"
+          }
+        ]
+      },
+      "finished_utc": "2026-10-26T18:00:02.548553+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:03.830672+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "HydroATLAS_TechDoc_v10_1.pdf",
+      "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroATLAS_TechDoc_v10_1.pdf",
+      "expected_bytes": 3656999,
+      "expected_md5": "f37085c99a987752a37d8327c0a96922",
+      "license": "CC-BY 4.0",
+      "official_filename": "HydroATLAS_TechDoc_v10_1.pdf",
+      "started_utc": "2026-10-26T17:59:03.329656+00:00",
+      "resolved_url": "https://data.hydrosheds.org/file/technical-documentation/HydroATLAS_TechDoc_v10_1.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "path": "D08_HydroATLAS\\HydroATLAS_TechDoc_v10_1.pdf",
+      "byte_size": 3656999,
+      "sha256": "0ad77c88140d8a0b569d79d5cceadf727b558a7e422a36b9c394cc593db2ccab",
+      "md5": "f37085c99a987752a37d8327c0a96922",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:59:05.065529+00:00",
+      "title": "HydroATLAS",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:10.202213+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "BasinATLAS_Catalog_v10.pdf",
+      "source_url": "https://data.hydrosheds.org/file/technical-documentation/BasinATLAS_Catalog_v10.pdf",
+      "expected_bytes": 60341549,
+      "expected_md5": "2431a6fd7b381b0435133edcc23efecf",
+      "license": "CC-BY 4.0",
+      "official_filename": "BasinATLAS_Catalog_v10.pdf",
+      "started_utc": "2026-10-26T17:59:05.131385+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/60341549",
+        "validated": true
+      },
+      "status": "downloaded",
+      "path": "D08_HydroATLAS\\BasinATLAS_Catalog_v10.pdf",
+      "byte_size": 60341549,
+      "sha256": "c512796abee4cca0b41ee4b8700de5c95bbbbe32a66456189596e51c63ed5e47",
+      "md5": "2431a6fd7b381b0435133edcc23efecf",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:59:14.043856+00:00",
+      "title": "HydroATLAS",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:10.315509+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "RiverATLAS_Catalog_v10.pdf",
+      "source_url": "https://data.hydrosheds.org/file/technical-documentation/RiverATLAS_Catalog_v10.pdf",
+      "expected_bytes": 68738715,
+      "expected_md5": "a3eba9288783053eaaecd12ecaccb519",
+      "license": "CC-BY 4.0",
+      "official_filename": "RiverATLAS_Catalog_v10.pdf",
+      "started_utc": "2026-10-26T17:59:14.103367+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/68738715",
+        "validated": true
+      },
+      "status": "downloaded",
+      "path": "D08_HydroATLAS\\RiverATLAS_Catalog_v10.pdf",
+      "byte_size": 68738715,
+      "sha256": "aee0bd1793767f2b47c681e931e77c256ed53341bcc6a154a952f41bf8b98f73",
+      "md5": "a3eba9288783053eaaecd12ecaccb519",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:59:22.604442+00:00",
+      "title": "HydroATLAS",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:10.434874+00:00"
+    },
+    {
+      "id": "D08",
+      "directory": "D08_HydroATLAS",
+      "name": "LakeATLAS_Catalog_v10.pdf",
+      "source_url": "https://data.hydrosheds.org/file/technical-documentation/LakeATLAS_Catalog_v10.pdf",
+      "expected_bytes": 54055742,
+      "expected_md5": "dfb3501640ed034360486a8304d00d8b",
+      "license": "CC-BY 4.0",
+      "official_filename": "LakeATLAS_Catalog_v10.pdf",
+      "started_utc": "2026-10-26T17:59:22.661216+00:00",
+      "range_probe": {
+        "status_code": 206,
+        "content_range": "bytes 0-0/54055742",
+        "validated": true
+      },
+      "status": "downloaded",
+      "path": "D08_HydroATLAS\\LakeATLAS_Catalog_v10.pdf",
+      "byte_size": 54055742,
+      "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1",
+      "md5": "dfb3501640ed034360486a8304d00d8b",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:59:32.478023+00:00",
+      "title": "HydroATLAS",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:10.526391+00:00"
+    }
+  ]
+}

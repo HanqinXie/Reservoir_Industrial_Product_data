@@ -1,0 +1,33 @@
+{
+  "id": "D26",
+  "title": "原论文PyPSA-China-THU代码入口",
+  "source_url": "https://github.com/Rick10119/PyPSA-China-THU",
+  "files": [
+    {
+      "path": "D26_原论文PyPSA-China-THU代码入口\\PyPSA-China-THU_main_20261027_f353474b43e2.zip",
+      "bytes": 120184680,
+      "sha256": "9b7f8613f610d6a1a5962c8076fc2b2ddc7b39e2761a0e2216df9390ab0ada22",
+      "url": "https://codeload.github.com/ruikelyu/PyPSA-China-THU/zip/f353474b43e20686c42094b04441372dadb68b0a",
+      "final_url": "https://codeload.github.com/ruikelyu/PyPSA-China-THU/zip/f353474b43e20686c42094b04441372dadb68b0a",
+      "content_type": "application/zip"
+    },
+    {
+      "path": "D26_原论文PyPSA-China-THU代码入口\\_provenance\\原始入口.html",
+      "bytes": 408840,
+      "sha256": "d8b73f691c38595d9fc05a92389a2139b2dad422f0b68158241ad09b16bb1b1f",
+      "url": "https://github.com/Rick10119/PyPSA-China-THU",
+      "final_url": "https://github.com/ruikelyu/PyPSA-China-THU",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "extraction": {
+    "archive": "D26_原论文PyPSA-China-THU代码入口\\PyPSA-China-THU_main_20261027_f353474b43e2.zip",
+    "directory": "D26_原论文PyPSA-China-THU代码入口\\extracted",
+    "members": 2433,
+    "crc": "passed"
+  },
+  "status": "downloaded_code",
+  "commit": "f353474b43e20686c42094b04441372dadb68b0a",
+  "version": "main_20261027",
+  "reason": "已下载并解压固定版本源代码；此项为技术方法资料，不是实测数据库。"
+}

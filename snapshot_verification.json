@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-27T02:27:26Z",
+  "status": "passed",
+  "verification_method": "streaming zstd decompression, tar path/type/size/SHA256 comparison; no extraction",
+  "source_file_count": 22592,
+  "source_bytes": 65981334519,
+  "tar_member_count": 22592,
+  "tar_member_bytes": 65981334519,
+  "exact_member_paths_match_source_manifest": true,
+  "all_member_sha256_match": true,
+  "all_part_sizes_and_sha256_match": true,
+  "zstandard_frame_checksum_consumed": true,
+  "tar_links": 0,
+  "source_metadata_finalcheck": {
+    "file_count": 22592,
+    "bytes": 65981334519,
+    "directories": 389,
+    "paths_sizes_mtimes_match_inventory": true,
+    "symlinks_and_reparse_points": 0
+  },
+  "source_manifest_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+  "verified_parts": [
+    {
+      "name": "research-snapshot-20261027.tar.zst.part001",
+      "bytes": 640000000,
+      "sha256": "94d250ad0dbf8d63f9c98547197f4aea4a4f7c17d1c30d8f49cde2dcd0d8de47",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part002",
+      "bytes": 640000000,
+      "sha256": "4a99b12118a4d911a2e763e53a29f09919cb17af82b199112c4a10d3ae638485",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part003",
+      "bytes": 640000000,
+      "sha256": "e5e10554c400af7a10b606efa8528b98dfe92d21e82bdbb514f6fdce56aa5bc0",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part004",
+      "bytes": 640000000,
+      "sha256": "b05aa64f9ec24df4321c82bc8e305a5aa788eef0210c060052a58e340e232eb6",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part005",
+      "bytes": 640000000,
+      "sha256": "209b529bb9fb40524a27ec1fb91bcbb8810071e04098b4290d1bd4b2349c8817",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part006",
+      "bytes": 640000000,
+      "sha256": "04a761ac9c19f3d63bdeade2e2e82ed2dd83d468e01515d3020c9dabecbc541d",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part007",
+      "bytes": 640000000,
+      "sha256": "69808abce53d7e8c3263731632b2b848c5f5d651cc68f42d168c10b8426c198b",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part008",
+      "bytes": 640000000,
+      "sha256": "d112bd43d8ea89fd75797aef94c3adc47594c4a18e18502a69e03e75b43d3b90",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part009",
+      "bytes": 640000000,
+      "sha256": "5dd807105874338e14f5836255a8e19948057f442f429f514cc860cd802c9de6",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part010",
+      "bytes": 640000000,
+      "sha256": "28bbb4941bb79befc21e7b8ae932ee5cf650d8e6b6525a2c615c6c857514fe6c",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part011",
+      "bytes": 640000000,
+      "sha256": "00025aa65f76f3c8a07b33495eeb260426baa491e443c6c6c82258e5daf1a038",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part012",
+      "bytes": 640000000,
+      "sha256": "b1d71ac25b30edc7adab9b0f5e1038019789f8e8b6a6babb8b173534bd61cff9",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part013",
+      "bytes": 640000000,
+      "sha256": "87747f64dae439f31cc25c18f9b13d18a994e2324e1832cadcd20a88f3e55e4f",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part014",
+      "bytes": 640000000,
+      "sha256": "8de601b08cdea9937fad13faee92bbb2326d28a7e9420ae1f4715c9a72bed71a",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part015",
+      "bytes": 640000000,
+      "sha256": "7f3d804b06408bbf658e2d1a24d6b1c3dc30edf6c559e58571eb13be1f3b1a75",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part016",
+      "bytes": 640000000,
+      "sha256": "0d70811817147bd132e607a95bf2c341d001421da88e40d432517ea1e54c819e",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part017",
+      "bytes": 640000000,
+      "sha256": "29731cfdf428350197b1b4fec140373faace462052a699913bf69509300dc3c0",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part018",
+      "bytes": 640000000,
+      "sha256": "559636c9e25ba2c870616ebe6e954bddd23a449cb7948e17e448b46195feaa90",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part019",
+      "bytes": 640000000,
+      "sha256": "184ee6a64db3b2dfcbb2d172a4ec6d969043d45ce867b02b66eb7c439bf91bfd",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part020",
+      "bytes": 640000000,
+      "sha256": "676efdf3b4763f24cd528cb78e32952a51f37b1430ef4f1efb1eef8f1634b0ac",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part021",
+      "bytes": 640000000,
+      "sha256": "8ac37c0e997bd1ad91727c46e4813663fd0f63a1f7e4338c6dec51a0abb70a25",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part022",
+      "bytes": 640000000,
+      "sha256": "f08eceee787646ecd6be1d7af42f39e456a96efbe014e2ebce4732037fdcfea5",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part023",
+      "bytes": 640000000,
+      "sha256": "0d33816118d1ac0262542d8b5102f8652be671e2f2a067c9c2be8069845223b1",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part024",
+      "bytes": 640000000,
+      "sha256": "de29f93332cecd3b00bd1a7452fd5e0d0e2f2538f7e1278417f749ac05c3fa84",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part025",
+      "bytes": 640000000,
+      "sha256": "2dddb7ab86e5ed08745f5b1650f84da27d9a1892492eaaaaf7e0759034c67fec",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part026",
+      "bytes": 640000000,
+      "sha256": "637dd7cfc1742b037075e0e16888beaa46b8c255e242952da5feed5229b72483",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part027",
+      "bytes": 640000000,
+      "sha256": "7e2257c6eb1b38fdf8feab29016e821ed2051f6a89256600c73cff8cf4bb39e0",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part028",
+      "bytes": 640000000,
+      "sha256": "16faf70310ed3d46c3d6f840b37e6f4223e139c753b41170c249d45c4612aaa7",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part029",
+      "bytes": 640000000,
+      "sha256": "dac987e13a69cba4fadb415ba8077c3e4394ee5fbb7d9a3d581d1011fff24532",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part030",
+      "bytes": 640000000,
+      "sha256": "45b71a6df6a0306efd4939485398660e2d5b1ba301b6d622e2da52a88a32b887",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part031",
+      "bytes": 640000000,
+      "sha256": "4ddc6350bbda0f98b4d88f6f4b00a1928a3e723be33a79e0a0677e7fc009f64d",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part032",
+      "bytes": 640000000,
+      "sha256": "babeec2700ad9adf2d937bc7e0475d6c1d7f1ca77af727ab11a4ad0951744317",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part033",
+      "bytes": 640000000,
+      "sha256": "5bfb945efb7c3e7bd96b2e91e1f00245337fb73a4d114305c4d28b81374c2eb7",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part034",
+      "bytes": 640000000,
+      "sha256": "291981fc1d1b30c17914d794a14593df63f83caf576f5c06c43deded7ecc23ad",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part035",
+      "bytes": 640000000,
+      "sha256": "192f054d8166a96d77f43742e50c1d622d5dd97c53b7724f91f2dd6da9dacb58",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part036",
+      "bytes": 640000000,
+      "sha256": "638ed622cf6198adf2945bf163f560cbe36e9408e359d18801009eaac380a1f6",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part037",
+      "bytes": 640000000,
+      "sha256": "2322d5098604a383895e2f188dafdd9b76e6963432e4205cc8ce129376898026",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part038",
+      "bytes": 640000000,
+      "sha256": "f502cdd1ee42e906c4f9e85caab2162a1d8ad3cbef387ad24f2c433642c4eac9",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part039",
+      "bytes": 640000000,
+      "sha256": "76c1fa4254a3e75e109f7cbce26a2f243d54a6bc764213cfdda7e92d06f64039",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part040",
+      "bytes": 640000000,
+      "sha256": "3b3b6e3a0eb5e5960eedf67d6a26edd5098faf38831eca6bd135f2c0a5194b7b",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part041",
+      "bytes": 640000000,
+      "sha256": "a1604efc99e83b37ee0699e95ef18bf067bfa49bfea194edec974d5e96c88527",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part042",
+      "bytes": 640000000,
+      "sha256": "43036b585b3792925784c9808b94cdcace94149d04aaa198fe3c53a616abb070",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part043",
+      "bytes": 640000000,
+      "sha256": "ab6c541b816b5a2acd19f676de7a49f6c36988a6ce7350c63a403e4efc1398f7",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part044",
+      "bytes": 640000000,
+      "sha256": "73e76c661259adbe23d8356c9765db8130ffce882d9468d1a182697024f63301",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part045",
+      "bytes": 640000000,
+      "sha256": "2e6eda517fb1f2388c0f2843a9561c175a5a3d2e0873778fd81aee501320dba9",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part046",
+      "bytes": 640000000,
+      "sha256": "1c1fa8f517f3d51b141176fc116d3c7a4e42ca110b37adb3097513a58f4fbbcd",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part047",
+      "bytes": 640000000,
+      "sha256": "236603f3e60c63e7b06a658833dc47f2495f85a4dd005519fb3e2208d74089a6",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part048",
+      "bytes": 640000000,
+      "sha256": "5b01070c77f19f98a1952104aff5d80f012691ff6042caf9c0cbd740a1f41582",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part049",
+      "bytes": 640000000,
+      "sha256": "4f4b981d6662096c559a325065943422d4a3fc878a8b18a95d6b7292edbf571c",
+      "sha256_verified": true
+    },
+    {
+      "name": "research-snapshot-20261027.tar.zst.part050",
+      "bytes": 543214706,
+      "sha256": "cd8b29d5ca372a76ca891f4f36366eb8d9cb77eddbd272658ba9bfc944e592ce",
+      "sha256_verified": true
+    }
+  ],
+  "elapsed_seconds": 398.84,
+  "public_metadata_contains_no_workspace_absolute_path": true
+}

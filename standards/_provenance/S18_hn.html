@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湖南智慧水利网</title>
+    <meta name="description" content="intro">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/portal.css?v=74">
+    <link rel="stylesheet" href="/static/css/home-v2.css?v=28">
+        <link rel="preload" as="image" href="/static/images/banners/banner-3.jpg" fetchpriority="high">
+    <!-- 51.la 流量统计 -->
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"LJO5IZeSwta8mqjn",ck:"LJO5IZeSwta8mqjn"})</script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f7595a4e7b7a316efbd0aca85b08f538";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</head>
+<body>
+<div class="site">
+    <div class="top-service-bar" id="topServiceBar">
+        <div class="wrap">
+            <div class="top-left-tools">
+                <div class="mobile-entry" id="mobileEntry">
+                    <button type="button" class="mobile-btn" id="mobileBtn">移动端入口</button>
+                    <div class="mobile-panel" id="mobilePanel" hidden>
+                        <p class="mobile-title">手机扫码访问</p>
+                        <div id="mobileQr" class="mobile-qr" aria-hidden="true"></div>
+                        <p class="mobile-url" id="mobileUrl"></p>
+                        <p class="mobile-tip">本站已适配手机浏览器，也可直接用手机打开上方链接</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-links">
+                <a href="javascript:;" onclick="try{this.style.behavior='url(#default#homepage)';this.setHomePage(location.href);}catch(e){alert('请通过浏览器菜单设为首页');}">设为首页</a>
+                <a href="javascript:;" onclick="alert('请按 Ctrl+D 加入收藏')">加入收藏</a>
+                <a href="javascript:;" id="btnA11y" aria-pressed="false">无障碍浏览</a>
+                                <div class="top-login">
+                    <a href="/login">登录</a>
+                    <a href="/register">注册</a>
+                </div>
+                            </div>
+        </div>
+    </div>
+
+    
+    <header class="brand-nav" id="brandNav">
+        <div class="wrap brand-nav-top">
+            <a class="brand-logo" href="/">
+                <img class="logo-mark" src="/static/images/logo.png" width="48" height="48" alt="湖南智慧水利网">
+                <span class="logo-text">
+                    <strong>湖南智慧水利网</strong>
+                    <span class="brand-platform">
+                        <em>湖南智慧水利信息化资讯及交流平台</em>
+                        <span class="brand-domain">hnzhsl.com</span>
+                    </span>
+                </span>
+            </a>
+            <form class="nav-search" action="/search" method="get">
+                <input type="text" name="keyword" value="" placeholder="搜索政策、资讯、产品">
+                <button type="submit" aria-label="搜索">检索</button>
+            </form>
+        </div>
+        <nav class="main-nav">
+            <div class="wrap nav-scroll">
+                <div class="nav-inner">
+                    <a class="nav-link" href="/">首页</a>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/news">资讯动态</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/news?cat=news-national">部级动态</a>
+                                                        <a role="menuitem" class="" href="/category/news?cat=news-province">省级动态</a>
+                                                        <a role="menuitem" class="" href="/category/news?cat=news-project">重大项目动态</a>
+                                                        <a role="menuitem" class="" href="/category/news?cat=news-basin">流域专项</a>
+                                                        <a role="menuitem" class="" href="/category/news?cat=news-city">市县动态</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub is-current">
+                        <a class="nav-link is-current" href="/category/policy">政策标准</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/policy?cat=policy-national">国家级政策</a>
+                                                        <a role="menuitem" class="" href="/category/policy?cat=policy-province">省级政策</a>
+                                                        <a role="menuitem" class="" href="/category/policy?cat=policy-city">市县政策</a>
+                                                        <a role="menuitem" class="is-current" href="/category/policy?cat=policy-standard">技术标准</a>
+                                                        <a role="menuitem" class="" href="/category/policy?cat=policy-guide">规范指南</a>
+                                                        <a role="menuitem" class="" href="/category/policy?cat=policy-interpret">政策解读</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/project-info">项目信息</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=tender">招标采购</a>
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=project-plan">规划储备</a>
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=project-proposed">拟建项目</a>
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=project-building">在建项目</a>
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=project-done">竣工成果</a>
+                                                        <a role="menuitem" class="" href="/category/project-info?cat=project-case">项目案例</a>
+                                                        <a role="menuitem" class="" href="/project/map">项目地图</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/key-topic">重点专题</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/key-topic?cat=topic-twin">数字孪生一湖四水</a>
+                                                        <a role="menuitem" class="" href="/category/key-topic?cat=topic-pilot">省级智慧水利试点</a>
+                                                        <a role="menuitem" class="" href="/category/key-topic?cat=topic-flood">山洪智慧防御</a>
+                                                        <a role="menuitem" class="" href="/category/key-topic?cat=topic-irrigation">灌区数字化改造</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/ai">人工智能</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-news">AI行业动态</a>
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-solution">AI解决方案库</a>
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-product">AI产品与工具</a>
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-case">AI典型案例</a>
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-standard">AI标准与规范</a>
+                                                        <a role="menuitem" class="" href="/category/ai?cat=ai-open">AI开放能力</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/industry">产品及方案</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/industry?cat=industry-product">产品中心</a>
+                                                        <a role="menuitem" class="" href="/category/industry?cat=industry-solution">解决方案</a>
+                                                        <a role="menuitem" class="" href="/category/industry?cat=industry-vendor">供应商名录</a>
+                                                        <a role="menuitem" class="" href="/category/industry?cat=industry-match">供需发布</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/tech">水利工具箱</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/calc">水利计算工具</a>
+                                                        <a role="menuitem" class="" href="/category/tech?cat=tech-construct">施工工艺</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item has-sub">
+                        <a class="nav-link" href="/category/navhub">网站导航</a>
+                                                <div class="nav-dropdown" role="menu">
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-gov">政府主管类</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-research">科研院所类</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-media">行业协会与媒体</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-platform">技术平台类</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-enterprise">产业企业类</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-intl">国际导航</a>
+                                                        <a role="menuitem" class="" href="/category/navhub?cat=nav-city">市州分站</a>
+                                                    </div>
+                                            </div>
+                                        <div class="nav-item">
+                        <a class="nav-link" href="/forum">互动交流</a>
+                                            </div>
+                                    </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <div class="main-inner">
+            
+<div class="channel-page reveal">
+    <div class="article-layout">
+        <section class="channel-panel article-detail">
+            <header class="channel-head">
+                <div class="channel-head-main">
+                    <p class="channel-crumb">
+                        <a href="/category/policy?cat=policy-standard">技术标准</a>
+                    </p>
+                    <h1 class="page-title">水工建筑物与堰槽测流规范</h1>
+                </div>
+            </header>
+            <div class="meta article-meta is-reprint">
+                <span>转载来源：水利部现行有效标准查询系统</span>
+                <span>发布 2026-02-11</span><span>实施 2026-05-11</span><span><a href="http://121.36.94.83:9008/jsp/yishenqing/appladd/biaozhunfile/detail.jsp?bzbh=SL%252FT%2B537-2026" target="_blank" rel="noopener">原文链接</a></span>            </div>
+            <p class="summary lead">标准编号 SL/T 537-2026。电子文本由水利部公开，本站仅作目录转载，在线阅览与下载调用原文系统链接。</p>
+
+            <div class="std-actions">
+                                <a class="btn" href="http://121.36.94.83:9008/jsp/yishenqing/appladd/biaozhunfile/flash/previewImg.jsp?bzMax=SL%252FT%2B537-2026" target="_blank" rel="noopener">在线阅览</a>
+                                <a class="btn btn-ghost" href="http://121.36.94.83:9008/jsp/yishenqing/appladd/biaozhunfile/detail.jsp?bzbh=SL%252FT%2B537-2026" target="_blank" rel="noopener">实施信息反馈</a>
+                                <span class="std-tip">推荐性标准请在线阅览，水利部未提供文件下载</span>
+                            </div>
+
+            <table class="std-meta">
+                <tr>
+                    <th>标准编号</th>
+                    <td>SL/T 537-2026</td>
+                    <th>替代标准号</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>发布日期</th>
+                    <td>2026/2/11</td>
+                    <th>实施日期</th>
+                    <td>2026/05/11</td>
+                </tr>
+                <tr>
+                    <th>中文标准名称</th>
+                    <td colspan="3">水工建筑物与堰槽测流规范</td>
+                </tr>
+                <tr>
+                    <th>英文标准名称</th>
+                    <td colspan="3">Specification for measurement of flow by hydraulic structure,weir and flume</td>
+                </tr>
+                <tr>
+                    <th>标准状态</th>
+                    <td>已颁</td>
+                    <th>标准类型</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>标准性质</th>
+                    <td>推荐性标准</td>
+                    <th>批准发布公告</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>专业门类</th>
+                    <td>水文</td>
+                    <th>功能序列</th>
+                    <td>监测预测</td>
+                </tr>
+                <tr>
+                    <th>主持机构</th>
+                    <td colspan="3">水文司</td>
+                </tr>
+                <tr>
+                    <th>主编单位</th>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <th>参编单位</th>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+            <p class="std-note">本系统所提供的电子文本仅供个人学习、研究之用，请以正式标准出版物为准。</p>
+
+                        <section class="std-ai">
+                <h2>标准解读</h2>
+                <p class="std-ai-lead">根据已入库题录整理，供学习参考，不替代正式文本。</p>
+                <div class="std-brief">《水工建筑物与堰槽测流规范》（SL/T 537-2026）是水利行业推荐性标准，文件类型为技术规范。
+在现行有效标准体系中，归入专业门类「水文」、功能序列「监测预测」。
+主要用于水文测验、站网管理、资料整编与水文设施建设管理等环节。侧重监测项目、方法、精度与预测评价。
+发布日期 2026-02-11。实施日期 2026-05-11。
+主持机构：水文司。
+标准系列号为 SL/T 537，同系列或同门类文件可作为配套查阅对象。
+推荐性标准一般提供在线阅览、不提供文件下载；电子文本仅供学习研究，请以正式出版物为准。</div>
+                                <h3>常见问答</h3>
+                <dl class="std-faq">
+                                        <dt>本标准主要管什么、适用什么场景？</dt>
+                    <dd>《水工建筑物与堰槽测流规范》属于推荐性标准，主要用于水文测验、站网管理、资料整编与水文设施建设管理等环节。侧重监测项目、方法、精度与预测评价。具体条款、指标与程序以标准正式文本为准。</dd>
+                                        <dt>如何查询、阅读或下载本标准？</dt>
+                    <dd>本站转载水利部现行有效标准题录。可在本站详情页点击「在线阅览」，跳转水利部现行有效标准查询系统阅读电子文本；推荐性标准通常不提供下载。查阅时请核对标准编号 SL/T 537-2026。</dd>
+                                        <dt>有没有相近或同系列的其他标准？</dt>
+                    <dd>可按专业门类「水文」、功能序列「监测预测」或系列号 SL/T 537 检索同体系其他标准，详情页「相关标准」已按此归集。</dd>
+                                    </dl>
+                                <div class="ai-workbench std-qa" id="aiQaBox" data-endpoint="/standard/ask" data-id="14">
+                    <form class="ai-qa-form" id="aiQaForm">
+                        <label for="aiQaInput">对本标准继续提问</label>
+                        <textarea id="aiQaInput" name="q" rows="2" maxlength="300" placeholder="例如：适用什么工程？和同系列其他部分怎么配合？"></textarea>
+                        <div class="ai-qa-samples">
+                                                        <button type="button" class="ai-chip" data-q="本标准主要管什么、适用什么场景？">本标准主要管什么、适用什么场景？</button>
+                                                        <button type="button" class="ai-chip" data-q="如何查询、阅读或下载本标准？">如何查询、阅读或下载本标准？</button>
+                                                        <button type="button" class="ai-chip" data-q="有没有相近或同系列的其他标准？">有没有相近或同系列的其他标准？</button>
+                                                    </div>
+                        <button class="btn" type="submit">开始问答</button>
+                    </form>
+                    <div class="ai-result" id="aiQaResult" hidden>
+                        <h2>回答</h2>
+                        <div class="ai-answer" id="aiQaAnswer"></div>
+                        <p class="ai-tips" id="aiQaTips"></p>
+                        <div class="ai-hits" id="aiQaHits"></div>
+                    </div>
+                </div>
+            </section>
+                    </section>
+
+        <aside class="article-sidebar">
+            <div class="side-card">
+                <h2 class="side-title">相关标准</h2>
+                <ul class="side-related">
+                                        <li>
+                        <a href="/standard/2">水质水生态监测规范</a>
+                        <time>SL/T 219-2026</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/151">地下水监测工程技术标准</a>
+                        <time>GB/T 51040-2023</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/174">水文自动测报系统技术规范</a>
+                        <time>GB/T 41368-2022</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/225">水文年鉴汇编刊印规范</a>
+                        <time>SL/T 460-2020</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/224">水文资料整编规范</a>
+                        <time>SL/T 247-2020</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/266">水文应急监测技术导则</a>
+                        <time>SL/T 784-2019</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/301">水情预警信号</a>
+                        <time>SL 758-2018</time>
+                    </li>
+                                        <li>
+                        <a href="/standard/332">水道观测规范</a>
+                        <time>SL 257-2017</time>
+                    </li>
+                                    </ul>
+                            </div>
+
+                        <div class="side-card side-ads">
+                <h2 class="side-title">推荐服务</h2>
+                                <a class="side-ad has-image" href="/ad/go/19" target="_blank" rel="nofollow sponsored noopener" >
+                    <span class="ad-badge">广告</span>
+                                        <img src="/uploads/ads/202610/14235056_92688b30.png" alt="x">
+                                    </a>
+                                <a class="side-ad has-image" href="/ad/go/17" target="_blank" rel="nofollow sponsored noopener" >
+                    <span class="ad-badge">广告</span>
+                                        <img src="/uploads/ads/202610/14235055_e670baad.jpg" alt="x">
+                                    </a>
+                                <a class="side-ad has-image" href="/ad/go/13" target="_blank" rel="nofollow sponsored noopener" >
+                    <span class="ad-badge">广告</span>
+                                        <img src="https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2025%2F0319%2F0e8b49bfj00stcy7a004cc0008c004pc.jpg&amp;thumbnail=300y169&amp;quality=100&amp;type=jpg" alt="广告位3">
+                                    </a>
+                            </div>
+                    </aside>
+    </div>
+</div>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div class="footer-col">
+                <div class="footer-brand-line">
+                    <img class="logo-mark small" src="/static/images/logo.png" width="28" height="28" alt="">
+                    <strong>湖南智慧水利网</strong>
+                </div>
+                <p>湖南智慧水利信息化资讯及交流平台</p>
+                <p>域名：<a href="https://www.hnzhsl.com/" target="_blank" rel="noopener">hnzhsl.com</a></p>
+                <p>运营单位：hn 承建运营</p>
+            </div>
+            <div class="footer-col">
+                <h4>快速导航</h4>
+                <a href="/category/policy">政策标准</a>
+                <a href="/category/project-info">项目信息</a>
+                <a href="/category/project-info?cat=project-case">项目案例</a>
+                <a href="/category/ai">人工智能</a>
+                <a href="/category/industry">产品及方案</a>
+                <a href="/category/tech">水利工具箱</a>
+                <a href="/category/navhub">网站导航</a>
+                <a href="/forum">互动交流</a>
+            </div>
+            <div class="footer-col">
+                <h4>服务支持</h4>
+                <a href="/category/guide-vendor">企业入驻指引</a>
+                <a href="/category/guide-download">资料下载说明</a>
+                <a href="/category/guide-tools">工具使用帮助</a>
+                <a href="/category/guide-faq">常见问题</a>
+                <a href="/privacy">隐私条款</a>
+                <a href="/disclaimer">免责声明</a>
+                <a href="/contact">联系我们</a>
+            </div>
+            <div class="footer-col">
+                <h4>联系我们</h4>
+                <p>咨询电话：1</p>
+                <p>商务邮箱：a@a.com</p>
+                <p>办公地址：hn</p>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="wrap footer-copy-inner">
+                <div class="footer-copy-left">
+                    <div class="region-switch footer-region" id="regionSwitch">
+                        <button type="button" class="region-btn" id="regionBtn" aria-expanded="false">
+                            <span>市州筛选</span>
+                            <strong id="regionLabel">全部</strong>
+                        </button>
+                        <div class="region-panel" id="regionPanel" hidden>
+                                                        <a class="" href="/region/changsha">长沙市</a>
+                                                        <a class="" href="/region/zhuzhou">株洲市</a>
+                                                        <a class="" href="/region/xiangtan">湘潭市</a>
+                                                        <a class="" href="/region/hengyang">衡阳市</a>
+                                                        <a class="" href="/region/shaoyang">邵阳市</a>
+                                                        <a class="" href="/region/yueyang">岳阳市</a>
+                                                        <a class="" href="/region/changde">常德市</a>
+                                                        <a class="" href="/region/zhangjiajie">张家界市</a>
+                                                        <a class="" href="/region/yiyang">益阳市</a>
+                                                        <a class="" href="/region/chenzhou">郴州市</a>
+                                                        <a class="" href="/region/yongzhou">永州市</a>
+                                                        <a class="" href="/region/huaihua">怀化市</a>
+                                                        <a class="" href="/region/loudi">娄底市</a>
+                                                        <a class="" href="/region/xiangxi">湘西土家族苗族自治州</a>
+                                                    </div>
+                    </div>
+                    <p>© hn 保留所有权利 | 1 | <a href="/privacy">隐私条款</a> | <a href="/disclaimer">免责声明</a></p>
+                </div>
+                <div class="footer-friends">
+                    友情链接：
+                                        <a href="https://slgh.cbpt.cnki.net/" target="_blank" rel="noopener">中国知网&middot;水利规划</a>
+                                        <a href="https://www.cfdm.cn/" target="_blank" rel="noopener">中国大坝工程学会</a>
+                                        <a href="https://www.digiwater.cn/" target="_blank" rel="noopener">数字水利</a>
+                                        <a href="http://www.cwec.org.cn/" target="_blank" rel="noopener">中国水利工程协会</a>
+                                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="back-top" id="backTop" aria-label="返回顶部">↑</button>
+</div>
+<div id="a11yPanel" class="a11y-panel" hidden>
+    <strong>无障碍工具</strong>
+    <button type="button" id="a11yNormal">标准字号</button>
+    <button type="button" id="a11yBigger">大号字体</button>
+    <button type="button" id="a11yXLarge">特大字体</button>
+    <button type="button" id="a11yContrast">高对比度</button>
+</div>
+<script src="/static/js/qrcode.min.js"></script>
+<script src="/static/js/site-tools.js?v=2"></script>
+<script src="/static/js/portal.js?v=48"></script>
+<script src="/static/js/ai-tools.js?v=2"></script>
+<script src="/static/js/calc-tools.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>29741标准下载 - 库七七</title>
+<meta name="keywords" content="29741,标准下载,行业标准" />
+<meta name="description" content="库七七提供29741相关标准PDF全文下载。" />
+<link rel="stylesheet" href="/ecmsshop/new/css/common.css">
+<link rel="stylesheet" href="/ecmsshop/new/css/list.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+<style>
+.search-page .search-summary {
+    padding: 12px 16px;
+    background: #f0f4f8;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: var(--text-muted);
+}
+.search-page .search-summary strong {
+    color: var(--primary);
+}
+.search-page .search-history {
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 14px;
+}
+.search-page .search-history .history-label {
+    font-weight: 600;
+    color: var(--text-main);
+}
+.search-page .search-history .history-item {
+    color: var(--primary);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.search-page .search-history .history-item:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+.search-page .search-history .history-clear {
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 12px;
+}
+.search-page .search-history .history-clear:hover {
+    color: var(--primary);
+}
+.search-page .list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+}
+.search-page .list-item:last-child {
+    border-bottom: none;
+}
+.search-page .list-item .list-num {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--bg-body);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+}
+.search-page .list-item .list-title {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+}
+.search-page .list-item .list-title .highlight {
+    color: var(--primary);
+    font-weight: 700;
+}
+.search-page .list-item .list-link {
+    color: var(--text-main);
+    text-decoration: none;
+}
+.search-page .list-item .list-link:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.search-page .list_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 24px 0 10px;
+    padding: 8px 0;
+}
+.search-page .list_page a,
+.search-page .list_page span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    color: #4a5568;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+.search-page .list_page a:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(192, 57, 43, 0.2);
+}
+.search-page .list_page span.thisclass {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    font-weight: 600;
+    box-shadow: 0 3px 8px rgba(192, 57, 43, 0.25);
+    transform: translateY(-1px);
+}
+.search-page .list_page span.disabled {
+    color: #b0b8c4;
+    background: #f7fafc;
+    border-color: #edf2f7;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.search-page .list_page span.ellipsis {
+    border: none;
+    background: transparent;
+    color: #a0aec0;
+    min-width: auto;
+    padding: 0 4px;
+    cursor: default;
+    box-shadow: none;
+    transform: none;
+}
+.search-page .list_page a.prev,
+.search-page .list_page a.next,
+.search-page .list_page span.prev,
+.search-page .list_page span.next {
+    padding: 0 14px;
+    font-weight: 600;
+    background: #f7fafc;
+    border-color: #e2e8f0;
+}
+.search-page .list_page a.prev:hover,
+.search-page .list_page a.next:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+@media (max-width: 640px) {
+    .search-page .list_page a,
+    .search-page .list_page span {
+        min-width: 30px;
+        height: 30px;
+        padding: 0 8px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .search-page .list_page a.prev,
+    .search-page .list_page a.next,
+    .search-page .list_page span.prev,
+    .search-page .list_page span.next {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 480px) {
+    .search-page .list_page a,
+    .search-page .list_page span {
+        min-width: 28px;
+        height: 28px;
+        padding: 0 6px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .search-page .list_page {
+        gap: 3px;
+    }
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+footer.footer-bottom {
+    flex-shrink: 0;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo-wrapper">
+                    <div class="logo-text">
+                        <a href="/">
+                            <span class="char-red">库</span>
+                            <span class="char-dark">七</span>
+                            <span class="char-light">七</span>
+                        </a>
+                    </div>
+                    <span class="logo-badge"><a href="/">标准库</a></span>
+                </div>
+                <div class="header-right">
+                    <div class="login-area">
+                        <script src="/e/member/login/loginjs.php"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-wrap">
+        <div class="container">
+            <form action="/e/sch/index.php" method="get" class="search-form">
+                <input type="text" name="keyboard" id="keyboard" placeholder="请输入标准号或简短关键词…" />
+                <button type="submit" name="Submit">搜索</button>
+            </form>
+        </div>
+    </div>
+
+<div class="breadcrumb-wrap">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="当前位置">
+            <a href="/">首页</a>
+            <span class="sep">›</span>
+            <span class="current">搜索：<strong>29741</strong></span>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <main class="main-content search-page">
+
+        <h1 class="page-title">搜索“29741”的结果</h1>
+
+        <div class="search-history" id="searchHistory"></div>
+
+        <div class="search-summary">
+            系统搜索到约有 <strong>2</strong> 项符合 <strong>29741</strong> 的查询结果
+        </div>
+
+        
+
+            <dl class="list-item">
+                <dt class="list-num">1</dt>
+                <dd class="list-title">
+                    <a href="/gb/453698.html" title="[!--oldtitle--]" class="list-link">GB <font color="red">29741</font>-2025 铝电解安全生产规范</a>
+                </dd>
+            </dl>
+        
+
+            <dl class="list-item">
+                <dt class="list-num">2</dt>
+                <dd class="list-title">
+                    <a href="/gb/134908.html" title="[!--oldtitle--]" class="list-link">GB <font color="red">29741</font>-2013 铝电解安全生产规范</a>
+                </dd>
+            </dl>
+        
+
+
+        <div class="list_page">
+                    </div>
+
+    </main>
+</div>
+
+<footer class="footer-bottom">
+    <p class="copyright">© 2026  <a href="https://www.kqqw.com" target="_blank">库七七</a> 技术交流与学习平台</p>
+    <p class="contact-email">联系邮箱：<a href="mailto:tianxia123123@foxmail.com">tianxia123123@foxmail.com</a></p>
+</footer>
+
+<script>
+(function() {
+    var STORAGE_KEY = 'kqqw_search_history';
+    var MAX_HISTORY = 10;
+    var currentKeyword = document.querySelector('.search-summary strong:last-child');
+    var keyword = currentKeyword ? currentKeyword.textContent.trim() : '';
+    function saveHistory(keyword) {
+        if (!keyword) return;
+        var history = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        history = history.filter(function(item) { return item !== keyword; });
+        history.unshift(keyword);
+        if (history.length > MAX_HISTORY) {
+            history = history.slice(0, MAX_HISTORY);
+        }
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+    }
+    function renderHistory() {
+        var container = document.getElementById('searchHistory');
+        if (!container) return;
+        var history = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        if (history.length === 0) {
+            container.innerHTML = '';
+            return;
+        }
+        var html = '<span class="history-label">最近搜索：</span>';
+        history.forEach(function(item, index) {
+            html += '<span class="history-item" data-keyword="' + encodeURIComponent(item) + '">' + escapeHtml(item) + '</span>';
+        });
+        html += '<span class="history-clear" id="clearHistory">清空</span>';
+        container.innerHTML = html;
+        container.querySelectorAll('.history-item').forEach(function(el) {
+            el.addEventListener('click', function(e) {
+                var kw = decodeURIComponent(this.getAttribute('data-keyword'));
+                window.location.href = '/e/sch/index.php?keyboard=' + encodeURIComponent(kw) + '&Submit=搜索';
+            });
+        });
+        var clearBtn = document.getElementById('clearHistory');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', function() {
+                localStorage.removeItem(STORAGE_KEY);
+                renderHistory();
+            });
+        }
+    }
+    function escapeHtml(text) {
+        var div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+    if (keyword) {
+        saveHistory(keyword);
+    }
+    renderHistory();
+})();
+</script>
+
+</body>
+</html>

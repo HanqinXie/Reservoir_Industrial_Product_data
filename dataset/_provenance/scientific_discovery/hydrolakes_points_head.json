@@ -1,0 +1,21 @@
+{
+  "Date": "Mon, 26 Oct 2026 17:33:48 GMT",
+  "Content-Type": "application/zip",
+  "Content-Length": "78725399",
+  "Connection": "keep-alive",
+  "Strict-Transport-Security": "max-age=63072000",
+  "x-bz-file-name": "HydroLAKES_points_v10_shp.zip",
+  "x-bz-file-id": "4_z2dd0aced54377d2670d40d12_f104b69c7ba4da1d3_d20220410_m201901_c000_v0001060_t0040_u01649621941316",
+  "x-bz-content-sha1": "83cdb7eeb383f0973e267f31bdc58c94fcf13304",
+  "X-Bz-Upload-Timestamp": "1649621941316",
+  "Accept-Ranges": "bytes",
+  "x-bz-info-src_last_modified_millis": "1649618526000",
+  "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+  "Age": "539303",
+  "last-modified": "Tue, 20 Oct 2026 11:45:24 GMT",
+  "cf-cache-status": "HIT",
+  "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9pBxw85OzuZVa0OYp1Z8bTWOgOrkVXSOm%2FRGmFdqM%2F4r8KwjeKHI0GJ7O2VfWzDZGafGTVzCcsk4aonYQD4OJgf2hmOC0jr2s8qVlegEmoFBV2QxqihMaWby804r0abj7SJFN6dVtpu6X4knRV%2FuRSc7\"}]}",
+  "Server": "cloudflare",
+  "CF-RAY": "a50b3549ff9f869d-NRT",
+  "alt-svc": "h3=\":443\"; ma=86400"
+}

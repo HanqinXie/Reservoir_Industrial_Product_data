@@ -1,0 +1,245 @@
+{
+  "files": [
+    {
+      "id": 35959532,
+      "name": "HydroATLAS_TechDoc_v10_1.pdf",
+      "size": 3656999,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35959532",
+      "supplied_md5": "f37085c99a987752a37d8327c0a96922",
+      "computed_md5": "f37085c99a987752a37d8327c0a96922",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 35959535,
+      "name": "LakeATLAS_Catalog_v10.pdf",
+      "size": 54055742,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35959535",
+      "supplied_md5": "dfb3501640ed034360486a8304d00d8b",
+      "computed_md5": "dfb3501640ed034360486a8304d00d8b",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 35959544,
+      "name": "LakeATLAS_Data_v10.gdb.zip",
+      "size": 1530962499,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35959544",
+      "supplied_md5": "952e0724afc96d3a5899f08935d4a094",
+      "computed_md5": "952e0724afc96d3a5899f08935d4a094",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 35959547,
+      "name": "LakeATLAS_Data_v10_shp.zip",
+      "size": 1612526498,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35959547",
+      "supplied_md5": "28816de9f22804f8c7354d021d5fdeb1",
+      "computed_md5": "28816de9f22804f8c7354d021d5fdeb1",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 6053444,
+      "full_name": "Bernhard Lehner",
+      "first_name": "Bernhard",
+      "last_name": "Lehner",
+      "is_active": true,
+      "url_name": "Bernhard_Lehner",
+      "orcid_id": "0000-0003-3712-2581"
+    },
+    {
+      "id": 9917610,
+      "full_name": "Mathis Messager",
+      "first_name": "Mathis",
+      "last_name": "Messager",
+      "is_active": true,
+      "url_name": "Mathis_Messager",
+      "orcid_id": "0000-0002-3051-8068"
+    },
+    {
+      "id": 12897837,
+      "full_name": "Maartje Korver",
+      "first_name": "Maartje",
+      "last_name": "Korver",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 12897840,
+      "full_name": "Simon Linke",
+      "first_name": "Simon",
+      "last_name": "Linke",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/LakeATLAS_version_1_0/19312001",
+  "download_disabled": false,
+  "description": "<p>This is the LakeATLAS dataset, version 1.0, which is fully described in Lehner et al. 2022 (see DOI-link in References below).</p>\n<p><br>\n<strong>In this Figshare repository, there are 2 zipped data files (each >1.5 GB in size) containing all global data in 2 formats:</strong></p>\n<p>1. LakeATLAS_Data_v10.gdb.zip (lake polygons and outlet points, in geodatabase format)<br>\n2. LakeATLAS_Data_v10_shp.zip (lake polygons and outlet points, in shapefile format)<br>\n</p>\n<p><strong>There are also 2 PDF  files that provide technical specifications:</strong></p>\n<p>1. HydroATLAS_TechDoc_v10_1.pdf (technical documentation of the overarching HydroATLAS database which includes LakeATLAS)<br>\n2. LakeATLAS_Catalog_v10.pdf (catalog file listing all lake attributes)</p>",
+  "funding": "Discovery Grant from the Natural Sciences and Engineering Research Council of Canada (NSERC-DG; RGPIN/341992)",
+  "funding_list": [
+    {
+      "id": 16588616,
+      "title": "Discovery Grant from the Natural Sciences and Engineering Research Council of Canada (NSERC-DG; RGPIN/341992)",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 16588619,
+      "title": "Discovery Early Career Researcher Award from the Australian Research Council (ARC-DECRA; DE130100565)",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 3201201738,
+  "created_date": "2022-06-21T02:41:32Z",
+  "modified_date": "2023-05-31T05:35:33Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Global",
+    "Lakes",
+    "Hydrography",
+    "Surface water",
+    "Characteristics",
+    "Ecohydrology",
+    "Hydrology",
+    "Limnology",
+    "Environmental Science",
+    "Conservation and Biodiversity"
+  ],
+  "keywords": [
+    "Global",
+    "Lakes",
+    "Hydrography",
+    "Surface water",
+    "Characteristics",
+    "Ecohydrology",
+    "Hydrology",
+    "Limnology",
+    "Environmental Science",
+    "Conservation and Biodiversity"
+  ],
+  "categories": [
+    {
+      "id": 25894,
+      "title": "Hydrology not elsewhere classified",
+      "parent_id": 25876,
+      "path": "/25717/25876/25894",
+      "source_id": "370799",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24238,
+      "title": "Ecology not elsewhere classified",
+      "parent_id": 24211,
+      "path": "/24130/24211/24238",
+      "source_id": "310399",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25840,
+      "title": "Geology not elsewhere classified",
+      "parent_id": 25801,
+      "path": "/25717/25801/25840",
+      "source_id": "370599",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25888,
+      "title": "Surface water hydrology",
+      "parent_id": 25876,
+      "path": "/25717/25876/25888",
+      "source_id": "370704",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26998,
+      "title": "Other environmental sciences not elsewhere classified",
+      "parent_id": 26995,
+      "path": "/26863/26995/26998",
+      "source_id": "419999",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26932,
+      "title": "Conservation and biodiversity",
+      "parent_id": 26929,
+      "path": "/26863/26929/26932",
+      "source_id": "410401",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1038/s41597-022-01425-z",
+    "https://www.hydrosheds.org/hydroatlas"
+  ],
+  "has_linked_file": false,
+  "citation": "Lehner, Bernhard; Messager, Mathis; Korver, Maartje; Linke, Simon (2022). LakeATLAS version 1.0. figshare. Dataset. https://doi.org/10.6084/m9.figshare.19312001.v1",
+  "related_materials": [
+    {
+      "id": 8507006,
+      "identifier": "https://doi.org/10.1038/s41597-022-01425-z",
+      "title": "",
+      "relation": "References",
+      "identifier_type": "URL",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1038/s41597-022-01425-z"
+    },
+    {
+      "id": 8507009,
+      "identifier": "https://www.hydrosheds.org/hydroatlas",
+      "title": "",
+      "relation": "References",
+      "identifier_type": "URL",
+      "is_linkout": false,
+      "link": "https://www.hydrosheds.org/hydroatlas"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 19312001,
+  "title": "LakeATLAS version 1.0",
+  "doi": "10.6084/m9.figshare.19312001.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/19312001",
+  "published_date": "2022-06-21T02:41:32Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/35959532/thumb.png",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/19312001",
+  "url_public_api": "https://api.figshare.com/v2/articles/19312001",
+  "url_private_html": "https://figshare.com/account/articles/19312001",
+  "url_public_html": "https://figshare.com/articles/dataset/LakeATLAS_version_1_0/19312001",
+  "timeline": {
+    "posted": "2022-06-21T02:41:32",
+    "firstOnline": "2022-06-21"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

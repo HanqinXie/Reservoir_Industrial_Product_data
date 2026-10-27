@@ -1,0 +1,134 @@
+{
+  "type": "Collection",
+  "id": "cems-glofas-historical",
+  "stac_version": "1.1.0",
+  "title": "River discharge and related historical data from the Global Flood Awareness System",
+  "description": "This dataset provides gridded modelled daily hydrological time series forced with meteorological reanalysis data. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with ERA5 meteorological reanalysis data, interpolated to the GloFAS resolution, produced at a 24-hourly timestep. Two variations of the ERA5 forcing data are used, resulting in two types of hydrological data: intermediate and consolidated. Intermediate hydrological data is produced using ERA5 Near Real Time (ERA5T) data and is updated daily, whilst consolidated hydrological data is produced using the consolidated ERA5 reanalysis and is updated monthly.\nCompanion datasets, also available through the EWDS, are forecasts for users who are looking for medium-range forecasts, reforecasts for research, local skill assessment and post-processing, and seasonal forecasts and reforecasts for users looking for long-term forecasts. For users specifically interested in European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations. \nAll the GloFAS and EFAS datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission’s Joint Research Centre.",
+  "summaries": {},
+  "providers": [
+    {
+      "name": "ECMWF"
+    }
+  ],
+  "keywords": [
+    "Product type: Reanalysis",
+    "Temporal coverage: Past",
+    "Spatial coverage: Global",
+    "Provider: Copernicus CEMS",
+    "Variable domain: Land (hydrology)"
+  ],
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.0,
+          -70.0,
+          360.0,
+          70.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1979-01-01T00:00:00+00:00",
+          "2026-10-23T00:00:00+00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-historical"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "license",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+      "title": "CEMS-FLOODS datasets licence",
+      "rev": 1,
+      "id": "cems-floods"
+    },
+    {
+      "rel": "form",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/form_d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "constraints",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/constraints_bd574b4475fb02735b19240264ac9d3bb098fda189cec0bea21b26b5d713e071.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "retrieve",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-historical",
+      "type": "application/json"
+    },
+    {
+      "rel": "costing_api",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-historical/costing",
+      "type": "application/json"
+    },
+    {
+      "rel": "layout",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/layout_181a34545a7994d02a3524d06e4952b1b7c701fb4b7184cbcf341f8adce365fe.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-reforecast",
+      "title": "Reforecasts of river discharge and related data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal-reforecast",
+      "title": "Seasonal reforecasts of river discharge and related data from the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal",
+      "title": "Seasonal forecasts of river discharge and related data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-forecast",
+      "title": "River discharge and related forecasted data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "messages",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-historical/messages",
+      "title": "All active messages on River discharge and related historical data from the Global Flood Awareness System"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/overview_779934fbef02d194554ae626a1c5570e24a2e2a2e4b2ae7e8c54b4ca0c7fe9d0.png",
+      "type": "image/jpg",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "published": "2019-11-05T00:00:00Z",
+  "updated": "2026-10-26T00:00:00Z",
+  "sci:doi": "10.24381/cds.a4fdd6b9",
+  "cads:disabled_reason": null,
+  "cads:sanity_check": {
+    "status": "down",
+    "timestamp": "2026-10-26T17:15:11.310029+00:00"
+  },
+  "cads:update_frequency": "Daily",
+  "cads:fair": 84
+}

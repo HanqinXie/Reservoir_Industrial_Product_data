@@ -1,0 +1,244 @@
+{
+  "id": "D24",
+  "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+  "directory": "D24_CLEAR",
+  "status": "complete",
+  "expected_file_count": 4,
+  "verified_file_count": 4,
+  "original_bytes": 48214514,
+  "extracted_bytes": 181239253,
+  "files": [
+    {
+      "id": "D24",
+      "directory": "D24_CLEAR",
+      "name": "Appendix1.xlsx",
+      "source_url": "https://ndownloader.figshare.com/files/61008652",
+      "expected_bytes": 106395,
+      "expected_md5": "02a822f1ece36ed68ce1831f4bae2d4a",
+      "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+      "version": 3,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "started_utc": "2026-10-26T17:57:55.255415+00:00",
+      "status": "downloaded",
+      "path": "D24_CLEAR\\Appendix1.xlsx",
+      "byte_size": 106395,
+      "sha256": "13e31a83ce1fbc7576a9b376652ed1801de70e8b9882922f19edec9aec0b91da",
+      "md5": "02a822f1ece36ed68ce1831f4bae2d4a",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:57:55.258860+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:08.548143+00:00"
+    },
+    {
+      "id": "D24",
+      "directory": "D24_CLEAR",
+      "name": "Appendix2.xlsx",
+      "source_url": "https://ndownloader.figshare.com/files/61008682",
+      "expected_bytes": 384089,
+      "expected_md5": "8841fe650968596aa27200045dd90f51",
+      "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+      "version": 3,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "started_utc": "2026-10-26T17:57:55.321944+00:00",
+      "status": "downloaded",
+      "path": "D24_CLEAR\\Appendix2.xlsx",
+      "byte_size": 384089,
+      "sha256": "9853e7124725bd9cfa80dee11e579ec6dfc42d711128f34658dc1217b615d5bd",
+      "md5": "8841fe650968596aa27200045dd90f51",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:57:55.327989+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:08.552134+00:00"
+    },
+    {
+      "id": "D24",
+      "directory": "D24_CLEAR",
+      "name": "Appendix3.zip",
+      "source_url": "https://ndownloader.figshare.com/files/61008688",
+      "expected_bytes": 47699156,
+      "expected_md5": "887ce086d7f89648befa8bc4efc8a697",
+      "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+      "version": 3,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "started_utc": "2026-10-26T17:57:55.383686+00:00",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/61008688/Appendix3.zip",
+      "content_type": "application/zip",
+      "status": "downloaded_and_extracted",
+      "path": "D24_CLEAR\\Appendix3.zip",
+      "byte_size": 47699156,
+      "sha256": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+      "md5": "887ce086d7f89648befa8bc4efc8a697",
+      "official_md5_verified": true,
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D24_CLEAR\\extracted\\Appendix3",
+        "member_count": 24,
+        "uncompressed_bytes": 181239253,
+        "members": [
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.cpg",
+            "byte_size": 5,
+            "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.dbf",
+            "byte_size": 3149114,
+            "sha256": "7eb31f082c84f1bf8dd11bc6a0a3c1ea29ff9faf7f75ca6aa714235397e0bc0c"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.prj",
+            "byte_size": 145,
+            "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.sbn",
+            "byte_size": 8820,
+            "sha256": "f8e07c0dc67e85cf785146d97c155488b9fcf337eb77640e3c50977dae52f2f2"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.sbx",
+            "byte_size": 580,
+            "sha256": "7121231284a6ca883e0209dc4d0f77bc83ed203116f936b171f70e77e2066d24"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.shp",
+            "byte_size": 25664,
+            "sha256": "425d9ca409212dac21354f08a2a7eeb8b45d71c23ce3868b9845b4efa0b92b42"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.shp.xml",
+            "byte_size": 12781,
+            "sha256": "b434ec37216a169619088bb927c649ff86620125361c659e597a55271d64008c"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\Dam.shx",
+            "byte_size": 7404,
+            "sha256": "891cf9bfa3c16c9260a25c6fdfe06827e37d399602f952dc6a32a2d6934d58a5"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.cpg",
+            "byte_size": 5,
+            "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.dbf",
+            "byte_size": 3149114,
+            "sha256": "bebeb489197cb8175dbfc0bd45f250f25d90d7c3c21dac1b932b3567d5dc527d"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.prj",
+            "byte_size": 144,
+            "sha256": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbn",
+            "byte_size": 8828,
+            "sha256": "20b8594ab87ef73337304fc9782a36094e1d2a31080bdcea22014a1e46a546b2"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbx",
+            "byte_size": 596,
+            "sha256": "06a597e03617fc4bf0cd9d05e46f640ce3013838e7873a7e00cb44c4525136d0"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp",
+            "byte_size": 117891948,
+            "sha256": "dfae2a11b182a4867e2a2b98f3ca005b8c88516a07c8a38532667f00fbd5bc81"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp.xml",
+            "byte_size": 13031,
+            "sha256": "8d343755df14650ec5309275c3f005ba183da7e43a86da168543b202d6a6b51c"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shx",
+            "byte_size": 7404,
+            "sha256": "b55c405d574308328c694d34cbe67ba3c5d18e4aa9bf40b7af3321c006bc5a0e"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.cpg",
+            "byte_size": 5,
+            "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.dbf",
+            "byte_size": 3149114,
+            "sha256": "c51687399d2ec4821c4d90f8d11685db8f5ebbaf6d41b49c61849128af12258f"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.prj",
+            "byte_size": 144,
+            "sha256": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbn",
+            "byte_size": 8852,
+            "sha256": "90af998730eed89df1e436ec4cd82e22cc77d92ad6fff8662154f3fc02e9a930"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbx",
+            "byte_size": 620,
+            "sha256": "0cabf15668e98cdcf5f4b80b0955139f476f9c32894891348693b6a818c5890f"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp",
+            "byte_size": 53784680,
+            "sha256": "6ce1da5e75578bb215cf58ec891536b52bb1c92d901dcfb5ab962b4d99758951"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp.xml",
+            "byte_size": 12851,
+            "sha256": "51e17b78185648428b5911341a85bec19146e96cf1fae8fe7727c7cd6ebce91c"
+          },
+          {
+            "path": "D24_CLEAR\\extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shx",
+            "byte_size": 7404,
+            "sha256": "f10afebb81fb898e9562fe73c2f1b606aa57ced48e3e34aeff2f87dd0975df7c"
+          }
+        ]
+      },
+      "finished_utc": "2026-10-26T17:58:39.248195+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:08.632492+00:00"
+    },
+    {
+      "id": "D24",
+      "directory": "D24_CLEAR",
+      "name": "CLEARv1.2UpdateLog.docx",
+      "source_url": "https://ndownloader.figshare.com/files/61008691",
+      "expected_bytes": 24874,
+      "expected_md5": "decb32193ff9b934edf3c05e6276b381",
+      "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+      "version": 3,
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "started_utc": "2026-10-26T17:58:39.308774+00:00",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/61008691/CLEARv1.2UpdateLog.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "status": "downloaded",
+      "path": "D24_CLEAR\\CLEARv1.2UpdateLog.docx",
+      "byte_size": 24874,
+      "sha256": "3985603fae54c31a90576d49bb2e9b750991fa621181e2b61dcb7b116cba0aaa",
+      "md5": "decb32193ff9b934edf3c05e6276b381",
+      "official_md5_verified": true,
+      "finished_utc": "2026-10-26T17:58:42.165628+00:00",
+      "audit_status": "passed",
+      "audit_utc": "2026-10-26T18:02:08.638597+00:00"
+    }
+  ]
+}

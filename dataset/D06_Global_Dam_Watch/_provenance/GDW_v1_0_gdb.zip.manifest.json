@@ -1,0 +1,278 @@
+{
+  "id": "D06",
+  "directory": "D06_Global_Dam_Watch",
+  "name": "GDW_v1_0_gdb.zip",
+  "source_url": "https://ndownloader.figshare.com/files/47913742",
+  "expected_bytes": 57476758,
+  "expected_md5": "410d1ed16312ac613975fd092c193c65",
+  "title": "Global Dam Watch database version 1.0",
+  "version": 1,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "started_utc": "2026-10-26T17:58:42.297745+00:00",
+  "status": "downloaded_and_extracted",
+  "path": "D06_Global_Dam_Watch\\GDW_v1_0_gdb.zip",
+  "byte_size": 57476758,
+  "sha256": "5ebb1092e355f1833132be8a16340da7de979314d06aba00e57eb7412884f09f",
+  "md5": "410d1ed16312ac613975fd092c193c65",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb",
+    "member_count": 49,
+    "uncompressed_bytes": 90707938,
+    "members": [
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_TechDoc_v1_0.pdf",
+        "byte_size": 716288,
+        "sha256": "b299aacbd4744ccf7cd4be7aae1fe0e6f691b9269a02e407a55e87d45cdc1889"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000001.gdbindexes",
+        "byte_size": 110,
+        "sha256": "80ba95b873e151074244f7655f9e29ce8967aab1bd57ff4c06a329b723a3d46c"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000001.gdbtable",
+        "byte_size": 356,
+        "sha256": "efdced686276f532ce3ed12bd4698685a5f4aab1dd38a96fb0f33bbe4dd071ff"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000001.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "f75d7bc3b069b37528d96f5cfcf1cf3ace13cb1b9c937eac04b37bd57f43ac38"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000001.TablesByName.atx",
+        "byte_size": 4118,
+        "sha256": "b44de81cfa1f4bee58b9ecf3d667690b12e644cf743f75afa453b6c1d8ba0ce3"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000002.gdbtable",
+        "byte_size": 2055,
+        "sha256": "9efa50dc62a40e109a546054943ae5ad4b3d41aa81ece0dfa026b7b23cb09da8"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000002.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "f3ac9865dec6ab40e73d91dd1f5c2eef0248e66e359d4abb1d97edba92b5df88"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000003.gdbindexes",
+        "byte_size": 42,
+        "sha256": "de0911d18e2f304380c04ae123ea18057d262d788301f7cc3148298231c7c618"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000003.gdbtable",
+        "byte_size": 991,
+        "sha256": "ac4bfdfdbf5c77c71ae150ae83092130275266e2dbc2efd626d594dfc4e78111"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000003.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "17afdeb6d32c508e72e6cb3b20823252b7c925db90cc9356be338a314b093ed6"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.CatItemsByPhysicalName.atx",
+        "byte_size": 4118,
+        "sha256": "8211c00d9b98fc0aa53af5bdf7eb3ce7515bf7d522dd2ccb6889b3fc00c420f2"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.CatItemsByType.atx",
+        "byte_size": 4118,
+        "sha256": "a1872664ebc12542690555b456ffced4ff1161c305572a3bdebe0d0e724bfd5b"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.FDO_UUID.atx",
+        "byte_size": 4118,
+        "sha256": "5638d7305a261f42f4402f2098d2b806b16579a805f8c851e27c4b47bb5d70f2"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.gdbindexes",
+        "byte_size": 310,
+        "sha256": "f29887c93b126a3feb0e20958cd73cc774f76ab79284b9c7286dc12eb05db858"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.gdbtable",
+        "byte_size": 124911,
+        "sha256": "416a311256ae6f82cb0650480f0cc74c9429250894cd4327caeffbe7aa526aa9"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "c9c2b20195b419af22bedbe080c5d9e2a33274d50a9b08f73334ca401a4c9023"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000004.spx",
+        "byte_size": 4118,
+        "sha256": "027866f78134de031571290fab2599ab7879bd7df84030ee324b233b891058aa"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.CatItemTypesByName.atx",
+        "byte_size": 12310,
+        "sha256": "3eb7516734319c2ce608e58eb667a3d5d9da05d6831ed2fa1ad3de0aa147ab94"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.CatItemTypesByParentTypeID.atx",
+        "byte_size": 4118,
+        "sha256": "62d6c6c3cc2fd023bc90cb2eb18f4a0deee534cc6f908b2087e5424384409d6c"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.CatItemTypesByUUID.atx",
+        "byte_size": 4118,
+        "sha256": "1f4fb8fc26a71d6917bc3cb35dbefb901c6854eb5c3419294a1d08c80310194f"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.gdbindexes",
+        "byte_size": 296,
+        "sha256": "c21e650994b48cc72d174b3caf2ac1bd19e2d7305c8087aaae97e24caecf98a5"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.gdbtable",
+        "byte_size": 1803,
+        "sha256": "14cb523b0782b3e108191467aa2763abc7c7b4cf48ea7a7e6bfe092cb50bc283"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000005.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "dcad75ff7c98be889b3ad91c96b74d401699230bfba8b13d35ca996b5aa99831"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.CatRelsByDestinationID.atx",
+        "byte_size": 4118,
+        "sha256": "f7262c6e275072e316bf0a908bdb58fc6fd658ca9c9afda5cbaed73171127460"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.CatRelsByOriginID.atx",
+        "byte_size": 4118,
+        "sha256": "962b852a9a75be61809612829342605088cb8e018739e2f616fc928745e1c437"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.CatRelsByType.atx",
+        "byte_size": 4118,
+        "sha256": "aa53240ee75e8c593725d635ce036cc0994d0c8cffb556660dc9dfd55f3641e1"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.FDO_UUID.atx",
+        "byte_size": 4118,
+        "sha256": "4b11fc3278035231edc13c0d115e1f01ed2f24438b4776f87740446c965cdcfe"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.gdbindexes",
+        "byte_size": 318,
+        "sha256": "1919a00326f198a90dc97545ec448c10b2b90d367020222212f7b00433fe09b5"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.gdbtable",
+        "byte_size": 336,
+        "sha256": "2819d8a4f0b8a51a4e0077b71a4a79dbf65227c27a018ec26cc4972c08657c87"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000006.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "24c4808826c22c92628c9f4d16cc80287e08b7fe2ae820e73a8599d96eacfe97"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByBackwardLabel.atx",
+        "byte_size": 4118,
+        "sha256": "f0a6fb02b7bc538028d23a54e464135ec205c61ec94ffc164ccc033e3f76a962"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByDestItemTypeID.atx",
+        "byte_size": 4118,
+        "sha256": "f67443b1ede814f6daf0f65a7cfd468b171cf45366a69b9fb150be1f791d2cf9"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByForwardLabel.atx",
+        "byte_size": 4118,
+        "sha256": "0811780a823e2e50ac2fe9c62825fd30454f23b22f350d3297b5cdd230f1cf81"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByName.atx",
+        "byte_size": 4118,
+        "sha256": "8902c98c655b5c9154d969fb1a27ef3d5afa3f3d2d118aa1a1a18ff235c8d41c"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByOriginItemTypeID.atx",
+        "byte_size": 4118,
+        "sha256": "926fd489665c04c8844035cdcd8d2755bf3ab40ebd2b34648b830822262a7728"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.CatRelTypesByUUID.atx",
+        "byte_size": 4118,
+        "sha256": "94f8adc4984b62bfaf0a80611196cced8b1a657019ddff0d59c31babcc205d54"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.gdbindexes",
+        "byte_size": 602,
+        "sha256": "dc98e24d04eddd7f38905d176c1ea43c547a3a2daa0c80091a20d3443c726621"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.gdbtable",
+        "byte_size": 2504,
+        "sha256": "91d99bc3fc3bc5dae8cdaea0af5679d419fa1fdc9f5f86527bd8e8381fbbab01"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000007.gdbtablx",
+        "byte_size": 5152,
+        "sha256": "88edbb8fbc5b31e744f07aeda054fa32e5679d36f0dd28d277cbf2bf3150b7eb"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000009.gdbindexes",
+        "byte_size": 116,
+        "sha256": "760bd4864717c60d5e7c0c6461a622062680e6f79f51250f49456aa609b43774"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000009.gdbtable",
+        "byte_size": 13723366,
+        "sha256": "6c8e27c6ff13a9b7a88957ed3a5e15f86a271564aa3a85515046ad77cdc57383"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000009.gdbtablx",
+        "byte_size": 209952,
+        "sha256": "92ee48cabe84b78775d46a8e6002bfa7a8ad4515cfe6bb2b4a155feeeeaeb66b"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a00000009.spx",
+        "byte_size": 503830,
+        "sha256": "e72d06a8a998bb5c6079ce6830db01fb2362796bc8e818a8da380e129a82d635"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a0000000a.gdbindexes",
+        "byte_size": 116,
+        "sha256": "760bd4864717c60d5e7c0c6461a622062680e6f79f51250f49456aa609b43774"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a0000000a.gdbtable",
+        "byte_size": 74634174,
+        "sha256": "9c3a34877cd8052b7e5a2336733fa6cb65a2c9530e89224c7daf114869cac527"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a0000000a.gdbtablx",
+        "byte_size": 179232,
+        "sha256": "81a97afb3986c98ffab7fd53735b3e9924602edd5fd468e252bd7b48b340831b"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\a0000000a.spx",
+        "byte_size": 487446,
+        "sha256": "843499f782e788f46e90852bec595c3d7628fa1ac711643d211325b3ba9dc4f5"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\gdb",
+        "byte_size": 4,
+        "sha256": "2594b6a92ebfb1c3312deb7d01c015fb95e9fbe9bd7bc6b527af07813ec7b910"
+      },
+      {
+        "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb\\GDW_v1_0.gdb\\timestamps",
+        "byte_size": 400,
+        "sha256": "409733c32ba2628670a5ce0bc7adeff9d277317f911edcdafcad6101dcc2e0cf"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:58:42.863017+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.741623+00:00"
+}

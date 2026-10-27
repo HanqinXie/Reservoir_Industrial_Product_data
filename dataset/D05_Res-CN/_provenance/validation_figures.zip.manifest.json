@@ -1,0 +1,1801 @@
+{
+  "id": "D05",
+  "directory": "D05_Res-CN",
+  "name": "validation_figures.zip",
+  "source_url": "https://zenodo.org/api/records/7664489/files/validation_figures.zip/content",
+  "expected_bytes": 56675613,
+  "expected_md5": "9d2dc70f8464bec83a90b629d0b88d69",
+  "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+  "version": null,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "started_utc": "2026-10-26T17:57:54.688446+00:00",
+  "status": "downloaded_and_extracted",
+  "path": "D05_Res-CN\\validation_figures.zip",
+  "byte_size": 56675613,
+  "sha256": "f119e135d5701bb3870db39c6d2fb9b47c29e4702e36732d614dea681cd64b41",
+  "md5": "9d2dc70f8464bec83a90b629d0b88d69",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D05_Res-CN\\extracted\\validation_figures",
+    "member_count": 354,
+    "uncompressed_bytes": 59449192,
+    "members": [
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "61271bec3b2863bea953d5b913f2240152de8fc836631a6194761846b2534b34"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_58.pdf",
+        "byte_size": 548496,
+        "sha256": "170decad106fe6f1a489a4b1c527e01f99bcabcf56731f63bf442d63b187a5c5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_58.pdf",
+        "byte_size": 356,
+        "sha256": "e124f7696a0edb3e8e79583c8a6d4601ed141b7979879ff00c8ff1f2adf28a3b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_70.pdf",
+        "byte_size": 540850,
+        "sha256": "abf8006591820a6dbc43eaa7a5704c828b2647754c31f958f2cdf76f9c7c94ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_70.pdf",
+        "byte_size": 356,
+        "sha256": "2df912268932af63edf4b180140cb0c60b2a1607261757e403fc9f36d959bf92"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_64.pdf",
+        "byte_size": 546991,
+        "sha256": "d80d2ab6e1deadb4d7eaf5c0347d5328d7a8f82a6965bc14ce239e85108f03fa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_64.pdf",
+        "byte_size": 356,
+        "sha256": "11d54d32103d7fae4f6c3b6bce286b5fb9586a4c0c0b37bde96ba2276d47e713"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_119res_3.pdf",
+        "byte_size": 369107,
+        "sha256": "ab1784945f57e506fcae04dbb3869837de2a42bf0c2633488694748f080a70e3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_119res_3.pdf",
+        "byte_size": 354,
+        "sha256": "932f42570a8ce74e420c2a6e6db94fe2c1cfd7a6e2ece61119f9b87feee765fb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_119res_2.pdf",
+        "byte_size": 349262,
+        "sha256": "f18f0853598b23899759c3cc11826bca823353871d9e385ad23737370725e8ae"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_119res_2.pdf",
+        "byte_size": 354,
+        "sha256": "216c174f0deb4282d52a4756701dde9219f48cfc0d6c54fec0032b854bd1d1f3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_65.pdf",
+        "byte_size": 538879,
+        "sha256": "c445c360ca69c5802e692669fa95fe5177fb4ce47037957ad1f5df34d822f3df"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_65.pdf",
+        "byte_size": 356,
+        "sha256": "e7963e5c7428e0c6e7bad0497716185cc03ec2ed59979394e792886098905a6d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_71.pdf",
+        "byte_size": 542366,
+        "sha256": "663205f9e925bec0b8fbf7ef6dfab3bc025475f479bc9e39f21844bf48b4d164"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_71.pdf",
+        "byte_size": 356,
+        "sha256": "eeb4e8309e1690bc940978a6e909a244ec01a6b980c30dd4cfdb8cd3dfb6cb71"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_59.pdf",
+        "byte_size": 545870,
+        "sha256": "6e9f8b1c0e5899d40d154cd4ed0149718ab24f35b3811d957e08764a68cd6ad8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_59.pdf",
+        "byte_size": 356,
+        "sha256": "4ac083ff1400b202a2249a8a0b7e5975d6e9dc12054138d9ac1caf5a16485366"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_67.pdf",
+        "byte_size": 545582,
+        "sha256": "dce163ed80b8989285837f4ef570ef411c605f2251a3a1d10e209ba30a1d0a1e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_67.pdf",
+        "byte_size": 356,
+        "sha256": "adc772f71765deaf0b7e2dfe7f6a017a039582a420ef4a14eae4ce462633fdb5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_73.pdf",
+        "byte_size": 544258,
+        "sha256": "e54c5c3602d86fe050af825f5882311ce1bea71ab3ad919315e1d62007e95128"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_73.pdf",
+        "byte_size": 356,
+        "sha256": "c85f48a765a104fc29ac32b219d872f6e78d53ac2f681dcff9c5c6f0462a9623"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_119res_1.pdf",
+        "byte_size": 369573,
+        "sha256": "f917dd1cb4178441f65cdc01f5a08bf8e9334c5879a3329c02c28a3bd0ce5d1e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_119res_1.pdf",
+        "byte_size": 354,
+        "sha256": "55d9168bc2d3fc4dbde3eb8b2caa6f3f0eff06abf71ecf29bc5a4b7877dddbd6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_72.pdf",
+        "byte_size": 546358,
+        "sha256": "1a3143b30b5736b1011060cc4822d1176cc63661e4864d59c2fce1a97533916f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_72.pdf",
+        "byte_size": 356,
+        "sha256": "3ceffbe8c164fdc7df3f1f4491e4da7e611a5cc06476e3ca9e4e868cf1fa21aa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_66.pdf",
+        "byte_size": 545850,
+        "sha256": "300361cd13817399616c653ac3cc994bd110908414015d7a109d25368471bb6f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_66.pdf",
+        "byte_size": 356,
+        "sha256": "e022af9f2460cd8d467beb0c3986a70be49ce05e0be27e5f10393e247f3d3d22"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_62.pdf",
+        "byte_size": 544640,
+        "sha256": "8df3874b7a69d26785f9b7babe52e8f12ce45987d8708fd36ed788f269c3c29c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_62.pdf",
+        "byte_size": 356,
+        "sha256": "bcc2c67863f78aa9c6d4d8d7738a51f28c33d3263187758f3cb14eb75b9b8578"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_76.pdf",
+        "byte_size": 548459,
+        "sha256": "3084c00c2c897abc783f44c5c84abd4f7d8e839d42e3890e3a0e9466a6871be2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_76.pdf",
+        "byte_size": 356,
+        "sha256": "ebff595b352057e2bbca2338ac1bafda7c0363d374c6520435690721c7d594a0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_89.pdf",
+        "byte_size": 549593,
+        "sha256": "20e77f1a40ef3ba27f23fb64fd87f1de0b50f8376fb9918a73ed99d60fa274c5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_89.pdf",
+        "byte_size": 356,
+        "sha256": "1d907ac4eaa31b19568bbb46874e1986a8c112e720e3d07844510df5488bbf61"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_88.pdf",
+        "byte_size": 540000,
+        "sha256": "e6df335012201978a052158d0d96869b9af5110f7f0e1204289245c04dec2d80"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_88.pdf",
+        "byte_size": 356,
+        "sha256": "75388e910ddc17bb0b8f9c436c74157585759792f71d45f2ea0b6e5b1d77a6ba"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_119res_4.pdf",
+        "byte_size": 256315,
+        "sha256": "2842377200f1db5bf48f70ffe6ce998ce487a00eaa39447b9b1814445242a03f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_119res_4.pdf",
+        "byte_size": 354,
+        "sha256": "84b6fbfb66d21ae9fe510f1b0ff7c6415218f91fbbc1ed2acd04bc2e076dd2ef"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_77.pdf",
+        "byte_size": 544542,
+        "sha256": "7c3a1049d3adc3f27dbbcabd0becc053a2c034ff17fcafd0258f80d571a6ea47"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_77.pdf",
+        "byte_size": 356,
+        "sha256": "61da98cdec78b95393397a6ef21fd2687325c21d5662bce5c95fc813ec8d3aa2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_63.pdf",
+        "byte_size": 545917,
+        "sha256": "46fd6ee34d65627d0b8f8e2e33c64c589c351c798aed9f3b6825d4bc930b71c1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_63.pdf",
+        "byte_size": 356,
+        "sha256": "2459a267cab42dc91f2c0c54be8b84c14978d7abc0fc5d459f2f8fd79c7357a6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_75.pdf",
+        "byte_size": 541963,
+        "sha256": "b8b77dd44d197e3fd1de3e971281646560679f30dc0716458429d1700a74df4f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_75.pdf",
+        "byte_size": 356,
+        "sha256": "8e08af31f4b2a24f7d891231c5d06c48ab6ccbf3086b595fd8c7fab4337efdef"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_61.pdf",
+        "byte_size": 540688,
+        "sha256": "75207e74a36a9230e2823c41fba1d794251ce22a26f1e04ecf44912f03742297"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_61.pdf",
+        "byte_size": 356,
+        "sha256": "2d28a004a8da15e2ae70c968fdf36f77fcd22cc1b295b4df0185cd5d05f23f5d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_49.pdf",
+        "byte_size": 550655,
+        "sha256": "c0d49ad1ac869f57dc68dcef43dfa9a9c9783313bee9cd6322ff5b8b28852c0d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_49.pdf",
+        "byte_size": 356,
+        "sha256": "020fe672262c858590a13f2b44ab2f797d8fc82a53a6c58cb3c97a0c8ffdea52"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_48.pdf",
+        "byte_size": 544449,
+        "sha256": "265df23ccfb59e55d81aae7134b2cd6bed6b0b342bb1308abeea2a0c77d7eca3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_48.pdf",
+        "byte_size": 356,
+        "sha256": "bedc80dbe8397922d880539384ed5098d8b3dc041f0f4b76d78a71a9eda16078"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_60.pdf",
+        "byte_size": 541147,
+        "sha256": "8536d2d70307fc5eb49359573c5dfba60c9f0b67bf6429d13d4fc4b3ac2b34da"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_60.pdf",
+        "byte_size": 356,
+        "sha256": "d8f4a14ae50907fc84450eba04aa05b5ad1139e53e020c8006917e415d47ea3c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_74.pdf",
+        "byte_size": 536956,
+        "sha256": "06a3e25ded5146577103a4dad9ee3486ea3b27d8b76f2588c7510ac2e1e17efb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_74.pdf",
+        "byte_size": 356,
+        "sha256": "1d17b34c23ec4efcaca6fb3736a69c9524c34283c31e81bf7346f3f07bf923c7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_9.pdf",
+        "byte_size": 558994,
+        "sha256": "f9de10431ffb24a5725d0be6ed5285a7c3474876ace59b29c92dae892390d34f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_9.pdf",
+        "byte_size": 355,
+        "sha256": "ca0cb8a4fd024db919f2bb0e85f32507c0f59fb73f2792be4d9fcbb28884d872"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_13.pdf",
+        "byte_size": 539744,
+        "sha256": "b0e8c4818f6ae7a060f19b6cc3e7dbdc42c2d48b8382d1cc898fdd680b47c27f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_13.pdf",
+        "byte_size": 356,
+        "sha256": "af3ffca602aaf0d298c2196a6d0b44106d772bc45b7c93ad4eb5baabfb2291fb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_12.pdf",
+        "byte_size": 545800,
+        "sha256": "33d9fc75b259f6f2dfa7b8fc967446922fac74bf96f884bb75fa42bfe58c3514"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_12.pdf",
+        "byte_size": 356,
+        "sha256": "b6ddecb952eb3d465b8fca81f6de14ee1e99e0fee05921fa92dc67b9e8363a0f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_8.pdf",
+        "byte_size": 554655,
+        "sha256": "b4f73207e2d3e268018ff5070694f114a50bbe2eb0a9c12072183b7451d632c6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_8.pdf",
+        "byte_size": 355,
+        "sha256": "1aad4e09aa8f7c5a69d62f9876d473634ede23743354068886a832c1abd4b0d1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_38.pdf",
+        "byte_size": 544026,
+        "sha256": "65bb0b6dffd420db646f49d6ff1e087bdc982ab4c030a661cab6bac5070eaac9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_38.pdf",
+        "byte_size": 356,
+        "sha256": "22026fb85dbc8b72a0b333d09e9a331b1f0aede8ad81bc7cdd1853c125e5367f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_10.pdf",
+        "byte_size": 552589,
+        "sha256": "9e225ea42340e561fb6a28cf7ea7d16a9e9fcac04e4ae16ffc26dff475704fc7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_10.pdf",
+        "byte_size": 356,
+        "sha256": "f17a7911ce6f69c418c4580af6387e89a48c808d415ae0bc4b2430f5d06fe0cc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_11.pdf",
+        "byte_size": 553724,
+        "sha256": "b9213c4220533429adda65e9da0a68424420c332100e5b6f92f70b3777644170"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_11.pdf",
+        "byte_size": 356,
+        "sha256": "27eac240e35aba17ab526089dc0ffe701f7e1ae2734e3bd3f1d21c4b02f31424"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_39.pdf",
+        "byte_size": 546533,
+        "sha256": "298a320b8cbc79cdfa7ac431cf72966f3fd6b53c7069e49048f7e0e4c230c587"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_39.pdf",
+        "byte_size": 356,
+        "sha256": "d74da1665c3907fa96945f97629e01bb3b2d8c3c66af58f8daa5ce53d8af7868"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_15.pdf",
+        "byte_size": 526745,
+        "sha256": "e2f2091a2c9da2aa5b3d93903ccd9d789216b3e71f0a982db8c8e85748d6c716"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_15.pdf",
+        "byte_size": 356,
+        "sha256": "cd1030f2c6d85dc26b5ff1bd51d0c21c2c2e30b96423f73cdbbf7f2898e6d18f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_29.pdf",
+        "byte_size": 541549,
+        "sha256": "2393765224feb379edb45818c25745bf3d20a70c6c5f392e147513496c2d9295"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_29.pdf",
+        "byte_size": 356,
+        "sha256": "217e3fc52721a2569f5fc0100677c6a81d7e59c8397d3ba586d7b583402fe6e6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_28.pdf",
+        "byte_size": 543547,
+        "sha256": "bbeb9fd8960e43c1118bec51fc4af3c1ad60e1d324ec9466804afcf442d46083"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_28.pdf",
+        "byte_size": 356,
+        "sha256": "e17de57172a0d50c9d72b5ad87a55fa7d30d441e112baee4fad53346e4451daa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_14.pdf",
+        "byte_size": 535679,
+        "sha256": "77c35c0b1646cf0e012a5c37a13ef0788ee5ce51e3ae2dc3adf43d8c9590cc08"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_14.pdf",
+        "byte_size": 356,
+        "sha256": "16de7b4d60a769a5a3833bacd689dff57534fb1cd656e0297f6fb73ee14201b3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_16.pdf",
+        "byte_size": 522953,
+        "sha256": "7d498511fc0c4fe2d3b3f840d6783af2568c867f29df75bb5051197e4230885c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_16.pdf",
+        "byte_size": 356,
+        "sha256": "0c1425a549896a6ada9940cb6f8d0f9c62589163ea07fb9d41684d7a7f5926d7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_17.pdf",
+        "byte_size": 527695,
+        "sha256": "cd80b5c467b1f26c821aafcc3aa79c47561234336ad56b6c0c2bc2aa20be070c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_17.pdf",
+        "byte_size": 356,
+        "sha256": "f37607de60b21f17b85dbac0dc8d47a4a906a56c930d95eb6a26ae41d94383d4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_32.pdf",
+        "byte_size": 543894,
+        "sha256": "cb4814d00c9e3518d5f2e07d0f2b9b5ec3c4ef6719a9753a24aa6441f3055a3a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_32.pdf",
+        "byte_size": 356,
+        "sha256": "71e09a1b1bd8851ac60b50282bf0963b0f948d43788774d452a7ee039b9ed488"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_26.pdf",
+        "byte_size": 549389,
+        "sha256": "34d27826240780c082556019ceb2b6c83c925cefd4393a94ebd92e6d3b478935"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_26.pdf",
+        "byte_size": 356,
+        "sha256": "9955651287e22796518559e07078fe206c4db35c1aec39b135a09788b040ae91"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_27.pdf",
+        "byte_size": 544737,
+        "sha256": "e6f3500056959a21af49cfae5e70a4991c2509ebdf6bab4bf51d08aaa88541f4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_27.pdf",
+        "byte_size": 356,
+        "sha256": "07fe45f9763492f622e195cad4e516d04cdcfa5556ad16ada4587c7bbb36a4af"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_33.pdf",
+        "byte_size": 534543,
+        "sha256": "db34653eefa6525ca8dfff21f5424790c81cfc79a43e2e12583e1d91abd0d442"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_33.pdf",
+        "byte_size": 356,
+        "sha256": "e0001f7479df18fb785595a827759595c97bec2ad73e0047baf60237dc1742e3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_1.pdf",
+        "byte_size": 549503,
+        "sha256": "8096b5d0004345f7d7af3fcd49bcfd6838f2aa04ab793c30c7fb807fc06f4451"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_1.pdf",
+        "byte_size": 355,
+        "sha256": "4087cad0d46825e9420bf89d23ec3df323fa6afb6520365cc6c573a2a963a77d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_3.pdf",
+        "byte_size": 543590,
+        "sha256": "6743553cc81ffab3960362d6b16bb7a357984eda6bb105a97bf427b58910166c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_3.pdf",
+        "byte_size": 355,
+        "sha256": "410aeb31bdc920a696fc9e2151759931c72bd97487608d4b5e8fa6f42710687e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_19.pdf",
+        "byte_size": 545040,
+        "sha256": "aa4f2ad656302c455282c26822afd1e20ba655080ad820d6afbafa56dc6fc479"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_19.pdf",
+        "byte_size": 356,
+        "sha256": "7dfb66f31fddaaa38919506c19d8db171031d861ff16c0cf243d0d8213bf8b58"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_25.pdf",
+        "byte_size": 544292,
+        "sha256": "b79fa1571b6f8586d1c77210b50d3daf9b7c6e15efd030df73e70149ffd45f7f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_25.pdf",
+        "byte_size": 356,
+        "sha256": "23e2f0dc62ea4448fb20237dd9b497b7e8b4214ab08de27b168595fb4da4d806"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_31.pdf",
+        "byte_size": 548227,
+        "sha256": "fde171897d0f918f055cf00448e64559d8ad3685b0c20e02fb1ecb4969fae24e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_31.pdf",
+        "byte_size": 356,
+        "sha256": "2d1131be86ea0a87842a1f41448e88805e65cc2dfd66c2201a7f8fcc57fd68f9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_30.pdf",
+        "byte_size": 543603,
+        "sha256": "3490cb97f63be608cf16e73f8f2420f92848b62276f8cb5d9ffa3ee10e905e01"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_30.pdf",
+        "byte_size": 356,
+        "sha256": "774e2b777d5146299ec5f568e02a63f0f8511376f59a53df1d3bf7c0631771de"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_24.pdf",
+        "byte_size": 543345,
+        "sha256": "39ece56b432ba887e02c0451fdd97893a14de10b1017c44b86cb7da759e27a5d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_24.pdf",
+        "byte_size": 356,
+        "sha256": "1ed71ab9976c7ccaff7b8e7a901da9e96f8543df7f8bcf3be57b8b6bb2d9921b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_18.pdf",
+        "byte_size": 550456,
+        "sha256": "5920bc3f84c4851ea67cc5b5530d5558a00fb1616f4cd7fc4e9bea564c69eb98"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_18.pdf",
+        "byte_size": 356,
+        "sha256": "b7239017292638eb3408969b4548fb782727e4ad7408289cf930603363a8da2f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_2.pdf",
+        "byte_size": 539504,
+        "sha256": "f1e11f611bab85594c9948a137afc09cbe2ab148fd49bb98ed285ca62398d2a0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_2.pdf",
+        "byte_size": 355,
+        "sha256": "aa3a1a56b9652dafeb702f347547b90e75b6d9198fab9d8d3cf02d982dbe9ca0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_6.pdf",
+        "byte_size": 551174,
+        "sha256": "96adc49a102fe82e47dbaf995dadd5483665f2d03e7d5d88f688c4960f2b24a9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_6.pdf",
+        "byte_size": 355,
+        "sha256": "ce5f605afd584818f81fca0fff9c758b9c8819278cb3569dcdebafc8d4e6d8e8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_20.pdf",
+        "byte_size": 546146,
+        "sha256": "476b98cb37b103355f293e2f6f00d25f5771cdf9c4bb190db5b3c047459147f5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_20.pdf",
+        "byte_size": 356,
+        "sha256": "92bb866aaf238eb992149b0bccb8241d7a23f27558d5e5b0bb1f9af9c8f4604f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_34.pdf",
+        "byte_size": 544002,
+        "sha256": "2ae54fcb1e9d033be45c965e35b54b0a549721dd1f79235275eb29975e41b4d7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_34.pdf",
+        "byte_size": 356,
+        "sha256": "0903e102492d26c85290e2ffe5749cb5f7c56c2e3d327ea44162b27fc8755336"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_35.pdf",
+        "byte_size": 543953,
+        "sha256": "5da5d3f347841e65a23f116edb2c79bcc2bb6b57f305afca7df6432ba4422561"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_35.pdf",
+        "byte_size": 356,
+        "sha256": "892092a993ad3efc58977fe92264fac5959fc84f58c5277f2855d69a9766515d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_21.pdf",
+        "byte_size": 541600,
+        "sha256": "9e0854ddd54855334f304da2713e350a058544c0d8efed25505fd147caff1537"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_21.pdf",
+        "byte_size": 356,
+        "sha256": "e7b641e51f9f8ee29e9c9de3aa9f4465666b528ffb6aad72c399f902deb3fe85"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_7.pdf",
+        "byte_size": 551561,
+        "sha256": "b4e0256d316c286c250921f16fdc613c211abf503310d4a41bb30d10f3563183"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_7.pdf",
+        "byte_size": 355,
+        "sha256": "932eb70802195423724b2026f10b9396cd6ccb5576aaf561c0f10dd87da6a363"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_5.pdf",
+        "byte_size": 547978,
+        "sha256": "edad3fb9957af6c20491408f00960f35d8065881cebde343692b4025a42d981b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_5.pdf",
+        "byte_size": 355,
+        "sha256": "120749779cddf42ee456bce6d671c7bc54702d469447262da468f096554f3d28"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_37.pdf",
+        "byte_size": 541085,
+        "sha256": "2ffa310a5809ccef78fa7034356c5b84d2512971c3fde8e4aa0dbddef982c5a2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_37.pdf",
+        "byte_size": 356,
+        "sha256": "cd29eb453db3d05f383e84f1e5f0c2b648c9a8878289994dc62961c77f4c6b0c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_23.pdf",
+        "byte_size": 541613,
+        "sha256": "72692e8964e8915df23717674669848c4f1894c811f7d9aa155ac5064a29e73a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_23.pdf",
+        "byte_size": 356,
+        "sha256": "80d2abee3eb506363eca7a7d9b9cd02dbff2be23891d36fd30137d1c273de249"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_22.pdf",
+        "byte_size": 546826,
+        "sha256": "b13c339cd94c098d7afc79cc6e9082c3e16e729d1c0b74ad1a15707b53626ca3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_22.pdf",
+        "byte_size": 356,
+        "sha256": "5544f7f699ce5544afbac6bacc3f65128e04991f9d268f482b8549b9da7ee236"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_36.pdf",
+        "byte_size": 545195,
+        "sha256": "6fa6c1781ece3d172614189d51a8521d71ba606e8977cfa4fd908ca85ab4e8db"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_36.pdf",
+        "byte_size": 356,
+        "sha256": "8860c19e6bff3b9757c49b0963a7606463ea179b114b6bef3009ac361ba09e38"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_4.pdf",
+        "byte_size": 540583,
+        "sha256": "d07ae68f561ca6af4ad0061ab794989e98de9b788274b00a782071b88f590133"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_4.pdf",
+        "byte_size": 355,
+        "sha256": "a88c3e5516b4440338c2574993f7199a96efee26595262ffb0a8c0f4a5877ea9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_79.pdf",
+        "byte_size": 537917,
+        "sha256": "b1bd7e46f636e684e0690d8e4a36c9ac9a4eebb59c8ca000aff2a3b9bccbdc78"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_79.pdf",
+        "byte_size": 356,
+        "sha256": "6a77b39e1e43cf446189168a39bf54176d758da17139cb7c8f1761c0582442ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_51.pdf",
+        "byte_size": 537513,
+        "sha256": "02fbaa5b9b6ced579fba3651dc8395555d1e4a67a85d78c0078783d9db16958f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_51.pdf",
+        "byte_size": 356,
+        "sha256": "6dba9337796674baf948c735d4eac7b91656d38c76371bdb1eb8b08c096a9ff5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_45.pdf",
+        "byte_size": 547899,
+        "sha256": "d7d818cedc197bd2b61d4ea3280cb1de475811ecb98994091ccb78c76b173d75"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_45.pdf",
+        "byte_size": 356,
+        "sha256": "67766adc5e136e2718dc2e28be5b6e08fb74e240b2de9a87ca399fcb1c7ed612"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_92.pdf",
+        "byte_size": 548968,
+        "sha256": "b5eb3c815b1964c76274b79306f71cd9ec3edd36a4dcfb39a672c5310c45e912"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_92.pdf",
+        "byte_size": 356,
+        "sha256": "b6a4f668293245a5036a79558fb5a23eb668977a1b394c3a766f3ea57c0928f5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_86.pdf",
+        "byte_size": 542994,
+        "sha256": "487d5485d02609a9fed6afc257e1bf643bcb7ddc83728248bc1f07e56cd935d4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_86.pdf",
+        "byte_size": 356,
+        "sha256": "946b5a246c2bc42445b2cdf8f31c69f8d0bfff68527f47830d4ade98a9852685"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_87.pdf",
+        "byte_size": 543472,
+        "sha256": "6ab944dc6f44b50c172db9a29da856a4833a7cf3dbd5e93479727480731c39ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_87.pdf",
+        "byte_size": 356,
+        "sha256": "62bbd6426093ac08b2e000e4d8d419b6d85f95cf861a799b4f979f7ff3f794af"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_93.pdf",
+        "byte_size": 545999,
+        "sha256": "3ad12f48080d98b408ec297c3b1b4f34f91363b8f648a5d9457dfd59c1770954"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_93.pdf",
+        "byte_size": 356,
+        "sha256": "6300ff5b771f34fe956bc1fd3aa37322ba0dc2a71e39aa9c450587809062f149"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_44.pdf",
+        "byte_size": 543273,
+        "sha256": "bc0a4e676f58e4d51460f588811ebd905039cfc732e26f5c45e7f5a122729f69"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_44.pdf",
+        "byte_size": 356,
+        "sha256": "1bc7f477f7d4fc1669858c6edc7dfe7da8da75a778c2c66177bec661ffc6518d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_50.pdf",
+        "byte_size": 548921,
+        "sha256": "712bcc60a794639bd888b289f3eaf56439ae4c690ce519755142259b5aa7c679"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_50.pdf",
+        "byte_size": 356,
+        "sha256": "24ec1b56020daf0faead8c2d845f51655b9d31ecf926858075f536febbeb4c71"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_78.pdf",
+        "byte_size": 539991,
+        "sha256": "c6e26d3f75a2423b5ad51ebcd378b72231c8273d7db954c582d613b9e8f05283"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_78.pdf",
+        "byte_size": 356,
+        "sha256": "7545865cf8b36ce94e08942febb6bab4ae7f779afbe69a6bf22212eeb9773f4d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_46.pdf",
+        "byte_size": 545179,
+        "sha256": "23b9b35717d8c1cf401748a62ad72c3c0114ebd37af941b29b29778a78e6aaae"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_46.pdf",
+        "byte_size": 356,
+        "sha256": "71a1f07adf331d85c49ac09f0620738d9e4fd8adb8285d8a223147137ba323d2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_52.pdf",
+        "byte_size": 546139,
+        "sha256": "772f5de608a3af1259c74264d11e9c45eb182d3ca9f66addbd0ac52123cbdea6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_52.pdf",
+        "byte_size": 356,
+        "sha256": "ce1519eee6d62d0373f7adcd0bdaf6fc4b85667e74f8303d88943ad8b93bbfd1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_85.pdf",
+        "byte_size": 540947,
+        "sha256": "e3be75eb64517dbfa79a6c4cac11c5fb37e1223563c6ce9008a55eb6f218dd0d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_85.pdf",
+        "byte_size": 356,
+        "sha256": "7e7e4bd8e8b403fb221b14853244c4652df70970b837aac79ac6c8c15c60e158"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_91.pdf",
+        "byte_size": 545079,
+        "sha256": "01e8a3d121f9f44c66ab0ea06af6085b15488c544dc02faae520ac881a2c7177"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_91.pdf",
+        "byte_size": 356,
+        "sha256": "6c7d6ba27b8c3dc2cfd5c17e58dc249cf4f103bed4acace0f9dfb4385339aeab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_90.pdf",
+        "byte_size": 540532,
+        "sha256": "b034f0e08e42ab60e2c4acc61fed647844ced6d97777903586f4a56caf45e1f2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_90.pdf",
+        "byte_size": 356,
+        "sha256": "7679a2b486c24ee08d6cb99631cd062c63de3da218426ee8047334f035ca0de4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_84.pdf",
+        "byte_size": 542384,
+        "sha256": "000693fc1189af36cfe6e5a8093c94ea5ccb2dfd52c186f230352118ae312033"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_84.pdf",
+        "byte_size": 356,
+        "sha256": "0c7c44281afc79aece36ef4a50ea19cbf6c8366dd16a598d8f36f972f6a41d1f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_53.pdf",
+        "byte_size": 544141,
+        "sha256": "88f3c60d2dfb4c15416a1baa4d4116b1275919e05ba5821b019b9c2805959c8b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_53.pdf",
+        "byte_size": 356,
+        "sha256": "56f3dfc888e668ee5ffdf736af9822a8c3a6bc48c0c82ce9f39d73418a85655f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_47.pdf",
+        "byte_size": 547209,
+        "sha256": "72980c06b2edba91c6d482690d5f2b02fff2da8517396d9417f81f2411a3140e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_47.pdf",
+        "byte_size": 356,
+        "sha256": "95923a841f70b91bec83d0b37e0aaa8607691bccda30d67da83056c736feacc1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_43.pdf",
+        "byte_size": 543816,
+        "sha256": "13cfa0a8c2b012d380f33b71f1423a23e8abfb7148c3e29275c804bff4fbaf04"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_43.pdf",
+        "byte_size": 356,
+        "sha256": "ee8a285765ccd72624dcabcba2feef72012b0c4df0624f0e7f0e68b91b964251"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_57.pdf",
+        "byte_size": 544562,
+        "sha256": "bde5541252ca2b1b84debb2ebf59ae62ee2c1deea47d54cd6b96dbde9de580f9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_57.pdf",
+        "byte_size": 356,
+        "sha256": "eb37e97e2dc5e12c7dfedbab0107712c22debe501f885e8841411cf9920e673d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_80.pdf",
+        "byte_size": 543132,
+        "sha256": "c42f5987ed8fc312389ff6ffd6b310b323e8ffcbc243b0a1d660a72e704fab53"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_80.pdf",
+        "byte_size": 356,
+        "sha256": "0bcead2b8de2bcbd0f59d20f7b0491935b34a37072de01de13ee0af5c59f2bdc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_94.pdf",
+        "byte_size": 547266,
+        "sha256": "5cd1611c0e022c05fbb830311378630c4079bc80d0a255de3e5d771b5d011e12"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_94.pdf",
+        "byte_size": 356,
+        "sha256": "bf657525d87f10044b8965c5bdb517e41d167718ff53386fbabc038d7d3a633e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_81.pdf",
+        "byte_size": 544201,
+        "sha256": "b58116f849af52fef166663634a8e5f7f0d872769a0fdeadaf32efd880c11581"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_81.pdf",
+        "byte_size": 356,
+        "sha256": "3d34be541bc05c08962a0d919be744c5b0b4b890ac67f7ab81c35439191d2820"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_56.pdf",
+        "byte_size": 545451,
+        "sha256": "8eb3e4382210dffa67f33c35640c177712a6009c9d1378d0ba2e5edd2192049e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_56.pdf",
+        "byte_size": 356,
+        "sha256": "013f37ae7e6c034e90459dbcb969d00e316342da8eaf36e2c3e5d84d84a18aa3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_42.pdf",
+        "byte_size": 548199,
+        "sha256": "44ce9296f8f2c2b2f02f82123b1fd3df20c1df16498a26e5e067bc11f1975cd1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_42.pdf",
+        "byte_size": 356,
+        "sha256": "ba68302844cc2faf1cc8abf52755bb0a12d3245e07b28a1cd9c09fe7a57237f4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\info119Reswithinsitudata.csv",
+        "byte_size": 8012,
+        "sha256": "5bdbaf1e3a972268e214e73326853b5beecee93a5d5002ddb1fc51eaf2e0bd5b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._info119Reswithinsitudata.csv",
+        "byte_size": 368,
+        "sha256": "3c5381eb97e8d11e7ef13b96947006687c2015a5f59d92b2eecf720e4250bb41"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_54.pdf",
+        "byte_size": 546611,
+        "sha256": "435aa00eddfd56b3872a7fa326573bfd1f61caa0af1ef20b711a801f8eed4879"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_54.pdf",
+        "byte_size": 356,
+        "sha256": "5faf011cdf1ba45b0884062f372042be7fa5344a8d04ae38fa4f14d0c358d116"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_40.pdf",
+        "byte_size": 547258,
+        "sha256": "21834c799327bfbc91a9dfbde8174677288fcf6f0c6b79f2a0f7a841f89afbd8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_40.pdf",
+        "byte_size": 356,
+        "sha256": "c1de2132939c53af962a84169cee2800f9a3e076a239a08b3586fafee725f39f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_68.pdf",
+        "byte_size": 540061,
+        "sha256": "0f5e3abae84432f05bc5efb1ae40a58c4a2fa87a114efc8690a41e960faecd11"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_68.pdf",
+        "byte_size": 356,
+        "sha256": "53db4d98268a1d9ef8fa7edc7f8bf1f4c6289177d18ad3e03224fbf4fd087426"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_83.pdf",
+        "byte_size": 542496,
+        "sha256": "c0356ec82619c622dd102aaf4caac66f59a4c3fea3ac4c055e8bb0ad83a8d688"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_83.pdf",
+        "byte_size": 356,
+        "sha256": "d109c831debcbc9b2f3fea4cbc4d8a32cde0fbe0ec41039145bf47e97c97c5a7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_82.pdf",
+        "byte_size": 543444,
+        "sha256": "eaac2d8bc8f73167d91635e7d6fd7e616b8975b6a38735960841f04272a09b8d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_82.pdf",
+        "byte_size": 356,
+        "sha256": "f6fbe68b112ff5ad31a4414b60215eb81a9a3d839056e3f6c627646711440679"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_69.pdf",
+        "byte_size": 541030,
+        "sha256": "074dda5a82ace18004e472dfe65756e10bdc8ee62495b36dd60f83378d2d01d8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_69.pdf",
+        "byte_size": 356,
+        "sha256": "5e9ead3cefeca8f06f8821fb820aeb7036993da096417530f64c616dc397bf5f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_41.pdf",
+        "byte_size": 542005,
+        "sha256": "f49e10a8ab3aad2fa1d6a96a2c8ba6706e8987e87d46e48be376a1aaa603fbc6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_41.pdf",
+        "byte_size": 356,
+        "sha256": "2f1fb4e032c5ace31a4ae5f7bae34b89df5fe3a370b8f2fa718ddce85f31dfc8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\storage variation\\all_2999res_55.pdf",
+        "byte_size": 542790,
+        "sha256": "df5b7423d363acb7582883d1f83b8e97685353194d703c2d7c94472f6015ff98"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\storage variation\\._all_2999res_55.pdf",
+        "byte_size": 356,
+        "sha256": "dda96f70783e3685caebc0652c63ab86043f60b6f06562872d18559bb0cb317e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstIC2waterlevel_1.csv",
+        "byte_size": 1938,
+        "sha256": "8cf4a0b59daaef9156bd01d1514f3384d9b4085b5cc1276102620adf1b7b8a7e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstIC2waterlevel_1.csv",
+        "byte_size": 364,
+        "sha256": "e475815054f31b661d638832b257dbd0a65d6cdad0e6054bea0fb63ed123b1e6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstSALwaterlevel_2.csv",
+        "byte_size": 1225,
+        "sha256": "8fea98d973bcafe922031b6403be2b5fbfe7c9acc6af8eba7a0c3e438d2f946b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstSALwaterlevel_2.csv",
+        "byte_size": 364,
+        "sha256": "9923eb242cf42a2fa8510347a5daa689f7a89035793ce7d3775a43c5a97481a2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstIC2waterlevel_2.csv",
+        "byte_size": 2131,
+        "sha256": "f2d753ffd03e3a64724f1bd0692160693472f6f15e53bab13b97634a3a7f87e6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstIC2waterlevel_2.csv",
+        "byte_size": 364,
+        "sha256": "cb1487b4fc6a0da2130bc448cb12770f32d5db606024dfe5b78be5f1be55e05f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstSALwaterlevel_1.csv",
+        "byte_size": 3216,
+        "sha256": "679fdddc224789a9f9bdd94c149d7c28619e9902a4e9ef28ffdc3b8c1772b6b7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstSALwaterlevel_1.csv",
+        "byte_size": 364,
+        "sha256": "df5a514c328a39bc5bb10425e54584f899267fe3f071695de34effa107e72d51"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstS3Bwaterlevel_2.csv",
+        "byte_size": 746,
+        "sha256": "60213512f04afc1d0e284c3965a2ec871e24df16f26c1c1b8b3cc84c5682a08d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstS3Bwaterlevel_2.csv",
+        "byte_size": 364,
+        "sha256": "a4ab1951d9e30fec7ebd40e257db263739e975072d28bacc504139560a4b5cfc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstS3Bwaterlevel_1.csv",
+        "byte_size": 3216,
+        "sha256": "b9688a6ff0c457734eb3b66cc0732f94ab9f9d350061567278e59647aec7be0e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstS3Bwaterlevel_1.csv",
+        "byte_size": 364,
+        "sha256": "8da36ac167151bd5483707d714f60d43eeab5bc61aed046d5be119504e52d759"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstSRwaterlevel.csv",
+        "byte_size": 13049,
+        "sha256": "2ec244412507a2eb2b8086677461c755a374c161e2cee0db13f26f1b2e3f358f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstSRwaterlevel.csv",
+        "byte_size": 361,
+        "sha256": "940930b42b0542516683cdf0c6805fdee8933bf2e004e82e2bc855be11586cf0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstCS2waterlevel_1.csv",
+        "byte_size": 5931,
+        "sha256": "c485459202000692e8815dcc361ce4aff01f32fc90c604588a28b7211f2456f0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstCS2waterlevel_1.csv",
+        "byte_size": 364,
+        "sha256": "988c843fa9755df569ff065b5512c88ae8a09dc9b2b1b175d26fbaf1ef697ddf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstOBSwaterlevel.csv",
+        "byte_size": 3162,
+        "sha256": "a664e47791ee5bbb72970e817dacd8a686ab128c25f4f7e7fe46ff3b2316316e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstOBSwaterlevel.csv",
+        "byte_size": 362,
+        "sha256": "5752a8ae2e79b25c94b6a7671e67dfcb793591b8e48209b6f3c20ed00704c247"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstJ3waterlevel_2.csv",
+        "byte_size": 330,
+        "sha256": "d956f0c0bf7c22895a8080831ebe387ecf74a2648822ee8512beb5bc7cfb2137"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstJ3waterlevel_2.csv",
+        "byte_size": 363,
+        "sha256": "24d87cb391bd654515a919ae3784045099ea9949a9614f1c25bfcc4b9c6926ee"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstHRwaterlevel.csv",
+        "byte_size": 5716,
+        "sha256": "3426aeb9028ac4eecee0bbba2c6bef9f40e3ce1d9e6702838b3942aaae4bb34e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstHRwaterlevel.csv",
+        "byte_size": 361,
+        "sha256": "fae233a76fcb0b33db107ee84d5d4bc466ff83cd8b7ff0f6960b360d5ca9d23b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstCS2waterlevel_2.csv",
+        "byte_size": 1985,
+        "sha256": "f8e3287f8ea79ae3945a8ac40f6a153c432b203660050b05be7a45b8941a822f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstCS2waterlevel_2.csv",
+        "byte_size": 364,
+        "sha256": "e9262c884c20ee28c236f0d5012021606a31353bda134a0ffd31cdc443a1b329"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstJ3waterlevel_1.csv",
+        "byte_size": 723,
+        "sha256": "535aa4052f1fca008f6ef19eae5c35e1a57cdc9ae21160cd070f5e4792990be2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstJ3waterlevel_1.csv",
+        "byte_size": 363,
+        "sha256": "36f132f357810d99a6209389f81f8e7c1d65fd47e2b75c3280b40bb29a68de9d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstS3Awaterlevel_2.csv",
+        "byte_size": 812,
+        "sha256": "1fc73f1083aec6cacc1168a2f3158d9900f14832dcb857a2191e82a23307b0f5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstS3Awaterlevel_2.csv",
+        "byte_size": 364,
+        "sha256": "24251ea0c047b9fe5e89fb43803cb676436f1de83345cb381cc480b20df8d9d5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water area\\CC_areaAgainstS3Awaterlevel_1.csv",
+        "byte_size": 3206,
+        "sha256": "86d0a44aa1108e3c9763a78c85cc77a8d42c2153b6c6458df20b7ef62f9cd801"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water area\\._CC_areaAgainstS3Awaterlevel_1.csv",
+        "byte_size": 364,
+        "sha256": "d88614d70577b3daa359779cd5d7972a2e19dcdabf77d2d3f1d5976941337619"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "f1058017b127e21aec435c650e11b72cb9376ba2d5cb0d290b2a85de9299afe9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\s3a_36res-RMSEs_1.pdf",
+        "byte_size": 307159,
+        "sha256": "5e7ce3edfb2353e98bd7aea736468fae124b3244e5302ee5e0480a42bd7ab999"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._s3a_36res-RMSEs_1.pdf",
+        "byte_size": 373,
+        "sha256": "41215f8515d9aa186dbabb87af5984162a663e049aeb06f44e9fbf0e3dcb65b3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\s3a_36res-RMSEs_2.pdf",
+        "byte_size": 57240,
+        "sha256": "4b8e406a39b9b89a200770e2fadc19146b61e88d234768e7a06acdcb04ae5874"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._s3a_36res-RMSEs_2.pdf",
+        "byte_size": 373,
+        "sha256": "f29923cec0a5397c49fee476a1c207eb82ed4a6da278ea4d7f7b8daad54e0a82"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_156noOBS-_5.pdf",
+        "byte_size": 113359,
+        "sha256": "84cc814b9e514bbf6f33d8a99de096223a792934591185c09ff7fe83a41ef16c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_156noOBS-_5.pdf",
+        "byte_size": 373,
+        "sha256": "e44a536e60ae113301d4cb440470a2afd5c828cae1df1ad59de7491543cbf7b4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_156noOBS-_4.pdf",
+        "byte_size": 118757,
+        "sha256": "c144fb4e429198fcf17cadd1091a0d9e0cd3b3378638c6a04443e89f3b84c7ed"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_156noOBS-_4.pdf",
+        "byte_size": 373,
+        "sha256": "db4cf91ad54eb4ba8c19b7108fce3f9db7f9f5d9d71a316d0e2ee62616fa1f89"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\cs2_89res-RMSEs_1.pdf",
+        "byte_size": 210308,
+        "sha256": "2c9accb78bfe8b5e5ed761dbe5d7548638886c55dd51d6a4bd28e676581d5653"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._cs2_89res-RMSEs_1.pdf",
+        "byte_size": 373,
+        "sha256": "74b95bbeb23bdd86a971a65705aeb15bbdcfe24a79a6e91cca2adad4dda7f422"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_156noOBS-_1.pdf",
+        "byte_size": 133042,
+        "sha256": "3ac21952fc22a0228f834ef2d0f0cf76c1ff392b022a66b5ad24315273cd1d26"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_156noOBS-_1.pdf",
+        "byte_size": 373,
+        "sha256": "f5b69874fe11e4d35f96e6060ac0c94d10d845b3cd0ef7ba328aa68789ca36c7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_156noOBS-_3.pdf",
+        "byte_size": 95972,
+        "sha256": "f3dd2d43e5fb8b12f738f9fa377018112f86a7b974db840d5590c417573d77dc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_156noOBS-_3.pdf",
+        "byte_size": 373,
+        "sha256": "446e1cb63ca77ec10ccd2d56e413d655d3a303e3cc1be2178ad7b54d7d726e60"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\cs2_89res-RMSEs_3.pdf",
+        "byte_size": 205422,
+        "sha256": "c0c022116741f269aa1ca6bbffb77c06bea704695cd00a0952d8509a9f102f1b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._cs2_89res-RMSEs_3.pdf",
+        "byte_size": 373,
+        "sha256": "a0811ed46f6acd22e90a71378473b25a01c5957fa0431bfdb23cc3924d24c44f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_evaluated89res.txt",
+        "byte_size": 924,
+        "sha256": "57542d6568a2ea35e84fbe4455a2803111467087f6ff8e640fd0e2ae95e53212"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_evaluated89res.txt",
+        "byte_size": 374,
+        "sha256": "612e503827b35fbc6e161c1992663988f41991e431cb98f66814f83c06e63956"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\cs2_89res-RMSEs_2.pdf",
+        "byte_size": 200917,
+        "sha256": "cb496533729e9c50fa3f5e4e4154a7cb22ac0e4f0f04f5b3db23e9a0fb1de0a6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._cs2_89res-RMSEs_2.pdf",
+        "byte_size": 373,
+        "sha256": "64889085e26a9fcdbae6d8afcbd2356a0deb29e6d3ec7904bff1680786431bf5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_156noOBS-_2.pdf",
+        "byte_size": 128849,
+        "sha256": "76bb36b2a0c349b024de52581a053ca926d2eef913da8adb0112d4ced7921f91"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_156noOBS-_2.pdf",
+        "byte_size": 373,
+        "sha256": "c64e35f3c88f6bab4b1629ea010f875c32147e92de5237cce8499a29562d8a1f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_160noOBS-_1.pdf",
+        "byte_size": 61459,
+        "sha256": "ad117e7c827f47b8d8387df480add461fd6e33c4a1504ce82b28c396e82c6ece"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_160noOBS-_1.pdf",
+        "byte_size": 373,
+        "sha256": "0a5b95597bbeba9cebd19cb4c38db47464720b92a46306d79d7ce813186a477e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\s3b_41res-RMSEs_1.pdf",
+        "byte_size": 230209,
+        "sha256": "e7908ccd801b8e63bca553c3ee5eeb8c6a2d4654f85b2b2cc992c31351838e46"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._s3b_41res-RMSEs_1.pdf",
+        "byte_size": 373,
+        "sha256": "5a74c9e5af41eab7378a38e913fdeb3261109e06400c7c473d8a824ad3823c04"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_160noOBS-_2.pdf",
+        "byte_size": 52656,
+        "sha256": "bcdfac39e45166f011ef3446c1b0901f912e7a57f2d276418e45c203e5cc5916"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_160noOBS-_2.pdf",
+        "byte_size": 373,
+        "sha256": "e88bfb948fa559972e6af9e0be57e93ba7eb3f15beabbba3ee67a294e05a0fa3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_160noOBS-_3.pdf",
+        "byte_size": 57251,
+        "sha256": "c45714745dc4900de23a2295fec2d1f04e4e11dd5c89f7051f2ab7b47b63a66c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_160noOBS-_3.pdf",
+        "byte_size": 373,
+        "sha256": "f60bc99595b15e0787cd265aca538a979a1ab17d52389a34692c11c8e5204776"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\s3b_41res-RMSEs_2.pdf",
+        "byte_size": 66492,
+        "sha256": "e488faa948e36823ec37d3f118767160e002fe7762473f9e2f79ec0fe6edff96"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._s3b_41res-RMSEs_2.pdf",
+        "byte_size": 373,
+        "sha256": "e426bd37bb5a2491785cade9f7f88159f0f95b4abcf0b22d38994758985c5c80"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_9.pdf",
+        "byte_size": 7579,
+        "sha256": "e88de972f434a7d808df88dc25bfc2215e90e9b8241694718a8a145e57280a08"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_9.pdf",
+        "byte_size": 373,
+        "sha256": "d5aa22f0b7062c7a0da8eb056348967eab8d30115ff9f11b86afef302e4e7f10"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\sal_69res-RMSEs_1.pdf",
+        "byte_size": 176012,
+        "sha256": "92ce6622cd9db47d41dfbde429d931cf8e94d97c9973d68b91afcabdd6a241ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._sal_69res-RMSEs_1.pdf",
+        "byte_size": 373,
+        "sha256": "9b3cee8beb6a9991478edc7804b1a328fe92834d80a19cb8528067425c32eb3f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_8.pdf",
+        "byte_size": 75913,
+        "sha256": "f59180b7a7341d2cb859cec473233dc414f440c8c4b48c830a0bdec7790f32ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_8.pdf",
+        "byte_size": 373,
+        "sha256": "4c6229d3369dffc813baf7c243251e999095e9dd5c6ff3bd971e7873332ab911"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_evaluated69res.txt",
+        "byte_size": 680,
+        "sha256": "a1aaf515e664f0a7bfd78695621e61d1bfdb56d7cffa0f381063f1d58ccd0313"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_evaluated69res.txt",
+        "byte_size": 374,
+        "sha256": "fa6f27f4af705bee709fcbd96dd829e254e07d9fa7bc8f29f20b7542469668db"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_160noOBS-_4.pdf",
+        "byte_size": 54485,
+        "sha256": "d928f648faa2876354b83fb08f4059941724bc616b2c40719f0865bc191b942c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_160noOBS-_4.pdf",
+        "byte_size": 373,
+        "sha256": "890cd3bdd2dfdc0b8353188f9f912156c308abf3457c3c051c1b4401429ec061"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\sal_69res-RMSEs_3.pdf",
+        "byte_size": 29804,
+        "sha256": "65cd36b5bb405edfa16de916090f1b946055c5e469a341b7ef69d58f2628984b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._sal_69res-RMSEs_3.pdf",
+        "byte_size": 373,
+        "sha256": "bf3a014b8afd58d656aa913a066ad2787f502b27d34d4ca5834d03acf1c6e661"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\sal_69res-RMSEs_2.pdf",
+        "byte_size": 197767,
+        "sha256": "a7f09a1c089c612045efcfa800f1c60bdc196aa13875929edf39e10c16f8b34f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._sal_69res-RMSEs_2.pdf",
+        "byte_size": 373,
+        "sha256": "f0d4e078b6f4c48a7fb716a470431ae89f8eadd2fb1fe9deb29499cc5eb2379e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\SAL_160noOBS-_5.pdf",
+        "byte_size": 50750,
+        "sha256": "e46881b2b519afd666e8a8e2ce82830e2c23a144e09af55109bc490a826aabb6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._SAL_160noOBS-_5.pdf",
+        "byte_size": 373,
+        "sha256": "6ee3cc933a7de8a433a515f9ee97c6976296e854e255da02d08e7f1a4501cbed"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\ic2_86noOBS-_2.pdf",
+        "byte_size": 62689,
+        "sha256": "c539f9f4a90acc1ffbe5c2f7c0b9779261162b3d5f05f35d5e61cc0f1e832bcb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._ic2_86noOBS-_2.pdf",
+        "byte_size": 372,
+        "sha256": "706b6fe8c7dbb1afef45fb08811a22378d771c5e169feff77a863fd1bdfe5767"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_6.pdf",
+        "byte_size": 74937,
+        "sha256": "248439fc567f5d9ba2adda1b494e5a0784f32b9c60e0a109472fb032c68cae4c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_6.pdf",
+        "byte_size": 373,
+        "sha256": "087acdbaa7e8a4447445f93aa2c015040dd4370535544c54b304f7c1bfcd5442"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\J3_40noOBS-_2.pdf",
+        "byte_size": 30610,
+        "sha256": "b42bdd97c3bf282543aa868d8916e7dcb7f2c9284ce2499ed63c7ef22ed213d9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._J3_40noOBS-_2.pdf",
+        "byte_size": 371,
+        "sha256": "01421632044be728605deb1ad744721ecc16b5dc9110266681dad481a6b32008"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_153noOBS-_4.pdf",
+        "byte_size": 78312,
+        "sha256": "9bbe63d7605b46da5736fc7d2f813c0e710d05c9effee23a63504da54bf5c23c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_153noOBS-_4.pdf",
+        "byte_size": 373,
+        "sha256": "1649c196737aeba7fb0b8bc32a59f24c5b841bb1600f777ddd263b8b2cb226b2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_153noOBS-_5.pdf",
+        "byte_size": 66676,
+        "sha256": "384efceaa01e4cd428704aea6c21a2c4a8311045ae5933f29b223c65cbba8ee5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_153noOBS-_5.pdf",
+        "byte_size": 373,
+        "sha256": "045467bb258fe5fb1a74554c03034bc6060f9e1e8e27957a7ee63a5c60a1b990"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_7.pdf",
+        "byte_size": 72767,
+        "sha256": "5b0e80893b0bd9b8da9949f610f8e90cf30ed083d0adb0f77d17f41129cd39de"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_7.pdf",
+        "byte_size": 373,
+        "sha256": "15e652410fd0e0ac6e5908de6ef65f74e0871cd39fa66f5eddc11df4ca81f0f3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\ic2_86noOBS-_3.pdf",
+        "byte_size": 49469,
+        "sha256": "fd12a02ce245c9c39c147ffac1fd15aebbc70b4f02b3ead0bb8cb5b86c019cc4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._ic2_86noOBS-_3.pdf",
+        "byte_size": 372,
+        "sha256": "e4700bafb3b1a7642b3a720ec7979e6f2c2ff5bcce8a070c51d7b85c290526e8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\ic2_86noOBS-_1.pdf",
+        "byte_size": 77420,
+        "sha256": "faad68cb5498a140a2eea65dc8de2a9bce70ba16ae629cace99e79cbb5707579"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._ic2_86noOBS-_1.pdf",
+        "byte_size": 372,
+        "sha256": "85e73a25c953ced7aedbca514d3853c105eb382cfc9ee6c91d3678a283cf344b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_5.pdf",
+        "byte_size": 63704,
+        "sha256": "ad58f34c8d6075b1faa4a849c3ec06686c154029af72cffc271bc3612a96d443"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_5.pdf",
+        "byte_size": 373,
+        "sha256": "3f37607989456f8b045650f9615513ed5c7356f6aaf1535756f4854b475bab34"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\J3_40noOBS-_1.pdf",
+        "byte_size": 86338,
+        "sha256": "1bdedf1a116a1ad367306c84e2b792c66b909e22af7ccddaeefd6c24d851d10b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._J3_40noOBS-_1.pdf",
+        "byte_size": 371,
+        "sha256": "dcd723c66e2bb704fc780169029b3d942a87c5d6bb503ae5bdfa6210c647cc2c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_evaluated41res.txt",
+        "byte_size": 463,
+        "sha256": "ede5939c6056f5d6ed18b13855beef847ac1f892be9a09f0e723a1628e17fab5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_evaluated41res.txt",
+        "byte_size": 374,
+        "sha256": "c591fdb5eab3e8eb9e69b331de01f5555deec0397f8434840e2c6ce70d9abd83"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\J3_evaluated14res.txt",
+        "byte_size": 184,
+        "sha256": "4439aba25602d2642589cd86a2f97abf46a0e380011696aabd20ec0d9eb1b750"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._J3_evaluated14res.txt",
+        "byte_size": 373,
+        "sha256": "728c35ffbe3736801b6ca168f20639e78d3a4540ce0878267ec38b7b87152bc2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_4.pdf",
+        "byte_size": 59992,
+        "sha256": "d373960bc15cb2721704abcd547d279be17f8cdde6d78bea04a7d66ef870921b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_4.pdf",
+        "byte_size": 373,
+        "sha256": "a34dcc256eb30e61535701d8bd013c39df287714a915d3bf288225d1ec262fe8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_153noOBS-_2.pdf",
+        "byte_size": 74102,
+        "sha256": "25946117175ce70918572c93988e9cb1f4f911c2389ca6e9909b2099a1d68d19"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_153noOBS-_2.pdf",
+        "byte_size": 373,
+        "sha256": "a16ba9be5a3f969377aad97e1d61dd6a485ade050d2886570092686f3555bcc7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_153noOBS-_3.pdf",
+        "byte_size": 79492,
+        "sha256": "87847cdf8029daaaff21b82489c0d1211dd21b1d32e55976e64ea690aa6b6629"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_153noOBS-_3.pdf",
+        "byte_size": 373,
+        "sha256": "ace36979deaad054359ae2eaedcda8606c4609959c98a57105b560f28fb1c77f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_1.pdf",
+        "byte_size": 89689,
+        "sha256": "fc32b6dbc7655387c87f8800c1cf22dd2071d37b250c63be698cced98a6b33f7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_1.pdf",
+        "byte_size": 373,
+        "sha256": "3304b7fb91cbfe503945bd5b0a0f02a821e8e2681a0fd233342857d0b79787ad"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_3.pdf",
+        "byte_size": 100326,
+        "sha256": "2c9e15fa5cf0d9807a72327c075e9ebbb9356a7c9e76f9bd0e3d747c31cbc73d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_3.pdf",
+        "byte_size": 373,
+        "sha256": "628a630fe025ef2ded8494e3e4ec3c99b70617ce82215ce6f2eb3c3553b23431"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3B_153noOBS-_1.pdf",
+        "byte_size": 91451,
+        "sha256": "991388a90a3ee676e6f7c7be9e69396e24710641d51ef98a398f40ae6aa5a835"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3B_153noOBS-_1.pdf",
+        "byte_size": 373,
+        "sha256": "bf1fafd5d10a6666e342c7aed26804d0d3621ea37b20b06cafa831bdda18d774"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\CS2_258noOBS-_2.pdf",
+        "byte_size": 74763,
+        "sha256": "c4305617d327918245863238bfcc90b18c9cd95be50004e0665db576586ffac3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._CS2_258noOBS-_2.pdf",
+        "byte_size": 373,
+        "sha256": "1315411cebec1a0d186b825fb30e9dd17237824e3fea2fb61df025b5a28cc28b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_129res-RMSEs_1.pdf",
+        "byte_size": 189703,
+        "sha256": "6af7a4f215958a0da59aa2e64a698f6d7a10a0279e2ac1629f7b86a7f9213ded"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_129res-RMSEs_1.pdf",
+        "byte_size": 374,
+        "sha256": "f6bb860eb1b476436b0fec7c42169edd97a658812f25094329839466ef1c95ee"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_129res-RMSEs_2.pdf",
+        "byte_size": 140608,
+        "sha256": "e8e2ceedbeed76fb7b7c89d58630baed56450bea1c0de0022ac2c1e54d5542cc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_129res-RMSEs_2.pdf",
+        "byte_size": 374,
+        "sha256": "7d63bfb263fefc1581b5c5dd6ff271c957192c27c9b322df914baad7551f7ebf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_129res-RMSEs_3.pdf",
+        "byte_size": 186187,
+        "sha256": "46d8d3d469e8c9506dd97916a5c2b48a39182960d547f7d58ae3948e734418b6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_129res-RMSEs_3.pdf",
+        "byte_size": 374,
+        "sha256": "55e50ac996f3d4b7627c5906dbc0f29316cb8ce313080ec6f1fe7596e9344538"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_evaluated129res.txt",
+        "byte_size": 1300,
+        "sha256": "83ab482090c71e18a334bb57a383791487d44312ceb71399d54d7bfec3106d3d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_evaluated129res.txt",
+        "byte_size": 375,
+        "sha256": "cc788035c19dc8edd663ed25d22e090037606044df7698383a53054d3d286219"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_129res-RMSEs_4.pdf",
+        "byte_size": 181557,
+        "sha256": "e7385e5ba67a8b43a2ed0b0645b23a10b607ba770b05d584335d6939922bfec3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_129res-RMSEs_4.pdf",
+        "byte_size": 374,
+        "sha256": "99543cb4bf33f9c3567d187f7222b306734ec9e35cde82e2af904ed3f4564bfa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\IC2_129res-RMSEs_5.pdf",
+        "byte_size": 13460,
+        "sha256": "af704a96d88f9cc3bd873b914189de15dc331132e3fcb465f0f6fc1e96681e4c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._IC2_129res-RMSEs_5.pdf",
+        "byte_size": 374,
+        "sha256": "d2e7dff29da66ee614e177b62b4944ce45239b4dca743ebb8fc2589cec4f9072"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\J3_14res-RMSEs_1.pdf",
+        "byte_size": 198248,
+        "sha256": "5c4265e35ef16b41d70a16ed069641b6ceb7b498210ef840d5f895d0691d4f98"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._J3_14res-RMSEs_1.pdf",
+        "byte_size": 372,
+        "sha256": "b2888b3c5605c245e3991c0639da3c674bd7687a4bf2e74a6a60bb80f26e79bd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\SR\\S3A_evaluated36res.txt",
+        "byte_size": 447,
+        "sha256": "ae709b10b099ad1a404d7b926f6facd571714d0e1087f48c511bffee3ac3ff03"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\SR\\._S3A_evaluated36res.txt",
+        "byte_size": 374,
+        "sha256": "b575a385e2ffadecbbc9c335ae00f3c7e4c5779bdcdd90422988810168d925cf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\all_153noOBSres_5.pdf",
+        "byte_size": 183483,
+        "sha256": "409f7725b7b996708b515f3ea7b3beea279453c1b7e8078844a40001c6f6a994"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._all_153noOBSres_5.pdf",
+        "byte_size": 365,
+        "sha256": "52ff2de5ec8652b5fb1f3762f8c40020d59935564ffd472a267cc7c86c7dc2f3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\all_153noOBSres_4.pdf",
+        "byte_size": 218273,
+        "sha256": "755e51a3ca03c9922e676daee2559640c18d017748b9162b36e5849b8bc22e7f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._all_153noOBSres_4.pdf",
+        "byte_size": 365,
+        "sha256": "40e1b6684245ce206fb58c8f4e72034f3df24ab7fee7b97c358257608c2094de"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\all_153noOBSres_3.pdf",
+        "byte_size": 162615,
+        "sha256": "199295c40ad5c6866ff9b108eb054c7a62e991bbe79ec2d13ae2ed8cb6252cb3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._all_153noOBSres_3.pdf",
+        "byte_size": 365,
+        "sha256": "f8c98145eae707224169ad23a454e5e68e4a5dd65f1fb39debfa01a5939b4a46"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\all_153noOBSres_2.pdf",
+        "byte_size": 213373,
+        "sha256": "4b54dd5d96dbd45dda1b733c041daf35f72fcc2c22536457d409753bb5ed0a16"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._all_153noOBSres_2.pdf",
+        "byte_size": 365,
+        "sha256": "06b55801ba1ad6428ec6a1f60a3506a3c163d7f24394512d0bb6bef8ba6c0941"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\all_153noOBSres_1.pdf",
+        "byte_size": 215264,
+        "sha256": "e54458c205e0b590d309ea2236e9db4d55b01f4408c50b1cd7a39de015cf0c89"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._all_153noOBSres_1.pdf",
+        "byte_size": 365,
+        "sha256": "bcc1d5648dd30e9de651be9f915a61530af791d18599bf0142cbade4fd340189"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\Evaluated_97res_4.pdf",
+        "byte_size": 46917,
+        "sha256": "dbf480c1f15ee875b50f0f774d6913e7773e716777a39fbd551018015474705a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._Evaluated_97res_4.pdf",
+        "byte_size": 365,
+        "sha256": "49ae12c3b225dd2fc57af288063c2c21e71d88cc042448db715ad25ec63e2a4e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\Evaluated_97res_1.pdf",
+        "byte_size": 314517,
+        "sha256": "9ba85bca4c1fd925f679bb3da5b9e0bc3b878939a843c3b9d0c3b5d6a2e68bd8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._Evaluated_97res_1.pdf",
+        "byte_size": 365,
+        "sha256": "66f37020f3da4541a0d5b13424b86c56d4489a983bb5eb6d642801ee0ab5ef1a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\Evaluated_97res_3.pdf",
+        "byte_size": 402174,
+        "sha256": "51eb9c5a91c9052d835ae7cdc8c006156323ee0501586cc3924b249f02acaed9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._Evaluated_97res_3.pdf",
+        "byte_size": 365,
+        "sha256": "81344803bc2f21a0bf3406e2937d3ef21861c593e719f421632055375ae34cce"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\Evaluated_97res_2.pdf",
+        "byte_size": 289259,
+        "sha256": "dd3e1679e3b61cf75f94a7835ac35413becd87c9301e627e33bca6262c7f45c2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._Evaluated_97res_2.pdf",
+        "byte_size": 365,
+        "sha256": "adacfa12402591d764c64bb5a16019383b1639a607e13e66903e796055ce25c3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\validation_figures\\water level\\HR\\EvaluaationHR_against97reswithOBSwaterlevel.txt",
+        "byte_size": 8375,
+        "sha256": "e14c7ad79e28519116e923c60d4c7432c9c89402ade32eab18cd90fe216c0216"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\validation_figures\\__MACOSX\\validation_figures\\water level\\HR\\._EvaluaationHR_against97reswithOBSwaterlevel.txt",
+        "byte_size": 391,
+        "sha256": "ed3739c2b14676f0167c0ab4c2fd41c3a9e7e9140cad4553ee27dbb0fe8aae36"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:57:55.196188+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.537523+00:00"
+}

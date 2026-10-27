@@ -1,0 +1,134 @@
+{
+  "type": "Collection",
+  "id": "cems-glofas-seasonal-reforecast",
+  "stac_version": "1.1.0",
+  "title": "Seasonal reforecasts of river discharge and related data from the Global Flood Awareness System",
+  "description": "This dataset provides a gridded modelled time series of river discharge forced with seasonal range meteorological reforecasts. The data is a consistent representation of a key hydrological variable across the global domain, and is a product of the Global Flood Awareness System (GloFAS). It is accompanied by an ancillary file for interpretation that provides the upstream area (see the related variables table and associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with input from the European Centre for Medium-range Weather Forecasts (ECMWF) ensemble seasonal forecasting system, SEAS5. For the period of 1981 to 2016 the number of ensemble members is 25, whilst reforecasts produced for 2017 onwards use a 51-member ensemble. Reforecasts are forecasts run over past dates, with those presented here used for producing the seasonal river discharge thresholds. In addition, they provide a suitably long time period against which the skill of the seasonal forecast can be assessed. The reforecasts are initialised monthly and run for 123 days, with a 24-hourly time step. For more specific information on the how the seasonal reforecast dataset is produced we refer to the documentation.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), include the seasonal forecasts, for which the dataset provided here can be useful for local skill assessment and post-processing. For users looking for shorter term forecasts there are also medium-range forecasts and reforecasts available, as well as historical simulations that can be used to derive the hydrological climatology. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission’s Joint Research Centre.",
+  "summaries": {},
+  "providers": [
+    {
+      "name": "ECMWF"
+    }
+  ],
+  "keywords": [
+    "Temporal coverage: Past",
+    "Spatial coverage: Global",
+    "Provider: Copernicus CEMS",
+    "Variable domain: Land (hydrology)",
+    "Product type: Seasonal reforecasts"
+  ],
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.0,
+          -60.0,
+          360.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1981-01-01T00:00:00+00:00",
+          "2023-07-01T00:00:00+00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal-reforecast"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "license",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+      "title": "CEMS-FLOODS datasets licence",
+      "rev": 1,
+      "id": "cems-floods"
+    },
+    {
+      "rel": "form",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/form_c9a49fd18b54b0a92bb6c33aebd605d517644311525a0b01dc199af6d9fad2de.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "constraints",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/constraints_479d824c7dabea23402777f569952929e4e1a05b9ba04d7bc5237240cea75262.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "retrieve",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-seasonal-reforecast",
+      "type": "application/json"
+    },
+    {
+      "rel": "costing_api",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-seasonal-reforecast/costing",
+      "type": "application/json"
+    },
+    {
+      "rel": "layout",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/layout_e375c36775b3b8a81a63acd5e4bc0eeb92fb4372d56a921a2131fdd2882e383f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-reforecast",
+      "title": "Reforecasts of river discharge and related data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal",
+      "title": "Seasonal forecasts of river discharge and related data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-forecast",
+      "title": "River discharge and related forecasted data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-historical",
+      "title": "River discharge and related historical data from the Global Flood Awareness System"
+    },
+    {
+      "rel": "messages",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal-reforecast/messages",
+      "title": "All active messages on Seasonal reforecasts of river discharge and related data from the Global Flood Awareness System"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/overview_607aab0c8084d2b2ecdae18f6a6c7023219edd0cadf9f2d9eb44d8a6dcef7dda.png",
+      "type": "image/jpg",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "published": "2020-12-09T00:00:00Z",
+  "updated": "2025-04-02T00:00:00Z",
+  "sci:doi": "10.24381/cds.0aa9b9dd",
+  "cads:disabled_reason": null,
+  "cads:sanity_check": {
+    "status": "available",
+    "timestamp": "2026-10-26T17:31:35.361523+00:00"
+  },
+  "cads:update_frequency": "Monthly",
+  "cads:fair": 84
+}

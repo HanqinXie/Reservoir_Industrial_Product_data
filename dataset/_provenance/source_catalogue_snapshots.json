@@ -1,0 +1,14 @@
+[
+  {
+    "input": "水库_工业库存_研究计划与文献数据标准包_20261026\\03_data_catalog.md",
+    "snapshot": "dataset\\_provenance\\source_03_data_catalog.md",
+    "sha256": "fca97d4e4dea62bc94e5016328d529ab7e0621686bd2ed8665401ddfa6896a17",
+    "bytes": 30312
+  },
+  {
+    "input": "水库_工业库存_研究计划与文献数据标准包_20261026\\04_standards_and_rules.md",
+    "snapshot": "standards\\_provenance\\source_04_standards_and_rules.md",
+    "sha256": "474f2db1781487857ed1a0fb01d71c26f2e4430e4bdd5a67d589c8ad8f79872c",
+    "bytes": 18444
+  }
+]

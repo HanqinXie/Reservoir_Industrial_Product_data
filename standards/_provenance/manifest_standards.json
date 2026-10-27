@@ -1,0 +1,521 @@
+[
+  {
+    "id": "S01",
+    "title": "大中型水电站水库调度规范",
+    "code": "GB 17621—1998",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=9AC698E8841BAD62F04E0CD724941B23",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "大中型水电站水库调度规范_GB 17621—1998.pdf"
+    ],
+    "reason": "公开下载页直链副本；未登录、未付费、未绕过验证码。需结合官方元数据核对版本；全文页数与首尾页已检查。",
+    "download_url": "https://kkk.kqqw.com/bzgf/B6A6EF73E674406E020191116jc.pdf",
+    "landing_url": "https://www.kqqw.com/gb/44777.html",
+    "pages": 11,
+    "bytes": 565721,
+    "sha256": "f970845da0fb2320e317696e814702aeb24fb70cf6bc3a91a8fa3856e05ac923",
+    "verified_at": "2026-10-27",
+    "code_version": "GB 17621—1998",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S01",
+      "file": "大中型水电站水库调度规范_GB 17621—1998.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S02",
+    "title": "水库调度规程编制导则",
+    "code": "SL/T 706—2026",
+    "source_url": "https://swj.sh.gov.cn/shsdfbzssglc-zhxw/20260323/51850868cb5340b292a53e58c3243d54.html",
+    "status": "fulltext_official_reader_page_capture",
+    "files": [
+      "水库调度规程编制导则_SL_T 706—2026_官方在线阅览分页保存.pdf"
+    ],
+    "reason": "水利部现行有效标准系统无登录公开阅览，逐页保存全部原图并按顺序无裁剪合成PDF；不是原始PDF附件。源图530×768像素；全部页图格式校验通过，页数与官方查看器一致，首中尾页已核。",
+    "pages": 52,
+    "bytes": 3147168,
+    "sha256": "930b09cf73de380696134aeecd7666de0e5e2bc5559547b033421a07668e58c0",
+    "fulltext_source_type": "official_public_reader_page_images",
+    "download_url": "http://121.36.94.83:9008/jsp/yishenqing/appladd/biaozhunfile/flash/previewImg.jsp?bzMax=SL%252FT%2B706-2026",
+    "source_image_size": [
+      530,
+      768
+    ],
+    "page_images_manifest": "_provenance/mwr_pages_manifest.json",
+    "verified_at": "2026-10-27",
+    "code_version": "SL/T 706—2026",
+    "verification": {
+      "id": "S02",
+      "file": "水库调度规程编制导则_SL_T 706—2026_官方在线阅览分页保存.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 52,
+      "pages_rendered": 52,
+      "render_all_pages": "pass",
+      "page_images_count": 52,
+      "unique_page_image_sha256": 52
+    }
+  },
+  {
+    "id": "S03",
+    "title": "水库调度设计规范",
+    "code": "GB/T 50587—2010",
+    "source_url": "https://www.gongbiaoku.com/book/04r18801uvr",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "水库调度设计规范_GB_T 50587—2010.pdf"
+    ],
+    "reason": "公开下载页PDF副本；扫描版37张双页，含正文与条文说明至第58页。下载源前有33字节非PDF提示，保留原始字节于_provenance，交付副本仅去除该前缀以恢复标准PDF头；页面图像未改。",
+    "download_url": "https://kkk.kqqw.com/bzgf/BB188984A876717CB20191121vn.pdf",
+    "pages": 37,
+    "bytes": 2292583,
+    "sha256": "583697cd29aad9b198e0792973544abb609e054c34e8c145792cd9c3d422cd8a",
+    "pdf_header_offset": 0,
+    "original_pdf_header_offset": 33,
+    "source_bytes": 2292616,
+    "source_sha256": "47e0da4aa5330d6a02cf487a26e4bafc5605d4e3f98193a8297b9f619b446188",
+    "normalization": "removed 33-byte non-PDF prefix; original bytes retained in _provenance/S03_mirror_response.bin",
+    "verified_at": "2026-10-27",
+    "code_version": "GB/T 50587—2010",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S03",
+      "file": "水库调度设计规范_GB_T 50587—2010.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 37,
+      "pages_rendered": 37,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S04",
+    "title": "水库生态流量泄放规程",
+    "code": "SL/T 819—2023",
+    "source_url": "https://hbba.sacinfo.org.cn/rndownload/190a09737a286e38fdb540971fd2938460456d33ab11d13eb49d944a89511566",
+    "status": "fulltext_downloaded",
+    "files": [
+      "水库生态流量泄放规程_SL_T 819—2023.pdf"
+    ],
+    "reason": "公开全文已下载；PDF页面可解析，保留原始下载字节。",
+    "download_url": "https://hbba.sacinfo.org.cn/portal/download/dad3b1e8b98ce2592cce217014d06fac01164059be7fe4f05be4ee0c44b8fdb2",
+    "pages": 31,
+    "bytes": 643428,
+    "sha256": "c1b4715e3c988accd94c9f26dfd88ba0d8c0e08e4ab85cb41a8012f2cc4b9160",
+    "pdf_header_offset": 0,
+    "verified_at": "2026-10-27",
+    "code_version": "SL/T 819—2023",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S04",
+      "file": "水库生态流量泄放规程_SL_T 819—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 31,
+      "pages_rendered": 31,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S05",
+    "title": "水利水电工程生态流量计算与泄放设计规范",
+    "code": "SL/T 820—2023",
+    "source_url": "https://hbba.sacinfo.org.cn/rndownload/190a09737a286e38fdb540971fd2938460456d33ab11d13eb49d944a89511566",
+    "status": "fulltext_downloaded",
+    "files": [
+      "水利水电工程生态流量计算与泄放设计规范_SL_T 820—2023.pdf"
+    ],
+    "reason": "公开全文已下载；PDF页面可解析，保留原始下载字节。",
+    "download_url": "https://hbba.sacinfo.org.cn/portal/download/dad3b1e8b98ce2592cce217014d06fac4505027e19a89fc2f26b8d60fece7f01",
+    "pages": 85,
+    "bytes": 1046949,
+    "sha256": "59ca7fa36d3b7a897435f29da9f2203d73ce2d93f2cf38043ba02140a0fbe8b0",
+    "pdf_header_offset": 0,
+    "verified_at": "2026-10-27",
+    "code_version": "SL/T 820—2023",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S05",
+      "file": "水利水电工程生态流量计算与泄放设计规范_SL_T 820—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 85,
+      "pages_rendered": 85,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S06",
+    "title": "电解铝和氧化铝单位产品能源消耗限额",
+    "code": "GB 21346—2022",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=26157DFF9B64E6DEAB76156105CE930E",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "电解铝和氧化铝单位产品能源消耗限额_GB 21346—2022.pdf"
+    ],
+    "reason": "公开下载页直链副本；未登录、未付费、未绕过验证码。需结合官方元数据核对版本；全文页数与首尾页已检查。",
+    "download_url": "https://kkk.kqqw.com/bzgf2/BZ-F1F08FCFAC5D62FF20230407ib.pdf",
+    "landing_url": "https://www.kqqw.com/gb/361325.html",
+    "pages": 10,
+    "bytes": 3097863,
+    "sha256": "bbd8cabf0ed602e3786ba89d4f392aa372f2349e87daf39d651d0bba1d3c3893",
+    "verified_at": "2026-10-27",
+    "code_version": "GB 21346—2022",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S06",
+      "file": "电解铝和氧化铝单位产品能源消耗限额_GB 21346—2022.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 10,
+      "pages_rendered": 10,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S07",
+    "title": "铝电解安全生产规范",
+    "code": "GB 29741—2025",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B4F1EFE76B6170150BC9B191F86B87E5",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "铝电解安全生产规范_GB 29741—2025.pdf"
+    ],
+    "reason": "公开下载页直链副本；未登录、未付费、未绕过验证码。需结合官方元数据核对版本；全文页数与首尾页已检查。",
+    "download_url": "https://kkk.kqqw.com/bzgf3/BZ-2B1CF7F6E4A941D420251202wh.pdf",
+    "landing_url": "https://www.kqqw.com/gb/453698.html",
+    "pages": 19,
+    "bytes": 539006,
+    "sha256": "f2e2be817a7f4c91ac59573bb8810c9ea48ae4bd0c0a1eca57d4fb1d3a13182f",
+    "verified_at": "2026-10-27",
+    "code_version": "GB 29741—2025",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S07",
+      "file": "铝电解安全生产规范_GB 29741—2025.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 19,
+      "pages_rendered": 19,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S08",
+    "title": "重熔用铝锭",
+    "code": "GB/T 1196—2023",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=4CD0B71CB7C82BB42BE88AE59AF29205",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "重熔用铝锭_GB_T 1196—2023.pdf"
+    ],
+    "reason": "公开下载页直链副本；未登录、未付费、未绕过验证码。需结合官方元数据核对版本；全文页数与首尾页已检查。",
+    "download_url": "https://kkk.kqqw.com/bzgf3/BZ-DDF95C854883A61020240403qo.pdf",
+    "landing_url": "https://www.kqqw.com/gb/400880.html",
+    "pages": 10,
+    "bytes": 2252119,
+    "sha256": "c9ec40d12a6cb3710f4d490aca871462ff521a08f79fbe1e0804a66551f02209",
+    "verified_at": "2026-10-27",
+    "code_version": "GB/T 1196—2023",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S08",
+      "file": "重熔用铝锭_GB_T 1196—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 10,
+      "pages_rendered": 10,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S09",
+    "title": "综合能耗计算通则",
+    "code": "GB/T 2589—2020",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=53D1440B68E6D50B8BA0CCAB619B6B3E",
+    "status": "fulltext_downloaded",
+    "files": [
+      "综合能耗计算通则_GB_T 2589—2020.pdf"
+    ],
+    "reason": "公开全文已下载；PDF页面可解析，保留原始下载字节。政府官网公开完整附件，替换早期3页节选。",
+    "download_url": "http://ft.panzhihua.gov.cn/uploadfiles/202108/12/2021081217202347802674.pdf",
+    "landing_url": "https://www.kqqw.com/gb/232200.html",
+    "pages": 9,
+    "bytes": 555393,
+    "sha256": "c0c8e5f3a43392e8c50e86c0a0ab50141bfa71c7584a18951299989ededd4092",
+    "pdf_header_offset": 0,
+    "verified_at": "2026-10-27",
+    "code_version": "GB/T 2589—2020",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S09",
+      "file": "综合能耗计算通则_GB_T 2589—2020.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 9,
+      "pages_rendered": 9,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S10",
+    "title": "用能单位能源计量器具配备和管理通则",
+    "code": "GB 17167—2025",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2D9CE8D164C7157B20823329A97D0750",
+    "status": "fulltext_downloaded_public_mirror",
+    "files": [
+      "用能单位能源计量器具配备和管理通则_GB 17167—2025.pdf"
+    ],
+    "reason": "公开全文已下载；PDF页面可解析，保留原始下载字节。",
+    "download_url": "https://23922130.s21i.faiusr.com/61/3/ABUIABA9GAAgkdD5wQYogLDzHA.pdf",
+    "pages": 11,
+    "bytes": 344256,
+    "sha256": "507a1394016b1bdc7357c04c55adb765dcd92f8f3c2dbae3309bc9bac7fb3d26",
+    "pdf_header_offset": 0,
+    "verified_at": "2026-10-27",
+    "code_version": "GB 17167—2025",
+    "fulltext_source_type": "public_pdf_copy",
+    "verification": {
+      "id": "S10",
+      "file": "用能单位能源计量器具配备和管理通则_GB 17167—2025.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S11",
+    "title": "铝产业高质量发展实施方案（2025—2027年）",
+    "code": "工信部联原〔2025〕62号",
+    "source_url": "https://gxt.fujian.gov.cn/jdhy/zxzcfg/gjzcfg/202504/t20250410_6876488.htm",
+    "status": "fulltext_downloaded",
+    "files": [
+      "铝产业高质量发展实施方案（2025—2027年）_工信部联原〔2025〕62号.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://gxt.fujian.gov.cn/jdhy/zxzcfg/gjzcfg/202504/P020250410568435590181.pdf",
+    "pages": 11,
+    "bytes": 271057,
+    "sha256": "4a3acbb09b9e3c91f3c0854371dae56c88719690fd71cdb32a16f588a4d51a37",
+    "verified_at": "2026-10-27",
+    "code_version": "工信部联原〔2025〕62号",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S11",
+      "file": "铝产业高质量发展实施方案（2025—2027年）_工信部联原〔2025〕62号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S12",
+    "title": "电力市场运行基本规则",
+    "code": "国家发展改革委令第20号（2024年）",
+    "source_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20379",
+    "status": "fulltext_downloaded",
+    "files": [
+      "电力市场运行基本规则_国家发展改革委令第20号（2024年）.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://zfxxgk.ndrc.gov.cn/upload/images/20244/202441013365493.pdf",
+    "pages": 11,
+    "bytes": 184713,
+    "sha256": "9aa6cbd60cb7350d53a63789f06020c74e17e63d6c4c9933048cc09552003bf6",
+    "verified_at": "2026-10-27",
+    "code_version": "国家发展改革委令第20号（2024年）",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S12",
+      "file": "电力市场运行基本规则_国家发展改革委令第20号（2024年）.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S13",
+    "title": "电力中长期市场基本规则",
+    "code": "发改能源规〔2025〕1656号",
+    "source_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20581",
+    "status": "fulltext_downloaded",
+    "files": [
+      "电力中长期市场基本规则_发改能源规〔2025〕1656号.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://zfxxgk.ndrc.gov.cn/upload/images/202511/202511261875764.pdf",
+    "pages": 30,
+    "bytes": 311927,
+    "sha256": "a6f05ee662e5d18150ec596546f36f03f5b172cd6f385e86aa881f88c4aae1eb",
+    "verified_at": "2026-10-27",
+    "code_version": "发改能源规〔2025〕1656号",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S13",
+      "file": "电力中长期市场基本规则_发改能源规〔2025〕1656号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 30,
+      "pages_rendered": 30,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S14",
+    "title": "云南电力中长期市场实施细则",
+    "code": "云监能市场〔2026〕11号",
+    "source_url": "https://ynb.nea.gov.cn/dtyw/zcgz/202602/t20260228_297096.html",
+    "status": "fulltext_downloaded",
+    "files": [
+      "云南电力中长期市场实施细则_云监能市场〔2026〕11号.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://ynb.nea.gov.cn/dtyw/zcgz/202602/P020260311573023925726.pdf",
+    "pages": 52,
+    "bytes": 534302,
+    "sha256": "f271e0da1ca71876b3b7b9c710e81d0c74d01ba03bbe92882680f8675909938f",
+    "verified_at": "2026-10-27",
+    "code_version": "云监能市场〔2026〕11号",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S14",
+      "file": "云南电力中长期市场实施细则_云监能市场〔2026〕11号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 52,
+      "pages_rendered": 52,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S15",
+    "title": "电力市场计量结算基本规则",
+    "code": "发改能源规〔2025〕976号",
+    "source_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20533",
+    "status": "fulltext_downloaded",
+    "files": [
+      "电力市场计量结算基本规则_发改能源规〔2025〕976号.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://zfxxgk.ndrc.gov.cn/upload/images/20257/20257618471671.pdf",
+    "pages": 18,
+    "bytes": 264011,
+    "sha256": "271944fef213157cda45f84e9ebec9fc9da9f0afc6a64eb306166fb33fee9917",
+    "verified_at": "2026-10-27",
+    "code_version": "发改能源规〔2025〕976号",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S15",
+      "file": "电力市场计量结算基本规则_发改能源规〔2025〕976号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 18,
+      "pages_rendered": 18,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S16",
+    "title": "电力现货市场基本规则（试行）",
+    "code": "发改能源规〔2023〕1217号",
+    "source_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20272",
+    "status": "fulltext_downloaded",
+    "files": [
+      "电力现货市场基本规则（试行）_发改能源规〔2023〕1217号.pdf"
+    ],
+    "reason": "政府网站公开PDF原始附件；PDF魔数与全部页面可解析。",
+    "download_url": "https://zfxxgk.ndrc.gov.cn/upload/images/20238/202381810345383.pdf",
+    "pages": 57,
+    "bytes": 1339182,
+    "sha256": "532928f568056221d6fec581725a9b78e68a9a26267de000d44221b0db48553d",
+    "verified_at": "2026-10-27",
+    "code_version": "发改能源规〔2023〕1217号",
+    "fulltext_source_type": "official_pdf_original",
+    "verification": {
+      "id": "S16",
+      "file": "电力现货市场基本规则（试行）_发改能源规〔2023〕1217号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 57,
+      "pages_rendered": 57,
+      "render_all_pages": "pass"
+    }
+  },
+  {
+    "id": "S17",
+    "title": "电力现货市场基本规则（公开征求意见稿）",
+    "code": "2026年10月公开征求意见材料",
+    "source_url": "https://yyglxxbsgw.ndrc.gov.cn/htmls/article/article.html?articleId=2c97d16c-9ff00a63-01a1-524711ba-002f",
+    "status": "original_fulltext_downloaded_word_compatibility_issue",
+    "files": [
+      "电力现货市场基本规则（公开征求意见稿）_2026年10月公开征求意见稿.doc"
+    ],
+    "reason": "发改委原始Word附件与商务部转载附件SHA256一致，OLE全部流解析无异常，可提取10707个主文档字符。本机Microsoft Word因文件验证问题拒绝打开；原件未改，另提供不保留自动编号/格式的参考TXT。仅为2026年10月公开征求意见稿。",
+    "download_url": "https://yyglxxbs.ndrc.gov.cn/file-submission/20261019114817661002.doc",
+    "landing_url": "https://policy.mofcom.gov.cn/claw/opinionInfo.shtml?id=7690",
+    "bytes": 534029,
+    "sha256": "54eb40b12df3b321f62c2f71cb123800b9e4a0193e9ead8c17886c2d47048b1c",
+    "verified_at": "2026-10-27",
+    "code_version": "2026年10月公开征求意见材料",
+    "fulltext_source_type": "official_word_original",
+    "verification": {
+      "ole_parse": "pass",
+      "ole_text_characters": 10707,
+      "word_open": "failed; Office detected a problem with the file",
+      "source_identical_sha256": true,
+      "page_count_rendered": null,
+      "page_count_document_metadata": 23
+    },
+    "alternate_identical_url": "https://picpolicy.mofcom.gov.cn/file/20261020/20261020163423512.doc",
+    "pages": null,
+    "pages_metadata_only": 23,
+    "reference_files": [
+      "电力现货市场基本规则（公开征求意见稿）_2026年10月_OLE正文提取_仅供参考.txt"
+    ]
+  },
+  {
+    "id": "S18",
+    "title": "水工建筑物与堰槽测流规范",
+    "code": "SL/T 537—2026",
+    "source_url": "https://swj.sh.gov.cn/shsdfbzssglc-zhxw/20260323/51850868cb5340b292a53e58c3243d54.html",
+    "status": "fulltext_official_reader_page_capture",
+    "files": [
+      "水工建筑物与堰槽测流规范_SL_T 537—2026_官方在线阅览分页保存.pdf"
+    ],
+    "reason": "水利部现行有效标准系统无登录公开阅览，逐页保存全部原图并按顺序无裁剪合成PDF；不是原始PDF附件。源图530×768像素；全部页图格式校验通过，页数与官方查看器一致，首中尾页已核。",
+    "pages": 269,
+    "bytes": 19023169,
+    "sha256": "b302d670414bf40e7bc6df6ed833b1340c6830d83dbcd0a7233284b73f6673a8",
+    "fulltext_source_type": "official_public_reader_page_images",
+    "download_url": "http://121.36.94.83:9008/jsp/yishenqing/appladd/biaozhunfile/flash/previewImg.jsp?bzMax=SL%252FT%2B537-2026",
+    "source_image_size": [
+      530,
+      768
+    ],
+    "page_images_manifest": "_provenance/mwr_pages_manifest.json",
+    "verified_at": "2026-10-27",
+    "code_version": "SL/T 537—2026",
+    "verification": {
+      "id": "S18",
+      "file": "水工建筑物与堰槽测流规范_SL_T 537—2026_官方在线阅览分页保存.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 269,
+      "pages_rendered": 269,
+      "render_all_pages": "pass",
+      "page_images_count": 269,
+      "unique_page_image_sha256": 269
+    }
+  }
+]

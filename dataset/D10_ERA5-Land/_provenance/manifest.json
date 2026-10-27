@@ -1,0 +1,27 @@
+{
+  "id": "D10",
+  "title": "ERA5-Land",
+  "source_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+  "files": [
+    {
+      "path": "D10_ERA5-Land\\_provenance\\data_licence.html",
+      "bytes": 64787,
+      "sha256": "25d05f78fb3d330f7c8754a322bdb539bd33c15d4a42822eea16d191f69036ea",
+      "url": "https://spdx.org/licenses/CC-BY-4.0",
+      "final_url": "https://spdx.org/licenses/CC-BY-4.0",
+      "content_type": "text/html"
+    },
+    {
+      "path": "D10_ERA5-Land\\_provenance\\download_form.json",
+      "bytes": 17883,
+      "sha256": "3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c",
+      "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/form_3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c.json",
+      "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/form_3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c.json",
+      "content_type": "application/json"
+    }
+  ],
+  "attempts": [],
+  "status": "requires_account_and_subset",
+  "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+  "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+}

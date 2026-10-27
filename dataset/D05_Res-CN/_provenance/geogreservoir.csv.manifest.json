@@ -1,0 +1,23 @@
+{
+  "id": "D05",
+  "directory": "D05_Res-CN",
+  "name": "geogreservoir.csv",
+  "source_url": "https://zenodo.org/api/records/7664489/files/geogreservoir.csv/content",
+  "expected_bytes": 589722,
+  "expected_md5": "333bb63ea749fb5598b18e0eca291baa",
+  "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+  "version": null,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "started_utc": "2026-10-26T17:57:54.029867+00:00",
+  "status": "downloaded",
+  "path": "D05_Res-CN\\geogreservoir.csv",
+  "byte_size": 589722,
+  "sha256": "e1d2ffaf92dce98e2a3bf254b8e938c8978081b92e279d01fcb551cf3aa5a87b",
+  "md5": "333bb63ea749fb5598b18e0eca291baa",
+  "official_md5_verified": true,
+  "finished_utc": "2026-10-26T17:57:54.036939+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.316976+00:00"
+}

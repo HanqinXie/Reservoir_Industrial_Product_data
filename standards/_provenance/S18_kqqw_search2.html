@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>信息提示 - 库七七</title>
+<link rel="stylesheet" href="/ecmsshop/new/css/common.css">
+<link rel="stylesheet" href="/ecmsshop/new/css/list.css">
+<link rel="stylesheet" href="/ecmsshop/new/css/home.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<style>
+.message-page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 20px 400px;
+    background: #f5f7fa;
+}
+.message-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    padding: 28px 28px 24px;
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid #e8ecf1;
+    text-align: center;
+}
+.message-card .msg-icon {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.message-card .msg-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+}
+.message-card .msg-text {
+    font-size: 14px;
+    color: #5e6f82;
+    margin-top: 4px;
+    line-height: 1.6;
+}
+.message-card .msg-divider {
+    border-top: 1px solid #e8ecf1;
+    margin: 16px 0 14px;
+}
+.message-card .msg-btn {
+    display: inline-block;
+    padding: 10px 32px;
+    background: var(--primary);
+    color: #fff !important;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+.message-card .msg-btn:hover {
+    background: var(--primary-hover);
+}
+.message-card .msg-auto {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 12px;
+}
+.message-card .msg-auto a {
+    color: var(--primary);
+}
+.message-card .msg-auto a:hover {
+    text-decoration: underline;
+}
+.message-card .msg-icon.success { color: #22c55e; }
+.message-card .msg-icon.error { color: #ef4444; }
+.message-card .msg-icon.warning { color: #f59e0b; }
+@media (max-width: 480px) {
+    .message-card {
+        padding: 20px 16px 18px;
+    }
+    .message-card .msg-icon {
+        font-size: 36px;
+    }
+    .message-card .msg-title {
+        font-size: 18px;
+    }
+}
+</style>
+<script language="javascript">
+var secs=3;
+for(i=1;i<=secs;i++) 
+{ window.setTimeout("update(" + i + ")", i * 1000);} 
+function update(num) 
+{ 
+if(num == secs) 
+{ history.go(-1); } 
+else 
+{ } 
+}
+</script>
+</head>
+<body>
+
+<!-- ===== 公共头部 ===== -->
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo-wrapper">
+                <div class="logo-text">
+                    <a href="/">
+                        <span class="char-red">库</span>
+                        <span class="char-dark">七</span>
+                        <span class="char-light">七</span>
+                    </a>
+                </div>
+                <span class="logo-badge"><a href="/">标准库</a></span>
+            </div>
+            <div class="header-right">
+                <div class="login-area">
+                    <script src="/e/member/login/loginjs.php"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ===== 提示主体 ===== -->
+<main class="message-page">
+    <div class="message-card">
+                <div class="msg-icon ">📢</div>
+        <div class="msg-title">信息提示</div>
+        <div class="msg-text">系统限制的搜索关键字只能在 4~30 个字符之间</div>
+        <div class="msg-divider"></div>
+<!-- <a href="javascript:history.go(-1)" class="msg-btn">立即跳转</a> -->
+        <div class="msg-auto">
+            系统将在 <strong>3</strong> 秒后自动跳转，<a href="javascript:history.go(-1)">点击这里</a> 立即跳转
+        </div>
+    </div>
+</main>
+
+<!-- ===== 底部 ===== -->
+<footer class="footer-bottom">
+    <p>© 2026 <a href="https://www.kqqw.com" target="_blank">库七七网</a> 技术交流与学习平台</p>
+    <p>联系邮箱：kqqw@vip.qq.com</p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var wrap = document.getElementById('categoryList');
+    if (wrap) {
+        var lineHeight = parseFloat(getComputedStyle(wrap).lineHeight);
+        var maxHeight = parseFloat(getComputedStyle(wrap).maxHeight);
+        if (wrap.scrollHeight <= maxHeight + 1) {
+            wrap.classList.add('no-arrow');
+        }
+    }
+});
+</script>
+<script type="text/javascript" src="/ecmsshop/kqqw/js/jquery.js"></script>
+<script type="text/javascript" src="/ecmsshop/kqqw/js/ku.js"></script>
+<script type="text/javascript" src="/ecmsshop/kqqw/js/ecmsshop.js"></script>
+</body>
+</html>

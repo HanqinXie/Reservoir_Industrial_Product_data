@@ -1,0 +1,30 @@
+[
+  {
+    "id": "D05",
+    "name": "B full catchments.zip",
+    "compressed_bytes": 4667799460,
+    "archive_members": 3275,
+    "uncompressed_bytes": 12296931847
+  },
+  {
+    "id": "D08",
+    "name": "BasinATLAS_v10_shp.zip",
+    "compressed_bytes": 4276492333,
+    "archive_members": 76,
+    "uncompressed_bytes": 11595801195
+  },
+  {
+    "id": "D08",
+    "name": "RiverATLAS_v10_shp.zip",
+    "compressed_bytes": 2418581202,
+    "archive_members": 64,
+    "uncompressed_bytes": 13040487569
+  },
+  {
+    "id": "D08",
+    "name": "LakeATLAS_v10_shp.zip",
+    "compressed_bytes": 1612526498,
+    "archive_members": 28,
+    "uncompressed_bytes": 6403136157
+  }
+]

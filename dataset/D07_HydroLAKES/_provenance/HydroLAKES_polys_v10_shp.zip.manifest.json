@@ -1,0 +1,68 @@
+{
+  "id": "D07",
+  "directory": "D07_HydroLAKES",
+  "name": "HydroLAKES_polys_v10_shp.zip",
+  "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_polys_v10_shp.zip",
+  "expected_bytes": 820295132,
+  "expected_md5": null,
+  "license": "CC-BY 4.0",
+  "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points",
+  "started_utc": "2026-10-26T17:58:42.928257+00:00",
+  "range_probe": {
+    "status_code": 206,
+    "content_range": "bytes 0-0/820295132",
+    "validated": true
+  },
+  "status": "downloaded_and_extracted",
+  "path": "D07_HydroLAKES\\HydroLAKES_polys_v10_shp.zip",
+  "byte_size": 820295132,
+  "sha256": "9ef63498569dd7ccd0b8d8852da026e009a75f42d293f00e483f3b9fcfe8e1f9",
+  "md5": "940375f41efd68fafd314de360c35b01",
+  "official_md5_verified": false,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp",
+    "member_count": 7,
+    "uncompressed_bytes": 1513564626,
+    "members": [
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.dbf",
+        "byte_size": 376910338,
+        "sha256": "7155f56b9336c963c68f0bee690c0268076e2155ac0fdc0e272d2bc368687887"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.prj",
+        "byte_size": 219,
+        "sha256": "514d90b133d45328d2d8a70e74c01e5cddc18196b90fff7cf818f0f381a11673"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.sbn",
+        "byte_size": 12028484,
+        "sha256": "a0f507133d2ed584e3e9def3ae60bb4000603ff2a3edbd66895939f33a1e36f8"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.sbx",
+        "byte_size": 165964,
+        "sha256": "5c628adabf28781b9190d22ca7d22d291bb44d89aedadac978847f8c358899d2"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.shp",
+        "byte_size": 1112048460,
+        "sha256": "bbb5a60b8e3016908991aa0abd76f5553a3d019ae7d2da0866c823f1ddf4dded"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10_shp\\HydroLAKES_polys_v10.shx",
+        "byte_size": 11421604,
+        "sha256": "fd0e65487bf53345e037e366deaa28cbdc5ac34773d83f2f440ba1031552fb72"
+      },
+      {
+        "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp\\HydroLAKES_TechDoc_v10.pdf",
+        "byte_size": 989557,
+        "sha256": "3d1e30abb0691750127fd8e2ff6a149c83f36b93619fb44774476663e0f01f47"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:59:01.542335+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:10.050122+00:00"
+}

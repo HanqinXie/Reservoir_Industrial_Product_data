@@ -1,0 +1,25 @@
+{
+  "id": "D24",
+  "directory": "D24_CLEAR",
+  "name": "Appendix2.xlsx",
+  "source_url": "https://ndownloader.figshare.com/files/61008682",
+  "expected_bytes": 384089,
+  "expected_md5": "8841fe650968596aa27200045dd90f51",
+  "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+  "version": 3,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "started_utc": "2026-10-26T17:57:55.321944+00:00",
+  "status": "downloaded",
+  "path": "D24_CLEAR\\Appendix2.xlsx",
+  "byte_size": 384089,
+  "sha256": "9853e7124725bd9cfa80dee11e579ec6dfc42d711128f34658dc1217b615d5bd",
+  "md5": "8841fe650968596aa27200045dd90f51",
+  "official_md5_verified": true,
+  "finished_utc": "2026-10-26T17:57:55.327989+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.552134+00:00"
+}

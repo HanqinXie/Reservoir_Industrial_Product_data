@@ -1,0 +1,406 @@
+{
+  "id": "D15",
+  "title": "国家统计局国家数据",
+  "directory": "D15_国家统计局国家数据",
+  "status": "partial_downloaded",
+  "source_url": "https://data.stats.gov.cn/",
+  "scope": "从已迁移的新国家数据门户公开API真实取得云南1991—2025年度发电量、水力/火力发电量，以及请求1998-01—2026-09范围的月度发电、水电、氧化铝和铝材产量原始JSON与展开CSV；包含当期/累计/同比等独立指标。缺失值保留为空，各指标实际非空起止期不同，不补造。未在所查分省年度/月度目录取得电解铝产量；氧化铝与铝材不能代替电解铝。另存2025全国统计公报。旧easyquery 403仅为旧接口失败，不再表示整个国家数据不可得。",
+  "reason": "从已迁移的新国家数据门户公开API真实取得云南1991—2025年度发电量、水力/火力发电量，以及请求1998-01—2026-09范围的月度发电、水电、氧化铝和铝材产量原始JSON与展开CSV；包含当期/累计/同比等独立指标。缺失值保留为空，各指标实际非空起止期不同，不补造。未在所查分省年度/月度目录取得电解铝产量；氧化铝与铝材不能代替电解铝。另存2025全国统计公报。旧easyquery 403仅为旧接口失败，不再表示整个国家数据不可得。",
+  "retrieved_at": "2026-10-26T17:51:34.049433+00:00",
+  "files": [
+    {
+      "path": "D15_国家统计局国家数据/中华人民共和国2025年国民经济和社会发展统计公报.html",
+      "bytes": 1118852,
+      "sha256": "08da28a6c88328c324e04038911f24f9d66415c6db1893fc0fd9d8f5a6adc721",
+      "source_url": "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260228_1962662.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 34,
+      "text_chars": 56081
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1991-2025发电量水电火电_原表展开.csv",
+      "bytes": 32376,
+      "sha256": "a02497c5aea15b63d4f3cc987e27a6405b5a3f3a427a4684fd6d67ce607d2fc4",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "csv",
+      "derived_from": "D15_国家统计局国家数据/云南省_1991-2025发电量水电火电_官方原始数据.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 105,
+      "column_count": 21
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1991-2025发电量水电火电_官方原始数据.json",
+      "bytes": 59973,
+      "sha256": "bfbc92ca01eef82d4f4dcb3bb42ef763f42b2a83ebb580342b9844a00e3568c4",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_发电量_原表展开.csv",
+      "bytes": 411920,
+      "sha256": "6ccbfcdda0360bb23972150a370e31a7a7131984060bcfdf2bb62ffa37cd4e95",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "csv",
+      "derived_from": "D15_国家统计局国家数据/云南省_1998-202609月度_发电量_官方原始数据.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1380,
+      "column_count": 23
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_发电量_官方原始数据.json",
+      "bytes": 793045,
+      "sha256": "389d40b6de283d3b1ffaf8b1f0c120a475989034717230d41985d428ba4d6c7c",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_氧化铝产量_原表展开.csv",
+      "bytes": 208594,
+      "sha256": "a5a08f80d011ef25b7c568aa616c01c4f18503f7c99e5048045e707fd4ca428a",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "csv",
+      "derived_from": "D15_国家统计局国家数据/云南省_1998-202609月度_氧化铝产量_官方原始数据.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 690,
+      "column_count": 20
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_氧化铝产量_官方原始数据.json",
+      "bytes": 381558,
+      "sha256": "7a1f0be1ced05fe4c0fe13ddaddad37e7ab26612a02b082e25a2710587cf9f31",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_水力发电量_原表展开.csv",
+      "bytes": 419554,
+      "sha256": "e5aea9f0bd9328a8d814fc83741b09ce0d3fc9ce91789f9928c317167c7aea3d",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "csv",
+      "derived_from": "D15_国家统计局国家数据/云南省_1998-202609月度_水力发电量_官方原始数据.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1380,
+      "column_count": 23
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_水力发电量_官方原始数据.json",
+      "bytes": 800679,
+      "sha256": "e53c8ba63435a7cb65231b5d4417e097ab470828ce823bbeaeb3511244a74920",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_铝材产量_原表展开.csv",
+      "bytes": 207221,
+      "sha256": "64f3e7ff8e0aa6fb01f1b4556dc5aa6deec8084fb9d90a2ab6e3ce37572e560a",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "csv",
+      "derived_from": "D15_国家统计局国家数据/云南省_1998-202609月度_铝材产量_官方原始数据.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 690,
+      "column_count": 20
+    },
+    {
+      "path": "D15_国家统计局国家数据/云南省_1998-202609月度_铝材产量_官方原始数据.json",
+      "bytes": 380185,
+      "sha256": "ce9336b7b5c8ef92291c434cc4246f9a7b48fe3724a3770e6f64e31e7072efbc",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/stream/esData",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_一级目录.json",
+      "bytes": 13588,
+      "sha256": "a95f9d260dee79ef14c45a01b2432223f4da7de3b99e67f3dc5b2884ab706134",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=6&pid=c4d82af16c3d4f0cb4f09d4af7d5888e",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_主要能源产品指标.json",
+      "bytes": 9479,
+      "sha256": "5390d09d54f327abba85922d5e100c07d1473c932da94f4323223640bbd98c92",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=ade19f093ebe43a5a773087039c5fedc",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_工业产品指标.json",
+      "bytes": 62224,
+      "sha256": "7cdca3aed2d9532d37e998438798258a0ac806fea8eac752e7a2d10ab96f09ee",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=88b38a4fd90d461c8f85667e71b5bfe1",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_工业目录.json",
+      "bytes": 7731,
+      "sha256": "d2411e2e930d33348d493179f69f0cdb704787207ec9ecfc8a264fa33b888123",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=6&pid=8e0a8913c20842e4bf83c2b9e9e8dfd7",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_指标根目录.json",
+      "bytes": 508,
+      "sha256": "a2a11a1f288c7bbb97de5e49e753baf435566ab7cbf76c6ba927300e46cc1416",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=6",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_能源目录.json",
+      "bytes": 4288,
+      "sha256": "3e17174fc3625404250758d22efed4210c21142ce1d5f95f7b7aed5867ee87cd",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=6&pid=b91c005157c746b2ae6c09329689fe12",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度_铝指标检索.json",
+      "bytes": 78,
+      "sha256": "57df401abf27bc319c2f69634fa966f9021f7a4abc12a7a69d2a7a4b9bef2ae5",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=c4d82af16c3d4f0cb4f09d4af7d5888e&name=%E9%93%9D",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省年度工业产品_铝检索.json",
+      "bytes": 78,
+      "sha256": "57df401abf27bc319c2f69634fa966f9021f7a4abc12a7a69d2a7a4b9bef2ae5",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=88b38a4fd90d461c8f85667e71b5bfe1&name=%E9%93%9D",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_一级目录.json",
+      "bytes": 3039,
+      "sha256": "d5fe8e6bd41cdbae81dccdf7910da1a9ac2bb8cbf651e1755ccac36fc6a8cacb",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4&pid=f4c6cd795fea436c807163397dd36b98",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_发电量_指标.json",
+      "bytes": 4277,
+      "sha256": "4e2aa2ee36f7960339480eb94259b739017c9df91d6c063ea6b120564038ab3c",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=f76c5af9a1604d1b906463b208bdd675",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_工业产品目录.json",
+      "bytes": 33927,
+      "sha256": "0a8e80b367615d63d8c642aac0ace019ddc7ab545436ef8a23e99cadc4a9ea0a",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4&pid=44cb1ace44134e3eb58d1d5ee07a1b1f",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_工业目录.json",
+      "bytes": 3543,
+      "sha256": "bf63f70068b67b0510f4e2e8bc512723cb906642cdd3c1f6f1da7cd5d8c3b689",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4&pid=7099ad62fa924e0f9d78e68a733b8c8b",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_指标根目录.json",
+      "bytes": 508,
+      "sha256": "51f2bfb5c1d704dd092afd06b450eb316df4b436dcefe08c8cef1fe384f8adf0",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_氧化铝产量_指标.json",
+      "bytes": 2017,
+      "sha256": "b4af255923de0304eff5af1428def4c8a49660322d87100fe58ad330ab2c0ee1",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=cc561db90e694bdd889347b75f538e3a",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_水力发电量_指标.json",
+      "bytes": 4389,
+      "sha256": "6ab2f343f86ac88888ef4b3026ca041137d1dd4524da7b449ca051cfdc5085d6",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5a58168195604a348e6a5d909552187e",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_能源产品目录.json",
+      "bytes": 14893,
+      "sha256": "4de022adc549a27927f4eed3be2d9376667cc8b8ec82c7f7a76290de2a73bac8",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4&pid=f46bf43e25374f5b9e2181676d582356",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_能源目录.json",
+      "bytes": 723,
+      "sha256": "641d85a5b4cb90d5f36acb0b43c45d2bcc1bf842171f88e747f5e9583df4bc9d",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndexTreeAsync?code=4&pid=76e04d7533764d4384b0cd8d71deccbe",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    },
+    {
+      "path": "D15_国家统计局国家数据/国家数据_分省月度_铝材产量_指标.json",
+      "bytes": 1993,
+      "sha256": "974e2e113d80cea838838ab25af9fa1285ada0489a9021049a6be18bd9378b06",
+      "source_url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid?cid=5218fbb0c5994a7f8d8a6fecb9ebea1b",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "success",
+        "state",
+        "message"
+      ]
+    }
+  ],
+  "file_count": 29,
+  "total_bytes": 4981240
+}

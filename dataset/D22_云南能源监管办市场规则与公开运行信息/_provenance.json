@@ -1,0 +1,53 @@
+{
+  "id": "D22",
+  "title": "云南能源监管办市场规则与公开运行信息",
+  "directory": "D22_云南能源监管办市场规则与公开运行信息",
+  "status": "partial_downloaded",
+  "source_url": "https://ynb.nea.gov.cn/",
+  "scope": "南方区域电力市场运行规则（试行，2025年V1.0版）54页PDF及云南监管办公开政策页面/附件。其他征求意见稿按原题名保存，不视为正式实施规则；未取得主体逐时报价和完整成交数据。",
+  "reason": "南方区域电力市场运行规则（试行，2025年V1.0版）54页PDF及云南监管办公开政策页面/附件。其他征求意见稿按原题名保存，不视为正式实施规则；未取得主体逐时报价和完整成交数据。",
+  "retrieved_at": "2026-10-26T17:51:36.468205+00:00",
+  "files": [
+    {
+      "path": "D22_云南能源监管办市场规则与公开运行信息/供电企业信息公开实施办法（修订稿）.docx",
+      "bytes": 231194,
+      "sha256": "843d0300273e8fdb3f746086e715d5b2f9ef65709417161a8ba37d3bab56f0c6",
+      "source_url": "https://www.nea.gov.cn/20260831/c1aa140dcdbe40e481ded09e4e6fda98/20260831c1aa140dcdbe40e481ded09e4e6fda98_18237d61b125bf4af48c90b317105324ec.docx",
+      "file_type": "docx",
+      "derived_from": "D22_云南能源监管办市场规则与公开运行信息/供电企业信息公开实施办法（修订稿）",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D22_云南能源监管办市场规则与公开运行信息/南方区域电力市场运行规则_试行_2025年V1.0版.pdf",
+      "bytes": 463602,
+      "sha256": "f96763bc2dd45da56f143ff4f298728d3ba62191f7d50ca30f1523c668dd5163",
+      "source_url": "https://nfj.nea.gov.cn/hdhy/zlxz/202506/P020250625360641274024.pdf",
+      "file_type": "pdf",
+      "page_count": 54,
+      "validation": "PDF parsed",
+      "title_excerpt": "— 1 —\n国家能源局南方监管局\n文件\n国家能源局云南监管办公室\n国家能源局贵州监管办公室\n南方监能市场〔2025〕65 号\n关于印发《南方区域电力市场运行规则\n（试行，2025 年V1.0 版）》的通知\n广东省、广西壮族自治区、贵州省、云南省发展改革委、能源局，\n海南省发展改革委，南方电网公司、各有关发电企业、售电公司、\n电力用户，广州电力交易中心，各省级电力交易中心：\n为规范南方区域电力市场的运营和管理，维护电力市场秩\n序，依据《电"
+    },
+    {
+      "path": "D22_云南能源监管办市场规则与公开运行信息/国家能源局综合司关于公开征求《供电企业信息公开实施办法》（修订稿）... 2026-08-31.html",
+      "bytes": 7585,
+      "sha256": "36f41e86a40f106a11d2962b1d6ee06ae546f5c01b8d905c0d9596cad0e97885",
+      "source_url": "https://www.nea.gov.cn/20260831/c1aa140dcdbe40e481ded09e4e6fda98/c.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 5,
+      "text_chars": 511
+    },
+    {
+      "path": "D22_云南能源监管办市场规则与公开运行信息/国家能源局综合司关于公开征求《电力并网运行管理规定》（征求意见稿）... 2026-09-30.html",
+      "bytes": 7891,
+      "sha256": "8ae759eb314d34bdaffeb55286dbd964d889be38171132ee67290434c3d74686",
+      "source_url": "https://www.nea.gov.cn/20260930/43fede537ca048b1a6a51fe0970fb205/c.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 5,
+      "text_chars": 564
+    }
+  ],
+  "file_count": 4,
+  "total_bytes": 710272
+}

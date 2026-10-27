@@ -1,0 +1,191 @@
+{
+  "id": "D05",
+  "directory": "D05_Res-CN",
+  "name": "A shapefiles.zip",
+  "source_url": "https://zenodo.org/api/records/7664489/files/A%20shapefiles.zip/content",
+  "expected_bytes": 26909496,
+  "expected_md5": "e4cdb62cd024c29b0c36143ae962127b",
+  "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+  "version": null,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "started_utc": "2026-10-26T17:57:54.167058+00:00",
+  "status": "downloaded_and_extracted",
+  "path": "D05_Res-CN\\A shapefiles.zip",
+  "byte_size": 26909496,
+  "sha256": "33696cf62073af97dc413c9989bfffbd3e46829496b89654192cf5019989744a",
+  "md5": "e4cdb62cd024c29b0c36143ae962127b",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D05_Res-CN\\extracted\\A shapefiles",
+    "member_count": 32,
+    "uncompressed_bytes": 125853050,
+    "members": [
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.qmd",
+        "byte_size": 665,
+        "sha256": "2ccaecc0dd0b2b1a27baa658357838fc29605bd120d61441a1357e73cffb9e9e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.shx",
+        "byte_size": 26132,
+        "sha256": "c9aa162c3adc5034503e3b5de35336b5ecb84b0dd05ea89934ae7f24bc285877"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.cpg",
+        "byte_size": 5,
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.shp",
+        "byte_size": 81763924,
+        "sha256": "51389a158e3888d402a0b5e1aa9f2b1b20da7aede3a67de2c06e471f1ea0f08a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.shp",
+        "byte_size": 29947628,
+        "sha256": "a4da4a730dd21a2b59a019b3a643d0d423f2414af8720c5c12aac9ff6445db1c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.cpg",
+        "byte_size": 5,
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.qmd",
+        "byte_size": 1050,
+        "sha256": "d2a57c0e51b4e6dc4cc637953546f8e8197e898c57076983bf0a297c6d162354"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\__MACOSX\\A shapefiles\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.shx",
+        "byte_size": 26132,
+        "sha256": "1b7bcb0624b2cd83330ba48b3b578daa56b02ed690b03b064b4ca5bf08ab9d36"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.shx",
+        "byte_size": 3580,
+        "sha256": "7e75870c0ad3b0a84f489026c857baf25fd0db4aebb35b64cae132cff509cf42"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.qmd",
+        "byte_size": 665,
+        "sha256": "2ccaecc0dd0b2b1a27baa658357838fc29605bd120d61441a1357e73cffb9e9e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.cpg",
+        "byte_size": 5,
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.shp",
+        "byte_size": 7741736,
+        "sha256": "3466693c5ccc41cc8d2fae2190c897e56c78026338bc4a1aeb4065b6e523a09b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.dbf",
+        "byte_size": 4669908,
+        "sha256": "fe5616ec693751d52f88df868171d77fd8000d2b8ec398ed8b184c7f2db8ee1f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.dbf",
+        "byte_size": 15323,
+        "sha256": "dd73df764278d73a3632b269e822230183b13c7987a0cff075c02c40cfdebdae"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.dbf",
+        "byte_size": 113988,
+        "sha256": "8800a2feb379d3998e51ffa40ab536a137b7f93f8848902ecdd8855ec0d2739b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.qmd",
+        "byte_size": 665,
+        "sha256": "2ccaecc0dd0b2b1a27baa658357838fc29605bd120d61441a1357e73cffb9e9e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.shx",
+        "byte_size": 26132,
+        "sha256": "11697b8cb690b63c097bae93427902fd30a92b94bb4a6f4cc02608d2038648bf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.cpg",
+        "byte_size": 5,
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.shp",
+        "byte_size": 91212,
+        "sha256": "b43c93a3dabd1c6a9b06be10ee56bc4c9fd4b7f0b09c296201d52b2d7740c68b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\full-catchments.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\intermediate-catchments.prj",
+        "byte_size": 145,
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\reservoirs.prj",
+        "byte_size": 373,
+        "sha256": "4b0a0e1cead2fbe25934bc9b7b8e9b3e4ed118ed0ae6c81603045af8b5f7623c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.dbf",
+        "byte_size": 312578,
+        "sha256": "7d26ee546f2b8f0d322708f9de4bd9d2e0b74495300211e65f95311b548da292"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.cpg",
+        "byte_size": 5,
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.shp",
+        "byte_size": 91212,
+        "sha256": "39c880a5b2a0fe3d187f16095eed008ebf803473f32ff79596e9f1b33ab47862"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.qmd",
+        "byte_size": 1050,
+        "sha256": "d2a57c0e51b4e6dc4cc637953546f8e8197e898c57076983bf0a297c6d162354"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\dams.shx",
+        "byte_size": 26132,
+        "sha256": "18bc77f9f026bbe9afc02c8366b98bb4b95e7e89eb39216aaa01b53fe726c5e2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\A shapefiles\\A shapefiles\\gauges.dbf",
+        "byte_size": 986092,
+        "sha256": "9b9f450f0557e42aa64f3fb11001a1375f3c5d13a9c78e60c9c43fb0293b8055"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:57:54.627578+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.374445+00:00"
+}

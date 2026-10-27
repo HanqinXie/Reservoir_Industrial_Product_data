@@ -1,0 +1,331 @@
+[
+  {
+    "folder": "root",
+    "id": "1klgeDr4dWXonGDGaGP_B0wxIyoC7UpeS",
+    "name": "discharge",
+    "mime": "application/vnd.google-apps.folder",
+    "bytes": null
+  },
+  {
+    "folder": "root",
+    "id": "1SApaXkwNYXP9I9tStaJiP7ParQ9RJHKc",
+    "name": "MERIT_Hydro_v00_Basins_v01",
+    "mime": "application/vnd.google-apps.shortcut",
+    "bytes": null
+  },
+  {
+    "folder": "root",
+    "id": "13BCvmcC4ln2pSW4kILm4r2l7aRugoihQ",
+    "name": "runoff",
+    "mime": "application/vnd.google-apps.folder",
+    "bytes": null
+  },
+  {
+    "folder": "root",
+    "id": "1xyy2V_dU7PglhdIid7T9pYfE0k3NDJnB",
+    "name": "ReadMe.txt",
+    "mime": "text/plain",
+    "bytes": 1229
+  },
+  {
+    "folder": "discharge",
+    "id": "1u4kLtJSlQ_lBT3xSmYxsFHEccdP_7h6h",
+    "name": "GRADES_Q_v01_pfaf_01_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 33270964076
+  },
+  {
+    "folder": "discharge",
+    "id": "1j9ZInIQiVHFAzDMFHxBdHPMvet3w2gb5",
+    "name": "GRADES_Q_v01_pfaf_02_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 20125217180
+  },
+  {
+    "folder": "discharge",
+    "id": "1-M_lKnnZtaB368q0IOomgxKMPKNfZnZH",
+    "name": "GRADES_Q_v01_pfaf_03_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 14761490180
+  },
+  {
+    "folder": "discharge",
+    "id": "1GER-t-DBdb9FWBkpW1J9HFlDN3TXbtxE",
+    "name": "GRADES_Q_v01_pfaf_04_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 23780171996
+  },
+  {
+    "folder": "discharge",
+    "id": "1T41SBr9lNM35zB1pzy-OfescvgDZ8J3V",
+    "name": "GRADES_Q_v01_pfaf_05_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 12169154252
+  },
+  {
+    "folder": "discharge",
+    "id": "1Voo4uk0UmlEErITGXr5e-hEHZ4gXZb08",
+    "name": "GRADES_Q_v01_pfaf_06_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 19846482380
+  },
+  {
+    "folder": "discharge",
+    "id": "106zmnScfTVfRenk36EYfcZzgIzQTVUu4",
+    "name": "GRADES_Q_v01_pfaf_07_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 17687898716
+  },
+  {
+    "folder": "discharge",
+    "id": "14cVGh5r5ttxZEUuxWCJ5Q5ZFmhjMmwRb",
+    "name": "GRADES_Q_v01_pfaf_08_19790101_20131231.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 6604891628
+  },
+  {
+    "folder": "runoff",
+    "id": "1CmoBDRzn-KuNAshhnJ7DVQ_VAHyDQv1T",
+    "name": "runoff_1979.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 348992072
+  },
+  {
+    "folder": "runoff",
+    "id": "1ilx07s_aZNxXzSwD_BqAtyCr-lDNYG2-",
+    "name": "runoff_1980.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 354813957
+  },
+  {
+    "folder": "runoff",
+    "id": "1SEgaKnGujykkuRDia7LVVCwSpkevJM77",
+    "name": "runoff_1981.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353270164
+  },
+  {
+    "folder": "runoff",
+    "id": "1NlieB6xaaOTCedmkgzwZU3PbX9ncpTrC",
+    "name": "runoff_1982.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353377824
+  },
+  {
+    "folder": "runoff",
+    "id": "18mQDKwEy04KpKm59cPj1o64V1s3phCDU",
+    "name": "runoff_1983.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353000576
+  },
+  {
+    "folder": "runoff",
+    "id": "15bETfEzepwnXnrRqh1pJ9_pJKx4IZfa7",
+    "name": "runoff_1984.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353581032
+  },
+  {
+    "folder": "runoff",
+    "id": "17Tuq5Yymvhy-MVOb3ISM5ukUVvQlxpu2",
+    "name": "runoff_1985.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352679145
+  },
+  {
+    "folder": "runoff",
+    "id": "1fSdK7AqKOxDibfEIQVwd8qZTfIbOt_-U",
+    "name": "runoff_1986.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352703027
+  },
+  {
+    "folder": "runoff",
+    "id": "1Uiin59WLZvDFk17Df2OeWbvU0ci2I1j_",
+    "name": "runoff_1987.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352865693
+  },
+  {
+    "folder": "runoff",
+    "id": "1X1qtawnCBSsD8HORwcZe-En0HvDfsrou",
+    "name": "runoff_1988.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353552660
+  },
+  {
+    "folder": "runoff",
+    "id": "1RNfg5TtJVDDzATp8vcaFTAerJXznnp1u",
+    "name": "runoff_1989.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352626752
+  },
+  {
+    "folder": "runoff",
+    "id": "1MSwygnHM7sJj8qbm7VVGBmArnpvrK7hp",
+    "name": "runoff_1990.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352626376
+  },
+  {
+    "folder": "runoff",
+    "id": "1oggww8h9-t5bmx_n8tksQHU0eav1Y5mU",
+    "name": "runoff_1991.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352806054
+  },
+  {
+    "folder": "runoff",
+    "id": "10vBUMO0gl8H8m2_rISepOfJ8PrdruCUr",
+    "name": "runoff_1992.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 354132420
+  },
+  {
+    "folder": "runoff",
+    "id": "1327lfaDoD6oW4JPxr23CpiSguVYYgUro",
+    "name": "runoff_1993.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352838332
+  },
+  {
+    "folder": "runoff",
+    "id": "12RpPm-EYf9c4tIkUySfLWU827kBCd2sW",
+    "name": "runoff_1994.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352800236
+  },
+  {
+    "folder": "runoff",
+    "id": "1y0VT_QnB4RvwVM3Z1-I9TwgKThEE6A6_",
+    "name": "runoff_1995.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352730375
+  },
+  {
+    "folder": "runoff",
+    "id": "12hSKwVpe64TpCkRCdxBZlfHvkl-DGwOk",
+    "name": "runoff_1996.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353701590
+  },
+  {
+    "folder": "runoff",
+    "id": "1UkWYtNNblN8Dro8ncnTjEBuRZ8oRopIQ",
+    "name": "runoff_1997.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352592865
+  },
+  {
+    "folder": "runoff",
+    "id": "1M7HftB6F3SBlHtFRKrJKTTFqVc9aMKQp",
+    "name": "runoff_1998.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352691456
+  },
+  {
+    "folder": "runoff",
+    "id": "1BMajhEJbVWZgAK6cLKBOHrPlYUwvncoy",
+    "name": "runoff_1999.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352741449
+  },
+  {
+    "folder": "runoff",
+    "id": "1eeBgLHjL9PgLoZSn6ak5A8a0Xzvsrj1J",
+    "name": "runoff_2000.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353521473
+  },
+  {
+    "folder": "runoff",
+    "id": "15I0-u3ifErbOUV4BmPSXiRr3nGKL_37r",
+    "name": "runoff_2001.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352576613
+  },
+  {
+    "folder": "runoff",
+    "id": "1j34IToEGYWQyFfJkxURXtN_wFxykTkBM",
+    "name": "runoff_2002.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352776077
+  },
+  {
+    "folder": "runoff",
+    "id": "1sgCXhCBhue3PCIRoHInCar5PuFiS5ui1",
+    "name": "runoff_2003.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352810165
+  },
+  {
+    "folder": "runoff",
+    "id": "1BCRvL9ec6lUHbDze-hugX-SREU8F8ZHU",
+    "name": "runoff_2004.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353549328
+  },
+  {
+    "folder": "runoff",
+    "id": "1lUDPXjKbTWmSBoNnE_pAaPVuARft2Mup",
+    "name": "runoff_2005.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352464343
+  },
+  {
+    "folder": "runoff",
+    "id": "1uXPCYCV4NUqfwLUSOsRjj08MbtKboU0K",
+    "name": "runoff_2006.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352449813
+  },
+  {
+    "folder": "runoff",
+    "id": "19URWmODb9qMJ5gQ3NkzTt4FDJ0vlS2i_",
+    "name": "runoff_2007.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 351912661
+  },
+  {
+    "folder": "runoff",
+    "id": "1ILu0rOSwWG49SAa6EUJgX1BdQmtBb5E3",
+    "name": "runoff_2008.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352749279
+  },
+  {
+    "folder": "runoff",
+    "id": "1fLh5d5N-zux1t0Cg0zkUl42mAd7fBxPx",
+    "name": "runoff_2009.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 351883515
+  },
+  {
+    "folder": "runoff",
+    "id": "1XNpkzsJSaa2gB7bPv10cI_14TNS6FgsC",
+    "name": "runoff_2010.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 351789164
+  },
+  {
+    "folder": "runoff",
+    "id": "1zrr0SfpaZKGzN7TqtmTa9FdDcEcgGQrY",
+    "name": "runoff_2011.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 351874566
+  },
+  {
+    "folder": "runoff",
+    "id": "1NlpOsMUipddTqbXSTiZ8JXerLeQ8WZaO",
+    "name": "runoff_2012.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 353073712
+  },
+  {
+    "folder": "runoff",
+    "id": "1-w2hl3FS8FTZ5oEDtQUnVCboZTL5O4UC",
+    "name": "runoff_2013.nc",
+    "mime": "application/x-netcdf",
+    "bytes": 352273327
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "id": "D18",
+  "title": "IAI铝产量与行业统计",
+  "directory": "D18_IAI铝产量与行业统计",
+  "status": "partial_downloaded",
+  "source_url": "https://international-aluminium.org/statistics-overview/",
+  "scope": "取得IAI原铝产量当前官网ALVIS API完整响应以及Export All Data的CSV/XLSX，覆盖1973-01—2026-09各区域；保留官方archive历史数据表HTML/CSV。统计总入口包含其他行业序列，本次下载与研究有关的原铝产量，不代表全站全部统计。官方CSV使用分号分隔。",
+  "reason": "取得IAI原铝产量当前官网ALVIS API完整响应以及Export All Data的CSV/XLSX，覆盖1973-01—2026-09各区域；保留官方archive历史数据表HTML/CSV。统计总入口包含其他行业序列，本次下载与研究有关的原铝产量，不代表全站全部统计。官方CSV使用分号分隔。",
+  "retrieved_at": "2026-10-26T17:51:36.007167+00:00",
+  "files": [
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_全部历史数据_当前官网导出.csv",
+      "bytes": 53493,
+      "sha256": "f4c2ca8ba44f1de25bcedc0c5f1b5a3d4a36d2d00c1180273b53f8cd106ba688",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/primary-aluminium-production/export/?filter=%7B%22format%22%3A%22csv%22%2C%22allData%22%3Atrue%7D",
+      "file_type": "csv",
+      "validation": "CSV parsed",
+      "delimiter": ";",
+      "row_count": 645,
+      "column_count": 15
+    },
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_全部历史数据_当前官网导出.xlsx",
+      "bytes": 50323,
+      "sha256": "15b7b02b8d36ead373824a9193370521acb7144358711fed4ba37e41b73b0932",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/primary-aluminium-production/export/?filter=%7B%22format%22%3A%22xlsx%22%2C%22allData%22%3Atrue%7D",
+      "file_type": "xlsx",
+      "sheet_count": 1,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_全部历史数据表.csv",
+      "bytes": 44372,
+      "sha256": "4a14649a873b6bb7f1213c380c05371db96e2d0c8d7f0145a14a5b117fa00839",
+      "source_url": "https://archive.international-aluminium.org/wp-admin/admin-ajax.php",
+      "file_type": "csv",
+      "derived_from": "D18_IAI铝产量与行业统计/primary-aluminium-production_全部历史数据表.html",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 672,
+      "column_count": 13
+    },
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_全部历史数据表.html",
+      "bytes": 336518,
+      "sha256": "77b296ef5cc451620bc04ad00eba161cffd413de5ce5c05cfac4a6dca3b5f990",
+      "source_url": "https://archive.international-aluminium.org/wp-admin/admin-ajax.php",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 43467
+    },
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_官方数据页面.html",
+      "bytes": 85895,
+      "sha256": "0c1c7e6c05930ef178e32f8cbee208f2dbafde6d939d3161b6946be1567eaf4c",
+      "source_url": "https://archive.international-aluminium.org/statistics/primary-aluminium-production/?publication=primary-aluminium-production",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 6802
+    },
+    {
+      "path": "D18_IAI铝产量与行业统计/primary-aluminium-production_当前官网API完整响应.json",
+      "bytes": 425165,
+      "sha256": "c3bc5be8158727cf64ce081724144604a601c4b8fc94357ba3bc323ca4bf0dd5",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/?publication=primary-aluminium-production",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "error"
+      ]
+    }
+  ],
+  "file_count": 6,
+  "total_bytes": 995766
+}

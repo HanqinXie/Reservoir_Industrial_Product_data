@@ -1,0 +1,305 @@
+[
+  {
+    "id": "D02",
+    "title": "Copernicus GloFAS历史流量再分析",
+    "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical",
+    "files": [
+      {
+        "path": "D02_Copernicus GloFAS历史流量再分析\\_provenance\\data_licence.pdf",
+        "bytes": 53369,
+        "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "content_type": "application/pdf"
+      },
+      {
+        "path": "D02_Copernicus GloFAS历史流量再分析\\_provenance\\download_form.json",
+        "bytes": 11585,
+        "sha256": "d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/form_d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/form_d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D03",
+    "title": "GRADES自然化河流流量",
+    "source_url": "https://www.reachhydro.org/home/records/grades",
+    "status": "blocked_download_quota",
+    "files": [],
+    "reason": "官方Google Drive亚洲pfaf04文件返回200 HTML，明确提示Quota exceeded。已停止重试；保留.part和.segments用于后续合法续传，分片尚不构成完整NetCDF数据。",
+    "scope": "计划下载原始GRADES v01亚洲pfaf04（1979–2013）；未取得完整数据文件。",
+    "expected_bytes": 23780171996,
+    "partial_bytes": 970981376,
+    "alternative_mirror": {
+      "url": "https://www.tpdc.ac.cn/zh-hans/data/3a37cc51-bc66-43e6-80f6-83bb3a4e30c0/?q=",
+      "status": "mirror_access_unverified",
+      "note": "Author-endorsed mirror inspected. Dynamic metadata and account workflow present; anonymous Asian-file listing and download could not be verified. No login or request submitted."
+    }
+  },
+  {
+    "id": "D04",
+    "title": "Global Runoff Data Centre（GRDC）",
+    "source_url": "https://grdc.bafg.de/data/data_portal/",
+    "files": [
+      {
+        "path": "D04_Global Runoff Data Centre（GRDC）\\_provenance\\官方获取条件.html",
+        "bytes": 35774,
+        "sha256": "95fa8eda5a62efb8f2f58f17f06c20c2239ce383f2975a45a0f7b23bf97f338e",
+        "url": "https://grdc.bafg.de/data/data_portal/",
+        "final_url": "https://grdc.bafg.de/data/data_portal/",
+        "content_type": "text/html; charset=UTF-8"
+      }
+    ],
+    "guide_url": "https://grdc.bafg.de/data/data_portal_guide/index.html",
+    "status": "requires_application",
+    "reason": "官方要求选择测站/区域，填写申请人资料与邮箱并同意使用条款，数据下载链接通过邮件提供。未代填身份或发送申请。未取得测站流量数据。"
+  },
+  {
+    "id": "D09",
+    "title": "ERA5 hourly single levels",
+    "source_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+    "files": [
+      {
+        "path": "D09_ERA5 hourly single levels\\_provenance\\data_licence.html",
+        "bytes": 64787,
+        "sha256": "25d05f78fb3d330f7c8754a322bdb539bd33c15d4a42822eea16d191f69036ea",
+        "url": "https://spdx.org/licenses/CC-BY-4.0",
+        "final_url": "https://spdx.org/licenses/CC-BY-4.0",
+        "content_type": "text/html"
+      },
+      {
+        "path": "D09_ERA5 hourly single levels\\_provenance\\download_form.json",
+        "bytes": 51455,
+        "sha256": "bf94874f55a3bdca2ed65f50da554348910044c37be17e4fd4a2ea0096174239",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/form_bf94874f55a3bdca2ed65f50da554348910044c37be17e4fd4a2ea0096174239.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-single-levels/form_bf94874f55a3bdca2ed65f50da554348910044c37be17e4fd4a2ea0096174239.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D10",
+    "title": "ERA5-Land",
+    "source_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+    "files": [
+      {
+        "path": "D10_ERA5-Land\\_provenance\\data_licence.html",
+        "bytes": 64787,
+        "sha256": "25d05f78fb3d330f7c8754a322bdb539bd33c15d4a42822eea16d191f69036ea",
+        "url": "https://spdx.org/licenses/CC-BY-4.0",
+        "final_url": "https://spdx.org/licenses/CC-BY-4.0",
+        "content_type": "text/html"
+      },
+      {
+        "path": "D10_ERA5-Land\\_provenance\\download_form.json",
+        "bytes": 17883,
+        "sha256": "3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/form_3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-era5-land/form_3fa59b1664759cf7628e409b70bd90e605f83321440db189ee67509704bcb60c.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D11",
+    "title": "GloFAS seasonal reforecasts",
+    "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-seasonal-reforecast",
+    "files": [
+      {
+        "path": "D11_GloFAS seasonal reforecasts\\_provenance\\data_licence.pdf",
+        "bytes": 53369,
+        "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "content_type": "application/pdf"
+      },
+      {
+        "path": "D11_GloFAS seasonal reforecasts\\_provenance\\download_form.json",
+        "bytes": 17610,
+        "sha256": "c9a49fd18b54b0a92bb6c33aebd605d517644311525a0b01dc199af6d9fad2de",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/form_c9a49fd18b54b0a92bb6c33aebd605d517644311525a0b01dc199af6d9fad2de.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal-reforecast/form_c9a49fd18b54b0a92bb6c33aebd605d517644311525a0b01dc199af6d9fad2de.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D12",
+    "title": "GloFAS seasonal forecasts",
+    "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-seasonal?tab=overview",
+    "files": [
+      {
+        "path": "D12_GloFAS seasonal forecasts\\_provenance\\data_licence.pdf",
+        "bytes": 53369,
+        "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "content_type": "application/pdf"
+      },
+      {
+        "path": "D12_GloFAS seasonal forecasts\\_provenance\\download_form.json",
+        "bytes": 16681,
+        "sha256": "7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/form_7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/form_7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D13",
+    "title": "GloFAS medium-range reforecasts",
+    "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-reforecast",
+    "files": [
+      {
+        "path": "D13_GloFAS medium-range reforecasts\\_provenance\\data_licence.pdf",
+        "bytes": 53369,
+        "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+        "content_type": "application/pdf"
+      },
+      {
+        "path": "D13_GloFAS medium-range reforecasts\\_provenance\\download_form.json",
+        "bytes": 12022,
+        "sha256": "3873cfeb0bf0b3c107ea4732be9e09f3cce15f27c7b8884e53c55b99f6fb3169",
+        "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-reforecast/form_3873cfeb0bf0b3c107ea4732be9e09f3cce15f27c7b8884e53c55b99f6fb3169.json",
+        "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-reforecast/form_3873cfeb0bf0b3c107ea4732be9e09f3cce15f27c7b8884e53c55b99f6fb3169.json",
+        "content_type": "application/json"
+      }
+    ],
+    "attempts": [],
+    "status": "requires_account_and_subset",
+    "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+    "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+  },
+  {
+    "id": "D26",
+    "title": "原论文PyPSA-China-THU代码入口",
+    "source_url": "https://github.com/Rick10119/PyPSA-China-THU",
+    "files": [
+      {
+        "path": "D26_原论文PyPSA-China-THU代码入口\\PyPSA-China-THU_main_20261027_f353474b43e2.zip",
+        "bytes": 120184680,
+        "sha256": "9b7f8613f610d6a1a5962c8076fc2b2ddc7b39e2761a0e2216df9390ab0ada22",
+        "url": "https://codeload.github.com/ruikelyu/PyPSA-China-THU/zip/f353474b43e20686c42094b04441372dadb68b0a",
+        "final_url": "https://codeload.github.com/ruikelyu/PyPSA-China-THU/zip/f353474b43e20686c42094b04441372dadb68b0a",
+        "content_type": "application/zip"
+      },
+      {
+        "path": "D26_原论文PyPSA-China-THU代码入口\\_provenance\\原始入口.html",
+        "bytes": 408840,
+        "sha256": "d8b73f691c38595d9fc05a92389a2139b2dad422f0b68158241ad09b16bb1b1f",
+        "url": "https://github.com/Rick10119/PyPSA-China-THU",
+        "final_url": "https://github.com/ruikelyu/PyPSA-China-THU",
+        "content_type": "text/html; charset=utf-8"
+      }
+    ],
+    "extraction": {
+      "archive": "D26_原论文PyPSA-China-THU代码入口\\PyPSA-China-THU_main_20261027_f353474b43e2.zip",
+      "directory": "D26_原论文PyPSA-China-THU代码入口\\extracted",
+      "members": 2433,
+      "crc": "passed"
+    },
+    "status": "downloaded_code",
+    "commit": "f353474b43e20686c42094b04441372dadb68b0a",
+    "version": "main_20261027",
+    "reason": "已下载并解压固定版本源代码；此项为技术方法资料，不是实测数据库。"
+  },
+  {
+    "id": "D27",
+    "title": "SINTEF SHOP：water values技术文档",
+    "source_url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+    "files": [
+      {
+        "path": "D27_SINTEF SHOP：water values技术文档\\SINTEF_SHOP_water_values.html",
+        "bytes": 30488,
+        "sha256": "c768d28a1099d1c4f112c9a71bfcb0b744c938ad2736add12e45915b9c808a3f",
+        "url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+        "final_url": "https://docs.shop.sintef.energy/examples/water_values/water_values.html",
+        "content_type": "text/html",
+        "processing": "Offline reading HTML generated from official article; images are local assets, inter-document links point to official absolute URLs. Original HTML preserved in _provenance."
+      }
+    ],
+    "assets": [
+      {
+        "path": "D27_SINTEF SHOP：water values技术文档\\assets\\water_value_table_marginal.png",
+        "bytes": 448300,
+        "sha256": "1cad5e24d6d617c2f40c793135a5c3c39501306b70287fa66b50867397dde7ba",
+        "url": "https://docs.shop.sintef.energy/_images/water_value_table_marginal.png",
+        "final_url": "https://docs.shop.sintef.energy/_images/water_value_table_marginal.png",
+        "content_type": "image/png"
+      },
+      {
+        "path": "D27_SINTEF SHOP：water values技术文档\\assets\\water_value_table_total.png",
+        "bytes": 554621,
+        "sha256": "fb7dd67337edb73f2b23c57c701141f2d0525b001a903beb1e7ce640ef1c9bb6",
+        "url": "https://docs.shop.sintef.energy/_images/water_value_table_total.png",
+        "final_url": "https://docs.shop.sintef.energy/_images/water_value_table_total.png",
+        "content_type": "image/png"
+      }
+    ],
+    "status": "downloaded_documentation",
+    "reason": "已保存指定水价值技术文档正文和图像；不是商业SHOP软件或运行数据。"
+  },
+  {
+    "id": "D28",
+    "title": "TSAM时间序列聚合文档与文献",
+    "source_url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+    "files": [
+      {
+        "path": "D28_TSAM时间序列聚合文档与文献\\TSAM_v3.2.0_009d1496c198.zip",
+        "bytes": 6145991,
+        "sha256": "9c682b10227b93d39d756f454ad18c93d23fe7ff5468843e0cde2ea49a071be8",
+        "url": "https://codeload.github.com/FZJ-IEK3-VSA/tsam/zip/009d1496c198e275755c23a6ae7ac143728a4436",
+        "reused": true
+      },
+      {
+        "path": "D28_TSAM时间序列聚合文档与文献\\_provenance\\原始入口.html",
+        "bytes": 43785,
+        "sha256": "6203a67510324d062d11b6c0c747d28efe6592e5c4bffd55864e3b2a4bda6f2f",
+        "url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+        "final_url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+        "content_type": "text/html; charset=utf-8"
+      }
+    ],
+    "extraction": {
+      "archive": "D28_TSAM时间序列聚合文档与文献\\TSAM_v3.2.0_009d1496c198.zip",
+      "directory": "D28_TSAM时间序列聚合文档与文献\\extracted",
+      "members": 347,
+      "crc": "passed",
+      "internal_symlinks_materialized": [
+        [
+          "tsam-009d1496c198e275755c23a6ae7ac143728a4436/docs/changelog.md",
+          "tsam-009d1496c198e275755c23a6ae7ac143728a4436/CHANGELOG.md"
+        ]
+      ]
+    },
+    "status": "downloaded_code",
+    "commit": "009d1496c198e275755c23a6ae7ac143728a4436",
+    "version": "v3.2.0",
+    "reason": "已下载并解压固定版本源代码；此项为技术方法资料，不是实测数据库。"
+  }
+]

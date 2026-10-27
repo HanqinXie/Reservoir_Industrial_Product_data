@@ -1,0 +1,38 @@
+{
+  "id": "D28",
+  "title": "TSAM时间序列聚合文档与文献",
+  "source_url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+  "files": [
+    {
+      "path": "D28_TSAM时间序列聚合文档与文献\\TSAM_v3.2.0_009d1496c198.zip",
+      "bytes": 6145991,
+      "sha256": "9c682b10227b93d39d756f454ad18c93d23fe7ff5468843e0cde2ea49a071be8",
+      "url": "https://codeload.github.com/FZJ-IEK3-VSA/tsam/zip/009d1496c198e275755c23a6ae7ac143728a4436",
+      "reused": true
+    },
+    {
+      "path": "D28_TSAM时间序列聚合文档与文献\\_provenance\\原始入口.html",
+      "bytes": 43785,
+      "sha256": "6203a67510324d062d11b6c0c747d28efe6592e5c4bffd55864e3b2a4bda6f2f",
+      "url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+      "final_url": "https://tsam.readthedocs.io/en/v3.2.0/further-reading/",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "extraction": {
+    "archive": "D28_TSAM时间序列聚合文档与文献\\TSAM_v3.2.0_009d1496c198.zip",
+    "directory": "D28_TSAM时间序列聚合文档与文献\\extracted",
+    "members": 347,
+    "crc": "passed",
+    "internal_symlinks_materialized": [
+      [
+        "tsam-009d1496c198e275755c23a6ae7ac143728a4436/docs/changelog.md",
+        "tsam-009d1496c198e275755c23a6ae7ac143728a4436/CHANGELOG.md"
+      ]
+    ]
+  },
+  "status": "downloaded_code",
+  "commit": "009d1496c198e275755c23a6ae7ac143728a4436",
+  "version": "v3.2.0",
+  "reason": "已下载并解压固定版本源代码；此项为技术方法资料，不是实测数据库。"
+}

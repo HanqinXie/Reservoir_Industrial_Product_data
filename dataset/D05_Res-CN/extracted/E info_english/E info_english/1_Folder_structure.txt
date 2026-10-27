@@ -1,0 +1,130 @@
+Folder structure:
+
+- A_shapefile (basin delineation A, see article chapter 3, Fig. 2a)
+    - dams.shp (3254 GeoDAR dams)
+    - gauges.shp (3254 outlet of each delineated catchment)
+    - reservoirs.shp (3254 GeoDAR reservoirs)
+    - full-catchments (3254 delineated reservoir upstream full catchments)
+    - intermediate-catchments (435 delineated reservoir upstream intermediate catchments)
+
+- B_full_catchments (basin delineation Type 1, see article chapter 2.5, Fig. 2)
+  - climate-time-series
+    - GeoDAR_ID.csv (3254 files, 19800101-20201231, daily time series of 15 meteorological variables of catchments)
+  - land-time-series
+    - time-series-EVI_full_catchments.csv (time series of EVI of catchments)
+    - time-series-GPP_full_catchments.csv (time series of EVI of catchments)
+    - time-series-LAI_full_catchments.csv (time series of LAI of catchments)
+    - time-series-NDVI_full_catchments.csv (time series of NDVI of catchments)
+    - time-series-NPP_full_catchments.csv  (time series of NPP of catchments)
+  - Res-CN_ClimateIndices.csv (climate attributes for reservoir upstream catchments)
+  - Res-CN_Geologies.csv (Geology attributes for reservoir upstream catchments)
+  - Res-CN_Humanactivities.csv (Human activities for reservoir upstream catchments)
+  - Res-CN_Lands.csv (Land attributes for reservoir upstream catchments)
+  - Res-CN_Soils.csv (Soil attributes for reservoir upstream catchments)
+  - Res-CN_Topos.csv (Topography attributes for reservoir upstream catchments)
+
+- C_intermediate_catchments (basin delineation Type 2, see article chapter 2.5, Fig. 2)
+  - climate-time-series
+    - GeoDAR_ID.csv (435 files, 19800101-20201231, daily time series of 15 meteorological variables of catchments)
+  - land-time-series
+    - time-series-EVI_full_catchments.csv (time series of EVI of catchments)
+    - time-series-GPP_full_catchments.csv (time series of EVI of catchments)
+    - time-series-LAI_full_catchments.csv (time series of LAI of catchments)
+    - time-series-NDVI_full_catchments.csv (time series of NDVI of catchments)
+    - time-series-NPP_full_catchments.csv  (time series of NPP of catchments)
+  - Res-CN_ClimateIndices.csv (climate attributes for reservoir upstream catchments)
+  - Res-CN_Geologies.csv (Geology attributes for reservoir upstream catchments)
+  - Res-CN_Humanactivities.csv (Human activities for reservoir upstream catchments)
+  - Res-CN_Lands.csv (Land attributes for reservoir upstream catchments)
+  - Res-CN_Soils.csv (Soil attributes for reservoir upstream catchments)
+  - Res-CN_Topos.csv (Topography attributes for reservoir upstream catchments)
+
+- D_reservoir_states
+  - water level
+    - High Rate
+       - OBS
+         - wse_time-series_GeoDARID.csv (97 files, high rate altimetric water level time series of 97 reservoirs validated by in situ data)
+       -noOBS
+         - wse_time-series_GeoDARID.csv (153 files, high rate altimetric water level time series of 153 reservoirs without in situ for validation)
+       - Evaluated_97res.pdf (4 pdf files, showing altimetric water level time series and evaluated reports RMSE values against in situ data)
+       - all_153noOBSres.pdf (5 pdf files, showing altimetric water level time series)
+       - EvaluaationHR_against97reswithOBSwaterlevel.txt (evaluation report of 97 reservoirs validated by in situ data)
+    - Standard Rate
+       - OBS
+         -S3A
+           - chinaRes_wse_GeoDARID.csv (36 files, standard rate altimetric water level time series of reservoirs from sentinel-3a data)
+         -S3B
+           - chinaRes_wse_GeoDARID.csv (41 files, standard rate altimetric water level time series of reservoirs from sentinel-3b data)
+         -SAL
+           - chinaRes_wse_GeoDARID.csv (69 files, standard rate altimetric water level time series of reservoirs from SARAL/AltiKa data)
+         -CS2
+           - chinaRes_wse_GeoDARID.csv (89 files, standard rate altimetric water level time series of reservoirs from CryoSat-2 data)
+         -J3
+           - chinaRes_wse_GeoDARID.csv (14 files, standard rate altimetric water level time series of reservoirs from Jason-3 data)
+         -IC2
+           - chinaRes_wse_GeoDARID.csv (129 files, standard rate altimetric water level time series of reservoirs from ICESat-2 data)
+         - *.pdfs (15 files, showing standard rate altimetric water level time series against in situ data and RMSE values)
+         - *.txt (6 files, showing evaluation reports of standard rate altimetric water level time series against in situ data)
+       -noOBS
+         -S3A
+           - wse_time-series_GeoDARID.csv (156 files, standard rate altimetric water level time series of reservoirs from sentinel-3a data)
+         -S3B
+           - wse_time-series_GeoDARID.csv (153 files, standard rate altimetric water level time series of reservoirs from sentinel-3b data)
+         -SAL
+           - wse_time-series_GeoDARID.csv (160 files, standard rate altimetric water level time series of reservoirs from SARAL/AltiKa data)
+         -CS2
+           - wse_time-series_GeoDARID.csv (258 files, standard rate altimetric water level time series of reservoirs from CryoSat-2 data)
+         -J3
+           - wse_time-series_GeoDARID.csv (40 files, standard rate altimetric water level time series of reservoirs from Jason-3 data)
+         -IC2
+           - wse_time-series_GeoDARID.csv (86 files, standard rate altimetric water level time series of reservoirs from ICESat-2 data)
+         - *.pdfs (29 files, showing standard rate altimetric water level time series)
+  - water area
+       - time-series
+         - swa_GeoDARID.csv (3214 files, monthly water area time series of reservoirs from 1984-2020)
+       - 3_shapefiles (EPSG 3035)
+  - storage variation
+       - DEM-based
+         -OBS
+           - rwsc_GeoDARID.csv (119 files, monthly water storage variation time series of reservoirs from 1984-2021)
+         - noOBS
+           - rwscSATnoOBS_GeoDARID.csv (2771 files, monthly water storage variation time series of reservoirs from 1984-2021)
+         - info119ReswithoutDropStep3.csv (information of evaluated storage variation against in situ data)
+         - *.pdf (98 files, showing the time series of storage variation against in situ data if available)
+       - satelliteWaterlevelArea-based
+         -High-rate (we use the high-rate altimetric water level to calculate storage!!)
+           -obs
+             -rwsc
+ 	       -original (we have 85 csv files in this sub-solder, containing the time series of original water area, water level)
+               -rwsc (we have 85 csv files in this sub-solder, containing the time series of storage variation)
+             -elevationarea
+               -original (we have 160 txt files in this sub-solder, containing the time series of fitted water area-water level data pairs, and interpolated H_A data)
+               -datapair85.csv (R2, best fitted model ID, for fitted H_A curve)
+           -noobs
+             -rwsc
+               -rwsc (we have 102 csv files in this sub-solder, containing the time series of storage variation)
+             -elevationarea
+               -*.txt (we have 222 txt files in this sub-solder, containing the time series of fitted water area-water level data pairs, and interpolated H_A data)
+               -datapair111.csv (R2, best fitted model ID, for fitted H_A curve)
+         -standRate (we use the standRate altimetric water level to calculate storage!!)
+           -obs
+             -rwsc
+ 	      -original (we have six csv files in this sub-solder, containing the time series of original water area, water level)
+               -rwsc (we have six csv files in this sub-solder, containing the time series of storage variation)
+             -elevationarea
+               -original (we have 12 txt files in this sub-solder, containing the time series of fitted water area-water level data pairs, and interpolated H_A data)
+               -datapair6.csv (R2, best fitted model ID, for fitted H_A curve)
+           -noobs
+             -rwsc
+               -rwsc (we have 118 csv files in this sub-solder, containing the time series of storage variation)
+             -elevationarea
+               -*.txt (we have 266 txt files in this sub-solder, containing the time series of fitted water area-water level data pairs, and interpolated H_A data)
+               -datapair133.csv (R2, best fitted model ID, for fitted H_A curve)
+  - evaporation
+       - evap_GeoDARID.csv (3185 files, monthly water area time series of reservoirs from 1986-2021)
+
+- E_info_english
+  - 1_Folder_structure.txt
+  - 2_References.txt
+  - 3_Additional_information.txt
+  - 3254Res info.csv

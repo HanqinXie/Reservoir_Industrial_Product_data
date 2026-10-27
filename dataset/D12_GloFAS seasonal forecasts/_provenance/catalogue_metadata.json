@@ -1,0 +1,134 @@
+{
+  "type": "Collection",
+  "id": "cems-glofas-seasonal",
+  "stac_version": "1.1.0",
+  "title": "Seasonal forecasts of river discharge and related data by the Global Flood Awareness System",
+  "description": "This dataset provides an ensemble of forecasted time series of gridded hydrological data forced with seasonal meteorological forecasts. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model at a 0.05° (~5 km at the equator) resolution with seasonal meteorological forecasts from the European Centre for Medium-range Weather Forecasts (ECMWF). For version 3.1 and older, the open-source LISFLOOD hydrological model was forced at a 0.1° (~11 km at the equator) resolution. The forecasts are initialised on the first of each month with a 24-hourly time step, and cover 123 days.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are the operational forecasts, historical simulations that can be used to derive the hydrological climatology, and medium-range and seasonal reforecasts. The latter dataset enables research, local skill assessment and post-processing of the seasonal forecasts. In addition, the seasonal reforecasts are also used to derive a specific range dependent climatology for the seasonal system. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission’s Joint Research Centre.",
+  "summaries": {},
+  "providers": [
+    {
+      "name": "ECMWF"
+    }
+  ],
+  "keywords": [
+    "Spatial coverage: Global",
+    "Provider: Copernicus CEMS",
+    "Product type: Seasonal forecasts",
+    "Variable domain: Land (hydrology)",
+    "Temporal coverage: Present"
+  ],
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.0,
+          -60.0,
+          360.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-01T00:00:00+00:00",
+          "2026-10-01T00:00:00+00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+    },
+    {
+      "rel": "license",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+      "title": "CEMS-FLOODS datasets licence",
+      "rev": 1,
+      "id": "cems-floods"
+    },
+    {
+      "rel": "form",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/form_7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "constraints",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/constraints_4fd19fa30995f73d00833bfb8514bf4697d13c8a69453d5895301e65dc5ca05a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "retrieve",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-seasonal",
+      "type": "application/json"
+    },
+    {
+      "rel": "costing_api",
+      "href": "https://ewds.climate.copernicus.eu/api/retrieve/v1/processes/cems-glofas-seasonal/costing",
+      "type": "application/json"
+    },
+    {
+      "rel": "layout",
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/layout_0c836a064d13a2b90b4bdf30e345d44b3492782de6f9879f951272e9ba2e2570.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-reforecast",
+      "title": "Reforecasts of river discharge and related data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal-reforecast",
+      "title": "Seasonal reforecasts of river discharge and related data from the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-forecast",
+      "title": "River discharge and related forecasted data by the Global Flood Awareness System"
+    },
+    {
+      "rel": "related",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-historical",
+      "title": "River discharge and related historical data from the Global Flood Awareness System"
+    },
+    {
+      "rel": "messages",
+      "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal/messages",
+      "title": "All active messages on Seasonal forecasts of river discharge and related data by the Global Flood Awareness System"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/overview_0885f764fd7ce14e5c511c5751d22b0610d3004d3de56f389562cace8f67e2bc.png",
+      "type": "image/jpg",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "published": "2020-12-09T00:00:00Z",
+  "updated": "2026-10-10T00:00:00Z",
+  "sci:doi": "10.24381/cds.00b6c4fb",
+  "cads:disabled_reason": null,
+  "cads:sanity_check": {
+    "status": "available",
+    "timestamp": "2026-10-26T17:21:23.509214+00:00"
+  },
+  "cads:update_frequency": "Monthly",
+  "cads:fair": 84
+}

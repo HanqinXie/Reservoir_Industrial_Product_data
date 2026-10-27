@@ -1,0 +1,19 @@
+{
+  "Date": "Mon, 26 Oct 2026 17:33:48 GMT",
+  "Content-Type": "application/zip",
+  "Content-Length": "820295132",
+  "Connection": "keep-alive",
+  "Strict-Transport-Security": "max-age=63072000",
+  "x-bz-file-name": "HydroLAKES_polys_v10_shp.zip",
+  "x-bz-file-id": "4_z2dd0aced54377d2670d40d12_f216bba830412b32b_d20220410_m201900_c000_v0001074_t0012_u01649621940244",
+  "x-bz-content-sha1": "none",
+  "X-Bz-Upload-Timestamp": "1649621940244",
+  "Accept-Ranges": "bytes",
+  "x-bz-info-src_last_modified_millis": "1649618552000",
+  "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+  "cf-cache-status": "MISS",
+  "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=w3GnTYjZsgF2%2BW9r8DHYqfTGXsxXBK9XIQcCpAwPXN5TXR6nN8tJZXyzw2FT2TQrgIUE%2FiaM4xl%2FIKSGEIts3jHsIrkoEnFYOYVOq6uIKdT2saHFrhj22eprPXmrpCOm9By%2B%2Bj%2FKry0Ml%2BX1VWGQHi5q\"}]}",
+  "Server": "cloudflare",
+  "CF-RAY": "a50b3549eb84db4c-NRT",
+  "alt-svc": "h3=\":443\"; ma=86400"
+}

@@ -1,0 +1,1830 @@
+{
+  "id": "D20",
+  "title": "上海期货交易所行情数据",
+  "directory": "D20_上海期货交易所行情数据",
+  "status": "partial_downloaded",
+  "source_url": "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/",
+  "scope": "2015—2025年度期货统计、2022—2025年48个月期货行情和2026-10-26日行情原始JSON，以及可识别铝合约的CSV副本；此为明确范围的公开数据，非无限历史全库。",
+  "reason": "2015—2025年度期货统计、2022—2025年48个月期货行情和2026-10-26日行情原始JSON，以及可识别铝合约的CSV副本；此为明确范围的公开数据，非无限历史全库。",
+  "retrieved_at": "2026-10-26T17:51:36.269202+00:00",
+  "files": [
+    {
+      "path": "D20_上海期货交易所行情数据/2015年_期货年度统计.json",
+      "bytes": 6135,
+      "sha256": "ee7fefe8736a8e6f210094960f45e5526133fadc7553d89c33374a40719dd72f",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2015year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2015"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2015年_期货年度统计_铝筛选.csv",
+      "bytes": 375,
+      "sha256": "07edbfb8091c768353eb2883d6973d9535f1533a46300c62d1c89e9cceba1417",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2015year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2015年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2016年_期货年度统计.json",
+      "bytes": 6090,
+      "sha256": "800c9a71361f7beffcd4ae0ec017575a5ded36a1e4353df56782b3b93f911180",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2016year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2016"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2016年_期货年度统计_铝筛选.csv",
+      "bytes": 374,
+      "sha256": "6c8576bf4ff3d2f22ce4ddf63e02f31871262371fa974b52774c4cc22998c203",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2016year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2016年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2017年_期货年度统计.json",
+      "bytes": 6140,
+      "sha256": "689098ddc8b3e267b65ab98f18abe3ae17ba9424b2c3d504b3a38f7fe4deea3a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2017year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2017"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2017年_期货年度统计_铝筛选.csv",
+      "bytes": 376,
+      "sha256": "84ef5b8d93156995ccbf5b0843450809e3e5a50d48bc3c44f377425b3562348c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2017year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2017年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2018年_期货年度统计.json",
+      "bytes": 6945,
+      "sha256": "d8f434be05633eeffe6def637c01328704040778ee447b8611e7ab4422898f75",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2018year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2018"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2018年_期货年度统计_铝筛选.csv",
+      "bytes": 377,
+      "sha256": "424ffb86464ad8b24e04a014d65e47f95c7eaa47309373e4c2a8ee548127e1ca",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2018year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2018年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2019年_期货年度统计.json",
+      "bytes": 7773,
+      "sha256": "93ea4603ab77e44d591c094fcf7c8abc2d53544fc9f99ab9c0645fc05cc8a578",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2019year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2019"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2019年_期货年度统计_铝筛选.csv",
+      "bytes": 379,
+      "sha256": "1c89d0ed5221549a15a01fcb2cc9239ecbbec0f734322663a4d4b80253221dcd",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2019year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2019年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2020年_期货年度统计.json",
+      "bytes": 8612,
+      "sha256": "e5a2bd00fba09cff5a9df2d8be503ef895fb3780c47fadf8e1f850cc974fff1f",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2020year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2020"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2020年_期货年度统计_铝筛选.csv",
+      "bytes": 377,
+      "sha256": "3f7f9dcbcbab6f263b30e25f1a485120f9e0f6b5ca4446a9c806ebc424d42b61",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2020year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2020年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2021年_期货年度统计.json",
+      "bytes": 8657,
+      "sha256": "97ed3a642ce494989a5ae7592934674e59a1934e088882272a48c505438f35a3",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2021year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2021"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2021年_期货年度统计_铝筛选.csv",
+      "bytes": 380,
+      "sha256": "0a6d7f21ed2ef4b0124ef7e02b3ed8afb4db677aeacaba0c2b6fb1bbb3a4148d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2021year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2021年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202201_期货每月行情.json",
+      "bytes": 90589,
+      "sha256": "b3fa7bdf0e7936d088222b994539e7e5eb85177434a599036b07b0d25f7b5d98",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202201month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202201"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202201_期货每月行情_铝筛选.csv",
+      "bytes": 1950,
+      "sha256": "cc49ab29ee02d34027c13f566d4482a660a6c18bbf125c6024ba28f1af335a47",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202201month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202201_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202202_期货每月行情.json",
+      "bytes": 90770,
+      "sha256": "3d33dcf745ae0cbd73ba8b0ebfe3c3eaa6af7c3d25f18468144f28743e84e6c2",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202202month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202202"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202202_期货每月行情_铝筛选.csv",
+      "bytes": 1843,
+      "sha256": "2bfa19ee8c936afd29cfd6606c3a244f0e0bac5feb31d31e9e796940ca59c29c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202202month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202202_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202203_期货每月行情.json",
+      "bytes": 93331,
+      "sha256": "b80d2072c646e4f6febe54672fb7200ee5374243dec9baecd56b541aa784ac01",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202203month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202203"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202203_期货每月行情_铝筛选.csv",
+      "bytes": 1845,
+      "sha256": "82319d99fc46a889c3c87c6ab5c87f472a1f71122d583f147ec80bf2176c1c8a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202203month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202203_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202204_期货每月行情.json",
+      "bytes": 93260,
+      "sha256": "01cdef92ef815e2c15fcaf0bb4cb52ee015915b2158573e415ae5d5e7c8a7651",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202204month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202204"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202204_期货每月行情_铝筛选.csv",
+      "bytes": 1862,
+      "sha256": "aa5f890b92c68aee0e20aeaa7c8e4b8f89085b331c27c7384fc0b2c4bbe269e6",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202204month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202204_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202205_期货每月行情.json",
+      "bytes": 92310,
+      "sha256": "4717876898f6f80c50880122e002297a2d1d6f2ff2c637afcd77130108d942a3",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202205month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202205"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202205_期货每月行情_铝筛选.csv",
+      "bytes": 1853,
+      "sha256": "bf5d31cb09c3c27d7ace0555bd471fa7ef8f058a1c25f6d53a05b5f448a38da6",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202205month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202205_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202206_期货每月行情.json",
+      "bytes": 91996,
+      "sha256": "178b7d9e7ca36247175623084d10893c4b032f67691082731a1530d4bd2438bb",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202206month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202206"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202206_期货每月行情_铝筛选.csv",
+      "bytes": 1873,
+      "sha256": "52618f1b3a21fed28be25b1069cbcc44dba455161ac321f595c597dc4553a661",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202206month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202206_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202207_期货每月行情.json",
+      "bytes": 92052,
+      "sha256": "7e18409101545cace6deb9bd63ce4d5330f95a3e1b0a4091e9b63773cc7f8383",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202207month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202207"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202207_期货每月行情_铝筛选.csv",
+      "bytes": 1847,
+      "sha256": "270da7a09125f72f470ebbffb3c5511440b254968f35c46fef850ed5ed862648",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202207month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202207_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202208_期货每月行情.json",
+      "bytes": 93303,
+      "sha256": "25dba290e212803605e929ffa66b29130b65aaff823067e58b0c3e05460dbba3",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202208month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202208"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202208_期货每月行情_铝筛选.csv",
+      "bytes": 1850,
+      "sha256": "bbc484d06a7cf2a7aecf8781081b0dd9595c204a472e69c5717165157f4947b9",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202208month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202208_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202209_期货每月行情.json",
+      "bytes": 97223,
+      "sha256": "8cb7f70a50cc9619a23a7b057f43f765c089fc4e0632db70a9944de51ed85d0c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202209month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202209"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202209_期货每月行情_铝筛选.csv",
+      "bytes": 1845,
+      "sha256": "39f7f642b259015c5243ba31a08e52e5b3d7240c57ddfd0bdc86362bda4a5055",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202209month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202209_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202210_期货每月行情.json",
+      "bytes": 93662,
+      "sha256": "c6b55826d078516894ba62a7f3b0a8bc3a304ee1c72e39fc7dc0f5529ce3963a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202210month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202210"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202210_期货每月行情_铝筛选.csv",
+      "bytes": 1835,
+      "sha256": "df24bad00ba9da52d2219f88f6179147a422e5ed5145e2c8d7bdf113d6848b15",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202210month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202210_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202211_期货每月行情.json",
+      "bytes": 94166,
+      "sha256": "17a2efb2e40700b14da1c662931172149a767617ad8fb3273443d4716ca95d51",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202211month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202211"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202211_期货每月行情_铝筛选.csv",
+      "bytes": 1843,
+      "sha256": "903594efec84b359a3e0af5730973ebc7c7fe343bea8e995ed7e32c2084459d8",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202211month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202211_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202212_期货每月行情.json",
+      "bytes": 95146,
+      "sha256": "3451f298d1a4dffd929597ff5d628ee64590f2249c9e33ee0adc3d8a74d10e49",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202212month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202212"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202212_期货每月行情_铝筛选.csv",
+      "bytes": 1836,
+      "sha256": "ab56e56b4a94397a25c6c615f905a26639316bc847d495cdb691b5bac114da97",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202212month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202212_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2022年_期货年度统计.json",
+      "bytes": 8637,
+      "sha256": "6298385fb8804ef454bf11ba8f144eecd808cc5b63a6997c6c8ff1d56203951c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2022year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2022"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2022年_期货年度统计_铝筛选.csv",
+      "bytes": 375,
+      "sha256": "61d9a2f3915d65fb8f9130b41f670ef79a7a7ca6162f11b46f0cd68ef1dfc48a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2022year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2022年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202301_期货每月行情.json",
+      "bytes": 93304,
+      "sha256": "836e1c3e19aef163931a653e143cc0c8b5348675c3bcb36ad30e96437ddf241c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202301month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202301"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202301_期货每月行情_铝筛选.csv",
+      "bytes": 1826,
+      "sha256": "6d8e3547b982a883102ada284c22d5ccf51b3371bfb595afc430e0bbbb35ad2c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202301month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202301_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202302_期货每月行情.json",
+      "bytes": 91782,
+      "sha256": "de402886d4719373c5b69019d82283c57d1d80951ce17137d4697fdcd4306c0e",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202302month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202302"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202302_期货每月行情_铝筛选.csv",
+      "bytes": 1848,
+      "sha256": "335b110f4c4f6e9c5a3ee48aa5d0e378c86c329c15f488889c2ebf44a8de48ec",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202302month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202302_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202303_期货每月行情.json",
+      "bytes": 93918,
+      "sha256": "fc7a433c0148b36e961f56189ee2083c830ea5c6f59a8f977f419ba5d9ab7afc",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202303month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202303"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202303_期货每月行情_铝筛选.csv",
+      "bytes": 1935,
+      "sha256": "e61982427662a69135f8713e6e705353b2b2635e4470ec5b62631bb17ebabed5",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202303month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202303_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202304_期货每月行情.json",
+      "bytes": 94206,
+      "sha256": "2488e51650b9e01295e006e24f0e0744221ff445bee40bfe39134f7872fe3448",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202304month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202304"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202304_期货每月行情_铝筛选.csv",
+      "bytes": 1937,
+      "sha256": "431981f1552467560a2f3f687f8242afaa0ed2ad8014dbbc83776b01ec00afab",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202304month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202304_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202305_期货每月行情.json",
+      "bytes": 94657,
+      "sha256": "15ac9d6fd93986f05501fa7e8acbed77cda20c6cc28831782c69ed7161813a9f",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202305month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202305"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202305_期货每月行情_铝筛选.csv",
+      "bytes": 1862,
+      "sha256": "a7bf1a0ef1abdf2deb3b2330aebc8d9d3b20af0f9f38e9c47aff1d35985051d7",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202305month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202305_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202306_期货每月行情.json",
+      "bytes": 98456,
+      "sha256": "dabd416aa1b923a1e476f1a431f460dddb00d2f26ff02aa4894e5f8e82deabf7",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202306month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202306"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202306_期货每月行情_铝筛选.csv",
+      "bytes": 1839,
+      "sha256": "cdb00c2d7801ab35275aa214bbaeb4b9f30e64f9b76d49daa14485986065396d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202306month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202306_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202307_期货每月行情.json",
+      "bytes": 102270,
+      "sha256": "ead014ca713e7d95f384eedb11ad686f2fa5753000d9554a94940c8dc48401b0",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202307month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202307"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202307_期货每月行情_铝筛选.csv",
+      "bytes": 1835,
+      "sha256": "d5914c186df195aa66330f1b78f14f76941e532ef2a80797256ead440d3daaf7",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202307month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202307_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202308_期货每月行情.json",
+      "bytes": 103815,
+      "sha256": "a862fcd1998a65acd82e85f5e23a95b0d4dfb0481c3a13277b9290b8ad4dc0bc",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202308month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202308"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202308_期货每月行情_铝筛选.csv",
+      "bytes": 1833,
+      "sha256": "aa5461aa45cdd3c41ccc0b44d7a37d1904648e2b9cce669621f7cd6302706662",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202308month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202308_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202309_期货每月行情.json",
+      "bytes": 105252,
+      "sha256": "3f77a24c2dde20deb3573399345a76b7cc0af01900823df5ce9c9cc2103238fb",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202309month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202309"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202309_期货每月行情_铝筛选.csv",
+      "bytes": 1835,
+      "sha256": "60ed7df6e069efe5838120f69a8c3cc36f1875ddcad096fed940c83c63636869",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202309month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202309_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202310_期货每月行情.json",
+      "bytes": 106440,
+      "sha256": "c503eeb156a2af34e0dd766aa01422e0205aaf8ece24f7d99034beebc2c867c3",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202310month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202310"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202310_期货每月行情_铝筛选.csv",
+      "bytes": 1832,
+      "sha256": "79cdef8b3d939b6d8a5352e2b4b66c64be9115900955fc26d818b8baa883c13f",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202310month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202310_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202311_期货每月行情.json",
+      "bytes": 106357,
+      "sha256": "d08e9a9c75858b56f2ca912a15943a836612d042a32b71985e0afb16d157d25d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202311month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202311"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202311_期货每月行情_铝筛选.csv",
+      "bytes": 1851,
+      "sha256": "26ded3fec08e00b40f3fa72d98f37a03a0964369105fa3b3a81ff9785695bd6a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202311month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202311_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202312_期货每月行情.json",
+      "bytes": 107527,
+      "sha256": "19fd11d130f1b3e0cdd3f300016a646555b61e665d31ec39738bfd00eb7e6639",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202312month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202312"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202312_期货每月行情_铝筛选.csv",
+      "bytes": 1930,
+      "sha256": "7f20353e918fcef286aea29c9f4eaa8b375d41c7d6f7c4ef3fdd896e37665721",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202312month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202312_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2023年_期货年度统计.json",
+      "bytes": 9799,
+      "sha256": "770877f95251c46b5b650ab69350a756c509a43677bd2dfbca30ed4394886a7d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2023year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date"
+      ],
+      "report_date": "2023"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2023年_期货年度统计_铝筛选.csv",
+      "bytes": 377,
+      "sha256": "c7577f61a71943ebaa523eec0cb2ab5856b8e8a791a15a243e70930c90835499",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2023year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2023年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 12
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202401_期货每月行情.json",
+      "bytes": 107805,
+      "sha256": "79694cb72f2a96d9433e912c372e5c558a04c56906186fbb7243f95ee6f6b49c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202401month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202401"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202401_期货每月行情_铝筛选.csv",
+      "bytes": 1855,
+      "sha256": "e9d1a0b351741430b8c276bbf8f75fa0656fd7aba31704b2ddb7b27821eb6eb6",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202401month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202401_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202402_期货每月行情.json",
+      "bytes": 105555,
+      "sha256": "c259032f24eb776d248a408510aae34bdc5310faee2e51b78441ade2ef3d0b5b",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202402month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_cursor",
+        "o_curmetalindex",
+        "showlength",
+        "o_code",
+        "o_msg",
+        "report_date",
+        "update_date",
+        "print_date"
+      ],
+      "report_date": "202402"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202402_期货每月行情_铝筛选.csv",
+      "bytes": 1852,
+      "sha256": "2a945801c6bff3586bae19f7cb6813b6afaeae94604e797ef60f5cd04ee5c8c0",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202402month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202402_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 17
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202403_期货每月行情.json",
+      "bytes": 85669,
+      "sha256": "655c680ee786e68512a1978127e98b71cf714a1e1cbdfdb1f433ab0e1fbc3745",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202403month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202403"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202403_期货每月行情_铝筛选.csv",
+      "bytes": 1265,
+      "sha256": "503a22171e41bb651dbe8c9acfdecd763432f41cfe73a8311c3f89ed9a75803b",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202403month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202403_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202404_期货每月行情.json",
+      "bytes": 85598,
+      "sha256": "b15862e7ced048e0655a2acb9c07a725bed2440342d659a59a92a5f00696d209",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202404month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202404"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202404_期货每月行情_铝筛选.csv",
+      "bytes": 1271,
+      "sha256": "23b6aa4e5942ad4c42501291033337e8f24ad8f85471ccc11fefac520a16d143",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202404month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202404_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202405_期货每月行情.json",
+      "bytes": 86675,
+      "sha256": "1c09d11e7b1596a2ad60b0189b8d31dcd56472cfd8bb61db113536602e4d545d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202405month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202405"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202405_期货每月行情_铝筛选.csv",
+      "bytes": 1284,
+      "sha256": "acb652f7852359ee8c35114f3955d567c6e52688fbd480d7bb7047455cc58163",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202405month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202405_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202406_期货每月行情.json",
+      "bytes": 85522,
+      "sha256": "200590e22dd25b91478a9c8d88123d0819a2cf85c274fcce148946e8e95a0f60",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202406month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202406"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202406_期货每月行情_铝筛选.csv",
+      "bytes": 1279,
+      "sha256": "cec5c06783cee7afb9078b3c2a4e3f0be2cd68e94a7371e646ca982e7d8c735d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202406month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202406_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202407_期货每月行情.json",
+      "bytes": 84934,
+      "sha256": "21ee4a6ccbc421b03573993a7a60097cb3336f10e6f6b1c48974b55f4dc933dd",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202407month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202407"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202407_期货每月行情_铝筛选.csv",
+      "bytes": 1279,
+      "sha256": "bf879be316679447d37be16485d55f3667a1fdf51c61d161912739e061c31d37",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202407month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202407_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202408_期货每月行情.json",
+      "bytes": 85535,
+      "sha256": "b314d2934e32d5855c3de71431db7804b0b41dd83631aac89bc447e516d3c016",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202408month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202408"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202408_期货每月行情_铝筛选.csv",
+      "bytes": 1254,
+      "sha256": "baea0dcc49bb5b65b84d47796103e1c7b5b129e6f502e2c92e84c2a7b7ad63ba",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202408month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202408_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202409_期货每月行情.json",
+      "bytes": 86014,
+      "sha256": "f9bd72d6639250f19ebdf4ba41847377f21c3836381dad609de2984c7cacff8d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202409month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202409"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202409_期货每月行情_铝筛选.csv",
+      "bytes": 1304,
+      "sha256": "c6f818d9eef8fda52efa6ba922833977a496b82b1d5358edd3ef882cdd9c19cc",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202409month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202409_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202410_期货每月行情.json",
+      "bytes": 84967,
+      "sha256": "6c0b201c4186d19099254950cdefb4548ef1e89f7456c067cc8469321c69790c",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202410month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202410"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202410_期货每月行情_铝筛选.csv",
+      "bytes": 1245,
+      "sha256": "caac390e530a3494392eaa6a4e37113e16c592780aa2956dd2139cade523fd27",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202410month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202410_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202411_期货每月行情.json",
+      "bytes": 84143,
+      "sha256": "e042f1be080d3f8e25f9090b99c7b2c9ef04a7f45c05c5454f65608f8b741deb",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202411month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202411"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202411_期货每月行情_铝筛选.csv",
+      "bytes": 1258,
+      "sha256": "1fd1818725ef98733c02506d82173743af0bb9d2be669ef92e7cff8910ac333a",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202411month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202411_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202412_期货每月行情.json",
+      "bytes": 83883,
+      "sha256": "411eae5f58fa5a9d8d139785abf2f8a85a60dc2f16d7ac72fb15c96551dd4b45",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202412month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202412"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202412_期货每月行情_铝筛选.csv",
+      "bytes": 1312,
+      "sha256": "c0a5474c6f3b3630971d14b83f17207b2f3b4591c930752e2f4094f5457645d6",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202412month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202412_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2024年_期货年度统计.json",
+      "bytes": 6956,
+      "sha256": "5bf7f015830f6d15b3d5ca9001d948e7f40c0f88e41cec77003645611f35ddcb",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2024year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "report_date"
+      ],
+      "report_date": "2024"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2024年_期货年度统计_铝筛选.csv",
+      "bytes": 264,
+      "sha256": "e78fe9ff402604997639e5a3ab1bd3209a671c45c522d42e4d49f2d2bdc7f225",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2024year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2024年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 11
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202501_期货每月行情.json",
+      "bytes": 83465,
+      "sha256": "2261f1ce761fa52f36f1a98d01180b4aa75ebeb99885553972b5a92ff569bbb0",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202501month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202501"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202501_期货每月行情_铝筛选.csv",
+      "bytes": 1311,
+      "sha256": "3dc4c7e879eef51ff5853ba968cc563b3533718894adf6faeb5b97e6afdf5c7b",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202501month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202501_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202502_期货每月行情.json",
+      "bytes": 83876,
+      "sha256": "0cc42320c00db0b7808bbd85b84ee6667a8ed44aa93238bf639faece43a78f4d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202502month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202502"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202502_期货每月行情_铝筛选.csv",
+      "bytes": 1263,
+      "sha256": "22c25dde45bb49c8ed1e5aa0e72a747185a349244778653ea4a7e21a350e9d5d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202502month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202502_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202503_期货每月行情.json",
+      "bytes": 84784,
+      "sha256": "c67f5767f60833e67854be0b20c0e434684b4253a48712fdd413b6fd565e7829",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202503month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202503"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202503_期货每月行情_铝筛选.csv",
+      "bytes": 1275,
+      "sha256": "fee8441b75dc9cde1cf2df090b6b5b022e242c1c1ac2c677b1ad8ee66d6086e6",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202503month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202503_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202504_期货每月行情.json",
+      "bytes": 85660,
+      "sha256": "05304da0a9057f64ba4a66fbc8a1ffd4b886a6c30af862875a4fd0b7b4f62385",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202504month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202504"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202504_期货每月行情_铝筛选.csv",
+      "bytes": 1340,
+      "sha256": "d4c042984ac8717d2f533e6ca6ae6cf356d914225d47f59e7bbe5d8a8189b007",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202504month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202504_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202505_期货每月行情.json",
+      "bytes": 85724,
+      "sha256": "09b944941abb1674ebf80b1ad204fceb314098d408fe0ec24d97d15723afb4e9",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202505month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202505"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202505_期货每月行情_铝筛选.csv",
+      "bytes": 1260,
+      "sha256": "e9c82f4464c307b36be4884b95f87facbca9278de73639df06c838e90c8c7993",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202505month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202505_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202506_期货每月行情.json",
+      "bytes": 87290,
+      "sha256": "0e16510b4fa2f8635e7e6ea2e9179c73b081abc464c2b3487f7b52f2286f1738",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202506month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202506"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202506_期货每月行情_铝筛选.csv",
+      "bytes": 1274,
+      "sha256": "abbf010924a7f0546aa25b2bb211d50cefdfaf906183824adb24ca3040568412",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202506month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202506_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202507_期货每月行情.json",
+      "bytes": 88727,
+      "sha256": "79e9afde94565741180bb5ed5c8def719feeda80696412e17d77e4e2d7f78c8b",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202507month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202507"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202507_期货每月行情_铝筛选.csv",
+      "bytes": 1264,
+      "sha256": "da32e2df57336c35ea5e396d492a76b18f8c7ce266791e96a50ec224267d8aa7",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202507month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202507_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202508_期货每月行情.json",
+      "bytes": 88649,
+      "sha256": "247c660269885b7c081243621972b6c41d6a90ddb430358e726aab660d687efd",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202508month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202508"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202508_期货每月行情_铝筛选.csv",
+      "bytes": 1253,
+      "sha256": "fd865f7f2fa526bc7562b27f05e9bd0701244f0222c4ba5d246de060ccec7e3f",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202508month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202508_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202509_期货每月行情.json",
+      "bytes": 92095,
+      "sha256": "955df7ed45297f018ddb6ca40ae32ae834cb3a87e67e503496c7e3bf416622dd",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202509month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202509"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202509_期货每月行情_铝筛选.csv",
+      "bytes": 1238,
+      "sha256": "ff45f7efa25aada0a0f7667f73d24731694082ba4afd4c401ff70b15c1a25b7b",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202509month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202509_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202510_期货每月行情.json",
+      "bytes": 91560,
+      "sha256": "924204c6ad0f07fd1af6ebf5c45a0b64a8b4a02b4c301ecb63ad7faabd44ae49",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202510month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202510"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202510_期货每月行情_铝筛选.csv",
+      "bytes": 1310,
+      "sha256": "e62ea6916b765c982840dd15d9e7442a6bdacfd67dd49c7aed1cfcd8a861924e",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202510month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202510_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 15,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202511_期货每月行情.json",
+      "bytes": 91929,
+      "sha256": "e8cfdba43f36dfc0998ca90fedc42726b16d084c0881121bdf4bf0702d52d3dc",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202511month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202511"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202511_期货每月行情_铝筛选.csv",
+      "bytes": 1260,
+      "sha256": "b29474eebb3cb1f31a12e4aefbe816fb486b2117da22a65a8d91721630b09916",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202511month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202511_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202512_期货每月行情.json",
+      "bytes": 93410,
+      "sha256": "85f8aaf2388c35d771cd4c4caa3c59e52d64442c382df3ec5860fc88d7627667",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202512month.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "report_date"
+      ],
+      "report_date": "202512"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/202512_期货每月行情_铝筛选.csv",
+      "bytes": 1285,
+      "sha256": "55e8357894d06e4e132691dbe52c9ea0cab337b18a278abfb8df6baa3432500e",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/monthdata/202512month.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/202512_期货每月行情.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 14,
+      "column_count": 14
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2025年_期货年度统计.json",
+      "bytes": 7520,
+      "sha256": "84410ebf805d995ef0d2194d8610f6266c143821d39e65672c9caff584e3f872",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2025year.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "showlength",
+        "o_msg",
+        "o_cursor",
+        "o_code",
+        "update_date",
+        "report_date"
+      ],
+      "report_date": "2025"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/2025年_期货年度统计_铝筛选.csv",
+      "bytes": 263,
+      "sha256": "f46dece09872671f7b064f396cab7bdde7af21a36f75203cc44840e20b14608d",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/yeardata/2025year.dat",
+      "file_type": "csv",
+      "derived_from": "D20_上海期货交易所行情数据/2025年_期货年度统计.json",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 1,
+      "column_count": 11
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/20261026_期货日行情.json",
+      "bytes": 122749,
+      "sha256": "d571fc321467f073a5e8fabbee1c0bc1dcab8b55086b217964d93751ebdca173",
+      "source_url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261026.dat",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "o_IMChangeDate",
+        "showlength",
+        "o_day",
+        "o_weekday",
+        "o_curinstrument",
+        "o_year_num",
+        "o_code",
+        "update_date",
+        "o_curmetalindex",
+        "o_year",
+        "o_month",
+        "o_msg"
+      ],
+      "report_date": "20261026"
+    },
+    {
+      "path": "D20_上海期货交易所行情数据/上期所_数据接口定义_api.js",
+      "bytes": 16823,
+      "sha256": "888923e303b7178af9b3bfac83621c60f2f6ae0871894bf1ebe75a3a2708f86b",
+      "source_url": "https://www.shfe.com.cn/images/api.js",
+      "file_type": "js",
+      "validation": "file preserved"
+    }
+  ],
+  "file_count": 120,
+  "total_bytes": 4742450
+}

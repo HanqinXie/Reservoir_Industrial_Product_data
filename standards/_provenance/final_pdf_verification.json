@@ -1,0 +1,163 @@
+{
+  "pdf_count": 17,
+  "pdf_pages": 723,
+  "results": [
+    {
+      "id": "S01",
+      "file": "大中型水电站水库调度规范_GB 17621—1998.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S02",
+      "file": "水库调度规程编制导则_SL_T 706—2026_官方在线阅览分页保存.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 52,
+      "pages_rendered": 52,
+      "render_all_pages": "pass",
+      "page_images_count": 52,
+      "unique_page_image_sha256": 52
+    },
+    {
+      "id": "S03",
+      "file": "水库调度设计规范_GB_T 50587—2010.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 37,
+      "pages_rendered": 37,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S04",
+      "file": "水库生态流量泄放规程_SL_T 819—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 31,
+      "pages_rendered": 31,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S05",
+      "file": "水利水电工程生态流量计算与泄放设计规范_SL_T 820—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 85,
+      "pages_rendered": 85,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S06",
+      "file": "电解铝和氧化铝单位产品能源消耗限额_GB 21346—2022.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 10,
+      "pages_rendered": 10,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S07",
+      "file": "铝电解安全生产规范_GB 29741—2025.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 19,
+      "pages_rendered": 19,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S08",
+      "file": "重熔用铝锭_GB_T 1196—2023.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 10,
+      "pages_rendered": 10,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S09",
+      "file": "综合能耗计算通则_GB_T 2589—2020.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 9,
+      "pages_rendered": 9,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S10",
+      "file": "用能单位能源计量器具配备和管理通则_GB 17167—2025.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S11",
+      "file": "铝产业高质量发展实施方案（2025—2027年）_工信部联原〔2025〕62号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S12",
+      "file": "电力市场运行基本规则_国家发展改革委令第20号（2024年）.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 11,
+      "pages_rendered": 11,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S13",
+      "file": "电力中长期市场基本规则_发改能源规〔2025〕1656号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 30,
+      "pages_rendered": 30,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S14",
+      "file": "云南电力中长期市场实施细则_云监能市场〔2026〕11号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 52,
+      "pages_rendered": 52,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S15",
+      "file": "电力市场计量结算基本规则_发改能源规〔2025〕976号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 18,
+      "pages_rendered": 18,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S16",
+      "file": "电力现货市场基本规则（试行）_发改能源规〔2023〕1217号.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 57,
+      "pages_rendered": 57,
+      "render_all_pages": "pass"
+    },
+    {
+      "id": "S18",
+      "file": "水工建筑物与堰槽测流规范_SL_T 537—2026_官方在线阅览分页保存.pdf",
+      "pdf_magic": true,
+      "sha256_match": true,
+      "pages": 269,
+      "pages_rendered": 269,
+      "render_all_pages": "pass",
+      "page_images_count": 269,
+      "unique_page_image_sha256": 269
+    }
+  ]
+}

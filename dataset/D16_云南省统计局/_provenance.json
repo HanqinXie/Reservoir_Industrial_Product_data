@@ -1,0 +1,599 @@
+{
+  "id": "D16",
+  "title": "云南省统计局",
+  "directory": "D16_云南省统计局",
+  "status": "partial_downloaded",
+  "source_url": "https://stats.yn.gov.cn/",
+  "scope": "2025云南统计年鉴完整ZIP及全部70个压缩成员已CRC检查并解压；含工业与能源XLSX。另下载官网可得2019—2023、2025年统计公报正文。2024年目录跳转微信，未计为取得正文。",
+  "reason": "2025云南统计年鉴完整ZIP及全部70个压缩成员已CRC检查并解压；含工业与能源XLSX。另下载官网可得2019—2023、2025年统计公报正文。2024年目录跳转微信，未计为取得正文。",
+  "retrieved_at": "2026-10-26T17:51:34.339799+00:00",
+  "files": [
+    {
+      "path": "D16_云南省统计局/2021年云南统计公报7.docx",
+      "bytes": 167673,
+      "sha256": "24ab0cd1049ec3c495189e9f608a49ba6cffe7580952b14445b56b48aac1945e",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202203/P020251011365044763138.docx",
+      "file_type": "docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴.zip",
+      "bytes": 9398552,
+      "sha256": "9a1e47eac394eb186bf039597884205ae8cef8e449dc76bf6eb6bf1db5e7c529",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "zip",
+      "member_count": 70,
+      "zip_crc_ok": true,
+      "validation": "ZIP CRC checked"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/1.省情概况/一、省情概况(1-25).xlsx",
+      "bytes": 113523,
+      "sha256": "8ac661bbf53b31ac2ce7afd7783f8f116be08254f286efeb26e543f0708ed48e",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/1.省情概况/一、省情概况(1-25).xlsx",
+      "sheet_count": 22,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业(1-22).xlsx",
+      "bytes": 92998,
+      "sha256": "578839822a5edd7aafe5811f6b5b444c5db1d1352ca4d113d712d24af00eff5a",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业(1-22).xlsx",
+      "sheet_count": 21,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 13763,
+      "sha256": "951b0e6bb489ce81e7f70afa413e2bba3c49fddd4df219fe5cb897687e3d92e9",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业主要指标解释.docx",
+      "bytes": 12950,
+      "sha256": "166502ccbde3eca9062ad89cbf4cf228b212300c160bc1406bf97bba07a7606e",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/10.交通运输、通信和服务业/十、交通运输、通信和服务业主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/11.金融和保险业/十一、金融和保险业(1-6).xlsx",
+      "bytes": 31591,
+      "sha256": "95f55da606f76778ef87fa8c0ec978cc0d9734812de310c33cb5fe215e494f77",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/11.金融和保险业/十一、金融和保险业(1-6).xlsx",
+      "sheet_count": 6,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/11.金融和保险业/十一、金融和保险业Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 11239,
+      "sha256": "5b2cea642e8fcbe36940089fd6fc89f7f01dbd4c00ae2726ac0d7c5dc8a6ec81",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/11.金融和保险业/十一、金融和保险业Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/11.金融和保险业/十一、金融和保险业主要指标解释.docx",
+      "bytes": 11276,
+      "sha256": "9c4891154202b7f82cb71150b62cfbe647520904be1b48a1ece7ded52e150797",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/11.金融和保险业/十一、金融和保险业主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/12.旅游业/十二、旅游业(1-3).xlsx",
+      "bytes": 22737,
+      "sha256": "5a2e3da86e2801039c747938497fa504fcf4d5b7d511c604b947853975241fc0",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/12.旅游业/十二、旅游业(1-3).xlsx",
+      "sheet_count": 3,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/12.旅游业/十二、旅游业Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 11263,
+      "sha256": "977a743ee43cb11fd052c8840c1603860cd94a9b6dcf19d831a14fbbeb0f4270",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/12.旅游业/十二、旅游业Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/12.旅游业/十二、旅游业主要指标解释.docx",
+      "bytes": 11189,
+      "sha256": "2ec69a33aa68e0b48130c37e1a9e556a4ed60ad2968c1b7c5d3bacfb968223e3",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/12.旅游业/十二、旅游业主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化(1-35).xlsx",
+      "bytes": 198552,
+      "sha256": "a2eaf2bf62fa2e0698d07ca3af9f196c7e4e46e608de56f42c6e8ccbedd44cad",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化(1-35).xlsx",
+      "sheet_count": 33,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 13124,
+      "sha256": "fc4299bf1db52a7270ef5f0551d5552ff1fd493b99cec9c96973689ed1dd2a63",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化主要指标解释.docx",
+      "bytes": 12815,
+      "sha256": "6ac073d1d9e3e8843b943766e11cf90c986cdd772f7de10d9d07ec7ee2033dc6",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/13.教育、科技和文化/十三、教育、科技和文化主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理(1-14).xlsx",
+      "bytes": 85900,
+      "sha256": "9d923b801460fb0b082578d62006f25683e4247cbb8b89fc4090d60839b2f798",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理(1-14).xlsx",
+      "sheet_count": 14,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 13137,
+      "sha256": "5e89e008c3f664dd0a636450181b30b5dcf92aac1b78b7974cce0fd1db0bd0ef",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理主要指标解释.docx",
+      "bytes": 12308,
+      "sha256": "3e1cfdaf5200f1967223f2d3ae359f80656bc0eadd8d647d77979550ada15955",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/14.卫生、体育和社会管理/十四、卫生、体育和社会管理主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/15.人口与就业/十五、人口与就业(1-41).xlsx",
+      "bytes": 162412,
+      "sha256": "baeccf2e335410b51a46e2a6e6bb6f17f8145b043fb38e6d6d40be6c108ee06c",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/15.人口与就业/十五、人口与就业(1-41).xlsx",
+      "sheet_count": 40,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/15.人口与就业/十五、人口与就业Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 14969,
+      "sha256": "e68150aaaf5d52689edaad6318b4e8968493b9c9254cbcd8e171b35b024122fa",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/15.人口与就业/十五、人口与就业Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/15.人口与就业/十五、人口与就业主要指标解释.docx",
+      "bytes": 13528,
+      "sha256": "da01aad856a8325a901c81246a7cbc4f32cc8209d963237934315ad6c387f076",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/15.人口与就业/十五、人口与就业主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/16.资源与环境/十六、资源与环境(1-13).xlsx",
+      "bytes": 82375,
+      "sha256": "4c1fa4e3534875f039064c45cbb9c1778439a37d46d4994912cd9160a74150ef",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/16.资源与环境/十六、资源与环境(1-13).xlsx",
+      "sheet_count": 13,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/16.资源与环境/十六、资源与环境Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 16502,
+      "sha256": "34c2df511607265f7643126b25eb5b73464ecf24146724862e2e48be6593866a",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/16.资源与环境/十六、资源与环境Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/16.资源与环境/十六、资源与环境主要指标解释.docx",
+      "bytes": 16337,
+      "sha256": "0726abd4ea70bd622d0205f3d69181b18c1e001db484ccdc0d1d23d69bd4d10f",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/16.资源与环境/十六、资源与环境主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/17.民族自治地方概况/十七、民族自治地方概况(1-13).xlsx",
+      "bytes": 62016,
+      "sha256": "53b70b17d7ddd894f9858b5625781b4e692f9aa6dfb51a60652d3e419e5de710",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/17.民族自治地方概况/十七、民族自治地方概况(1-13).xlsx",
+      "sheet_count": 12,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/18.县域经济概况/十八、县域经济概况(1-50).xlsx",
+      "bytes": 387969,
+      "sha256": "323a47647b9199a5cea807d1dad31e259a2ea1c560f75310b73e6580f5091690",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/18.县域经济概况/十八、县域经济概况(1-50).xlsx",
+      "sheet_count": 46,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/18.县域经济概况/十八、县域经济概况(51-59).xlsx",
+      "bytes": 89098,
+      "sha256": "b5ead027ec570261fee0d0ee836b627d3316c5d1be965f7db9aff2d968c2c6fa",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/18.县域经济概况/十八、县域经济概况(51-59).xlsx",
+      "sheet_count": 9,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/2.国民经济核算/二、国民经济核算(1-8).xlsx",
+      "bytes": 90807,
+      "sha256": "2b60c8481a36542de99594d12a85c7fdbf3ee3ddc29133ee420154c9386d9d42",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/2.国民经济核算/二、国民经济核算(1-8).xlsx",
+      "sheet_count": 8,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/2.国民经济核算/二、国民经济核算Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 12218,
+      "sha256": "8ba63ffb607b10e6fa1e80b9667dca225f1267a14449c684b25993cb3fd7eb6d",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/2.国民经济核算/二、国民经济核算Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/2.国民经济核算/二、国民经济核算主要指标解释.docx",
+      "bytes": 12544,
+      "sha256": "a5cf091aa5f7d95e73d1e2e775b5015d62a716815339151d34d6ad0c31e009cc",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/2.国民经济核算/二、国民经济核算主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/2025云南统计年鉴.pdf",
+      "bytes": 7310215,
+      "sha256": "22724cb763b37bc6ee37575d3129e5b817223b1d4891c95a172da93753560010",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "pdf",
+      "archive_member": "2025云南统计年鉴/2025云南统计年鉴.pdf",
+      "page_count": 512,
+      "validation": "PDF parsed",
+      "title_excerpt": ""
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/3.固定资产投资/三、固定资产投资(1-8).xlsx",
+      "bytes": 48473,
+      "sha256": "a5b41edbd240cb75890c9c8b51cf2a3d7b3aa661d338844dce5a2517f0f42a1b",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/3.固定资产投资/三、固定资产投资(1-8).xlsx",
+      "sheet_count": 8,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/3.固定资产投资/三、固定资产投资Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 16555,
+      "sha256": "4fa221d634e0c72a69c319346cb239ead1f35b6dc782966f8b68844380bd6fcd",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/3.固定资产投资/三、固定资产投资Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/3.固定资产投资/三、固定资产投资主要指标解释.docx",
+      "bytes": 16688,
+      "sha256": "2335a60ecb2b6034af69d73cd1c760f98c99bf547a5679c5e8c818434a53b16d",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/3.固定资产投资/三、固定资产投资主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费(1-17).xlsx",
+      "bytes": 96132,
+      "sha256": "f0c84d05f82561303088a08b826dbef16f3b1d4d9c6b9438919b15bcaa56eb3a",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费(1-17).xlsx",
+      "sheet_count": 15,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 14051,
+      "sha256": "dbe694f4b546660c36d5639461b59519325102e96eff473758ddcbfe1db593f7",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费主要指标解释.docx",
+      "bytes": 13958,
+      "sha256": "8a6b28d0dcaeccec2727c964755cff5637e01df8e1ae8aac31f04d4480d7bad6",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/4.城乡市场消费/四、城乡市场消费主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/5.公共财政/五、公共财政(1-5).xlsx",
+      "bytes": 28744,
+      "sha256": "00bed464240d8cdb31fe7c167644ba6a89fba967c4b0b53aa53a9b0618033187",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/5.公共财政/五、公共财政(1-5).xlsx",
+      "sheet_count": 5,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/5.公共财政/五、公共财政Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 13087,
+      "sha256": "9eff9be91f3abbd670b0cc54f9bac08af7ce8615634bdc6841291f0fcc0db29f",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/5.公共财政/五、公共财政Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/5.公共财政/五、公共财政主要指标解释.docx",
+      "bytes": 12640,
+      "sha256": "73bb02bf69d10814a42d7a7ba909400cf06846d3d3584c67d3d0a2eeeadd70ba",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/5.公共财政/五、公共财政主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易(1-16).xlsx",
+      "bytes": 73687,
+      "sha256": "77733596b9e5d4ffbdd8aa2dc8cca72c4d5d16735a53f522b23a482a16a43d6e",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易(1-16).xlsx",
+      "sheet_count": 14,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 11913,
+      "sha256": "9d2f89fd8bb054b09b27141d2916dfcdfeef1bb143ced4c2531dcd1171d8fbf0",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易主要指标解释.docx",
+      "bytes": 11733,
+      "sha256": "d4abc10baae46e9d0eda2d6502b675e1bfeca6075dec4bc925eb7134f1955a1e",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/6.对外经济贸易/六、对外经济贸易主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/7.农业和农村/七、农业和农村(1-24).xlsx",
+      "bytes": 121001,
+      "sha256": "74bc00a871a5772385594a5f5324322ae3139735bb51f3164d821bf9ab9402f7",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/7.农业和农村/七、农业和农村(1-24).xlsx",
+      "sheet_count": 24,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/7.农业和农村/七、农业和农村Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 14198,
+      "sha256": "b8d39bab587672237e257fb442f7663b25175ca76da830177cbdc367be935178",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/7.农业和农村/七、农业和农村Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/7.农业和农村/七、农业和农村主要指标解释.docx",
+      "bytes": 13649,
+      "sha256": "2e4b7542a117382960d42c4147d698e9faeeea346bf45cb8c42d86a829a0ec07",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/7.农业和农村/七、农业和农村主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/8.工业和能源/八、工业和能源(1-34).xlsx",
+      "bytes": 201095,
+      "sha256": "f34128c7a8fd8e58156a80804e0c34abe0acfe006be0700b91f816c76b08a070",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/8.工业和能源/八、工业和能源(1-34).xlsx",
+      "sheet_count": 34,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/8.工业和能源/八、工业和能源Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 18010,
+      "sha256": "a761ea71d7080d0258c2838c39bdd3e06fe47d0059b42912e7bb0c00f9a60fcd",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/8.工业和能源/八、工业和能源Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/8.工业和能源/八、工业和能源主要指标解释.docx",
+      "bytes": 16540,
+      "sha256": "a93d796e25cb8cf0634a4c0105600e010671dc34d8b5ea928e715e28292f6e00",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/8.工业和能源/八、工业和能源主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业(1-6).xlsx",
+      "bytes": 50684,
+      "sha256": "d5b830a04e7d9ce39731713b38aa05bac7de864ce87e6342d14b7bf000bad425",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "xlsx",
+      "archive_member": "2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业(1-6).xlsx",
+      "sheet_count": 6,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业Explanatory Notes on Main Statistical Indicators.docx",
+      "bytes": 13900,
+      "sha256": "49548eadf1f39044fa42a1b255f7cd089c2a961c0086c36ce6a46f825ebca630",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业Explanatory Notes on Main Statistical Indicators.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业主要指标解释.docx",
+      "bytes": 13143,
+      "sha256": "065fb1a20c22c9b250fac266de84d45fae614179b8e7ccb4d3c172b373a20065",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "docx",
+      "archive_member": "2025云南统计年鉴/9.建筑业和房地产业/九、建筑业和房地产业主要指标解释.docx",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/2025云南统计年鉴_解压/2025云南统计年鉴/目录.pdf",
+      "bytes": 970545,
+      "sha256": "5edf7dad75cd5593bc71be24ea530c8b69a07ed00fb52de9df0ec4612da73f28",
+      "source_url": "https://www.yn.gov.cn/sjfb/tjnj_2/202606/P020260626373849283283.zip",
+      "file_type": "pdf",
+      "archive_member": "2025云南统计年鉴/目录.pdf",
+      "page_count": 15,
+      "validation": "PDF parsed",
+      "title_excerpt": "1\n目  录\n一、省情概况\nProvincial Survey\n1-1  \u0007人口和资源（2024 年）.........................................................................3 \nPopulation and Resources (2024)\n1-2  \u0007全省行政区划及代码（2024 年）......................................"
+    },
+    {
+      "path": "D16_云南省统计局/云南省2019年国民经济和社会发展统计公报.html",
+      "bytes": 425071,
+      "sha256": "903260bce00ad48e0e1470e5fd47a5fc8c3e6a998a8b745f26f5898106c13855",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202004/t20200414_1204433.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 12,
+      "text_chars": 12795
+    },
+    {
+      "path": "D16_云南省统计局/云南省2020年国民经济和社会发展统计公报.doc",
+      "bytes": 426144,
+      "sha256": "12e8d3ba3112f4ec6c3814c7cfdabfb8d00419a159756361b1b617adff84dee7",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202103/P020251011365028496248.doc",
+      "file_type": "doc",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/云南省2020年国民经济和社会发展统计公报.html",
+      "bytes": 39930,
+      "sha256": "b1cc31018c7d0683083fc1aa38105890bf10b83bf43988ffc97a932ea519e6d0",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202103/t20210326_1204449.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 889
+    },
+    {
+      "path": "D16_云南省统计局/云南省2021年国民经济和社会发展统计公报.html",
+      "bytes": 39713,
+      "sha256": "19107afa2a76bc6ebcd003ead214322f1c151e2b1c96cb78178de74e71583fb3",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202203/t20220328_1204463.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 881
+    },
+    {
+      "path": "D16_云南省统计局/云南省2022年国民经济和社会发展统计公报.doc",
+      "bytes": 561190,
+      "sha256": "74737ee8fc72da73368b3b8f9e2eec946e0b233c97073462d5be35731c4cfa8e",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202304/P020251011365056338652.doc",
+      "file_type": "doc",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/云南省2022年国民经济和社会发展统计公报.html",
+      "bytes": 40012,
+      "sha256": "e9d5491f2c3ca0f30891e52cb422af0dc2d24d6567efae60d303d3f598d6662e",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202304/t20230407_1204470.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 889
+    },
+    {
+      "path": "D16_云南省统计局/云南省2023年国民经济和社会发展统计公报.docx",
+      "bytes": 389553,
+      "sha256": "72bb8b94276fa5181736f8d4209c09c890b7908ecde48c21a7f95d0f17a877ec",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202403/P020251011365064988336.docx",
+      "file_type": "docx",
+      "derived_from": "D16_云南省统计局/云南省2023年国民经济和社会发展统计公报",
+      "validation": "file preserved"
+    },
+    {
+      "path": "D16_云南省统计局/云南省2023年国民经济和社会发展统计公报.html",
+      "bytes": 39234,
+      "sha256": "58ce0c906bd4d95ab69ffbade06a1febc800eccbe4f92fbb3ab4d5f764239048",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202403/t20240329_1204477.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 0,
+      "text_chars": 853
+    },
+    {
+      "path": "D16_云南省统计局/云南省2025年国民经济和社会发展统计公报.html",
+      "bytes": 75926,
+      "sha256": "fef364d9297117e0e1bdbe7e67a15875c8bba3d2c471206bf136a78b080e52d6",
+      "source_url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202603/t20260331_3052712.html",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 0,
+      "text_chars": 12061
+    }
+  ],
+  "file_count": 62,
+  "total_bytes": 22332779
+}

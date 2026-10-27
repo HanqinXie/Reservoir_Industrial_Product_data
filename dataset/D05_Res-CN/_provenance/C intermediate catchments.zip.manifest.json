@@ -1,0 +1,2296 @@
+{
+  "id": "D05",
+  "directory": "D05_Res-CN",
+  "name": "C intermediate catchments.zip",
+  "source_url": "https://zenodo.org/api/records/7664489/files/C%20intermediate%20catchments.zip/content",
+  "expected_bytes": 677215357,
+  "expected_md5": "27b903425d8f350523e9130e43ff041f",
+  "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+  "version": null,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "started_utc": "2026-10-26T17:54:50.321883+00:00",
+  "range_probe": {
+    "status_code": 206,
+    "content_range": "bytes 0-0/677215357",
+    "validated": true
+  },
+  "status": "downloaded_and_extracted",
+  "path": "D05_Res-CN\\C intermediate catchments.zip",
+  "byte_size": 677215357,
+  "sha256": "7e70a28ca1834a5369aa0e14edf4c0bfe08aae4153c720e7f5dda740de55c696",
+  "md5": "27b903425d8f350523e9130e43ff041f",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D05_Res-CN\\extracted\\C intermediate catchments",
+    "member_count": 452,
+    "uncompressed_bytes": 1702259867,
+    "members": [
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "48e6f1922f6fe10d7fa16fc1a5e0265448b6ace8544910af4d48be942408c1eb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\__MACOSX\\C intermediate catchments\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_Humanactivities.csv",
+        "byte_size": 2083925,
+        "sha256": "2e578f92995ad231f95d27460a2c322b1b0a7ddb6dd185e87ea04e36627833d1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_Topos.csv",
+        "byte_size": 126574,
+        "sha256": "48701617f4e5e83c77ee3254248f25cb3be72095419e558636bab1ede7f89cc0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_Soils.csv",
+        "byte_size": 1169782,
+        "sha256": "a6cfebcac189d36b698bf5dc2d66e30c7d3f4f046f5c3ae6c90cd7bcd95527ee"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_ClimateIndices.csv",
+        "byte_size": 73825,
+        "sha256": "4260780879b6751a9000c598308b9ddaf46b103630325401016ccd324c677231"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_Lands.csv",
+        "byte_size": 150222,
+        "sha256": "836ea30c9692d00b3decfe0141240c9633baac82831a7f7d8c36d35b0f6d92ff"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\Res-CN_Geologies.csv",
+        "byte_size": 85435,
+        "sha256": "143eb1bd5697bdee67a9d95bb1279f8ba826b301f6bf5be35235167bb9f4ccbb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4817.csv",
+        "byte_size": 3844513,
+        "sha256": "2b761e3ca9509799b709918231277e64f1e608b6cab1642dc249706b16a5ea13"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6755.csv",
+        "byte_size": 3821027,
+        "sha256": "12b9e96f6dbfbf051b1bda13e5d1a29c6a249ff4e8ef3402f39f5fe1202aa693"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23657.csv",
+        "byte_size": 3901295,
+        "sha256": "eb8f2a558c04842fce495b7adc2a20e944ac3af9e28a23bde773bea6cbac3998"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2916.csv",
+        "byte_size": 1620595,
+        "sha256": "9ad54252b080ebb71dc71e41532cb79dabec53f6cd51b02afd2b9b5976f8c586"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5089.csv",
+        "byte_size": 3918250,
+        "sha256": "54651e82bac13ee87a08963fbcd201c7f5acdde2bb04e8625f60f7e649d3b58b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24676.csv",
+        "byte_size": 3948045,
+        "sha256": "0f35d536736d45490e755a3d683528ba11975f4311240db331916a280cb96a70"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24689.csv",
+        "byte_size": 3850887,
+        "sha256": "aeb607110ba1db0600e2b71f94d98b482c5ddcecf095cdf978d31661596b92e1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4432.csv",
+        "byte_size": 3894159,
+        "sha256": "665cd1661c859a641e2ab6f26d8daeb9d6b02fc1d71fc8aa20d5db0f23469f5b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24716.csv",
+        "byte_size": 3844111,
+        "sha256": "ff99bd2eedb2b06158ce21b6049fe47c2f02a6e4fe18ea01abe02ceae7e972d8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5102.csv",
+        "byte_size": 3802828,
+        "sha256": "3a961b51dbad27cbd2e50942ab716be897914e953e8320a595c40a3672ecd430"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2889.csv",
+        "byte_size": 3845601,
+        "sha256": "85d70a7117cc4824d3f0e4b55f2bf3558ab8d6b581db41404c547a7834deb4f3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6345.csv",
+        "byte_size": 3852013,
+        "sha256": "620be652a3500056c3813b6df45f4470e332968c6135973d8014b70c40b0a4c7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6184.csv",
+        "byte_size": 3908617,
+        "sha256": "a4a30f7d956d4f7f595d933580e0a7aa53448e95d48a37ce4eea1e4a711cf840"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2309.csv",
+        "byte_size": 3812740,
+        "sha256": "6690f536931a854326ba4c05475ad63ca3e1fd9703df923a3a623a77d3c17766"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5466.csv",
+        "byte_size": 3843916,
+        "sha256": "9a72cce24ca73b76184f8a7b6e4cf6b5be71ad4a1680d26b962495998fa361ec"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23911.csv",
+        "byte_size": 3852184,
+        "sha256": "48c53e8c94804c2f66017de475f98c5f01fe3c27583746b94b3f1c81f97f2750"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6422.csv",
+        "byte_size": 3842172,
+        "sha256": "718d88a1b06dbcbb91b1b311a5b0bea24ea910d0bb969ab64c1c41343d37ca85"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23905.csv",
+        "byte_size": 3849508,
+        "sha256": "1e5d773c13ee4ef3c2786c6ce3d5bca612d9a1bffa3d3c37d522a999b1ed1448"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5665.csv",
+        "byte_size": 3877622,
+        "sha256": "abdd5fbcd61ad4b03f2eb1087b28038aba6e5829737db6a03fbd6dfb514d2fac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24717.csv",
+        "byte_size": 3833377,
+        "sha256": "64b3148e7e98b63b2d329d1b65d954f67b87b1e26a08480525f05412c248aa4a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23736.csv",
+        "byte_size": 3821833,
+        "sha256": "3bf9b67e47353ea806f58b7fe9d5a7cbc0e1411180a76c74e399845a10de7fe4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6230.csv",
+        "byte_size": 3824173,
+        "sha256": "c191fd343ec74e407ce4d1be1c72e878c77a88cd16f9c659f9845252c6d80415"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5063.csv",
+        "byte_size": 3862564,
+        "sha256": "c76110a3d6a1aaa8badabee52967321042886fa3413fb78b5cabf45d6ef5edef"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24688.csv",
+        "byte_size": 3824712,
+        "sha256": "ebaa4e411975426119a61bda6b2af0f48734989dfabfa4e9893b0337f7afe2f1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24677.csv",
+        "byte_size": 3904711,
+        "sha256": "6ad8bd589403f0a8835fdd3cb5c0cf2f2f2ebb83472314b23909746db55dc5e0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6581.csv",
+        "byte_size": 3842521,
+        "sha256": "1d393891e56d91d210da7a868216a5cc5a1e47b898081fc8db36b07610855962"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2917.csv",
+        "byte_size": 3840158,
+        "sha256": "702f8161a300ad94b7b06e1e9c3402aef479c6d8ad780aeacbceaa3b43fea18d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2254.csv",
+        "byte_size": 3818423,
+        "sha256": "7f326a6b3f34880461c73d244c3c275513d535cf528d1918945d8826cf2d718b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6967.csv",
+        "byte_size": 3851949,
+        "sha256": "34d5acb874b4e2711768d62141e72939e376b063998cc04f728bb95c9205abaf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5505.csv",
+        "byte_size": 3838064,
+        "sha256": "ee64cd1e751a8de6ebc58601a4cd8fa1ce14509064132b432e9d7f9acb57820d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23898.csv",
+        "byte_size": 3841302,
+        "sha256": "2b728677d66cfb83bffb3c82ba7322652dbe4393a7021378cdb1f823d7f38b9a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24675.csv",
+        "byte_size": 3847885,
+        "sha256": "0aa787c3ab925c960624d1e84036febfde71c823aba3601a26db6c8df03ca506"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3362.csv",
+        "byte_size": 3818087,
+        "sha256": "60668a7e6f9ebdbbd0fe9a34dbb10a92cc0ad0d701cb79e01a20eeb2d852a419"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23873.csv",
+        "byte_size": 3867847,
+        "sha256": "114adae25e2fcaac21d668e4c19641945ad6d19f5d8e1c33e597cf79cb962fe6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6540.csv",
+        "byte_size": 3796077,
+        "sha256": "1e4880f87e955dcc310a0d7a4b27676e28e2c37f27ac3e69efb5a6b493354df0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23734.csv",
+        "byte_size": 3805364,
+        "sha256": "ccd09e91ec1297f0fb1c77ae697ef5fb8217ae081ce4b589bed7311dc6d9575c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23720.csv",
+        "byte_size": 3633971,
+        "sha256": "a666b2d86e0fae70c9711f979a385c79a0bd76e477ec11d11e62b50167e97c09"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24729.csv",
+        "byte_size": 3862860,
+        "sha256": "785c2407348474a192d45a15f5ae274d303d5398a62b98d7358e79a5067a28dc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24701.csv",
+        "byte_size": 3911632,
+        "sha256": "8e2085d8f71b09b192c1184273f937b08d92429bd7733cffc8975b319429cc47"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23913.csv",
+        "byte_size": 3850183,
+        "sha256": "b857425a3550ef21da89d5e8c1c55e46d8e8ce07b99bda4c8bca968b4ae296d5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3000.csv",
+        "byte_size": 3829327,
+        "sha256": "7a8990613e5f2b0235ac548a581c4d3dbc8604c3a53856f5d8bed59d2b7de2d2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5465.csv",
+        "byte_size": 3816579,
+        "sha256": "db26001b56fa6ef84978d48ef797a3a7ef5df451e73fc414c2fff5f72059a4b9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2337.csv",
+        "byte_size": 3734743,
+        "sha256": "cdf717fe2b8edecdca350a3b7dd383332866d0c7972bca2f0d88be4002db33da"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4020.csv",
+        "byte_size": 1417426,
+        "sha256": "8981027de3711da7c921ae0796d274fbec7bf749e2a885504ca6179cbd26283a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5316.csv",
+        "byte_size": 3799800,
+        "sha256": "82e1e114da067325f8921d314dcc37d0c0c6f6bde82bf1b82367f93124b40f81"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4222.csv",
+        "byte_size": 3853515,
+        "sha256": "f81ddb649c77805c6be241fbdbe88587edb5bca278d01506310b58fb139bbae7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23906.csv",
+        "byte_size": 3844387,
+        "sha256": "fd9f1f6213f2b132681161c452d3aabf507d35aef6aff1615e1ad0111c5b6b61"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5882.csv",
+        "byte_size": 3868972,
+        "sha256": "a45061da31c9e9cd832fc8c5dca541997df1cf5a8dd43b66a71dd5bcef48a9ba"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3565.csv",
+        "byte_size": 3828777,
+        "sha256": "940e5cac52a7e3030279cdf8ceb7329da284a61e7e0700b86e482533416f610f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5699.csv",
+        "byte_size": 3821908,
+        "sha256": "e3ba68af60d5c4d07583454cce14a63329f95bd4c9eed174ab0af5e0040ae3a4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23709.csv",
+        "byte_size": 3827378,
+        "sha256": "1404aedd56aae2a1315416f8301986381436c6906350b94bcecaee10e280eb7a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23721.csv",
+        "byte_size": 3797730,
+        "sha256": "ee38f512d7e418f1663dda699a49cf0e481dead0314c010a812b651a79bccb3b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24728.csv",
+        "byte_size": 3843066,
+        "sha256": "92c3816fc524bb568cb02dbca8e06475a39bd14afc6d76d04d390f0b67afde42"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23735.csv",
+        "byte_size": 3888324,
+        "sha256": "aef1606a37d92abaf782fcaf99c4145608e65e8996ce7b0acb13d3744151660d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23872.csv",
+        "byte_size": 3844220,
+        "sha256": "0833fd3f175e1bce433925452dcc5078257bff5ba2c3fa4e13f12d36f5d01ad8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5712.csv",
+        "byte_size": 3875419,
+        "sha256": "98804b35e2bde819bbfa917e363051ccf14a5a3065fea865df16bf887d27acde"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5706.csv",
+        "byte_size": 3831627,
+        "sha256": "aa5e0bf7b13289cce3cd019561f7a84c6bd145c8629b3b78d1a2103f48b93b82"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24674.csv",
+        "byte_size": 3888451,
+        "sha256": "45a910faee336b7800dae6c6c56101c4ac6c9432865223f0b713bce185548b3e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2928.csv",
+        "byte_size": 3814408,
+        "sha256": "6b0d1daef1c2456e4c3b3ced07658479a3bb7b65860d40b078401afad31b7bc5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23655.csv",
+        "byte_size": 3890453,
+        "sha256": "7513c5a7e02ab6ced8fb5a836eb22d3fae6446fa4a731552d5672d137072ad60"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2257.csv",
+        "byte_size": 3878513,
+        "sha256": "cde32387f192a90936792a8e8a2decb2f4152a92cea82613a578b2832deee81a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5538.csv",
+        "byte_size": 3894127,
+        "sha256": "cac58cd720b183b13319e4ef0d2c6a5a3a4f05ffb61917cee4172e891a4a622f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5276.csv",
+        "byte_size": 3829353,
+        "sha256": "75d689a65ab419df15942fe49085c63cd4febca5fed58df4be94b49ed00e55e1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2280.csv",
+        "byte_size": 3847232,
+        "sha256": "de464931e5e159b2f7bc5ac6adc15689550224faa9d531758f65a44f25687ab1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4385.csv",
+        "byte_size": 3817648,
+        "sha256": "86259487d85b871c0a0fad24f7e684f1023247f5217067cd0738dd0a53b80298"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5931.csv",
+        "byte_size": 3847445,
+        "sha256": "e9749dd4280efafdcc83b4876e9cf8de3cd47333e0b8bd8c8fe90fc6dd5cf9ec"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23876.csv",
+        "byte_size": 3852436,
+        "sha256": "68e1dd73bfbcd90c1b2bde6277c614dcbb6f80595e736bf378913694acbf466f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5064.csv",
+        "byte_size": 3803380,
+        "sha256": "f7b3fd38a0b0ca74467f49bd1b2e7ec23241581fec4504bfecc02d579dbc031b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23719.csv",
+        "byte_size": 3853078,
+        "sha256": "8c5e3c43769a8a8ff9fa8439e39bbe4ec7151376fa6a5424211af0666dbe433a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23725.csv",
+        "byte_size": 3797309,
+        "sha256": "afd4173a9ecce97ebd7ae83cf6b00a259c7a11ac8ba433571d121fdf02368b8c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "e46cd3ab143c70fd9329eea7a26c6a455452529560a8a08bbc5636ae46181e33"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\__MACOSX\\C intermediate catchments\\climate-time-series\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6196.csv",
+        "byte_size": 3812990,
+        "sha256": "328bc45dd37b12b8f1a4f393f57a448ebebe7d8045a793d739f7b3be439a4e1e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3987.csv",
+        "byte_size": 3826147,
+        "sha256": "3d69e67d0928eb2f39a6e0a9b4a815aea532f1bd817a59e8310fc402c8a91ce3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3011.csv",
+        "byte_size": 3815447,
+        "sha256": "f72af0087e11c5dcf631d2941ee1b6d14730948d5efe0370e4b9ba52bb762012"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3992.csv",
+        "byte_size": 3702802,
+        "sha256": "dcaaea085c87d6fb95c7185c1c48cd5b51fc23bf7ddbcfc266b1496606b9d679"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23903.csv",
+        "byte_size": 3844969,
+        "sha256": "28d4b5aef38e9909117c2d618969623ae345a2ddbdfa08b207dca6c5fc6e1c4c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23917.csv",
+        "byte_size": 3852267,
+        "sha256": "348eb626dca8be3f0ac3b020d17f7640677ac7ebd0cb8fd4c22388526044b6a3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\10463.csv",
+        "byte_size": 3868672,
+        "sha256": "47f5042e0b81baa10e2063f09cc0d8772791fc2015aaedc9266b9fdfaee963ec"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23730.csv",
+        "byte_size": 3831761,
+        "sha256": "9f1aaab54ba65768f4f21a7ed581e85b95c3258c85bf70c33f9d3c08b1fb541e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23718.csv",
+        "byte_size": 3822329,
+        "sha256": "f9400d0e4b2050a31f9e11e3a58bf19bf4eeabde57a700def13a6777fb455399"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24705.csv",
+        "byte_size": 3867402,
+        "sha256": "51c340cb034f2c361c2634e78676f67cd737509c25c4cf2e8b862dc2c08bc623"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3366.csv",
+        "byte_size": 3586323,
+        "sha256": "91cd3f0ee172257b0b747154c8defe87bb00da7f6a37a7b2609e7af01dbc1ea8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23877.csv",
+        "byte_size": 3839213,
+        "sha256": "49f1c80c8eaba809fe7d3d573e97fd7d11ef1b2c1b3a8f1afe21b522a1e46bad"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23644.csv",
+        "byte_size": 3806770,
+        "sha256": "f0474c1d4711fefc7d8d21250d15c02dbc61df9cb1eebfbd27329eb7bedd9efb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24665.csv",
+        "byte_size": 3878776,
+        "sha256": "e3dfd8a5bde9a4f4e0e85aa05997fa9e4ac36011c3715b35ba29664e0a6e025e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6593.csv",
+        "byte_size": 3871917,
+        "sha256": "f7956221959e231de13bfa5fc976de8d7afabd64b6dd6f0afda0ea15b29793eb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24671.csv",
+        "byte_size": 3838882,
+        "sha256": "08b08d57f57fb1f756f547f283a775a423e0e8c6b10e626d753f68526aff1daf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4810.csv",
+        "byte_size": 3831807,
+        "sha256": "35eae7c2025f0ebbd6062335e1093d1d3cb0bbd23151cbfa42a5355005bd4da8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4153.csv",
+        "byte_size": 3791062,
+        "sha256": "aa955347b39946a8d5f61237d333d74e77e8c0bfce48f66c01b3c835086d9d39"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24667.csv",
+        "byte_size": 3832058,
+        "sha256": "ce34d474db3f21b91ff92737564d752f998f1f33f519caa10a0d975385c03fbc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24713.csv",
+        "byte_size": 3869723,
+        "sha256": "5d8420f119b02a4e5a099d6b64d98445633ca7b683a8248a7d621cfdccbb4429"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24707.csv",
+        "byte_size": 3844832,
+        "sha256": "b8b4e342d8e95506822e07357ce4cf2badc75d576dc4a73af2259a8d613be656"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23726.csv",
+        "byte_size": 3798019,
+        "sha256": "b6d8e52802da87bf919bbf5b8a721a693af3e55826f5db3561d367d617c9168b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23901.csv",
+        "byte_size": 3829966,
+        "sha256": "d4301f0c82850761c190733fe034ade89af11533bad4f3808800099bc0e7b104"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4231.csv",
+        "byte_size": 3052025,
+        "sha256": "c4b431ee5b4d08a995873c31238f8e4410d613cf680f21b8747779b416f4275a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23915.csv",
+        "byte_size": 3867856,
+        "sha256": "e330af698b76872e634835007582433f52e946d56e6934e36f675a55a756634f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23929.csv",
+        "byte_size": 3845244,
+        "sha256": "bc463d77a3a649259bb4eeaaace08d9b6d5d09023d166dc9e55bf9f25c1a4c63"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6195.csv",
+        "byte_size": 3836410,
+        "sha256": "efea58aeb33c8b202a6b5b675d0971d179ef5f3a8e8cff618faeff2865abad58"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5488.csv",
+        "byte_size": 3869491,
+        "sha256": "d9108480efcea450eb3293d757991bb62fb2a7ecb91d1680dbfdf47685276493"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2318.csv",
+        "byte_size": 3820165,
+        "sha256": "cf58742d6fa2c6d8a2166a031db487d07f39dfac36782e927ed29cfe5e5c2c27"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6619.csv",
+        "byte_size": 3697779,
+        "sha256": "45f99a62ce03fe59036fb5645e835830904a82b62d498883a40fa89b4b23fd0f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5338.csv",
+        "byte_size": 3825444,
+        "sha256": "690af12a4112fdb54b38190ff2926c24c1fc0619b7019d0fa23aca5e71358a4d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6180.csv",
+        "byte_size": 3796294,
+        "sha256": "7bea722972a1e2a2a9f3ce659e1ccea9e3472d7ad2c060cae65c17d7e2c29308"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6427.csv",
+        "byte_size": 2175160,
+        "sha256": "8fa0698d6c975d643cf7d2ef18c886cd758bcb0bb4fc354453be1e942378f1f1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23900.csv",
+        "byte_size": 3835547,
+        "sha256": "5978782226d467db5b2773af91d1913a9616097ae6b0abd5e6ef93e4c48e3a79"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23727.csv",
+        "byte_size": 3812488,
+        "sha256": "f2a085b4b74cd9747d26cf410e52a738bb7bb0fa4e7e9e32374e58271ad9ff0e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24706.csv",
+        "byte_size": 3871768,
+        "sha256": "eebb98177027e78eeb98105c937f6b3eca8619239b00b8ae9dc6dd1f66648065"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2696.csv",
+        "byte_size": 3809792,
+        "sha256": "efe3336e1fcbb3ffededbc7f28e022471672ff62d67d04dc75f107acba2aa571"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4378.csv",
+        "byte_size": 3851889,
+        "sha256": "3906af071ba3684c11e47bb6bcc6c79a9ddf62e614e383361d5ac72c67691ac3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23848.csv",
+        "byte_size": 3859746,
+        "sha256": "89741f5fb79dc8eb8fc89d24586bcc5070a6da9a1d6a2a1f537be33958dabe2c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6547.csv",
+        "byte_size": 3863101,
+        "sha256": "167a8a079cf31b2d808bc8eefbaf38c72fe92e6f8b8bdeec451210d1ba81e3bd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5927.csv",
+        "byte_size": 3826105,
+        "sha256": "95d541bd4398a4f349bae77709de8273c34b6753dacb5322199924e730415123"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6590.csv",
+        "byte_size": 3826564,
+        "sha256": "07f2a2591cc68b317acf6217a8840ae971c6bf5e0008d5666d3db8334836dedb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4393.csv",
+        "byte_size": 3866415,
+        "sha256": "9a44c8dbbb0647a43a1b92b7dcae0bd60d16d4987920f1d4dd4446fffe1d0329"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24666.csv",
+        "byte_size": 3814026,
+        "sha256": "dd24f38722b350df64365a0c43c53d272a25b32c11b6a47af57bae3cb1a5cad4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4807.csv",
+        "byte_size": 3829519,
+        "sha256": "f93c22f935fdf229128b92d08e1c5b78bae13786accb39fefbe516ff3e6c1ebc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2286.csv",
+        "byte_size": 3855721,
+        "sha256": "0d42f99b3fb5808f714fe0ddf5a66c3ff7e912f133eb1fffeabbbfcc2e0b4e2c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6905.csv",
+        "byte_size": 3649690,
+        "sha256": "e374d9afaddc5c2e08f64f81e62d70aa925609835614ef347347394a06c81d5b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3855.csv",
+        "byte_size": 1473463,
+        "sha256": "ad6588e005aa6fb5a04d13c38fd98fe8747a616f8b07d3ccebbd807a07a296d3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23634.csv",
+        "byte_size": 3912786,
+        "sha256": "e71b81a35a029f95e2065ade199a454c2cc4d3b5d1e324ad47540a1105a0bba0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24629.csv",
+        "byte_size": 3834740,
+        "sha256": "4fcc1b82f39b452b1c7f4beb0d73d5a7bd401ce9f5d3a613f6ba8c6fed28ab13"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2975.csv",
+        "byte_size": 3845552,
+        "sha256": "16f1301b2afad73bfaf60d3117d904b8c4c02d32db16ff38ef7b4c7e7d8af0eb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24601.csv",
+        "byte_size": 3888901,
+        "sha256": "d333db8846c958f635290cfbc74a179a2ddffe631be780ae238e918fa62e5c06"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24615.csv",
+        "byte_size": 3835045,
+        "sha256": "ee19de01f7350b3d074940b9c1a9684ebd8f91ea283a4ddbdffd16951ee97a3d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23813.csv",
+        "byte_size": 3844583,
+        "sha256": "e049cfa8472d1ab6b82c7d277986bbb7ff7d967f2be3b8ff68900b788e0b292f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4451.csv",
+        "byte_size": 3810913,
+        "sha256": "d0285a7273d7cf190a46d6f161efb3c3e2fba220707f00cd577044d7795c0407"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5997.csv",
+        "byte_size": 3862607,
+        "sha256": "db96f73b1592908a9c550989e5d0e6dbf92ecfebcef0120ec164f5c4393448d5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5983.csv",
+        "byte_size": 3733798,
+        "sha256": "027d38d0fa69daa6ac07bdc8cb43fd7aab79a798fe52b9fd71fce0f1fb031b10"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24761.csv",
+        "byte_size": 3827505,
+        "sha256": "29fe668c94c8538d501fe838f0b623999c04c300f56f53a6eb67a321a48b98d2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4900.csv",
+        "byte_size": 3824247,
+        "sha256": "a2972d24e1472544c8b237a97169b78f590dff6eb8b39c6331ce7162232a4d5f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4914.csv",
+        "byte_size": 3848490,
+        "sha256": "02c782c2496141160fd1b79d66b176b1dbc6e02dcf828232f5f2e32bcb5a47e0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4041.csv",
+        "byte_size": 3856691,
+        "sha256": "903a99722707d38431263cd1df678695f40181a79ce61f939d889c03fcf307cd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2342.csv",
+        "byte_size": 3782494,
+        "sha256": "8dceaf2fb10ea8b711105876d88a1b5f695c1319ed4e526748238dc0dd3adf53"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4732.csv",
+        "byte_size": 3828198,
+        "sha256": "397fad298e5994ce2cd2e6e1b7fdd793e04d8f64f5d3deb1a8d1a1486004b00a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24589.csv",
+        "byte_size": 3870553,
+        "sha256": "752647eb1a759e2414e5c8616fc5f79526ed2dab828d9bc78b1c7638f403ae97"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4929.csv",
+        "byte_size": 3843164,
+        "sha256": "b7eca9c80767fab381d741f43b69519b37f83091f504d2b1bcd58fc55e331804"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5160.csv",
+        "byte_size": 3782052,
+        "sha256": "f755a6cdc040ee9c0ed4c8ccd716f9af70a03871b666244e87a4a79c7e8f0dc9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24760.csv",
+        "byte_size": 3902760,
+        "sha256": "a3825c78742c9def5470832d6e7f57e12164cc52a088055b5887bacd3b7f61fe"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23741.csv",
+        "byte_size": 3787662,
+        "sha256": "b7b7a0bfeeed29fdf568621dd10649164f81bbb3711ac495fd1dcac5d6b36c36"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24748.csv",
+        "byte_size": 3936693,
+        "sha256": "84a01e0a10b325700e71ede882939f1041743b4807a2dfb872c9dd5ffb1782e2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24614.csv",
+        "byte_size": 3866295,
+        "sha256": "e9e8eb6a2862467e553c45a3b49039aaaf3395a1207d92f1eb6dcaac77309c77"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24600.csv",
+        "byte_size": 3836313,
+        "sha256": "9e37e6abc2c948ff8dee07b1406d32c8d4e1df4b64a564e418d9707c8c7ec020"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24628.csv",
+        "byte_size": 3883555,
+        "sha256": "3ec8c52b534ba466be33c4feede154797d3627c25428a9202726d3a4a423be9d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5558.csv",
+        "byte_size": 3787293,
+        "sha256": "203937e937d3cb33737aef09179dbc340b9c3bd8f8b825226d6dd9e53f69c8c9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4685.csv",
+        "byte_size": 3834229,
+        "sha256": "1bfbaccf727341efe739a3272e91508ca3940ae06c49eb27ee660f410d5a9161"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3698.csv",
+        "byte_size": 3875588,
+        "sha256": "8dc299518c7bf65e663959d290029df7ddd1241b39d605312e4422dac3ff6e1c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5200.csv",
+        "byte_size": 3859480,
+        "sha256": "ac9ceefa07665c541ee106314484c180b693dba6a55fcbba379a0587cf82bb66"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4122.csv",
+        "byte_size": 3900330,
+        "sha256": "fd0bb9729f3b94f92f3c8b12956fcae6aec8af23acfd255d393f504b9b2a1528"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24616.csv",
+        "byte_size": 3817474,
+        "sha256": "37bad40ccbbc746714748e0da0d4348bbe58c157d496dde421e5ddcdd41f1056"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6286.csv",
+        "byte_size": 3865596,
+        "sha256": "81a82101c088596b80b8ac69e7e1b0a25bcbddce2ac1181c95a584e7732cd052"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24602.csv",
+        "byte_size": 3849973,
+        "sha256": "ff0231adbdae7ee1467a15712ae98a2c25f9b04e43b5a90204190708a08e98bd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24164.csv",
+        "byte_size": 3855545,
+        "sha256": "a968dae98f29c1e9503319f1cef01d825fb99c89778baa69cce6c9ed97fe59fa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4297.csv",
+        "byte_size": 3853742,
+        "sha256": "3c76adb4d81f0c4644fb8d5b9b7b3701122aa0bc775dc49e35c789c55fe6784e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24776.csv",
+        "byte_size": 3843211,
+        "sha256": "3472dd1731ce8b6b11d16d47b8d0799ab61093809566b3151ac76e5eeedbb280"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5176.csv",
+        "byte_size": 3818849,
+        "sha256": "bf059d6554d6a8fdcde68df946eae4e6457f8494edee9ffaa55cfdfde6c7ad63"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6443.csv",
+        "byte_size": 3832338,
+        "sha256": "a2d9ddcbbf0788f4278d6e6d9814856b758b22bedd35f4516452e10823cde818"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5374.csv",
+        "byte_size": 3789531,
+        "sha256": "c5966483e90f80eb7eff3c9900baf17c3113a8fd78ab774e2ae7cb5bc05c8859"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4718.csv",
+        "byte_size": 3917589,
+        "sha256": "0bec58d0878b1132ac1f421f4c75d53b0baf3d61030904b7dc54d02df45fd849"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2432.csv",
+        "byte_size": 3855639,
+        "sha256": "9f42c76c99769dbc4bec1c1f58b9ccff40994152c0deea1e1e206c2328b8a067"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6873.csv",
+        "byte_size": 3843728,
+        "sha256": "66db09d2a97236eae78d10fdc8441b10062a161c915fe53ae8577f9c3bf9a635"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6867.csv",
+        "byte_size": 3826648,
+        "sha256": "91e535a91bcb4b62bd30eea4dbe46b9f7baa844687fb790b86deea97f0174c74"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4241.csv",
+        "byte_size": 3837286,
+        "sha256": "774b639d7eb4260c42311b8159ccfcfcdecd75258638232a42abe48afc7dd43f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23959.csv",
+        "byte_size": 3865860,
+        "sha256": "c8769721396b85cf4da5d1518261ccb168b5db5403dfe34cc60002d9c92f66cd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\7006.csv",
+        "byte_size": 3869848,
+        "sha256": "11a179615d9259a2e94c77fd3f1a8d68524d1afc5ae2abac5e5c0a0e27ff02ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24763.csv",
+        "byte_size": 3857795,
+        "sha256": "5d8ca0b9d8457959218efc8b088c8548ecdb9fa3d27cd6917b51f6503d295e56"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23805.csv",
+        "byte_size": 3857645,
+        "sha256": "054aba2d2b2cd266ad6887016ce7949b8df486085a4b9a6ef4e21d33b01598bc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23839.csv",
+        "byte_size": 3843461,
+        "sha256": "2f3e56e4ee168f910ac2ce728cff114fa577b825c7db3f6880a4e4589ab817ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5598.csv",
+        "byte_size": 3831710,
+        "sha256": "4c6f41e0b33c02ec0d5a9b46a5ae12e9a0a43756cc3994cb82a892376a1a5058"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6724.csv",
+        "byte_size": 3838699,
+        "sha256": "5d1a3f063071f59f14bbb57d8e5e21e2fcb2a7e2a6defb98ff8051552ea1ce0b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3674.csv",
+        "byte_size": 3024623,
+        "sha256": "93d0752cec4e2b77963326b114166b657d9e6362c92f725cfa29353877193771"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24613.csv",
+        "byte_size": 3879246,
+        "sha256": "629ac80d5832eddf215fc1211fe8c2c165c2b4fda2e70431919e3af40d272ebc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23632.csv",
+        "byte_size": 3907048,
+        "sha256": "2de042e18ef9ec3d1c4729518fa97661cae5de684bcffdc8e41995d10af7d3ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6254.csv",
+        "byte_size": 3834067,
+        "sha256": "107d55ddfd9f56000fb1ae0f2309ac28ed998f08a6b0f90dd9971916137f268f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4457.csv",
+        "byte_size": 3819086,
+        "sha256": "684845aba6840d5ccda95f0eb934556371e6b9dc6d90fe23d86e18ef7d575b93"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5749.csv",
+        "byte_size": 3797196,
+        "sha256": "56e819be6b472dced01ed9a98ad01d78b7a46a6aa54c2b277fa79772f32d9424"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23829.csv",
+        "byte_size": 3867588,
+        "sha256": "796f492a8e28fdb184192dfdb5d474264d2c3bc97a3c61e2caf79371d3b8a746"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24773.csv",
+        "byte_size": 3883715,
+        "sha256": "bd3e7b94617e996143cf0a5acb2b3803fbc79e2dc2275856e0a4a01209499454"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3258.csv",
+        "byte_size": 3819804,
+        "sha256": "e284e49a27f3936705d3d26ffa7dc2c0f4b4d2d612c4f50931ef0680d6ee4e06"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4721.csv",
+        "byte_size": 3862540,
+        "sha256": "9cfd6855c790c6db97d704f7c304be15bc5c599a50a88a4e9949ccbdd992f9c2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2350.csv",
+        "byte_size": 3830352,
+        "sha256": "3a6c47ff858f2b721026ff370e5cb9b2a3c10dfda91b7b721cd5671e773e612c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3066.csv",
+        "byte_size": 3874003,
+        "sha256": "b2ba8b98fc97d1db22557ff1044804d4d6a0c2a1ce2a949b5a5f75bad01e29d4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4052.csv",
+        "byte_size": 3769135,
+        "sha256": "9bbfb2f650997cc74902fbc519f9d00b30b9c47302e8da781d2ab8f622457ae3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4734.csv",
+        "byte_size": 3811165,
+        "sha256": "55113b5e66356905fb7a06f4f8424765a8a7f415b54ce4b86a414ff496827354"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6447.csv",
+        "byte_size": 3794204,
+        "sha256": "f0cc9308bffc1844bcc2b80ef0a490aa51f9be70e0c267167b981afadc4ef58a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23753.csv",
+        "byte_size": 3855909,
+        "sha256": "e79066be23809c955158da8b30e60c56f4c2367c4f91b6b2cb1ad8fe1c4d3db0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5199.csv",
+        "byte_size": 3874372,
+        "sha256": "19729dd91398cd4a4bba51e0ff9592b5cd2b851fe96cef830dfa7c5e2b5708ac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24772.csv",
+        "byte_size": 3829412,
+        "sha256": "7cf6289b67ae5db31cafa08ab4808e45b54524dad14a2a8796219b0f99c743bd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5833.csv",
+        "byte_size": 3894638,
+        "sha256": "ac7f1407e2c35b6eebdbb35d8a00f7790f1d69c134ac805a21775896adad01f3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2769.csv",
+        "byte_size": 3839214,
+        "sha256": "0a4b95090bc1a9e69fa83bc3f1c13578089516a5818a2a1d745842202df34f3f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23633.csv",
+        "byte_size": 3883661,
+        "sha256": "50e726512e417597ef31ef9aa2ec4c34bd868f671630f800c2bf390d887a3dc4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5562.csv",
+        "byte_size": 3884762,
+        "sha256": "3576721b7b8167a058bf72faa3f5b04cbefabe74f7744a4fcb38525fb6b4cf71"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5238.csv",
+        "byte_size": 3787577,
+        "sha256": "b56a950eace0ea2f359a658ac1ca24a2af2d132030528cd8476d109aa25eee9b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4683.csv",
+        "byte_size": 3846933,
+        "sha256": "164a343e1c24d81b31e781af5339f1147e556a2b5858dcd47bb8c5dccc4135ea"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6096.csv",
+        "byte_size": 3807127,
+        "sha256": "e2177d57c74500934fb37de1fb46968269bf7fae583731535ac49c945c182bf8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4130.csv",
+        "byte_size": 3841855,
+        "sha256": "39de5bea80966c3004076bc69a5da701fc55862aaad2db20321261256724be5e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4124.csv",
+        "byte_size": 3805167,
+        "sha256": "101cfe15ae4cceb76a8745e1e49816efee00949736beb421e74394b2a1cd956e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5574.csv",
+        "byte_size": 3266337,
+        "sha256": "aec060250b367400e00881761def97701744304e2aee343de43e6d7bc0b051ee"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3105.csv",
+        "byte_size": 3803318,
+        "sha256": "69820e4bc74b3184c4fa79960972619fab3e8d0e7e21c6a996c0e8f56015c470"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5206.csv",
+        "byte_size": 3832934,
+        "sha256": "158c7dac1c2eed245c4b550fcac145b176014b500a003df0a64adf6671c9689d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23631.csv",
+        "byte_size": 3897913,
+        "sha256": "98c4271ef858f1e4556c6642f871a27bbad48349b4cd60692877e4e9f5334deb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23802.csv",
+        "byte_size": 1466676,
+        "sha256": "97466d5b03d3672482812d9b01538dcc6fda93d442681a8fc9fbc72bcb306493"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24764.csv",
+        "byte_size": 3860544,
+        "sha256": "77a669c2f07dfbf8243c269b7b9592177aa207a5a4f63faa616a3c624cd35f3f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23751.csv",
+        "byte_size": 3832061,
+        "sha256": "37cdad53f04e61da1dc43ace673e864dfeade443339c4fc20919628025bb420c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24758.csv",
+        "byte_size": 3835815,
+        "sha256": "7b2ed9c148253cb2732876dd3f1fae541db706151fa5d1414976dd09516bdfcb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5164.csv",
+        "byte_size": 2313249,
+        "sha256": "2ee7d8ea3be67fdd90c5ab98ddf1834d4ed00ec826156c4a4d553d3c2a43050e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3501.csv",
+        "byte_size": 3829047,
+        "sha256": "ad945663c266e6174384f68183ce7151540cc8cb05e9660d41b7e2095f01ffa4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2421.csv",
+        "byte_size": 3832593,
+        "sha256": "8b130e21045a1f50ca85e16cfa41b1a003402d1f69ec835551ace7de665c4b69"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24599.csv",
+        "byte_size": 3925622,
+        "sha256": "1bc6bfd08f4fbc287c67d3fae486912962ef23b08a684dd73d440e9a8bf9b588"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24598.csv",
+        "byte_size": 3844071,
+        "sha256": "7d58c51f33de403f406ded612548e40daf38bad52cd0cd5bcae5ed04ba7d7e91"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2408.csv",
+        "byte_size": 3832046,
+        "sha256": "76787585fb420b8ee7e10e082140e0114f827543a0c621208d2df6b800e97a9d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5429.csv",
+        "byte_size": 3845393,
+        "sha256": "3f5109dc89c5f5ca26afb3a4ec373323fb7188980556c4635da37c99039a819f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2391.csv",
+        "byte_size": 1522550,
+        "sha256": "c5412a53e4d1e2b45ec0c87ebcdf322eeba2f9ffbfd79c8e909bd28904e02d42"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23793.csv",
+        "byte_size": 3803111,
+        "sha256": "891e6b85efc0b451afafbe0aa875d99d459d6533c2f69ebc7675da29a8388765"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3266.csv",
+        "byte_size": 3536413,
+        "sha256": "ce51d3bb792bf1ca893ee6eeadca237399f3da7fe31ad3dbdd4cc239db68d9fc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4253.csv",
+        "byte_size": 3879330,
+        "sha256": "b382d9d228966b3a8dc5a7ca9100caec1f297f019358e32b4fa1622948832a59"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23744.csv",
+        "byte_size": 3812200,
+        "sha256": "fd99b5d683f79c452e2cafe66ea56333be8d9750c4d2c2af4951bce00fb4c111"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5830.csv",
+        "byte_size": 3840095,
+        "sha256": "b802424da69e2b5bfc8aab8dbf30e94fb66d09734bec051ea7aaeded36390655"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24765.csv",
+        "byte_size": 3828072,
+        "sha256": "bab0e00d4f1ad71c232cd426b7ef5f0e79d442b01798da6f59755d66aec5cfc4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5763.csv",
+        "byte_size": 3839636,
+        "sha256": "92ce83d7c85d14d026c38984e300414572dba3e0d13629d8d8054a84f36f94ea"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5944.csv",
+        "byte_size": 3865389,
+        "sha256": "f8fd7e9e107790d1f3b421fe40899412b46da74340d8b94d369db928d7b2b0a2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3662.csv",
+        "byte_size": 3855946,
+        "sha256": "53236ae52a4bf8ba70ff27524add0dcbdabd7e20ebc1ccd690c82ad006f33201"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6929.csv",
+        "byte_size": 3873917,
+        "sha256": "6ab592db599209763e9f44f263750e6010e0d51146b32769d4ec41cd18ab703b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4694.csv",
+        "byte_size": 3818454,
+        "sha256": "b69c8db17a04ac6b1de35b1cadabb7439752555c370af9c16c391a504e992447"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3860.csv",
+        "byte_size": 3798530,
+        "sha256": "7325d318168f95d5d9b0dbb64cc7dff8aa82bc20911bea487ef492650d7c6c3c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2571.csv",
+        "byte_size": 3818161,
+        "sha256": "2e3f8fc38a21c09bdfa057b932e36196d43cce33fcfc51e81d157ecc95fcdb5f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5791.csv",
+        "byte_size": 3846008,
+        "sha256": "9cee86d2146a9fcf85aaed5dfa390cff8c3045f4807fd805023c10cc6fe16c70"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5034.csv",
+        "byte_size": 3823343,
+        "sha256": "d5bed1f7ddaf1360bbd4534bc4b9f6fc90c8d00d1b8b483cf02afb17abb27e4c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3451.csv",
+        "byte_size": 3826059,
+        "sha256": "6e070c5af5702429e289f2f5f9754854e25f6a959314985fbe6d49684f050d5c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23832.csv",
+        "byte_size": 3832049,
+        "sha256": "7879fec78c371c7d082638fafc29a2543eed15b8ba246b6958eb62759d0800a4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24768.csv",
+        "byte_size": 3794325,
+        "sha256": "809802cba4f931018d0179ce49a971739b4952b99cf2c4de4ffce0e5f7f7fd5e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23775.csv",
+        "byte_size": 3843074,
+        "sha256": "6883ec05629aa19abc8c18717a509b511f1aef0ac2c66c6a195b200d5d1e70ca"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24754.csv",
+        "byte_size": 3867780,
+        "sha256": "ca1a79a331b3d82120ee7f0a5bb9df9d73e286b72098adcb6765e012da2ba15d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23991.csv",
+        "byte_size": 3843514,
+        "sha256": "1777d49bb4b9ed021333cfce3a919cb62408f1237c779d89af5257e40578f028"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23749.csv",
+        "byte_size": 3874173,
+        "sha256": "fd41f2e85c63ade05d664e816ef8518790e851044d6a2f14471da557c9f7556a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3096.csv",
+        "byte_size": 3809033,
+        "sha256": "18a62eb966d1b3e2f85811d15399fa9d297c2aac1e04868a697066f77828fcf8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6844.csv",
+        "byte_size": 3778386,
+        "sha256": "94a545720953c048ed6e758c34dcb95faa01d874224082e7cb53b1f76f7d459d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6887.csv",
+        "byte_size": 3836537,
+        "sha256": "cef33c630abf7cd394a52cedc8206a59396ef4a24d2c223c837a62485dc1c1d0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4706.csv",
+        "byte_size": 3832897,
+        "sha256": "7d39c46386aa81907a1217c9da576dcf36961d8d5d1659ae9cefd9fcddcacb59"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5419.csv",
+        "byte_size": 3790750,
+        "sha256": "4f8ffc40651ae3c32735c8ab0001e1344fd7ee1e7b131c86bfcc09dc24d66783"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23953.csv",
+        "byte_size": 3831786,
+        "sha256": "885fd70911fa816b481e4127a29ffd871a52220428af9b03bedceb078f63f69f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3242.csv",
+        "byte_size": 3798503,
+        "sha256": "ba241601e3e2f67bfceb9b3bb5d3e7cb750e007e48d0db798fe7e1c26cbd942d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6448.csv",
+        "byte_size": 3834726,
+        "sha256": "fa3ccc60cdb812d1548fe43df1197cb01ada05a2d735808b836d9f3e34288e47"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24741.csv",
+        "byte_size": 3897396,
+        "sha256": "1db509d5d0ea7b4a1f9c29cfc0c0784f74c570149b165fad20c4c524eb487a48"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2809.csv",
+        "byte_size": 3850762,
+        "sha256": "7735bc1554f8aa3f41c10ac159e5df8efa290ccf5fd84f5726d4e7a42ce98119"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24755.csv",
+        "byte_size": 3847720,
+        "sha256": "0c21468f88a50debf1b818440d3220b1176a30a3e5214a58ea8d98b9583a14ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5196.csv",
+        "byte_size": 3828688,
+        "sha256": "0fcec222ff973b600316d9be6cdbcef7f249a0cda161d6113d84f5fe872f2e82"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2772.csv",
+        "byte_size": 3792768,
+        "sha256": "c9c143f8c17b12936ec49b6b6aae85ec81a1e9c628905c859bef19c275d6e33b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23833.csv",
+        "byte_size": 3845828,
+        "sha256": "ef734f1ad7cd71a0f051bd627ec8fab584d20f09c981d2a838ed95f96ae9b870"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6299.csv",
+        "byte_size": 3875957,
+        "sha256": "bb325165b37a0d588b684269b4c5befcb5a1baf8e02ec9a24cbd19ede49e5d87"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6064.csv",
+        "byte_size": 3876239,
+        "sha256": "7b8423a2b8444bbec5be35ee73830c575619ea17c07a32e733bdf8d9dd4a1091"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6702.csv",
+        "byte_size": 3807440,
+        "sha256": "3b732dc345a4fa0aa6be562e943fd05dc14f06bd30bd2b992f444603efd56090"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6927.csv",
+        "byte_size": 3861688,
+        "sha256": "31e11631c366dbaac343236de5e4774b5bf76adbcabe6f25f928b28a2ccc1b96"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6072.csv",
+        "byte_size": 3849132,
+        "sha256": "86079a0ce0d88c5ac03b6308172c72bbaf9e2931cda5fefcf968986658039c34"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4103.csv",
+        "byte_size": 3782109,
+        "sha256": "3e5912d1a4fb460fb7163cd2d2844f7a1c7ee6ccdcbf94f347006ebe99c1f7d5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24623.csv",
+        "byte_size": 3827163,
+        "sha256": "d6aa9083aa24b9c3a09e4fd57c5af7f8e9cf010159d4eaf6bc6e08dce29a5473"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5976.csv",
+        "byte_size": 3628953,
+        "sha256": "eb03985a8eccd4b19a415bc17327c89ed60fc0016675fc69afbf8a7269d2f6e4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23831.csv",
+        "byte_size": 3856495,
+        "sha256": "108fd88871c306e70c6a7f8bad15f9d2c3814d281722af564d27c76b6d9779ef"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6489.csv",
+        "byte_size": 3850636,
+        "sha256": "0cbfb1d665f6d1ac64cfd97167b32254e95f13d3f0137514f28236100a3d32c3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5816.csv",
+        "byte_size": 3850396,
+        "sha256": "393b52d12a01676bdb6c8c34988a65b8b4cde9f477a16580706b64b2075445e3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24743.csv",
+        "byte_size": 3866537,
+        "sha256": "cfc81f46f4f9b5bd42b53aa65c2cf85f83bf66daa7b85579187812d5b474a4d3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24757.csv",
+        "byte_size": 3861386,
+        "sha256": "52abb3057a02d3de972272ee62aaaca791f017afb1576ab576bcd4fb266f8c9f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6462.csv",
+        "byte_size": 3846339,
+        "sha256": "42a4d1f5a1fadc887c000ab465ce262b136b281850e0cb925cd0a05846c7e8d9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23951.csv",
+        "byte_size": 3861961,
+        "sha256": "1f8a4af8946f31349f963fbc901f0fd4415241cd79ecf60ca55c0cac906510cc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3730.csv",
+        "byte_size": 3849415,
+        "sha256": "7e30ea8612336de979cf47211e20b552c754e9e3fc07fadd16e2b04ba2b8f026"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6106.csv",
+        "byte_size": 3857233,
+        "sha256": "ec445b3742f66e943264e29cc94e4cdd5bb8978c8c80a406536a699bc9d04f3f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2412.csv",
+        "byte_size": 3810376,
+        "sha256": "8a264f44c921827aeb05a880ef5a2835c5c86a8f728ca54ea0ac797e870fd8b7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24597.csv",
+        "byte_size": 3884520,
+        "sha256": "52578cb016633b7050d11996865905dd0a312fd670701ddb350efc092bce2eef"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6846.csv",
+        "byte_size": 3863085,
+        "sha256": "e424526e4c90e4b4ce30d8b5da9d68279b113ff488f6f670877ffd30ecd2057a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2611.csv",
+        "byte_size": 3848800,
+        "sha256": "19eb5b8d8a846fc63a60b1977d79651b94b3dbcc7bfb6de47da0e24abeb6c256"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5142.csv",
+        "byte_size": 3828897,
+        "sha256": "9048aab4fca879c70abd0f6df31722e4ec6ea7b41e5bb2506bdbbc21044dbb8d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3533.csv",
+        "byte_size": 3852543,
+        "sha256": "ed79df7e87227aa5b8d2d608feaa2223815c3a52e1ae8e0c80529e916e87697d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24756.csv",
+        "byte_size": 3849632,
+        "sha256": "800e243364e018dee16560f0e6449ea9ca8b15ee91472d818cf0b3eab1a66fe1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2981.csv",
+        "byte_size": 3863875,
+        "sha256": "dfa05418abc389fde4da6554e5fae8ed5de0b21a62fab9f5d06d4b72d0a78d6b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2567.csv",
+        "byte_size": 1498582,
+        "sha256": "2dbf65c2b24fd6d6e379b8bc9f52ade1954151a160d40227de6e322b3e2e9456"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2229.csv",
+        "byte_size": 3844708,
+        "sha256": "0f85df27248c5a80531a67d9b5a1de3466aae1cca9b5bd0552204bd296dc87d8"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5585.csv",
+        "byte_size": 3805618,
+        "sha256": "81058ddefea5e1ff7bb5bb08ded744c8bdcffc14f424d4dc5c7bf0b9c2005da7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3692.csv",
+        "byte_size": 3899844,
+        "sha256": "fa278a251515e537dda4176bd4a17661a53c33cec5997582c2d79f0a730e2017"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6932.csv",
+        "byte_size": 3843543,
+        "sha256": "3d8079a353ccae419271540f3654c913437c2a299220c1eb6a0bc435afefd76f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3872.csv",
+        "byte_size": 3841904,
+        "sha256": "90570a55f6e78d46bf51d6af78db38e5ab02306d6577440681b9e9d916521f64"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3669.csv",
+        "byte_size": 3800642,
+        "sha256": "4985e1626580e29071aa76344230818c3331892a90ac5452cfe484f730e8dce5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6077.csv",
+        "byte_size": 3820019,
+        "sha256": "4a5c415c4d92bef766ac9d65a078f23ea75a611a950488b895226c045d041c60"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3899.csv",
+        "byte_size": 3788684,
+        "sha256": "fd4a4913e89eab2e776fa31a522271528a7639ae79ce164bd5a7c0ebc088e0ba"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24626.csv",
+        "byte_size": 3930173,
+        "sha256": "014209434283bfa443d4c6aa7f2475123e3c1b7caf7740ec9dd19df9e62b3e54"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4304.csv",
+        "byte_size": 3801557,
+        "sha256": "aca7a78392b3afb788d787aee41122f4f2e247428c649c3c2f95454ad2ce32a2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6261.csv",
+        "byte_size": 3826168,
+        "sha256": "872d5591061099f4be013aca8dc8940e376b5d273c4cdcd5b35281e6ce638ed5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24752.csv",
+        "byte_size": 3828479,
+        "sha256": "226f8e24eb7798ccd007e51a3502d16ba8ba7c7b253fad13b98fdd09094da5a7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3279.csv",
+        "byte_size": 3842617,
+        "sha256": "4b10f39f3d3897a155a50feff07071951c12ce839cdc5783132783040d6ea80f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23798.csv",
+        "byte_size": 3825262,
+        "sha256": "e83f8c6bcd4b2b8577d7e4d7a99f1a3aaf68e149d02ce969d7f8c19eb3c2f6bb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3245.csv",
+        "byte_size": 3832182,
+        "sha256": "70f698147579c239cbdf58164cc88709a062ad24a0928dd3260cd2b65d6f4474"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3537.csv",
+        "byte_size": 3829594,
+        "sha256": "cc9a96e78d8944899aee0ca38faf088bc59fb53d5e2d4fadb615060eb4de841e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24587.csv",
+        "byte_size": 3824309,
+        "sha256": "f6a40ae7a0c8308fa38c3c63b97c066f034b65a8904725eb3237aa52bdd4bfc4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2371.csv",
+        "byte_size": 3898325,
+        "sha256": "7cecdc127c0e109220066d0649495cace419ca26f188e879bf6695958613d105"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2417.csv",
+        "byte_size": 3836006,
+        "sha256": "5382a3477b80ba97f88081e7d866052e681fc0a12643bd74909e4c0178546e68"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4066.csv",
+        "byte_size": 3856447,
+        "sha256": "7654451af23a779171f5eb641db4d76821b1b2bff6362a4063716de5b0888d44"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3735.csv",
+        "byte_size": 3882750,
+        "sha256": "361b97651f8f24e284ca3646e281770be023e628cb0964e4dffd94e129622bde"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2370.csv",
+        "byte_size": 3840562,
+        "sha256": "ea92d9a9f05375fa1d7692819b4625b5e4e005608a319ea00767d280ea5bb37b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24592.csv",
+        "byte_size": 3933343,
+        "sha256": "779bdf453ac9cfce76b3b59e8501364bb5e000ad29b579c4945786ea6cd3eaa7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6664.csv",
+        "byte_size": 3824743,
+        "sha256": "c107dca320258df33b8649465d840776f666a5332093ae79b00e5e3c4fc700cd"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24586.csv",
+        "byte_size": 3946269,
+        "sha256": "f842a2c63132449e5357e850df95e88a9ae2c5a459fc856efea7b2d9d56be873"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4926.csv",
+        "byte_size": 3827258,
+        "sha256": "6572e1d5961012e07ec29adf70aa5746dc1ea22bdda5827d1c5d090f5e906ef9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5392.csv",
+        "byte_size": 3874036,
+        "sha256": "8614d014ee9bad391f42f76009a0d5fe7c872da107711ee0e897692ede322fac"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3907.csv",
+        "byte_size": 3852666,
+        "sha256": "c70531ba2a53d85c6d89cf4483a6b84306b98cedc789b75934bc5e7aa32f5b41"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2628.csv",
+        "byte_size": 3535572,
+        "sha256": "db1e26fd258a45ab936eade91dce3daab6e2a5948bfbde512bd50863a42ed1ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3250.csv",
+        "byte_size": 3833787,
+        "sha256": "ce2621175abd458a2df9d362a5bd136e1114c8035e2ed3bf50f525e529fe8128"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23799.csv",
+        "byte_size": 3814816,
+        "sha256": "2c8338ca7d910173a1dd8f0ff65475f04287763da81ef0442dfa919e7c1c3659"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4517.csv",
+        "byte_size": 3849729,
+        "sha256": "238bcef019ed989ba82d55a0a6fdabb195d51b397965eb746a945f8ad11f669a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23766.csv",
+        "byte_size": 3824219,
+        "sha256": "28d7df5bc08a3ea2f9a505038ea97041778dbc1a840143ddd62b25f8be232575"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24753.csv",
+        "byte_size": 3844242,
+        "sha256": "907506a8abb83cd2148e525e9eaa7fa5abd9907cfb959eb37c7cde45903e9b04"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24747.csv",
+        "byte_size": 3859792,
+        "sha256": "d718e12059b6d1cd5d99bee33872e817c752b7c84999c19370f6f162adc5dbba"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4311.csv",
+        "byte_size": 1604831,
+        "sha256": "6a6ab097ee5e0eb14fa4e7d52959afb25c9c984c2b09fa3bbf7bd025894e47b4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24627.csv",
+        "byte_size": 3856654,
+        "sha256": "8e47ad28f1cf6ba9d9374f3beb4f27683b73b22d3573f7e82a0c304fb7300fcc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4649.csv",
+        "byte_size": 3832446,
+        "sha256": "75a6a585f1843d26550e574f00cf3de0fa3c763284e0e6bcff864db03dd70177"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6089.csv",
+        "byte_size": 3812249,
+        "sha256": "3087917348ec2ee9e1488b50832c855f9fa237531d3fee2a3d5cdf971d1cc121"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5580.csv",
+        "byte_size": 3829009,
+        "sha256": "915b1a770153e77934b8555341a92acc577a7c86eb79e23a034fa624c58dc368"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6909.csv",
+        "byte_size": 3892375,
+        "sha256": "e9ca06d43cc2c6e55cebeaa2ebf184e22057330f8affae63972b087f5966965c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4688.csv",
+        "byte_size": 3864179,
+        "sha256": "4a7caf258c044e28d21ced4485e806ef1591065bfbb280783502ef67693eeb0f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24625.csv",
+        "byte_size": 3874963,
+        "sha256": "86afb1ecbb8d37b30a1f8938f203fc7259b6ee756375d5ecbacce7d43011f6a6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24619.csv",
+        "byte_size": 3831036,
+        "sha256": "54a1302484c4b9c680777c71eae85fd1d6f1c3a51a9dd1005295f549d539b526"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6504.csv",
+        "byte_size": 3835368,
+        "sha256": "e3728ed2b8e2ef93e6aa6f34ae4a93b2c7855637e46d389b944fd46320394a6a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4313.csv",
+        "byte_size": 3822629,
+        "sha256": "9673c401c908b888a922a3c176174e03305f2cf9dd09cdc287cdb2430a4d0ec7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6276.csv",
+        "byte_size": 3800339,
+        "sha256": "335632e7278c5b3bd7debb0882e510fa39acd29517b077631c9e61db7d402a51"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23980.csv",
+        "byte_size": 3840038,
+        "sha256": "d2977b8d3edcd3dad31709a3eee4c5588d5520065588f7e1f777cfe4c99bf893"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23758.csv",
+        "byte_size": 3835824,
+        "sha256": "646e92bedf34528d3023ab93b7fa3b80ef2d110bf29c2473052a365bda223785"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3508.csv",
+        "byte_size": 3819011,
+        "sha256": "c360c7bd0714708be5c9cdfdac74f0d7102cccdac8ccd324d25cc0336c4cfa60"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2616.csv",
+        "byte_size": 3795683,
+        "sha256": "f14e3bded40feeffea36c27caf159976ccaf0cc9a0a5b4637f913c5e663dc33e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4515.csv",
+        "byte_size": 3829408,
+        "sha256": "9d1ce1b968c9e34521ec3252c3aeaa574009b66c16ab714784a093025f34e749"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24590.csv",
+        "byte_size": 3842487,
+        "sha256": "4c64a1120b91732de4b75c8ac8ad436f5852053ffe78be932436793840f6fd00"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2428.csv",
+        "byte_size": 3891409,
+        "sha256": "606f35a353e61089d55505a33910af5d526aecda688123d44ca4df49ed08dc27"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5353.csv",
+        "byte_size": 3839741,
+        "sha256": "4e99865e43163e5763719e939815afe76f066b043878d05d4e8cdfbab262cae7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5434.csv",
+        "byte_size": 3819621,
+        "sha256": "9ebd2b82e6d57a245f1673593ff36f145ba7fa5bd0d4e7e2caf81e43d2e88597"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6883.csv",
+        "byte_size": 3494964,
+        "sha256": "ff08be7cfc1ebe5b4b803e76e030d0de0c93be7dbae9e231a123e600023512a0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5408.csv",
+        "byte_size": 2411772,
+        "sha256": "d5b4aaf79a625df4bb1e90519e8912309e9133da847d97178cc0cc6340d73260"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6673.csv",
+        "byte_size": 3878542,
+        "sha256": "63234e89d4f5092b6c229bc4db9d7445be48ef54342fcabc337c16b4bca2f5ee"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23771.csv",
+        "byte_size": 3815292,
+        "sha256": "46ee4f9ed049fc8b0c023019643a987bb820abb9a360fc318bfc19aee7c397be"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24778.csv",
+        "byte_size": 3785770,
+        "sha256": "f87b1f6a1c147b24f690507510730f3911d7e0b1cf107b5827741bc82c9e7697"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3290.csv",
+        "byte_size": 3795492,
+        "sha256": "9295e36aa45d4d6b294d7bdef635f6555abd5bff7f6f6141bb6d1933b10b83e1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3482.csv",
+        "byte_size": 3815953,
+        "sha256": "2082805b40598a60a64eec16256f5c99116732e448211031392b5ad62aea162c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24624.csv",
+        "byte_size": 3828477,
+        "sha256": "d3776e61b56736a7e870e16c098da0b7e71c7a141bb65decd89363d85cc3cbf6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6920.csv",
+        "byte_size": 3874651,
+        "sha256": "3cb26e94175e2a4756d962152bf5ae3fd467987f8762418a553987bcbb20a117"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23892.csv",
+        "byte_size": 3852957,
+        "sha256": "7ac24a3a77a11f998b77f9e1e8626f7cdc673999e56b44936f14a16a395b3f45"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6210.csv",
+        "byte_size": 3856943,
+        "sha256": "500383df5d4d9feb1e39f7de8ab39d8385b1d940e1488d37ead7e7893165269d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3208.csv",
+        "byte_size": 3832172,
+        "sha256": "367dd9d428801c21f1b151fb3696fc69b9b7caa6efacaebad1e61965649a95ba"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23925.csv",
+        "byte_size": 3016125,
+        "sha256": "5b54fffdf64fde9a4e26f85b71c6b3c552fb1df3807f5146cdbaf8030f5f80b9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4942.csv",
+        "byte_size": 3837940,
+        "sha256": "076985d01096a5ff67f3edaeee16bc736d466a2cb13a7f65365e7faeaaf52f97"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2328.csv",
+        "byte_size": 3894298,
+        "sha256": "531269f9c257b93a57e8018b284c0d7b2864dcabd7752625148ca5291fa616d0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23924.csv",
+        "byte_size": 3843075,
+        "sha256": "11b5059661bb8720e84f02c3405f69b13b32e843e7d537ecdc96e072b020718e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\10478.csv",
+        "byte_size": 3861403,
+        "sha256": "5f7ed8fabf45c3857820a72186f9aab3b982e2d31ad8132eef9b4840faf8a82d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24722.csv",
+        "byte_size": 3855381,
+        "sha256": "dac50aba4ee62190f8a7d378adc4e35baf9aa0c2ffe2819e31a32cce94496fed"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24736.csv",
+        "byte_size": 3828714,
+        "sha256": "040bdbae181a08431435611b6900884bc347b2cba356cf73cb17f37fc6101732"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23850.csv",
+        "byte_size": 3827802,
+        "sha256": "c0eed327e42db8de4270e7a5408a38ff897f479f4d46320b3d428f631e3bce10"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23887.csv",
+        "byte_size": 3870215,
+        "sha256": "59ff568a3e81fa4761446d11efb9750a7a05400e1f5c20d075b8adb650bbaf77"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2507.csv",
+        "byte_size": 3817281,
+        "sha256": "c00ca083cb9bde0742a40eb32c37e8d65f75935193f489f5c61f1f8d8a413dbb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6944.csv",
+        "byte_size": 3839806,
+        "sha256": "db2e51aa4514f5939fe84b3f649655ce2b4bbb60aa1a4f1f6b66df2486d02b40"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3800.csv",
+        "byte_size": 3843307,
+        "sha256": "99f9642d323c0a397657616d275e11354034161e0d90d3af7afb7bf6f8ea161e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2511.csv",
+        "byte_size": 3776838,
+        "sha256": "939339ddbbc6337e850860cdb508e7705bf21538ed8673849928f446dbdceed0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6763.csv",
+        "byte_size": 3796497,
+        "sha256": "3ba334bebe9d23f37ac8390ab336b1d9367d266a53c446e7042e81d2c7ae76d7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23885.csv",
+        "byte_size": 3846451,
+        "sha256": "19a0b8549861e226b40afb0ebeb348fb82c8b0e1326eac5d0488c10135cc4a9a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3431.csv",
+        "byte_size": 3878666,
+        "sha256": "55148ded7742f034f07a9421f5642cba9d26ea90e5a479d02e4a12032a673c88"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5054.csv",
+        "byte_size": 3836368,
+        "sha256": "b896c931e796770eb1d9cde12b5117bd75cf7cafb2dcc81b6297eb02bfbc7381"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24697.csv",
+        "byte_size": 3837879,
+        "sha256": "e5162c87768772e64c7ce3176c8f96233fb05d3a230a46348897d9dc8baffb5b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24683.csv",
+        "byte_size": 3870814,
+        "sha256": "5134b27f73607bbfca6c06af7f5ed5c62d713437cff369b4d37f91d753452087"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23715.csv",
+        "byte_size": 3826474,
+        "sha256": "c632dfa04bc19cdbf1eb4b86b7b046dc0fe4e6e6c26acffda9e3e5b947d75a6f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3586.csv",
+        "byte_size": 3828846,
+        "sha256": "43dc6831286829c9e351fb5533644f3435a4b7213d22fd10c5d9160a44cdc61e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24720.csv",
+        "byte_size": 3871620,
+        "sha256": "9d70efcdec4a935784cb03a39bc835ab0339d98185d1e56a03b3c6fe453f444a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5646.csv",
+        "byte_size": 3835722,
+        "sha256": "087629d64561124841ae2e11ec256cc7a7300b56dea08f035e24facb9b24610c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4955.csv",
+        "byte_size": 3832442,
+        "sha256": "01322cfbe9b45603ac8a99e279e924f741b340c2c54e93e74c5cf02be0f46b88"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2459.csv",
+        "byte_size": 3873892,
+        "sha256": "378ca9e1a79b5a4ee39844e4f2ea02c8dbc4e9caf07412ddb552dffb317df7e3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6159.csv",
+        "byte_size": 3790554,
+        "sha256": "87e112f895a5efce04ea49adffb552cc1ea2eca598c23a5e4ccb9543d9f785d1"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6603.csv",
+        "byte_size": 3800592,
+        "sha256": "7b1f7f7821823e736a8306ad23b8aef9dd7d394a88fa8169434cbc523c75f30b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6617.csv",
+        "byte_size": 2887722,
+        "sha256": "9bcfac3e1b19cfcdefe14e7144ff052e24db72c4bcdd8f53dfc72a07f307695b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5323.csv",
+        "byte_size": 3861192,
+        "sha256": "333c8e27312d404facd0ea61b11ec950cb7377e49fe0f64a9edda739ddf98eaa"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3020.csv",
+        "byte_size": 3858154,
+        "sha256": "d797336cbbac6ea78e53714a95a696255d83585b2f29ec24bd54a282e85f92be"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4940.csv",
+        "byte_size": 3807926,
+        "sha256": "07720ceb5000b7c1c12ba006bf94bc9f93e2a2ddb6f0300b4b8124e861a214b6"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4571.csv",
+        "byte_size": 3827315,
+        "sha256": "1d53885525fc59264ca31de2a1e07332338aa1378687b57c91baa0ad1b19a1c2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5121.csv",
+        "byte_size": 3831315,
+        "sha256": "09c7552d480d0921ea13c9d91c96109af098448de89585ea620635a84a0ab729"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5653.csv",
+        "byte_size": 3844440,
+        "sha256": "ff704997e8953cd526ac0410604b94179b7902303ba4e6eb8beb92a741fc8600"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24735.csv",
+        "byte_size": 3883417,
+        "sha256": "7d8246b28ea6f2b5c338775ec73f972963baf0ac4b22603c7731775653ceea78"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24721.csv",
+        "byte_size": 3921662,
+        "sha256": "869ae901698d76ba811ee4b0017f61ea2ce329627d4ac9123c6581801fbf925c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23728.csv",
+        "byte_size": 3806496,
+        "sha256": "1cea32b76d5beab1bda23ff44aab6a009559876377c0dfba733cd3940de59052"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5848.csv",
+        "byte_size": 3945701,
+        "sha256": "f903bcf12e6fd65b85b59b30783325860b7d47a1b92152a00a693e1ddf91de22"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23714.csv",
+        "byte_size": 3837745,
+        "sha256": "21830bd8becd8878a35db37efa88b2ace7e783a4d98ae0dc2dc2b933b4a6a366"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23853.csv",
+        "byte_size": 3816235,
+        "sha256": "66f572f37286afec4e4e6511a9800855b72a5c1e25be5a7a4f9d01a1a52e73a4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24682.csv",
+        "byte_size": 3863055,
+        "sha256": "3fb06a028480dc981e1018461add964e5df59b9d2320fd797a05fd6a8014862e"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23847.csv",
+        "byte_size": 3827673,
+        "sha256": "e979d23c8b9df68250e43d261a57018e3a7ebe32b037faae235a414dedc4127a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24669.csv",
+        "byte_size": 3844584,
+        "sha256": "8812fcc4dee8d6c22d0fbf8171b43575a09f75e9d9f334a23b7107bc3ac0a99f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3150.csv",
+        "byte_size": 3795748,
+        "sha256": "56d0449ea1fe2c72ee0074b31a7d73ca76d12ee0b9afff909248171fc88e65a0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23658.csv",
+        "byte_size": 3893958,
+        "sha256": "eba9ec596ebd932c9ff93cb0263cd749e9e3c37de7bf19466f664c843f1f13ab"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23880.csv",
+        "byte_size": 3875573,
+        "sha256": "63ec4b650cc0f7c87624966c25118c0a19289fc49a452bae3e196e4a8ad4667c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5910.csv",
+        "byte_size": 3857336,
+        "sha256": "2810a2bd4634cd122abf3e33af0d3beca773cc1c65e61cc91a5148df80c82584"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24679.csv",
+        "byte_size": 3854672,
+        "sha256": "987e88db0bb2e6fd24986d6639eb9678324b5dc8ef0100add56926810642b11b"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5079.csv",
+        "byte_size": 3819377,
+        "sha256": "17c065c1a1eaacd2888400bf681a38a08dfcbd1fdbafe635a362ef7f8cdfa3fb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24686.csv",
+        "byte_size": 3796721,
+        "sha256": "292c7f0876c35b5c2e813716d1983d86de7167b6f69533766fcc13b965055c1f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6202.csv",
+        "byte_size": 3834190,
+        "sha256": "18555a3c4a793ae253c8a05ad9d8f32839ca45a213e708755d5aa387354d0874"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24725.csv",
+        "byte_size": 3851175,
+        "sha256": "8a4b81cbf0905e345426a42eedf444c20265a443509fee718ee885d148e61226"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24731.csv",
+        "byte_size": 3852768,
+        "sha256": "7a2321f944749bab31a063ab043234df442accc184fe4a05eba215a3175236ff"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23738.csv",
+        "byte_size": 3841940,
+        "sha256": "ee65c356dca88ef2bd586fe97a9c6644ccf72425716959d167a67601cec4abea"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23710.csv",
+        "byte_size": 3801483,
+        "sha256": "5b491e5e6c4dbd0eaaf7876d941e52f763eec9c082cd579de16e58657f81733f"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24719.csv",
+        "byte_size": 3864168,
+        "sha256": "042801f93c659056e773289fb8aa9f21ac18c890363a9c134e0d938e9ff7210c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5482.csv",
+        "byte_size": 3870862,
+        "sha256": "15969c0706c20a23461e44c6feec7b4aa0928611012f629b50cb0e2999e33a40"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2306.csv",
+        "byte_size": 3831277,
+        "sha256": "9155b385d93e873b0fee123e3844935340efc4177466bc1e1d5506e1a1318494"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6612.csv",
+        "byte_size": 3857221,
+        "sha256": "e362c1b8e7a5be691501554d14b735ffdb763d46242b5cbe3a1d265d905ca06c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2448.csv",
+        "byte_size": 3836683,
+        "sha256": "52727ba8c2df17c0a2ad57a5cbd5da846ff47894f63dfd3f3c0af4163a9776e5"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3743.csv",
+        "byte_size": 2836864,
+        "sha256": "21685ee171d1c69166375baa5ee95471433f5ec1127679abc113470dccad2bc0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\2475.csv",
+        "byte_size": 3866826,
+        "sha256": "8851843f4ba1c34ee87b1a8c998746982063a2b4e69bb834d4ef39baf1ff29d7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6820.csv",
+        "byte_size": 3820486,
+        "sha256": "e97a12907fa2573226552b040b19e3d4d96c4cde778fadf670addddb37619efb"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23922.csv",
+        "byte_size": 3838887,
+        "sha256": "9ba3b4530ec8e596da5472d53d09c7246722c4516030d215ccfb25401131dae4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24718.csv",
+        "byte_size": 3805432,
+        "sha256": "a57a3bab53f7417d3abe014acd0d6750669c3fc6d6064efc088d0c6963688272"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5695.csv",
+        "byte_size": 3850985,
+        "sha256": "23aa08da08d79a92975a6f7b14b1c5b5dfc9360f95872d88c34945759defa360"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24730.csv",
+        "byte_size": 3851262,
+        "sha256": "468ac96b5e7f27e78270e5a700911faabde42a14d6dacf92303bf2228c6b72f7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24724.csv",
+        "byte_size": 3854305,
+        "sha256": "cdf0092a26c3eb4c827b89e84d78d796eb37e506dd58a6f136a11c1103f73d19"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24687.csv",
+        "byte_size": 3901854,
+        "sha256": "7819f0a2340d6ae04b5fd935ddaef5df58f387e605c76da7f2899e72d38a4eed"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23659.csv",
+        "byte_size": 3835185,
+        "sha256": "998c4540084237ce1fd4d75b9294edb9c46e23480b6dd4b7d90031e9cb52d21c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3184.csv",
+        "byte_size": 3799800,
+        "sha256": "82e1e114da067325f8921d314dcc37d0c0c6f6bde82bf1b82367f93124b40f81"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6956.csv",
+        "byte_size": 3876514,
+        "sha256": "6fbd36482c3e7818bd84af0ae4ca600bc4780aedcc5e3ccea1d9e9181ac5e155"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23868.csv",
+        "byte_size": 3815544,
+        "sha256": "08cf935f985897727aa046587f3b6f7d20d135f2af3695a43feb53d9ac90359a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24726.csv",
+        "byte_size": 3816402,
+        "sha256": "c61155f251d9099021b5689d7dcf234755c763250cf798565f6b61dbe30a0253"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23707.csv",
+        "byte_size": 3823979,
+        "sha256": "31cd73f4fd2455e42a8dd6b6a2682c9affd68cf9896ba41f8a13cb88e29bfae2"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23934.csv",
+        "byte_size": 2893061,
+        "sha256": "ac27a0ffd279c44dcd25378c380575a248ce19bfa9c2fb5afb971d537fffdbce"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3543.csv",
+        "byte_size": 3871228,
+        "sha256": "d6a98788aa96a5a6e170ca45fc71738a887b3cacebeaa0534c2c9084be008d8d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23908.csv",
+        "byte_size": 3826981,
+        "sha256": "647f76560bf3dcde806047525ff83559d413ef1b080f90da5213a9a0be039903"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\3769.csv",
+        "byte_size": 3845766,
+        "sha256": "cd83af85c4b298b0f5664dd058cf7de4b70631a914a33f0d75b42ea8ca6112ae"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5331.csv",
+        "byte_size": 3851987,
+        "sha256": "37ca2ab0daeba8e1852d1d8a8be2b7568139b3d6931a3ed999f1fd609de4a708"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6610.csv",
+        "byte_size": 3860307,
+        "sha256": "53a904133420a286173979d59b4d456f738562f7526e80b53ef4fb8af83be9d0"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5494.csv",
+        "byte_size": 3844337,
+        "sha256": "90604042615ba675adce270b35d6856d637e7ac3dcba2fbe378a90615b2ea291"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5480.csv",
+        "byte_size": 3789055,
+        "sha256": "d2f1d6f193a48dd695e9c94e827b585e42d8b04aab68d5ad236231e260c41e5c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23909.csv",
+        "byte_size": 3851312,
+        "sha256": "9c4d3092b0c3a17287037f61dd932f9bf840241979d669dcde2eb65b271e771d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23712.csv",
+        "byte_size": 3821233,
+        "sha256": "747961a589357ad6d04dfe8efec6851d75e2ae01ff57bb445ae8f0c26ef55383"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24727.csv",
+        "byte_size": 3821458,
+        "sha256": "25e92a348d51311643ee538a440dc89e83036bab8c28359c893b97b0c9624442"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24733.csv",
+        "byte_size": 3837626,
+        "sha256": "2052f57286f869748b19fdb9cdbb55b6c437611b0d55c6a9c632cdd150daa8e7"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\24684.csv",
+        "byte_size": 3855937,
+        "sha256": "4278d0f56664055483bad5d2b1ca1e197c4a38a700ffa4eddc4b06d98dfece35"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5084.csv",
+        "byte_size": 3748800,
+        "sha256": "46309a3a551b277eaaf36fc5acab4d9b5449da7c8e38671da680bbec5207fc99"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\23882.csv",
+        "byte_size": 3834677,
+        "sha256": "830fddbe25018c09eabdb6ad644fd8bbebf0c2168a4b8aa53bad139a0ae4b5f9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\5523.csv",
+        "byte_size": 3844985,
+        "sha256": "40542196eb849470ceb0e9e4de1173fa99083a54bcae4cd449a443f92f7519cf"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\6980.csv",
+        "byte_size": 3803865,
+        "sha256": "dfb1d79a599835a4dd72c536df2993f22f91279200cb55c36f71da8e33a5c136"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4826.csv",
+        "byte_size": 3866149,
+        "sha256": "61524e49b8a4083ab47a7ac19cc3821f18998cc66b3083e1ab1a15d6fbd9d669"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\climate-time-series\\4832.csv",
+        "byte_size": 3808150,
+        "sha256": "3371fb475b6dd7107fc58a2c77a67928715008ad7936b8398d175909092b8b45"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\time-series-NPP_intermediate_catchments.csv",
+        "byte_size": 308177,
+        "sha256": "3e279489125b359248854623e1c7fd433911f1ec623ff3a6f87442502dd0d446"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\time-series-NDVI_intermediate_catchments.csv",
+        "byte_size": 7167664,
+        "sha256": "b56d0ae2537433fa695e05b77269cfe6ee3fd2508abcc65850fbb44f68a4427a"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\__MACOSX\\C intermediate catchments\\land-time-series\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\time-series-GPP_intermediate_catchments.csv",
+        "byte_size": 15295876,
+        "sha256": "d25a54c1ca51ee21f178beec4dae60d7cedc7e10b4df2350f999d47f2cf9eac4"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\time-series-EVI_intermediate_catchments.csv",
+        "byte_size": 7179624,
+        "sha256": "bf91b99de7001ee65d8fc2f8e3e99c6bbcb5d9d38162eb0db47290a7f59ec435"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\C intermediate catchments\\C intermediate catchments\\land-time-series\\time-series-LAI_intermediate_catchments.csv",
+        "byte_size": 26153141,
+        "sha256": "837ad923976ed3571b184e57b82ee464f646a18395dfd5e68ee5a7baa5da6da0"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:57:18.157947+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:05.027218+00:00"
+}

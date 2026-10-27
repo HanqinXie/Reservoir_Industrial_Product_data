@@ -1,0 +1,99 @@
+{
+  "id": "D17",
+  "title": "IAI原铝冶炼能耗强度",
+  "directory": "D17_IAI原铝冶炼能耗强度",
+  "status": "downloaded",
+  "source_url": "https://international-aluminium.org/statistics/primary-aluminium-smelting-energy-intensity/",
+  "scope": "取得IAI当前官网ALVIS API完整响应以及Export All Data的CSV/XLSX，覆盖1980—2025、各区域AC和DC能耗强度；同时保留官方archive历史数据表HTML/CSV与IEA转载2000—2020能耗CSV。归档与当前数据分别保存，不拼接。官方CSV使用分号分隔。",
+  "reason": "取得IAI当前官网ALVIS API完整响应以及Export All Data的CSV/XLSX，覆盖1980—2025、各区域AC和DC能耗强度；同时保留官方archive历史数据表HTML/CSV与IEA转载2000—2020能耗CSV。归档与当前数据分别保存，不拼接。官方CSV使用分号分隔。",
+  "retrieved_at": "2026-10-26T17:51:35.937747+00:00",
+  "files": [
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/IEA转载IAI_原铝冶炼能耗强度_2000-2020.csv",
+      "bytes": 1308,
+      "sha256": "34aeffc70f1478287ef58b6eaca391a0e8dc59efd0095c8c1f2c726ccc491d36",
+      "source_url": "https://www.iea.org/data-and-statistics/charts/energy-intensity-of-primary-aluminium-smelting-by-region-2000-2020",
+      "file_type": "csv",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 21,
+      "column_count": 10
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/IEA转载IAI_来源页面.html",
+      "bytes": 249603,
+      "sha256": "53c152558c1717acb653d5235619a736f9c869cc27cb423916216fd622a9995b",
+      "source_url": "https://www.iea.org/data-and-statistics/charts/energy-intensity-of-primary-aluminium-smelting-by-region-2000-2020",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 0,
+      "text_chars": 4883
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_全部历史数据_当前官网导出.csv",
+      "bytes": 9197,
+      "sha256": "c915f5b1868b8b1efbd4b095fdadabc192d0e48d31ca54dccc89a81f68a27727",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/primary-aluminium-smelting-energy-intensity/export/?filter=%7B%22format%22%3A%22csv%22%2C%22allData%22%3Atrue%7D",
+      "file_type": "csv",
+      "validation": "CSV parsed",
+      "delimiter": ";",
+      "row_count": 92,
+      "column_count": 13
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_全部历史数据_当前官网导出.xlsx",
+      "bytes": 12259,
+      "sha256": "0784f855a197a35f1c9a88c116e71b90211e68b8413d37b36c8f6312ac1745e2",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/primary-aluminium-smelting-energy-intensity/export/?filter=%7B%22format%22%3A%22xlsx%22%2C%22allData%22%3Atrue%7D",
+      "file_type": "xlsx",
+      "sheet_count": 1,
+      "validation": "XLSX opened"
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_全部历史数据表.csv",
+      "bytes": 6088,
+      "sha256": "e9d1549e3a36105f076eb486f842a2cb1d1327c6f83ebf0a3198cb7d6b20e982",
+      "source_url": "https://archive.international-aluminium.org/wp-admin/admin-ajax.php",
+      "file_type": "csv",
+      "derived_from": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_全部历史数据表.html",
+      "validation": "CSV parsed",
+      "delimiter": ",",
+      "row_count": 80,
+      "column_count": 11
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_全部历史数据表.html",
+      "bytes": 36060,
+      "sha256": "c1ed4a5ae6ec0bc35bd4380bbd8651ab0003fa0ba191a4843f9314ff24c4f93c",
+      "source_url": "https://archive.international-aluminium.org/wp-admin/admin-ajax.php",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 6330
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_官方数据页面.html",
+      "bytes": 80930,
+      "sha256": "68d858f23b334a9b8d2a0ad6613af28a7cc25edd541a31f32383d59ada6c648a",
+      "source_url": "https://archive.international-aluminium.org/statistics/primary-aluminium-smelting-energy-intensity/?publication=primary-aluminium-smelting-energy-intensity",
+      "file_type": "html",
+      "validation": "HTML parsed",
+      "table_count": 1,
+      "text_chars": 5935
+    },
+    {
+      "path": "D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_当前官网API完整响应.json",
+      "bytes": 50193,
+      "sha256": "eacc7a275aaca8158534a339d0ee5745dd04e9e91655ce9d76c77c3d5e0b306b",
+      "source_url": "https://alvis.international-aluminium.org/api/publication/?publication=primary-aluminium-smelting-energy-intensity",
+      "file_type": "json",
+      "validation": "JSON parsed",
+      "top_keys": [
+        "data",
+        "error"
+      ]
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 445638
+}

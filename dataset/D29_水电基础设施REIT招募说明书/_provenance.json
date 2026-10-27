@@ -1,0 +1,24 @@
+{
+  "id": "D29",
+  "title": "水电基础设施REIT招募说明书",
+  "directory": "D29_水电基础设施REIT招募说明书",
+  "status": "downloaded",
+  "source_url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/fund/announcement/c/new/2026-07-06/508096_20260706_GW8D.pdf",
+  "scope": "清单指定公开PDF：中航京能国际能源封闭式基础设施证券投资基金更新的招募说明书（2026年第5号），2026年7月，859页。",
+  "reason": "清单指定公开PDF：中航京能国际能源封闭式基础设施证券投资基金更新的招募说明书（2026年第5号），2026年7月，859页。",
+  "retrieved_at": "2026-10-26T17:51:36.477876+00:00",
+  "files": [
+    {
+      "path": "D29_水电基础设施REIT招募说明书/中航京能REIT_2026年更新招募说明书_508096_20260706.pdf",
+      "bytes": 6522558,
+      "sha256": "9512cae1b5a75b020e57eaa81153ee09d2254b3bfe0f3815d1bd84668f7e5a57",
+      "source_url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/fund/announcement/c/new/2026-07-06/508096_20260706_GW8D.pdf",
+      "file_type": "pdf",
+      "page_count": 859,
+      "validation": "PDF parsed",
+      "title_excerpt": "中航京能国际能源封闭式\n基础设施证券投资基金\n更新的招募说明书（2026 年第5 号）\n基金管理人：中航基金管理有限公司\n基金托管人：华夏银行股份有限公司\n日期：2026 年7 月\n"
+    }
+  ],
+  "file_count": 1,
+  "total_bytes": 6522558
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Windows invalid names, reserved names and case-insensitive collisions preserve all four distinct contents",
+      "passed": true
+    },
+    {
+      "check": "Reject ../escape.csv",
+      "passed": true
+    },
+    {
+      "check": "Reject C:/escape.csv",
+      "passed": true
+    },
+    {
+      "check": "Reject /absolute.csv",
+      "passed": true
+    },
+    {
+      "check": "Reject link.csv",
+      "passed": true
+    }
+  ]
+}

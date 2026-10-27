@@ -1,0 +1,446 @@
+{
+  "generated_utc": "2026-10-26T18:02:10.811161+00:00",
+  "status": "complete",
+  "sources": [
+    {
+      "id": "D01",
+      "title": "Industrial overcapacity can enable seasonal flexibility in electricity use: Supplementary Data",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D01_Nature_Energy_Industrial_Overcapacity/data.zip",
+          "source_url": "https://zenodo.org/api/records/19600477/files/data.zip/content",
+          "byte_size": 106509944,
+          "sha256": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data",
+            "member_count": 553,
+            "uncompressed_bytes": 147601763,
+            "renamed_member_count": 4,
+            "renamed_members": [
+              {
+                "original_member": "data/heating/DH_city:town_2020.csv",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.csv"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._DH_city:town_2020.csv",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.csv"
+              },
+              {
+                "original_member": "data/heating/DH_city:town_2020.h5",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.h5"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._DH_city:town_2020.h5",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.h5"
+              }
+            ]
+          }
+        }
+      ],
+      "coverage": {
+        "spatial": "China energy-system model regions",
+        "version": "Zenodo record 19600477, v1, published 2026-04-16",
+        "content": "Complete supplementary data.zip supplied by the study, including hydropower, industrial, demand and technology inputs. No pickle deserialization."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 106509944,
+      "extracted_bytes": 147601763,
+      "expected_file_count": 1,
+      "verified_file_count": 1
+    },
+    {
+      "id": "D05",
+      "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D05_Res-CN/B full catchments.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/B%20full%20catchments.zip/content",
+          "byte_size": 4667799460,
+          "sha256": "ce892f0ab57e73e8a5c03189ef8f999a1393a48f0f476fe499f436d8ebac566e",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\B full catchments",
+            "member_count": 3272,
+            "uncompressed_bytes": 12296931847
+          }
+        },
+        {
+          "path": "D05_Res-CN/C intermediate catchments.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/C%20intermediate%20catchments.zip/content",
+          "byte_size": 677215357,
+          "sha256": "7e70a28ca1834a5369aa0e14edf4c0bfe08aae4153c720e7f5dda740de55c696",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\C intermediate catchments",
+            "member_count": 452,
+            "uncompressed_bytes": 1702259867
+          }
+        },
+        {
+          "path": "D05_Res-CN/D reservoir states.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/D%20reservoir%20states.zip/content",
+          "byte_size": 132813229,
+          "sha256": "1a3700ab1663e7453863cd6edd08a89f0d2710a1add481da697322881f472181",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\D reservoir states",
+            "member_count": 13170,
+            "uncompressed_bytes": 309302597
+          }
+        },
+        {
+          "path": "D05_Res-CN/geogreservoir.csv",
+          "source_url": "https://zenodo.org/api/records/7664489/files/geogreservoir.csv/content",
+          "byte_size": 589722,
+          "sha256": "e1d2ffaf92dce98e2a3bf254b8e938c8978081b92e279d01fcb551cf3aa5a87b",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D05_Res-CN/E info_english.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/E%20info_english.zip/content",
+          "byte_size": 111472,
+          "sha256": "f2cf6127942a7f29ef89e475f273543fb5a6fcb1b7b53c152accf805ecb3bad0",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\E info_english",
+            "member_count": 9,
+            "uncompressed_bytes": 626226
+          }
+        },
+        {
+          "path": "D05_Res-CN/A shapefiles.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/A%20shapefiles.zip/content",
+          "byte_size": 26909496,
+          "sha256": "33696cf62073af97dc413c9989bfffbd3e46829496b89654192cf5019989744a",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\A shapefiles",
+            "member_count": 32,
+            "uncompressed_bytes": 125853050
+          }
+        },
+        {
+          "path": "D05_Res-CN/validation_figures.zip",
+          "source_url": "https://zenodo.org/api/records/7664489/files/validation_figures.zip/content",
+          "byte_size": 56675613,
+          "sha256": "f119e135d5701bb3870db39c6d2fb9b47c29e4702e36732d614dea681cd64b41",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D05_Res-CN\\extracted\\validation_figures",
+            "member_count": 354,
+            "uncompressed_bytes": 59449192
+          }
+        }
+      ],
+      "coverage": {
+        "spatial": "China, 3254 reservoirs",
+        "version": "Res-CN, Zenodo record 7664489, fixed latest record confirmed during acquisition",
+        "content": "All seven publicly listed files: full and intermediate catchments, reservoir states, reservoir locations, shapefiles, English information, validation figures."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 5562114349,
+      "extracted_bytes": 14494422779,
+      "expected_file_count": 7,
+      "verified_file_count": 7
+    },
+    {
+      "id": "D06",
+      "title": "Global Dam Watch database version 1.0",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D06_Global_Dam_Watch/GDW_TechDoc_v1_0.pdf",
+          "source_url": "https://ndownloader.figshare.com/files/47913739",
+          "byte_size": 716288,
+          "sha256": "b299aacbd4744ccf7cd4be7aae1fe0e6f691b9269a02e407a55e87d45cdc1889",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D06_Global_Dam_Watch/GDW_v1_0_gdb.zip",
+          "source_url": "https://ndownloader.figshare.com/files/47913742",
+          "byte_size": 57476758,
+          "sha256": "5ebb1092e355f1833132be8a16340da7de979314d06aba00e57eb7412884f09f",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D06_Global_Dam_Watch\\extracted\\GDW_v1_0_gdb",
+            "member_count": 49,
+            "uncompressed_bytes": 90707938
+          }
+        }
+      ],
+      "coverage": {
+        "spatial": "Global, 41145 barrier points and 35295 reservoir polygons",
+        "version": "GDW v1.0, Figshare article 25988293 version 1",
+        "content": "Complete global geodatabase and technical documentation. Duplicate shapefile representation omitted."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 58193046,
+      "extracted_bytes": 90707938,
+      "expected_file_count": 2,
+      "verified_file_count": 2
+    },
+    {
+      "id": "D07",
+      "title": "HydroLAKES v1.0 complete global shapefile polygons and pour points",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D07_HydroLAKES/HydroLAKES_polys_v10_shp.zip",
+          "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_polys_v10_shp.zip",
+          "byte_size": 820295132,
+          "sha256": "9ef63498569dd7ccd0b8d8852da026e009a75f42d293f00e483f3b9fcfe8e1f9",
+          "official_md5_verified": false,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D07_HydroLAKES\\extracted\\HydroLAKES_polys_v10_shp",
+            "member_count": 7,
+            "uncompressed_bytes": 1513564626
+          }
+        },
+        {
+          "path": "D07_HydroLAKES/HydroLAKES_points_v10_shp.zip",
+          "source_url": "https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_points_v10_shp.zip",
+          "byte_size": 78725399,
+          "sha256": "587df22034639230899498775d6272966c93adcfbda831fc704bb36b6cc9d681",
+          "official_md5_verified": false,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D07_HydroLAKES\\extracted\\HydroLAKES_points_v10_shp",
+            "member_count": 7,
+            "uncompressed_bytes": 441491546
+          }
+        },
+        {
+          "path": "D07_HydroLAKES/HydroLAKES_TechDoc_v10.pdf",
+          "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroLAKES_TechDoc_v10.pdf",
+          "byte_size": 989557,
+          "sha256": "3d1e30abb0691750127fd8e2ff6a149c83f36b93619fb44774476663e0f01f47",
+          "official_md5_verified": false,
+          "status": "passed",
+          "extraction": {}
+        }
+      ],
+      "coverage": {
+        "spatial": "Global",
+        "version": "HydroLAKES v1.0",
+        "content": "Complete global lake polygons and pour points in shapefile format, plus technical documentation. Duplicate geodatabase representation omitted."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 900010088,
+      "extracted_bytes": 1955056172,
+      "expected_file_count": 3,
+      "verified_file_count": 3
+    },
+    {
+      "id": "D08",
+      "title": "HydroATLAS v1.0 complete global shapefile dataset",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D08_HydroATLAS/BasinATLAS_v10_shp.zip",
+          "source_url": "https://ndownloader.figshare.com/files/20087237",
+          "byte_size": 4276492333,
+          "sha256": "fb41ddde334708c2240e4e2d57d108990239ea134634093045ffc61e710ffeee",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D08_HydroATLAS\\extracted\\BasinATLAS_v10_shp",
+            "member_count": 75,
+            "uncompressed_bytes": 11595801195
+          }
+        },
+        {
+          "path": "D08_HydroATLAS/RiverATLAS_v10_shp.zip",
+          "source_url": "https://ndownloader.figshare.com/files/20087486",
+          "byte_size": 2418581202,
+          "sha256": "d8781793a2c2aae425417641a0e62b7f8f07efbba2b01357387acf898c82eae4",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D08_HydroATLAS\\extracted\\RiverATLAS_v10_shp",
+            "member_count": 63,
+            "uncompressed_bytes": 13040487569
+          }
+        },
+        {
+          "path": "D08_HydroATLAS/LakeATLAS_v10_shp.zip",
+          "source_url": "https://ndownloader.figshare.com/files/35959547",
+          "byte_size": 1612526498,
+          "sha256": "c86adb8cca007adc3f42b237f1a2be158ff6ff08bcd296e592db29e9b4d6fe94",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D08_HydroATLAS\\extracted\\LakeATLAS_v10_shp",
+            "member_count": 27,
+            "uncompressed_bytes": 6403136157
+          }
+        },
+        {
+          "path": "D08_HydroATLAS/HydroATLAS_TechDoc_v10_1.pdf",
+          "source_url": "https://data.hydrosheds.org/file/technical-documentation/HydroATLAS_TechDoc_v10_1.pdf",
+          "byte_size": 3656999,
+          "sha256": "0ad77c88140d8a0b569d79d5cceadf727b558a7e422a36b9c394cc593db2ccab",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D08_HydroATLAS/BasinATLAS_Catalog_v10.pdf",
+          "source_url": "https://data.hydrosheds.org/file/technical-documentation/BasinATLAS_Catalog_v10.pdf",
+          "byte_size": 60341549,
+          "sha256": "c512796abee4cca0b41ee4b8700de5c95bbbbe32a66456189596e51c63ed5e47",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D08_HydroATLAS/RiverATLAS_Catalog_v10.pdf",
+          "source_url": "https://data.hydrosheds.org/file/technical-documentation/RiverATLAS_Catalog_v10.pdf",
+          "byte_size": 68738715,
+          "sha256": "aee0bd1793767f2b47c681e931e77c256ed53341bcc6a154a952f41bf8b98f73",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D08_HydroATLAS/LakeATLAS_Catalog_v10.pdf",
+          "source_url": "https://data.hydrosheds.org/file/technical-documentation/LakeATLAS_Catalog_v10.pdf",
+          "byte_size": 54055742,
+          "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        }
+      ],
+      "coverage": {
+        "spatial": "Global",
+        "version": "HydroATLAS v1.0: BasinATLAS, RiverATLAS and LakeATLAS",
+        "content": "All three complete global shapefile datasets, technical documentation, and the three attribute catalogs. Duplicate geodatabase representations omitted."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 8494393038,
+      "extracted_bytes": 31039424921,
+      "expected_file_count": 7,
+      "verified_file_count": 7
+    },
+    {
+      "id": "D24",
+      "title": "China Large rEservoirs Attributes and dRainage boundaries (CLEAR) dataset",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D24_CLEAR/Appendix1.xlsx",
+          "source_url": "https://ndownloader.figshare.com/files/61008652",
+          "byte_size": 106395,
+          "sha256": "13e31a83ce1fbc7576a9b376652ed1801de70e8b9882922f19edec9aec0b91da",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D24_CLEAR/Appendix2.xlsx",
+          "source_url": "https://ndownloader.figshare.com/files/61008682",
+          "byte_size": 384089,
+          "sha256": "9853e7124725bd9cfa80dee11e579ec6dfc42d711128f34658dc1217b615d5bd",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        },
+        {
+          "path": "D24_CLEAR/Appendix3.zip",
+          "source_url": "https://ndownloader.figshare.com/files/61008688",
+          "byte_size": 47699156,
+          "sha256": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D24_CLEAR\\extracted\\Appendix3",
+            "member_count": 24,
+            "uncompressed_bytes": 181239253
+          }
+        },
+        {
+          "path": "D24_CLEAR/CLEARv1.2UpdateLog.docx",
+          "source_url": "https://ndownloader.figshare.com/files/61008691",
+          "byte_size": 24874,
+          "sha256": "3985603fae54c31a90576d49bb2e9b750991fa621181e2b61dcb7b116cba0aaa",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {}
+        }
+      ],
+      "coverage": {
+        "spatial": "China large reservoirs and associated drainage areas",
+        "version": "Figshare article 28503167 version 3, CLEAR update log v1.2",
+        "content": "All four publicly listed files: Appendix1.xlsx, Appendix2.xlsx, Appendix3.zip, and CLEARv1.2UpdateLog.docx."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 48214514,
+      "extracted_bytes": 181239253,
+      "expected_file_count": 4,
+      "verified_file_count": 4
+    },
+    {
+      "id": "D25",
+      "title": "A comprehensive geospatial database of nearly 100,000 reservoirs in China",
+      "status": "complete",
+      "files": [
+        {
+          "path": "D25_ScienceDB_China_Reservoir_Database/CRD v1.1.zip",
+          "source_url": "https://china.scidb.cn/download?fileId=c9a0f6e772607265bc453bf35087bb5f",
+          "byte_size": 114521234,
+          "sha256": "9aa0bdaaeab9002a602f7b047f62e88a00c33a12830056253ce080e8ef87bfb4",
+          "official_md5_verified": true,
+          "status": "passed",
+          "extraction": {
+            "status": "extracted_verified_crc",
+            "path": "D25_ScienceDB_China_Reservoir_Database\\extracted\\CRD v1.1",
+            "member_count": 74,
+            "uncompressed_bytes": 718492840
+          }
+        }
+      ],
+      "coverage": {
+        "spatial": "China, 97435 reservoirs including 5143 documented reservoirs",
+        "version": "ScienceDB record V3; CRD v1.1 ZIP; DOI 10.57760/sciencedb.05331",
+        "content": "Complete public CRD v1.1.zip obtained through the official public file-tree and download APIs."
+      },
+      "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
+      "original_bytes": 114521234,
+      "extracted_bytes": 718492840,
+      "expected_file_count": 1,
+      "verified_file_count": 1
+    }
+  ],
+  "expected_source_count": 7,
+  "expected_file_count": 25
+}

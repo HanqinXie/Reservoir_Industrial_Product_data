@@ -1,0 +1,29 @@
+[
+  {
+    "name": "data.zip",
+    "status": 206,
+    "range": "bytes 0-0/106509944",
+    "len": "1",
+    "accept": "bytes",
+    "url": "https://zenodo.org/api/records/19600477/files/data.zip/content",
+    "probe_byte": 1
+  },
+  {
+    "name": "B full catchments.zip",
+    "status": 206,
+    "range": "bytes 0-0/4667799460",
+    "len": "1",
+    "accept": "bytes",
+    "url": "https://zenodo.org/api/records/7664489/files/B%20full%20catchments.zip/content",
+    "probe_byte": 1
+  },
+  {
+    "name": "BasinATLAS_v10_shp.zip",
+    "status": 206,
+    "range": "bytes 0-0/4276492333",
+    "len": "1",
+    "accept": "bytes",
+    "url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/20087237/BasinATLAS_Data_v10_shp.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20261026/eu-west-1/s3/aws4_request&X-Amz-Date=20261026T173802Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=327c3f89a65f17eae276af99e214d1945ad12444dab7243e51723c683db2d706",
+    "probe_byte": 1
+  }
+]

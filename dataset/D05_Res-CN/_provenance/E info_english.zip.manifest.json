@@ -1,0 +1,76 @@
+{
+  "id": "D05",
+  "directory": "D05_Res-CN",
+  "name": "E info_english.zip",
+  "source_url": "https://zenodo.org/api/records/7664489/files/E%20info_english.zip/content",
+  "expected_bytes": 111472,
+  "expected_md5": "b58b95ae9880b2adedbb48a7707bddeb",
+  "title": "A dataset for reservoir-catchment characteristics for 3254 Chinese reservoirs, i.e., Res-CN",
+  "version": null,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "started_utc": "2026-10-26T17:57:54.097315+00:00",
+  "status": "downloaded_and_extracted",
+  "path": "D05_Res-CN\\E info_english.zip",
+  "byte_size": 111472,
+  "sha256": "f2cf6127942a7f29ef89e475f273543fb5a6fcb1b7b53c152accf805ecb3bad0",
+  "md5": "b58b95ae9880b2adedbb48a7707bddeb",
+  "official_md5_verified": true,
+  "extraction": {
+    "status": "extracted_verified_crc",
+    "path": "D05_Res-CN\\extracted\\E info_english",
+    "member_count": 9,
+    "uncompressed_bytes": 626226,
+    "members": [
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\E info_english\\.DS_Store",
+        "byte_size": 6148,
+        "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\__MACOSX\\E info_english\\._.DS_Store",
+        "byte_size": 120,
+        "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\E info_english\\2_References.txt",
+        "byte_size": 19841,
+        "sha256": "9e78bdb77ca9d563c5def0c9b30c65a04d37bebce2aaf374da8422ea05278f3c"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\__MACOSX\\E info_english\\._2_References.txt",
+        "byte_size": 542,
+        "sha256": "833644654292eab0c4a61c88cf515ca94d6e1356500b649f8d15ca692b465b3d"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\E info_english\\1_Folder_structure.txt",
+        "byte_size": 8646,
+        "sha256": "b408be3cee06c2eab788badbe2fcf0f5426d3263143feb5cd53990712bad6e31"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\__MACOSX\\E info_english\\._1_Folder_structure.txt",
+        "byte_size": 542,
+        "sha256": "982739b95b03e0b3618d66e8c05e8f7eec91fede144135caac22016736941edc"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\E info_english\\3_Additional_information.txt",
+        "byte_size": 123,
+        "sha256": "d860ac9ab9ab1c99c50e314dc3b4d7b07455655e56b2f67f1e821eeef0f1ad40"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\__MACOSX\\E info_english\\._3_Additional_information.txt",
+        "byte_size": 542,
+        "sha256": "cad8168ec17dfa18847a9762e679dc7b89d531d8be646c7c630597536af78789"
+      },
+      {
+        "path": "D05_Res-CN\\extracted\\E info_english\\E info_english\\3254Res info.csv",
+        "byte_size": 589722,
+        "sha256": "e1d2ffaf92dce98e2a3bf254b8e938c8978081b92e279d01fcb551cf3aa5a87b"
+      }
+    ]
+  },
+  "finished_utc": "2026-10-26T17:57:54.106714+00:00",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:08.324485+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "D03",
+  "title": "GRADES自然化河流流量",
+  "source_url": "https://www.reachhydro.org/home/records/grades",
+  "status": "blocked_download_quota",
+  "files": [],
+  "reason": "官方Google Drive亚洲pfaf04文件返回200 HTML，明确提示Quota exceeded。已停止重试；保留.part和.segments用于后续合法续传，分片尚不构成完整NetCDF数据。",
+  "scope": "计划下载原始GRADES v01亚洲pfaf04（1979–2013）；未取得完整数据文件。",
+  "expected_bytes": 23780171996,
+  "partial_bytes": 970981376,
+  "alternative_mirror": {
+    "url": "https://www.tpdc.ac.cn/zh-hans/data/3a37cc51-bc66-43e6-80f6-83bb3a4e30c0/?q=",
+    "status": "mirror_access_unverified",
+    "note": "Author-endorsed mirror inspected. Dynamic metadata and account workflow present; anonymous Asian-file listing and download could not be verified. No login or request submitted."
+  }
+}

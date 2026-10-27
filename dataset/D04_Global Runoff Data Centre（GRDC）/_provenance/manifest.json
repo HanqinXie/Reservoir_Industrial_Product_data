@@ -1,0 +1,18 @@
+{
+  "id": "D04",
+  "title": "Global Runoff Data Centre（GRDC）",
+  "source_url": "https://grdc.bafg.de/data/data_portal/",
+  "files": [
+    {
+      "path": "D04_Global Runoff Data Centre（GRDC）\\_provenance\\官方获取条件.html",
+      "bytes": 35774,
+      "sha256": "95fa8eda5a62efb8f2f58f17f06c20c2239ce383f2975a45a0f7b23bf97f338e",
+      "url": "https://grdc.bafg.de/data/data_portal/",
+      "final_url": "https://grdc.bafg.de/data/data_portal/",
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "guide_url": "https://grdc.bafg.de/data/data_portal_guide/index.html",
+  "status": "requires_application",
+  "reason": "官方要求选择测站/区域，填写申请人资料与邮箱并同意使用条款，数据下载链接通过邮件提供。未代填身份或发送申请。未取得测站流量数据。"
+}

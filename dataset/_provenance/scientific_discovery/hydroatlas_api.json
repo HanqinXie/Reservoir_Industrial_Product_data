@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "id": 20082110,
+      "name": "HydroATLAS_TechDoc_v10.pdf",
+      "size": 1024082,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20082110",
+      "supplied_md5": "a1b20a273d3e04c55c9d673c7b18fac1",
+      "computed_md5": "a1b20a273d3e04c55c9d673c7b18fac1",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 20082113,
+      "name": "BasinATLAS_Catalog_v10.pdf",
+      "size": 60341549,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20082113",
+      "supplied_md5": "2431a6fd7b381b0435133edcc23efecf",
+      "computed_md5": "2431a6fd7b381b0435133edcc23efecf",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 20082122,
+      "name": "RiverATLAS_Catalog_v10.pdf",
+      "size": 68738715,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20082122",
+      "supplied_md5": "a3eba9288783053eaaecd12ecaccb519",
+      "computed_md5": "a3eba9288783053eaaecd12ecaccb519",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 20082137,
+      "name": "BasinATLAS_Data_v10.gdb.zip",
+      "size": 2695658577,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20082137",
+      "supplied_md5": "69af94baee68da5a3f80f09e7b85bd04",
+      "computed_md5": "69af94baee68da5a3f80f09e7b85bd04",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 20087237,
+      "name": "BasinATLAS_Data_v10_shp.zip",
+      "size": 4276492333,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20087237",
+      "supplied_md5": "ce5013294bdcb6f884ff6cdf1a1acae0",
+      "computed_md5": "ce5013294bdcb6f884ff6cdf1a1acae0",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 20087321,
+      "name": "RiverATLAS_Data_v10.gdb.zip",
+      "size": 2506480742,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20087321",
+      "supplied_md5": "f6f1cbf80b422710b78947137f7fd4e8",
+      "computed_md5": "f6f1cbf80b422710b78947137f7fd4e8",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 20087486,
+      "name": "RiverATLAS_Data_v10_shp.zip",
+      "size": 2418581202,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/20087486",
+      "supplied_md5": "7a6d74226ce8fe6e7e0eb20e2abe71ee",
+      "computed_md5": "7a6d74226ce8fe6e7e0eb20e2abe71ee",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 6053444,
+      "full_name": "Bernhard Lehner",
+      "first_name": "Bernhard",
+      "last_name": "Lehner",
+      "is_active": true,
+      "url_name": "Bernhard_Lehner",
+      "orcid_id": "0000-0003-3712-2581"
+    },
+    {
+      "id": 394594,
+      "full_name": "Simon Linke",
+      "first_name": "Simon",
+      "last_name": "Linke",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 5984501,
+      "full_name": "Michele Thieme",
+      "first_name": "Michele",
+      "last_name": "Thieme",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/HydroATLAS_version_1_0/9890531",
+  "download_disabled": false,
+  "description": "<div>This is the HydroATLAS dataset, version 1.0, which is fully \ndescribed in Linke et al. 2019 (see DOI-link in References below).<br></div><div><br></div><div><b>In this Figshare repository, there are 4 zipped data files (each >2GB in size) containing all global data in 2 formats:</b><div>1. BasinATLAS_Data_v10.gdb.zip (sub-basin polygons, levels 1-12, in geodatabase format)<br></div><div>2. BasinATLAS_Data_v10_shp.zip (sub-basin polygons, levels 1-12, in shapefile format)</div><div>3. RiverATLAS_Data_v10.gdb.zip (river reach lines in geodatabase format)</div><div>4. RiverATLAS_Data_v10_shp.zip (river reach lines in shapefile format)</div><div><br></div><b>There\nare also 3 PDF \nfiles that provide technical specifications:</b></div><div>1. HydroATLAS_TechDoc_v10.pdf (technical documentation)</div><div>2. BasinATLAS_Catalog_v10.pdf (catalog file listing all sub-basin attributes)<br></div><div>3. RiverATLAS_Catalog_v10.pdf (catalog file listing all river reach attributes)</div>",
+  "funding": "Discovery Early Career Researcher Award from the Australian Research Council (ARC-DECRA; DE130100565)",
+  "funding_list": [
+    {
+      "id": 16588619,
+      "title": "Discovery Early Career Researcher Award from the Australian Research Council (ARC-DECRA; DE130100565)",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 16588616,
+      "title": "Discovery Grant from the Natural Sciences and Engineering Research Council of Canada (NSERC-DG; RGPIN/341992)",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 12027317200,
+  "created_date": "2019-12-07T00:50:22Z",
+  "modified_date": "2023-05-30T11:11:31Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Global",
+    "Basins",
+    "Rivers",
+    "Watersheds",
+    "Hydrography",
+    "Surface water",
+    "Characteristics",
+    "Ecohydrology",
+    "Hydrology",
+    "Environmental Science",
+    "Conservation and Biodiversity"
+  ],
+  "keywords": [
+    "Global",
+    "Basins",
+    "Rivers",
+    "Watersheds",
+    "Hydrography",
+    "Surface water",
+    "Characteristics",
+    "Ecohydrology",
+    "Hydrology",
+    "Environmental Science",
+    "Conservation and Biodiversity"
+  ],
+  "categories": [
+    {
+      "id": 25894,
+      "title": "Hydrology not elsewhere classified",
+      "parent_id": 25876,
+      "path": "/25717/25876/25894",
+      "source_id": "370799",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26998,
+      "title": "Other environmental sciences not elsewhere classified",
+      "parent_id": 26995,
+      "path": "/26863/26995/26998",
+      "source_id": "419999",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26932,
+      "title": "Conservation and biodiversity",
+      "parent_id": 26929,
+      "path": "/26863/26929/26932",
+      "source_id": "410401",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1038/s41597-019-0300-6",
+    "https://www.hydrosheds.org/page/hydroatlas"
+  ],
+  "has_linked_file": false,
+  "citation": "Lehner, Bernhard; Linke, Simon; Thieme, Michele (2019). HydroATLAS version 1.0. figshare. Dataset. https://doi.org/10.6084/m9.figshare.9890531.v1",
+  "related_materials": [
+    {
+      "id": 441242,
+      "identifier": "https://doi.org/10.1038/s41597-019-0300-6",
+      "title": "",
+      "relation": "References",
+      "identifier_type": "URL",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1038/s41597-019-0300-6"
+    },
+    {
+      "id": 441245,
+      "identifier": "https://www.hydrosheds.org/page/hydroatlas",
+      "title": "",
+      "relation": "References",
+      "identifier_type": "URL",
+      "is_linkout": false,
+      "link": "https://www.hydrosheds.org/page/hydroatlas"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 9890531,
+  "title": "HydroATLAS version 1.0",
+  "doi": "10.6084/m9.figshare.9890531.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/9890531",
+  "published_date": "2019-12-07T00:50:22Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/20082122/thumb.png",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/9890531",
+  "url_public_api": "https://api.figshare.com/v2/articles/9890531",
+  "url_private_html": "https://figshare.com/account/articles/9890531",
+  "url_public_html": "https://figshare.com/articles/dataset/HydroATLAS_version_1_0/9890531",
+  "timeline": {
+    "posted": "2019-12-07T00:50:22",
+    "firstOnline": "2019-12-07"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

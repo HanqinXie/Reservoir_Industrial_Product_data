@@ -1,0 +1,26 @@
+{
+  "id": "D08",
+  "directory": "D08_HydroATLAS",
+  "name": "LakeATLAS_Catalog_v10.pdf",
+  "source_url": "https://data.hydrosheds.org/file/technical-documentation/LakeATLAS_Catalog_v10.pdf",
+  "expected_bytes": 54055742,
+  "expected_md5": "dfb3501640ed034360486a8304d00d8b",
+  "license": "CC-BY 4.0",
+  "official_filename": "LakeATLAS_Catalog_v10.pdf",
+  "started_utc": "2026-10-26T17:59:22.661216+00:00",
+  "range_probe": {
+    "status_code": 206,
+    "content_range": "bytes 0-0/54055742",
+    "validated": true
+  },
+  "status": "downloaded",
+  "path": "D08_HydroATLAS\\LakeATLAS_Catalog_v10.pdf",
+  "byte_size": 54055742,
+  "sha256": "e736eedbbe32cdeb498348696b9d085b1caddd937a19c7c669501deaffe670e1",
+  "md5": "dfb3501640ed034360486a8304d00d8b",
+  "official_md5_verified": true,
+  "finished_utc": "2026-10-26T17:59:32.478023+00:00",
+  "title": "HydroATLAS",
+  "audit_status": "passed",
+  "audit_utc": "2026-10-26T18:02:10.526391+00:00"
+}

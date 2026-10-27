@@ -1,0 +1,27 @@
+{
+  "id": "D12",
+  "title": "GloFAS seasonal forecasts",
+  "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-seasonal?tab=overview",
+  "files": [
+    {
+      "path": "D12_GloFAS seasonal forecasts\\_provenance\\data_licence.pdf",
+      "bytes": 53369,
+      "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+      "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+      "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "path": "D12_GloFAS seasonal forecasts\\_provenance\\download_form.json",
+      "bytes": 16681,
+      "sha256": "7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c",
+      "url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/form_7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c.json",
+      "final_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/form_7406b5cb649fad2ec2c19d336a95f5019bbd51f77d2b7a3af2c77abe2833906c.json",
+      "content_type": "application/json"
+    }
+  ],
+  "attempts": [],
+  "status": "requires_account_and_subset",
+  "reason": "未发现本机CDS/EWDS API凭据；须账户登录并接受该数据条款后提交区域和时段请求。已保存元数据与许可，未下载气象/流量数据。",
+  "scope": "用户指定云南及相关上游流域；尚未提交检索任务。"
+}
