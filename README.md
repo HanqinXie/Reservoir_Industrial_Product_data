@@ -22,6 +22,21 @@
 - `dataset` 目前有20项来源的可用数据或资料；9项目标数据受账户、申请/授权或下载配额限制，见[下载清单](dataset/下载清单.md)。GRADES `.part` / `.segments` 是原样保留的未完成分片，不能作为完整NetCDF使用。
 - 标准共18项，包含官方在线阅览分页保存版和公开PDF副本；S17原始Word存在兼容性限制并附参考TXT，见[标准获取说明](standards/获取说明.md)。
 
+## 初步水库—工业库存模型
+
+[models/reservoir_inventory](models/reservoir_inventory/README.md) 提供独立的日尺度 M0/M1/M2 线性规划、已提取的小湾日入流 CSV、五张可编辑输入表的生成器，以及丰平枯年对比和四类单因素敏感性分析。
+
+```bash
+cd models/reservoir_inventory
+python -m pip install -e .
+python -m reservoir_inventory verify-toy --out outputs/toy
+python -m reservoir_inventory demo --out outputs/demo
+```
+
+运行示例无需恢复完整原始快照。水文与水库参数来自已有资料，工厂、交易和初末状态假设逐项登记；本模型尚非具体电站—工厂的工程验证。[已运行示例与核验记录](models/reservoir_inventory/examples/README.md) 说明了当前结果及其适用范围。
+
+该模型目录是原始资料快照之后新增的代码和派生数据，原有五目录快照与校验清单仍描述原始归档。
+
 ## 下载并还原全部五目录
 
 需要Python及`zstandard`：

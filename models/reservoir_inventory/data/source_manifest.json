@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-27T05:54:06.974446+00:00",
+  "purpose": "Reproducible Xiaowan inputs for the preliminary reservoir-industrial-inventory model",
+  "source_repository": {
+    "name": "HanqinXie/Reservoir_Industrial_Product_data",
+    "commit": "cc1e9da360ef0ec6c557b3401d0bfcdab2a07913",
+    "D01_manifest_path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/manifest.json",
+    "D01_readme_path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/README.md"
+  },
+  "D01_source": {
+    "title": "Industrial overcapacity can enable seasonal flexibility in electricity use: Supplementary Data",
+    "record_url": "https://zenodo.org/records/19600477",
+    "doi": "10.5281/zenodo.19600477",
+    "archive_url": "https://zenodo.org/api/records/19600477/files/data.zip/content",
+    "archive_name": "data.zip",
+    "archive_byte_size_reported": 106509944,
+    "archive_sha256_reported_by_source_repository": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f",
+    "archive_whole_file_hash_recomputed_by_this_script": false,
+    "members": [
+      {
+        "archive_member": "data/hydro/daily_hydro_inflow_per_dam_1979_2016_m3.pickle",
+        "sha256": "651e5dcd5b6a0d17fd62a77c56695b48c9cb9eb482c67721b8eec96e5489e74f",
+        "byte_size": 4887261,
+        "verified_against_fixed_repository_manifest": true
+      },
+      {
+        "archive_member": "data/hydro/dams_large.csv",
+        "sha256": "dae5126eb859ffcb83a3fa4c5a8a63a82906f2e515137b86d7fe3e1c9ff0ef1f",
+        "byte_size": 7254,
+        "verified_against_fixed_repository_manifest": true
+      },
+      {
+        "archive_member": "data/hydro/reservoir_effective_capacity.pickle",
+        "sha256": "058f6d2ee6c703c2d71d3dbf18f066bfda9dc2550a5300053e96ea1f7d15c1ae",
+        "byte_size": 919,
+        "verified_against_fixed_repository_manifest": true
+      },
+      {
+        "archive_member": "data/hydro/reservoir_initial_capacity.pickle",
+        "sha256": "8484cc3c643a24edf0e0cba8f48da21a4b093a0194c607b324288360da68fb28",
+        "byte_size": 922,
+        "verified_against_fixed_repository_manifest": true
+      }
+    ],
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence": "D01 manifest.json files[0].license.id=cc-by-4.0 at the pinned source commit",
+      "attribution": "Lyu, Ruike; Li, Anna; Wang, Jianxiao; Luo, Hongxi; Shen, Yan; Guo, Hongye; Du, Ershun; Kang, Chongqing; Jenkins, Jesse (2026). Supplementary Data. Zenodo. DOI: 10.5281/zenodo.19600477."
+    }
+  },
+  "daily_series": {
+    "output": "xiaowan_inflow_1979_2016.csv",
+    "source_column": "Xiaowan",
+    "first_date": "1979-01-01",
+    "last_date": "2016-12-31",
+    "rows": 13880,
+    "unit": "m3 per calendar day (volume, not m3/s)",
+    "mean_flow_conversion": "inflow_m3 / 86400 gives that day's mean m3/s",
+    "transformations": [
+      "select Xiaowan column",
+      "serialize dates and original float64 values as CSV"
+    ],
+    "scaling_factor": 1.0,
+    "resampling": null,
+    "missing_value_filling": null,
+    "source_values_preserved_exactly_on_round_trip": true,
+    "leap_days_retained": true,
+    "missing_dates": 0,
+    "duplicate_dates": 0,
+    "missing_values": 0,
+    "negative_values": 0,
+    "days_equal_to_100000_m3": 0
+  },
+  "annual_selection": {
+    "output": "annual_hydrology.csv",
+    "method": "Sum every complete calendar year's daily volumes; calculate 0.20/0.50/0.80 empirical quantiles using linear interpolation; choose the nearest observed total, breaking ties by earlier year; selected years must be distinct.",
+    "volume_not_365_day_normalized": true,
+    "all_38_years_kept_in_daily_file": true,
+    "labels_mean_annual_volume_only": true,
+    "selected_years": {
+      "dry": {
+        "quantile": 0.2,
+        "target_total_inflow_m3": 20436521973.401077,
+        "year": 1993,
+        "days": 365,
+        "total_inflow_m3": 20424244794.80581,
+        "distance_from_quantile_m3": 12277178.59526825
+      },
+      "normal": {
+        "quantile": 0.5,
+        "target_total_inflow_m3": 24591449139.866028,
+        "year": 1988,
+        "days": 366,
+        "total_inflow_m3": 24542973366.041374,
+        "distance_from_quantile_m3": 48475773.824653625
+      },
+      "wet": {
+        "quantile": 0.8,
+        "target_total_inflow_m3": 31860336188.64882,
+        "year": 1990,
+        "days": 365,
+        "total_inflow_m3": 32344509680.17192,
+        "distance_from_quantile_m3": 484173491.5231018
+      }
+    }
+  },
+  "IAI_reference_parameter": {
+    "value_mwh_per_tonne_liquid_aluminium": 13.203,
+    "source_value_kwh_per_tonne": 13203,
+    "year": 2025,
+    "region": "China",
+    "series": "Total Energy (AC)",
+    "official_page": "https://international-aluminium.org/statistics/primary-aluminium-smelting-energy-intensity/",
+    "api_url": "https://alvis.international-aluminium.org/api/publication/?publication=primary-aluminium-smelting-energy-intensity",
+    "source_repository_path": "dataset/D17_IAI原铝冶炼能耗强度/primary-aluminium-smelting-energy-intensity_当前官网API完整响应.json",
+    "source_git_blob_sha": "7fb2b202f6f043ea44bdca5341c1669ac9aaaee3",
+    "sha256_reported_in_D17_provenance": "eacc7a275aaca8158534a339d0ee5745dd04e9e91655ce9d76c77c3d5e0b306b",
+    "official_export_csv_sha256_reported_in_D17_provenance": "c915f5b1868b8b1efbd4b095fdadabc192d0e48d31ca54dccc89a81f68a27727",
+    "value_location": "data.publication.charts.data with period.name='2025', data['3']['30'].value; row 3=Total Energy (AC), column 30=China",
+    "boundary_zh": "截至电解槽铝液出槽，包括交流整流和正常冶炼辅助设施电耗（含污染控制）；不含铸造与炭素厂。",
+    "casting_extra_energy_status": "Separate explicit scenario assumption; not included in 13.203 MWh/t and not supplied by this IAI series.",
+    "regional_parameter_not_plant_measurement": true,
+    "license_status": "not_verified",
+    "license_note": "IAI data remain subject to IAI source terms; the Zenodo CC-BY license is not asserted for this separate parameter source."
+  },
+  "limitations_zh": [
+    "来水为原论文能源系统模型输入，未认定为小湾电站实测入库流量；无缺值不代表已完成实测验证。",
+    "1979—2016是模型输入的历史水文年份，不是小湾建成后的38年运行历史。",
+    "数据止于2016，不能用于声称还原2022年等近期实际干旱事件。",
+    "单库代表性算例未还原上游梯级运行、区间入流、输电拓扑或某铝厂与小湾的真实直供关系。",
+    "原始初始绝对库容未转换为活动水量；初末状态必须在各对照策略中使用同一明确情景。",
+    "固定平均耗水系数未体现可变水头、尾水位和效率变化；发电量不是可直接相加的额外天然水源。",
+    "枯、平、丰标签按全年总入流选择，不能代替季节性干旱或连续干旱指标。",
+    "用2025行业能耗参数和1979—2016来水构成统一参数的历史来水情景，不是同期企业财务还原。",
+    "IAI的AC参数止于铝液出槽；若库存对象为固态铝锭，铸造电耗及相关费用须另行显式建模。"
+  ],
+  "outputs": [
+    {
+      "path": "xiaowan_inflow_1979_2016.csv",
+      "sha256": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+      "byte_size": 414886
+    },
+    {
+      "path": "annual_hydrology.csv",
+      "sha256": "3beb7ab054cd29012ef9c2d2892d6f0786ea1a813b842def5e51134a480ba0ab",
+      "byte_size": 2741
+    },
+    {
+      "path": "xiaowan_reservoir.json",
+      "sha256": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b",
+      "byte_size": 1405
+    }
+  ],
+  "preparation": {
+    "script": "scripts/prepare_xiaowan_csv.py",
+    "script_sha256": "7d19e481db2c1c5e7fd8336db16572bd4c52b1647a598ae96369cd917a8d2862",
+    "pandas_version": "2.2.3",
+    "numpy_version": "2.3.5",
+    "network_access": false,
+    "model_reads_pickle": false
+  }
+}

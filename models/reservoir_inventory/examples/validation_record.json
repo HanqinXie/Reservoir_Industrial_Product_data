@@ -1,0 +1,105 @@
+{
+  "recorded_at_utc": "2026-10-27T06:04:38.800436+00:00",
+  "status": "passed",
+  "unit_and_io_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 19,
+    "failed": 0
+  },
+  "repository_toy": {
+    "export_prohibited": {
+      "M0": 6.0,
+      "M1": 2.4,
+      "M2": 0.4000000000000001
+    },
+    "unlimited_symmetric_trading": {
+      "M0": 4.0,
+      "M1": 0.4000000000000001,
+      "M2": 0.4000000000000001
+    }
+  },
+  "annual_cases": [
+    {
+      "category": "dry",
+      "hydrological_year": 1993,
+      "days": 365,
+      "M0_cost_cny": -283500268.7654153,
+      "M1_cost_cny": -283530097.32774526,
+      "M2_cost_cny": -283916668.76541436,
+      "inventory_savings_with_fixed_hydro_cny": 29828.56232994795,
+      "additional_hydro_coordination_savings_cny": 386571.4376690984,
+      "total_savings_cny": 416399.9999990463,
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0,
+      "input_fingerprint": "a652f743454e9fcfae26a03bf4a365e3c03e7cca1f16190e51e3f13127ed042e"
+    },
+    {
+      "category": "normal",
+      "hydrological_year": 1988,
+      "days": 366,
+      "M0_cost_cny": -668555380.7066175,
+      "M1_cost_cny": -668646660.9298005,
+      "M2_cost_cny": -668973880.7066166,
+      "inventory_savings_with_fixed_hydro_cny": 91280.22318303585,
+      "additional_hydro_coordination_savings_cny": 327219.7768161297,
+      "total_savings_cny": 418499.99999916553,
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0,
+      "input_fingerprint": "478f41e7f088f76c04fe320394a49a5912d10e313d49d930feaff0890bf888f5"
+    },
+    {
+      "category": "wet",
+      "hydrological_year": 1990,
+      "days": 365,
+      "M0_cost_cny": -1210208649.4497743,
+      "M1_cost_cny": -1212716174.4497743,
+      "M2_cost_cny": -1214030564.4497747,
+      "inventory_savings_with_fixed_hydro_cny": 2507525.0,
+      "additional_hydro_coordination_savings_cny": 1314390.0000004768,
+      "total_savings_cny": 3821915.000000477,
+      "M2_max_post_delivery_inventory_t": 3050.0,
+      "M2_peak_warehouse_inventory_t": 32500.0,
+      "input_fingerprint": "d3b54a9ca3eaea5458443984fc4c29e71565e88441279b598db01ed6ca1ea4d4"
+    }
+  ],
+  "annual_max_physical_residuals": {
+    "max_water_balance_residual_m3": 8.940696716308594e-07,
+    "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+    "max_product_balance_residual_t": 1.7053025658242404e-12,
+    "cost_reconstruction_error_cny": 2.384185791015625e-07
+  },
+  "sensitivity": {
+    "cases": 22,
+    "status_counts": {
+      "optimal": 20,
+      "invalid_input": 2
+    }
+  },
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "python_source_sha256": {
+    "reservoir_inventory/__init__.py": "35685644bdbec1805fadf0e1b17e25323fdfd4d141cd179305c468928032cbc3",
+    "reservoir_inventory/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "reservoir_inventory/cases.py": "4d4fcd444104d58428409dab83e331694019e3e2c99cade987b9296e37d12162",
+    "reservoir_inventory/cli.py": "411ef648c7f0a92a2a0256411bcfd2b0e5d446bacf432cf7b1e2a944bdad2921",
+    "reservoir_inventory/io.py": "04e2b09fd23bb873030a96ad588dabc6d84857f1d4ece49bc1c3f2982b3df8a1",
+    "reservoir_inventory/model.py": "dc714f959879fdda21241de982c079744af68571e368ee473401812acc652643",
+    "reservoir_inventory/reporting.py": "4f7e0fdc0cdb323a68b74a93b53c246850f1e5837501386f283eab63f9782166"
+  },
+  "config_sha256": "9d4a0adc3b27967c2ddda1130c071d177ebe70b2766c490432b77b18c4d3701d",
+  "source_data_sha256": {
+    "inflow_csv": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+    "reservoir_json": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b",
+    "source_manifest": "929cbedf0e109892c531771174f6a57c6d177c4f6f5051542afba51d7ceb86ae"
+  },
+  "notes": [
+    "Numerical residuals describe these computed solutions, not data or engineering accuracy.",
+    "M1 attribution is conditional on the returned M0 optimal hydro schedule.",
+    "Results use illustrative industrial and economic assumptions; see README and sources.csv."
+  ]
+}
