@@ -1,0 +1,108 @@
+{
+  "created_at_utc": "2026-10-27T11:23:28.019561+00:00",
+  "source_file": "data_0.nc",
+  "source_bytes": 2372137099,
+  "source_sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501",
+  "source_stat_unchanged_during_read": true,
+  "source_stat_fields_checked": [
+    "st_size",
+    "st_mtime_ns",
+    "st_ctime_ns",
+    "st_ino"
+  ],
+  "output_file": "yunnan_bbox_2015_glofas_v4.nc",
+  "output_bytes": 17113700,
+  "output_sha256": "f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22",
+  "requested_bbox_degrees": {
+    "north": 29.0,
+    "south": 21.0,
+    "west": 97.0,
+    "east": 107.0
+  },
+  "actual_grid_center_bounds_degrees": {
+    "latitude_min": 21.025000000003132,
+    "latitude_max": 28.975000000003245,
+    "longitude_min": 97.0250000000033,
+    "longitude_max": 106.97500000000274
+  },
+  "province_boundary_mask_applied": false,
+  "selection": "Inclusive coordinate bounds; rectangular Yunnan vicinity, including adjacent regions",
+  "dimensions": {
+    "valid_time": 365,
+    "latitude": 160,
+    "longitude": 200
+  },
+  "variable": "avg_dis",
+  "dtype": "float32",
+  "units": "m**3 s**-1",
+  "time_labels_first_last": [
+    "2015-01-02 00:00:00",
+    "2016-01-01 00:00:00"
+  ],
+  "time_shifted": false,
+  "uncompressed_main_variable_bytes": 46720000,
+  "compression": {
+    "zlib": true,
+    "complevel": 4,
+    "shuffle": true,
+    "lossless": true
+  },
+  "source_variable_GRIB_attributes": {
+    "GRIB_paramId": 235270,
+    "GRIB_dataType": "sfo",
+    "GRIB_numberOfPoints": 21600000,
+    "GRIB_typeOfLevel": "surface",
+    "GRIB_stepUnits": 1,
+    "GRIB_stepType": "avg",
+    "GRIB_gridType": "regular_ll",
+    "GRIB_uvRelativeToGrid": 0,
+    "GRIB_NV": 0,
+    "GRIB_Nx": 7200,
+    "GRIB_Ny": 3000,
+    "GRIB_cfName": "unknown",
+    "GRIB_cfVarName": "avg_dis",
+    "GRIB_configuration": "v4.0",
+    "GRIB_expver": "0001",
+    "GRIB_gridDefinitionDescription": "Latitude/longitude",
+    "GRIB_iDirectionIncrementInDegrees": 0.05,
+    "GRIB_iScansNegatively": 0,
+    "GRIB_jDirectionIncrementInDegrees": 0.05,
+    "GRIB_jPointsAreConsecutive": 0,
+    "GRIB_jScansPositively": 0,
+    "GRIB_latitudeOfFirstGridPointInDegrees": 89.975,
+    "GRIB_latitudeOfLastGridPointInDegrees": -59.975,
+    "GRIB_longitudeOfFirstGridPointInDegrees": 180.025,
+    "GRIB_longitudeOfLastGridPointInDegrees": 179.975,
+    "GRIB_missingValue": 3.4028234663852886e+38,
+    "GRIB_name": "Time-mean discharge from rivers or streams",
+    "GRIB_shortName": "avg_dis",
+    "GRIB_units": "m**3 s**-1"
+  },
+  "verification": {
+    "all_values_equal": true,
+    "rtol": 0,
+    "atol": 0,
+    "nan_positions_preserved": true
+  },
+  "data_statistics": {
+    "finite_values": 11680000,
+    "nan_values": 0,
+    "zero_values": 732672,
+    "min_m3_s": 0.0,
+    "max_m3_s": 23571.4375
+  },
+  "runtime": {
+    "python": "3.10.6",
+    "netCDF4": "1.7.4",
+    "numpy": "1.26.4"
+  },
+  "script": "_provenance/extract_yunnan_bbox.py",
+  "script_sha256": "44f4b2e9a72b537f630d4d6a9016a91435ba55283872ca71603842744188ebbb",
+  "independent_verification": {
+    "record": "_provenance\\yunnan_bbox_2015_independent_check.json",
+    "record_sha256": "891f42bc60c967eabc2a9824e95e251b58bc8161057a003bca991dce573a06bf",
+    "all_11680000_float32_values_bitwise_equal": true,
+    "source_full_sha256_rechecked_unchanged": true,
+    "passed": true
+  }
+}

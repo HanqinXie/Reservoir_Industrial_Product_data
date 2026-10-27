@@ -1,0 +1,7 @@
+{
+  "status": "metadata_check_failed_after_successful_data_equality_check",
+  "reason": "Initial comparison included st_atime; read access may update it. Content checks had passed. Retry compares size/mtime/ctime/inode.",
+  "partial_file_bytes": 17113700,
+  "partial_sha256": "0cedcd688175d776c50e2d8a3966b33f76d6515d7a3b4f021794f5c6ef14eb30",
+  "retained_path": "_provenance\\extraction_attempts\\attempt01.partial.nc"
+}

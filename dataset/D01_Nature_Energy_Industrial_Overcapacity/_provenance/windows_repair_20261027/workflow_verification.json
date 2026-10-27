@@ -1,0 +1,54 @@
+{
+  "verified_at_utc": "2026-10-27T09:34:32.296104+00:00",
+  "passed": true,
+  "regression_before": {
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\dataset\\D01_Nature_Energy_Industrial_Overcapacity\\_provenance\\test_windows_extraction.py"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\dataset",
+    "start_utc": "2026-10-27T09:34:28.885270+00:00",
+    "end_utc": "2026-10-27T09:34:28.981500+00:00",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "passed": true
+  },
+  "regression_after": {
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\dataset\\D01_Nature_Energy_Industrial_Overcapacity\\_provenance\\test_windows_extraction.py"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\dataset",
+    "start_utc": "2026-10-27T09:34:28.983508+00:00",
+    "end_utc": "2026-10-27T09:34:29.074677+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  "regression_checks": 5,
+  "original_defects_reproduced": 2,
+  "fresh_actual_archive_extraction_files": 252,
+  "fresh_skipped_metadata_files": 301,
+  "fresh_extraction_matches_repaired_directory": true,
+  "original_audit_workflow_for_D01_passed": true,
+  "model_compatibility": {
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "start_utc": "2026-10-27T09:34:30.055684+00:00",
+    "end_utc": "2026-10-27T09:34:30.909239+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  "model_checks_passed": 19,
+  "original_run01_zip_unchanged": true,
+  "archive_sha256": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f"
+}

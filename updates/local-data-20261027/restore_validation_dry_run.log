@@ -1,0 +1,1 @@
+{"dry_run": true, "verified_payload_files": 232, "would_write": 232, "would_delete": 361, "written": 0, "deleted": 0, "status": "DRY_RUN_VERIFIED", "archive_manifest_sha256": "852b28c0666c02071cb93f10d17530d70957c4ebf4e8e4e9d8ffc7550389efc5", "base_source_manifest_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe"}

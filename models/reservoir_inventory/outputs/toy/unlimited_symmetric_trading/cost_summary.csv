@@ -1,0 +1,4 @@
+case_name,scenario,periods,total_hours,objective_cny,grid_cost_cny,holding_cost_cny,production_cost_cny,hydro_cost_cny,generation_mwh,purchase_mwh,sale_mwh,spill_m3,production_t,delivery_t,peak_inventory_t,inventory_tonne_days,peak_end_period_inventory_t,max_post_delivery_inventory_t,inventory_accounting,solver,input_fingerprint,audit_passed
+repo_two_period_symmetric,M0,2,48,4,4,0,0,0,6,2,2,0,6,6,0,0,0,0,boundary,scipy.optimize.linprog / HiGHS,2adb5f2e84b558ebcc4f57761ae72338cf1f8d2cc35e423dc1c89f1950490ca3,True
+repo_two_period_symmetric,M1,2,48,0.40000000000000008,0,0.40000000000000008,0,0,6,0,0,0,6,6,2,2,2,2,boundary,scipy.optimize.linprog / HiGHS,2adb5f2e84b558ebcc4f57761ae72338cf1f8d2cc35e423dc1c89f1950490ca3,True
+repo_two_period_symmetric,M2,2,48,0.40000000000000008,0,0.40000000000000008,0,0,6,0,0,0,6,6,2,2,2,2,boundary,scipy.optimize.linprog / HiGHS,2adb5f2e84b558ebcc4f57761ae72338cf1f8d2cc35e423dc1c89f1950490ca3,True

@@ -1,0 +1,3 @@
+period,duration_hours,inflow_m3,evaporation_m3,water_start_m3,water_end_m3,turbine_water_m3,spill_m3,hydro_mwh,hydro_average_mw,production_t,delivery_t,inventory_start_t,inventory_end_t,is_delivery_period,post_delivery_inventory_t,pre_delivery_inventory_t,charged_inventory_t,industrial_electricity_mwh,other_load_mwh,grid_net_mwh,grid_purchase_mwh,grid_sale_mwh,buy_price_cny_per_mwh,sell_price_cny_per_mwh,grid_cost_cny,holding_cost_cny,production_cost_cny,hydro_cost_cny,total_cost_cny
+period_1,24,6,0,0,3,1,2,1,0.041666666666666664,1,1,0,0,True,0,,0,1,0,-0,0,0,1,1,0,0,0,0,0
+period_2,24,0,0,3,0,3,0,3,0.125,5,5,0,0,True,0,,0,5,0,2,2,0,3,3,6,0,0,0,6

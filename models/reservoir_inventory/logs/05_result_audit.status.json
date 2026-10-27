@@ -1,0 +1,6 @@
+{
+  "command": ".venv/Scripts/python.exe logs/audit_results.py",
+  "start_utc": "2026-10-27T06:35:22.543075+00:00",
+  "end_utc": "2026-10-27T06:35:23.363023+00:00",
+  "exit_code": 0
+}

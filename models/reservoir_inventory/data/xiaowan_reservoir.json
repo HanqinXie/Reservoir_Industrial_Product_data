@@ -1,0 +1,30 @@
+{
+  "name": "Xiaowan",
+  "name_zh": "小湾水库",
+  "case_type": "literature_input_supported_representative_system",
+  "active_capacity_m3": 10000000000.0,
+  "power_capacity_mw": 4200.0,
+  "water_consumption_m3_per_kwh": 1.85,
+  "selected_years": {
+    "dry": 1993,
+    "normal": 1988,
+    "wet": 1990
+  },
+  "raw_data_scaled": false,
+  "electric_energy_mwh_per_m3": 0.0005405405405405405,
+  "latitude": 24.705,
+  "longitude": 100.0914,
+  "river_in_source": "lancang",
+  "province_in_source": "Yunnan",
+  "initial_active_storage_rule": "scenario_defined",
+  "terminal_active_storage_rule": "scenario_defined_and_common_across_strategies",
+  "unused_original_initial_absolute_capacity_m3": 11885000000.0,
+  "notes_zh": [
+    "模型状态为0至有效调节库容之间的活动水量；初末活动水量由同一情景给定。",
+    "原始initial文件的小湾数值为11885000000 m³，未直接用作活动水量，也未自动推定死库容。",
+    "采用dams_large.csv的平均耗水系数1.85 m³/kWh；它是固定系数近似，不是可变水头机组模型。",
+    "原始GWh来水文件隐含1.90 m³/kWh；本数据使用原始m³来水，自行按1.85换算发电，未混用GWh文件。",
+    "有效库容、装机与耗水系数取自原论文输入，尚非经工程文件逐项验证的现行调度参数。"
+  ],
+  "source_commit": "cc1e9da360ef0ec6c557b3401d0bfcdab2a07913"
+}

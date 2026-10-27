@@ -1,0 +1,5145 @@
+{
+  "audit_scope": "Read-only Appendix3 ZIP and GIS integrity, encoding, structure and geometry audit; no source repair, download, extraction or unsafe object deserialization",
+  "source_root": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\dataset\\D24_CLEAR",
+  "started_utc": "2026-10-27T09:57:35.665222+00:00",
+  "runtime": {
+    "python": "3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\HanqinXie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "numpy": "2.2.6",
+    "shapely": "2.1.2",
+    "GEOS": "3.13.1"
+  },
+  "source_sha256_before": {
+    "Appendix3.zip": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+    "manifest.json": "e87398aec1b1851e08a1d97d6865707a7d0a9d77baa8971e0752ac0956df8b45",
+    "_provenance\\Appendix3.zip.manifest.json": "2becc77bd6412c163ca1bba15c9c0ac677cc7e1d894b2ae63028676d1f651203",
+    "extracted\\Appendix3\\Appendix3\\Dam.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\Dam.dbf": "7eb31f082c84f1bf8dd11bc6a0a3c1ea29ff9faf7f75ca6aa714235397e0bc0c",
+    "extracted\\Appendix3\\Appendix3\\Dam.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "extracted\\Appendix3\\Appendix3\\Dam.sbn": "f8e07c0dc67e85cf785146d97c155488b9fcf337eb77640e3c50977dae52f2f2",
+    "extracted\\Appendix3\\Appendix3\\Dam.sbx": "7121231284a6ca883e0209dc4d0f77bc83ed203116f936b171f70e77e2066d24",
+    "extracted\\Appendix3\\Appendix3\\Dam.shp": "425d9ca409212dac21354f08a2a7eeb8b45d71c23ce3868b9845b4efa0b92b42",
+    "extracted\\Appendix3\\Appendix3\\Dam.shp.xml": "b434ec37216a169619088bb927c649ff86620125361c659e597a55271d64008c",
+    "extracted\\Appendix3\\Appendix3\\Dam.shx": "891cf9bfa3c16c9260a25c6fdfe06827e37d399602f952dc6a32a2d6934d58a5",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.dbf": "bebeb489197cb8175dbfc0bd45f250f25d90d7c3c21dac1b932b3567d5dc527d",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.prj": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbn": "20b8594ab87ef73337304fc9782a36094e1d2a31080bdcea22014a1e46a546b2",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbx": "06a597e03617fc4bf0cd9d05e46f640ce3013838e7873a7e00cb44c4525136d0",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp": "dfae2a11b182a4867e2a2b98f3ca005b8c88516a07c8a38532667f00fbd5bc81",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp.xml": "8d343755df14650ec5309275c3f005ba183da7e43a86da168543b202d6a6b51c",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shx": "b55c405d574308328c694d34cbe67ba3c5d18e4aa9bf40b7af3321c006bc5a0e",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.dbf": "c51687399d2ec4821c4d90f8d11685db8f5ebbaf6d41b49c61849128af12258f",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.prj": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbn": "90af998730eed89df1e436ec4cd82e22cc77d92ad6fff8662154f3fc02e9a930",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbx": "0cabf15668e98cdcf5f4b80b0955139f476f9c32894891348693b6a818c5890f",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp": "6ce1da5e75578bb215cf58ec891536b52bb1c92d901dcfb5ab962b4d99758951",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp.xml": "51e17b78185648428b5911341a85bec19146e96cf1fae8fe7727c7cd6ebce91c",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shx": "f10afebb81fb898e9562fe73c2f1b606aa57ced48e3e34aeff2f87dd0975df7c"
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "SOURCE_RING_SELF_INTERSECTION",
+      "files": {
+        "FullDrainageBoundary.shp": 36,
+        "IntermediateDrainageBoundary.shp": 97
+      },
+      "note": "Present in byte-identical original ZIP GIS members; no geometry repair performed."
+    },
+    {
+      "code": "GEOGCS_DISPLAY_NAME_UNKNOWN",
+      "files": [
+        "FullDrainageBoundary.prj",
+        "IntermediateDrainageBoundary.prj"
+      ],
+      "note": "Only top-level GEOGCS name differs; datum D_WGS_1984, ellipsoid, prime meridian and angular unit are identical to Dam.prj."
+    },
+    {
+      "code": "SOURCE_INVISIBLE_FORMAT_CHARACTERS",
+      "ID": 264,
+      "field": "MU",
+      "codepoint": "U+200C",
+      "count_per_layer": 2,
+      "note": "Zero width non-joiners at the end of the same UTF-8 attribute in all three layers; preserved."
+    },
+    {
+      "code": "NEGATIVE_SENTINELS_AND_BLANKS",
+      "note": "Negative numeric values encountered are all -999.000000. County has 3 blanks in each layer. Values preserved; official missing-value semantics should be taken from dataset documentation."
+    },
+    {
+      "code": "LAYER_ROW_ORDER_DIFFERS",
+      "note": "Join layers using unique ID, not row position. All 33 attribute fields match exactly for each ID after ID join."
+    }
+  ],
+  "limitations": [
+    "No external data source or scientific watershed boundary accuracy validation.",
+    "No authoritative CRS library available (pyproj/GDAL absent); PRJ WKT1 is parsed structurally and parameters compared, without authority-code inference.",
+    "SBN/SBX headers and all SBX-to-SBN record offsets/lengths are validated; spatial query results are not exercised.",
+    "Text mojibake detection is heuristic after strict UTF-8 decoding; syntactically valid text cannot prove every source spelling correct.",
+    "ESRI clockwise outer-ring / counterclockwise hole orientation is used to construct Polygon/MultiPolygon. All reported polygon invalidities are additionally confirmed directly on raw coordinate rings with LinearRing.is_simple, without repair."
+  ],
+  "zip": {
+    "bytes": 47699156,
+    "sha256": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+    "md5": "887ce086d7f89648befa8bc4efc8a697",
+    "manifest_and_provenance_equal": true,
+    "source_size_matches_manifest": true,
+    "sha256_matches_manifest": true,
+    "md5_matches_recorded_official_expected": true,
+    "members": [
+      {
+        "name": "Appendix3/Dam.cpg",
+        "bytes": 5,
+        "crc32": "0e813c50",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.dbf",
+        "bytes": 3149114,
+        "crc32": "41c79505",
+        "sha256": "7eb31f082c84f1bf8dd11bc6a0a3c1ea29ff9faf7f75ca6aa714235397e0bc0c",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.prj",
+        "bytes": 145,
+        "crc32": "af437f55",
+        "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.sbn",
+        "bytes": 8820,
+        "crc32": "5c3faefd",
+        "sha256": "f8e07c0dc67e85cf785146d97c155488b9fcf337eb77640e3c50977dae52f2f2",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.sbx",
+        "bytes": 580,
+        "crc32": "447f2866",
+        "sha256": "7121231284a6ca883e0209dc4d0f77bc83ed203116f936b171f70e77e2066d24",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.shp",
+        "bytes": 25664,
+        "crc32": "0b74d775",
+        "sha256": "425d9ca409212dac21354f08a2a7eeb8b45d71c23ce3868b9845b4efa0b92b42",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.shp.xml",
+        "bytes": 12781,
+        "crc32": "f84d5739",
+        "sha256": "b434ec37216a169619088bb927c649ff86620125361c659e597a55271d64008c",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/Dam.shx",
+        "bytes": 7404,
+        "crc32": "ad020190",
+        "sha256": "891cf9bfa3c16c9260a25c6fdfe06827e37d399602f952dc6a32a2d6934d58a5",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.cpg",
+        "bytes": 5,
+        "crc32": "0e813c50",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.dbf",
+        "bytes": 3149114,
+        "crc32": "005fbdb9",
+        "sha256": "bebeb489197cb8175dbfc0bd45f250f25d90d7c3c21dac1b932b3567d5dc527d",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.prj",
+        "bytes": 144,
+        "crc32": "35935d45",
+        "sha256": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.sbn",
+        "bytes": 8828,
+        "crc32": "3d4b1eae",
+        "sha256": "20b8594ab87ef73337304fc9782a36094e1d2a31080bdcea22014a1e46a546b2",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.sbx",
+        "bytes": 596,
+        "crc32": "680d4dcc",
+        "sha256": "06a597e03617fc4bf0cd9d05e46f640ce3013838e7873a7e00cb44c4525136d0",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.shp",
+        "bytes": 117891948,
+        "crc32": "e203944a",
+        "sha256": "dfae2a11b182a4867e2a2b98f3ca005b8c88516a07c8a38532667f00fbd5bc81",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.shp.xml",
+        "bytes": 13031,
+        "crc32": "712566e1",
+        "sha256": "8d343755df14650ec5309275c3f005ba183da7e43a86da168543b202d6a6b51c",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/FullDrainageBoundary.shx",
+        "bytes": 7404,
+        "crc32": "46dbb4e6",
+        "sha256": "b55c405d574308328c694d34cbe67ba3c5d18e4aa9bf40b7af3321c006bc5a0e",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.cpg",
+        "bytes": 5,
+        "crc32": "0e813c50",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.dbf",
+        "bytes": 3149114,
+        "crc32": "4ac02904",
+        "sha256": "c51687399d2ec4821c4d90f8d11685db8f5ebbaf6d41b49c61849128af12258f",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.prj",
+        "bytes": 144,
+        "crc32": "35935d45",
+        "sha256": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.sbn",
+        "bytes": 8852,
+        "crc32": "4c3e9466",
+        "sha256": "90af998730eed89df1e436ec4cd82e22cc77d92ad6fff8662154f3fc02e9a930",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.sbx",
+        "bytes": 620,
+        "crc32": "83c69e4b",
+        "sha256": "0cabf15668e98cdcf5f4b80b0955139f476f9c32894891348693b6a818c5890f",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.shp",
+        "bytes": 53784680,
+        "crc32": "940db755",
+        "sha256": "6ce1da5e75578bb215cf58ec891536b52bb1c92d901dcfb5ab962b4d99758951",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.shp.xml",
+        "bytes": 12851,
+        "crc32": "aecd82b1",
+        "sha256": "51e17b78185648428b5911341a85bec19146e96cf1fae8fe7727c7cd6ebce91c",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      },
+      {
+        "name": "Appendix3/IntermediateDrainageBoundary.shx",
+        "bytes": 7404,
+        "crc32": "69263fe6",
+        "sha256": "f10afebb81fb898e9562fe73c2f1b606aa57ced48e3e34aeff2f87dd0975df7c",
+        "local_exists": true,
+        "local_byte_identical": true,
+        "manifest_size_match": true,
+        "manifest_sha256_match": true
+      }
+    ],
+    "entry_count": 25,
+    "file_count": 24,
+    "directory_count": 1,
+    "uncompressed_bytes": 181239253,
+    "crc_first_bad_member": null,
+    "apple_metadata": [],
+    "non_ascii_names": [],
+    "duplicate_casefold_names": [],
+    "unsafe_names": [],
+    "encrypted_members": [],
+    "extra_extracted_files": [],
+    "missing_extracted_files": []
+  },
+  "dbf": [
+    {
+      "file": "Dam.dbf",
+      "encoding_cpg": "UTF-8",
+      "dbf_language_driver": 0,
+      "version": 3,
+      "record_count": 913,
+      "header_length": 1089,
+      "record_length": 3448,
+      "field_count": 33,
+      "fields": [
+        {
+          "name": "ID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 1
+        },
+        {
+          "name": "Name",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 20
+        },
+        {
+          "name": "WRR1",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 274
+        },
+        {
+          "name": "WRR2",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 528
+        },
+        {
+          "name": "WRR3",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 782
+        },
+        {
+          "name": "IR",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1036
+        },
+        {
+          "name": "VIT",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1290
+        },
+        {
+          "name": "Province",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1544
+        },
+        {
+          "name": "Prefecture",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1798
+        },
+        {
+          "name": "County",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2052
+        },
+        {
+          "name": "OBSLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2306
+        },
+        {
+          "name": "OBSLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2325
+        },
+        {
+          "name": "HydroLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2344
+        },
+        {
+          "name": "HydroLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2363
+        },
+        {
+          "name": "HydroID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2382
+        },
+        {
+          "name": "HydroCC",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2401
+        },
+        {
+          "name": "MERITLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2655
+        },
+        {
+          "name": "MERITLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2674
+        },
+        {
+          "name": "MERITID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2693
+        },
+        {
+          "name": "MERITCC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2712
+        },
+        {
+          "name": "RDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2731
+        },
+        {
+          "name": "HydroDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2750
+        },
+        {
+          "name": "MERITDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2769
+        },
+        {
+          "name": "PDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2788
+        },
+        {
+          "name": "DH",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2807
+        },
+        {
+          "name": "DL",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2826
+        },
+        {
+          "name": "SWA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2845
+        },
+        {
+          "name": "TSC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2864
+        },
+        {
+          "name": "CS",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2883
+        },
+        {
+          "name": "CONY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3137
+        },
+        {
+          "name": "COMY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3156
+        },
+        {
+          "name": "RY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3175
+        },
+        {
+          "name": "MU",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 3194
+        }
+      ],
+      "errors": [],
+      "deleted_records": [],
+      "strict_char_cells": 10956,
+      "non_ascii_cells": [
+        {
+          "record": 261,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "ID": 264
+        },
+        {
+          "record": 897,
+          "field": "IR",
+          "value": "Tamsui River · Dahan River",
+          "ID": 678
+        },
+        {
+          "record": 898,
+          "field": "IR",
+          "value": "Tamsui River · Beishi River",
+          "ID": 679
+        },
+        {
+          "record": 899,
+          "field": "IR",
+          "value": "Daan River · Jingshan River",
+          "ID": 672
+        },
+        {
+          "record": 901,
+          "field": "IR",
+          "value": "Zhuoshui River · Wushe River",
+          "ID": 674
+        },
+        {
+          "record": 904,
+          "field": "IR",
+          "value": "Zengwen River · Houjue River",
+          "ID": 676
+        },
+        {
+          "record": 905,
+          "field": "IR",
+          "value": "Zengwen River · Guantian River",
+          "ID": 675
+        }
+      ],
+      "format_control_cells": [
+        {
+          "record": 261,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "format_characters": [
+            {
+              "position_0based": 42,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            },
+            {
+              "position_0based": 43,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            }
+          ],
+          "ID": 264
+        }
+      ],
+      "suspect_text": [],
+      "blank_cells": [
+        {
+          "record": 409,
+          "field": "County",
+          "ID": 409
+        },
+        {
+          "record": 816,
+          "field": "County",
+          "ID": 824
+        },
+        {
+          "record": 817,
+          "field": "County",
+          "ID": 835
+        }
+      ],
+      "negative_numeric_values": {
+        "MERITCC": {
+          "-999.000000": 907
+        },
+        "RY": {
+          "-999.000000": 905
+        },
+        "SWA": {
+          "-999.000000": 85
+        },
+        "RDA": {
+          "-999.000000": 71
+        },
+        "DL": {
+          "-999.000000": 54
+        },
+        "CONY": {
+          "-999.000000": 15
+        },
+        "COMY": {
+          "-999.000000": 7
+        },
+        "DH": {
+          "-999.000000": 25
+        }
+      },
+      "unique_id_count": 913,
+      "id_min_max": [
+        1,
+        913
+      ]
+    },
+    {
+      "file": "FullDrainageBoundary.dbf",
+      "encoding_cpg": "UTF-8",
+      "dbf_language_driver": 0,
+      "version": 3,
+      "record_count": 913,
+      "header_length": 1089,
+      "record_length": 3448,
+      "field_count": 33,
+      "fields": [
+        {
+          "name": "ID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 1
+        },
+        {
+          "name": "Name",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 20
+        },
+        {
+          "name": "WRR1",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 274
+        },
+        {
+          "name": "WRR2",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 528
+        },
+        {
+          "name": "WRR3",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 782
+        },
+        {
+          "name": "IR",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1036
+        },
+        {
+          "name": "VIT",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1290
+        },
+        {
+          "name": "Province",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1544
+        },
+        {
+          "name": "Prefecture",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1798
+        },
+        {
+          "name": "County",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2052
+        },
+        {
+          "name": "OBSLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2306
+        },
+        {
+          "name": "OBSLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2325
+        },
+        {
+          "name": "HydroLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2344
+        },
+        {
+          "name": "HydroLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2363
+        },
+        {
+          "name": "HydroID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2382
+        },
+        {
+          "name": "HydroCC",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2401
+        },
+        {
+          "name": "MERITLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2655
+        },
+        {
+          "name": "MERITLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2674
+        },
+        {
+          "name": "MERITID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2693
+        },
+        {
+          "name": "MERITCC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2712
+        },
+        {
+          "name": "RDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2731
+        },
+        {
+          "name": "HydroDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2750
+        },
+        {
+          "name": "MERITDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2769
+        },
+        {
+          "name": "PDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2788
+        },
+        {
+          "name": "DH",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2807
+        },
+        {
+          "name": "DL",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2826
+        },
+        {
+          "name": "SWA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2845
+        },
+        {
+          "name": "TSC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2864
+        },
+        {
+          "name": "CS",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2883
+        },
+        {
+          "name": "CONY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3137
+        },
+        {
+          "name": "COMY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3156
+        },
+        {
+          "name": "RY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3175
+        },
+        {
+          "name": "MU",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 3194
+        }
+      ],
+      "errors": [],
+      "deleted_records": [],
+      "strict_char_cells": 10956,
+      "non_ascii_cells": [
+        {
+          "record": 60,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "ID": 264
+        },
+        {
+          "record": 236,
+          "field": "IR",
+          "value": "Daan River · Jingshan River",
+          "ID": 672
+        },
+        {
+          "record": 774,
+          "field": "IR",
+          "value": "Tamsui River · Beishi River",
+          "ID": 679
+        },
+        {
+          "record": 776,
+          "field": "IR",
+          "value": "Zhuoshui River · Wushe River",
+          "ID": 674
+        },
+        {
+          "record": 777,
+          "field": "IR",
+          "value": "Zengwen River · Houjue River",
+          "ID": 676
+        },
+        {
+          "record": 778,
+          "field": "IR",
+          "value": "Zengwen River · Guantian River",
+          "ID": 675
+        },
+        {
+          "record": 839,
+          "field": "IR",
+          "value": "Tamsui River · Dahan River",
+          "ID": 678
+        }
+      ],
+      "format_control_cells": [
+        {
+          "record": 60,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "format_characters": [
+            {
+              "position_0based": 42,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            },
+            {
+              "position_0based": 43,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            }
+          ],
+          "ID": 264
+        }
+      ],
+      "suspect_text": [],
+      "blank_cells": [
+        {
+          "record": 99,
+          "field": "County",
+          "ID": 409
+        },
+        {
+          "record": 217,
+          "field": "County",
+          "ID": 824
+        },
+        {
+          "record": 218,
+          "field": "County",
+          "ID": 835
+        }
+      ],
+      "negative_numeric_values": {
+        "MERITCC": {
+          "-999.000000": 907
+        },
+        "RY": {
+          "-999.000000": 905
+        },
+        "SWA": {
+          "-999.000000": 85
+        },
+        "RDA": {
+          "-999.000000": 71
+        },
+        "DL": {
+          "-999.000000": 54
+        },
+        "DH": {
+          "-999.000000": 25
+        },
+        "CONY": {
+          "-999.000000": 15
+        },
+        "COMY": {
+          "-999.000000": 7
+        }
+      },
+      "unique_id_count": 913,
+      "id_min_max": [
+        1,
+        913
+      ]
+    },
+    {
+      "file": "IntermediateDrainageBoundary.dbf",
+      "encoding_cpg": "UTF-8",
+      "dbf_language_driver": 0,
+      "version": 3,
+      "record_count": 913,
+      "header_length": 1089,
+      "record_length": 3448,
+      "field_count": 33,
+      "fields": [
+        {
+          "name": "ID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 1
+        },
+        {
+          "name": "Name",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 20
+        },
+        {
+          "name": "WRR1",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 274
+        },
+        {
+          "name": "WRR2",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 528
+        },
+        {
+          "name": "WRR3",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 782
+        },
+        {
+          "name": "IR",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1036
+        },
+        {
+          "name": "VIT",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1290
+        },
+        {
+          "name": "Province",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1544
+        },
+        {
+          "name": "Prefecture",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 1798
+        },
+        {
+          "name": "County",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2052
+        },
+        {
+          "name": "OBSLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2306
+        },
+        {
+          "name": "OBSLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2325
+        },
+        {
+          "name": "HydroLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2344
+        },
+        {
+          "name": "HydroLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2363
+        },
+        {
+          "name": "HydroID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2382
+        },
+        {
+          "name": "HydroCC",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2401
+        },
+        {
+          "name": "MERITLO",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2655
+        },
+        {
+          "name": "MERITLA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2674
+        },
+        {
+          "name": "MERITID",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2693
+        },
+        {
+          "name": "MERITCC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2712
+        },
+        {
+          "name": "RDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2731
+        },
+        {
+          "name": "HydroDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2750
+        },
+        {
+          "name": "MERITDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2769
+        },
+        {
+          "name": "PDA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2788
+        },
+        {
+          "name": "DH",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2807
+        },
+        {
+          "name": "DL",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2826
+        },
+        {
+          "name": "SWA",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2845
+        },
+        {
+          "name": "TSC",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 2864
+        },
+        {
+          "name": "CS",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 2883
+        },
+        {
+          "name": "CONY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3137
+        },
+        {
+          "name": "COMY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3156
+        },
+        {
+          "name": "RY",
+          "type": "N",
+          "length": 19,
+          "decimals": 6,
+          "offset": 3175
+        },
+        {
+          "name": "MU",
+          "type": "C",
+          "length": 254,
+          "decimals": 0,
+          "offset": 3194
+        }
+      ],
+      "errors": [],
+      "deleted_records": [],
+      "strict_char_cells": 10956,
+      "non_ascii_cells": [
+        {
+          "record": 256,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "ID": 264
+        },
+        {
+          "record": 373,
+          "field": "IR",
+          "value": "Daan River · Jingshan River",
+          "ID": 672
+        },
+        {
+          "record": 724,
+          "field": "IR",
+          "value": "Tamsui River · Beishi River",
+          "ID": 679
+        },
+        {
+          "record": 726,
+          "field": "IR",
+          "value": "Zhuoshui River · Wushe River",
+          "ID": 674
+        },
+        {
+          "record": 727,
+          "field": "IR",
+          "value": "Zengwen River · Houjue River",
+          "ID": 676
+        },
+        {
+          "record": 728,
+          "field": "IR",
+          "value": "Zengwen River · Guantian River",
+          "ID": 675
+        },
+        {
+          "record": 734,
+          "field": "IR",
+          "value": "Tamsui River · Dahan River",
+          "ID": 678
+        }
+      ],
+      "format_control_cells": [
+        {
+          "record": 256,
+          "field": "MU",
+          "value": "Irrigation, water supply, power generation‌‌",
+          "format_characters": [
+            {
+              "position_0based": 42,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            },
+            {
+              "position_0based": 43,
+              "codepoint": "U+200C",
+              "unicode_name": "ZERO WIDTH NON-JOINER"
+            }
+          ],
+          "ID": 264
+        }
+      ],
+      "suspect_text": [],
+      "blank_cells": [
+        {
+          "record": 49,
+          "field": "County",
+          "ID": 835
+        },
+        {
+          "record": 276,
+          "field": "County",
+          "ID": 409
+        },
+        {
+          "record": 358,
+          "field": "County",
+          "ID": 824
+        }
+      ],
+      "negative_numeric_values": {
+        "MERITCC": {
+          "-999.000000": 907
+        },
+        "RDA": {
+          "-999.000000": 71
+        },
+        "RY": {
+          "-999.000000": 905
+        },
+        "DL": {
+          "-999.000000": 54
+        },
+        "SWA": {
+          "-999.000000": 85
+        },
+        "DH": {
+          "-999.000000": 25
+        },
+        "COMY": {
+          "-999.000000": 7
+        },
+        "CONY": {
+          "-999.000000": 15
+        }
+      },
+      "unique_id_count": 913,
+      "id_min_max": [
+        1,
+        913
+      ]
+    }
+  ],
+  "layer_attribute_comparison": [
+    {
+      "layers": [
+        "Dam",
+        "FullDrainageBoundary"
+      ],
+      "same_id_set": true,
+      "id_order_equal": false,
+      "different_attribute_cells_after_id_join": []
+    },
+    {
+      "layers": [
+        "Dam",
+        "IntermediateDrainageBoundary"
+      ],
+      "same_id_set": true,
+      "id_order_equal": false,
+      "different_attribute_cells_after_id_join": []
+    }
+  ],
+  "geometry": [
+    {
+      "file": "Dam.shp",
+      "errors": [],
+      "invalid_geometries": [],
+      "raw_non_simple_rings": [],
+      "unassigned_holes": [],
+      "bbox_mismatches": [],
+      "null_shapes": [],
+      "shp_records": 913,
+      "shx_records": 913,
+      "dbf_records": 913,
+      "shape_types": {
+        "1": 913
+      },
+      "constructed_geometry_types": {
+        "Point": 913
+      },
+      "vertices": 913,
+      "parts": 0,
+      "outer_rings": 0,
+      "hole_rings": 0,
+      "bbox": [
+        75.02890527216061,
+        18.435082734880382,
+        132.8899476801414,
+        51.10230506812445
+      ],
+      "valid_count": 913,
+      "invalid_count": 0,
+      "invalid_reason_counts": {},
+      "all_reported_invalidities_confirmed_on_raw_rings": true,
+      "source_archive_byte_identical": true
+    },
+    {
+      "file": "FullDrainageBoundary.shp",
+      "errors": [],
+      "invalid_geometries": [
+        {
+          "record_1based": 1,
+          "ID": 1,
+          "Name": "Honghuaerji",
+          "reason": "Ring Self-intersection[120.856666666733 48.4858333326422]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 240,
+          "ID": 35,
+          "Name": "Dadingzishan",
+          "reason": "Ring Self-intersection[128.059166666908 44.2483333330169]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 307,
+          "ID": 63,
+          "Name": "Tuerjishan",
+          "reason": "Ring Self-intersection[120.002916666371 42.8220833339788]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 341,
+          "ID": 117,
+          "Name": "Miyun",
+          "reason": "Ring Self-intersection[117.057916667221 40.4637500002623]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 415,
+          "ID": 251,
+          "Name": "Moushan",
+          "reason": "Ring Self-intersection[119.105416666546 36.3329166666709]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 512,
+          "ID": 450,
+          "Name": "Xiangqi",
+          "reason": "Ring Self-intersection[111.472083333479 26.7812500000875]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 514,
+          "ID": 447,
+          "Name": "Xiaoxiang",
+          "reason": "Ring Self-intersection[111.250416666596 26.5295833338039]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 515,
+          "ID": 449,
+          "Name": "Wuxi",
+          "reason": "Ring Self-intersection[111.472083333479 26.7812500000875]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 517,
+          "ID": 443,
+          "Name": "Tugutang",
+          "reason": "Ring Self-intersection[112.809583333504 26.4512500003872]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 519,
+          "ID": 462,
+          "Name": "Zhuzhou",
+          "reason": "Ring Self-intersection[111.472083333479 26.7812500000875]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 521,
+          "ID": 453,
+          "Name": "Dayuandu",
+          "reason": "Ring Self-intersection[112.861250000187 27.0754166666459]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 763,
+          "ID": 884,
+          "Name": "Tekesiheshankou",
+          "reason": "Ring Self-intersection[81.8754166668458 43.3170833335291]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 779,
+          "ID": 5,
+          "Name": "Nierji",
+          "reason": "Ring Self-intersection[122.617916666721 51.0612500004872]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 780,
+          "ID": 27,
+          "Name": "Hadashan",
+          "reason": "Ring Self-intersection[126.517916667021 44.6645833333542]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 818,
+          "ID": 459,
+          "Name": "Xiangjiangchangsha",
+          "reason": "Ring Self-intersection[111.472083333479 26.7812500000875]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 840,
+          "ID": 913,
+          "Name": "Qiala",
+          "reason": "Ring Self-intersection[86.7629999999501 41.0312500003873]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            6
+          ]
+        },
+        {
+          "record_1based": 841,
+          "ID": 887,
+          "Name": "Yuejin",
+          "reason": "Ring Self-intersection[86.13291666787 44.2720833337789]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 844,
+          "ID": 902,
+          "Name": "Yonganbananku",
+          "reason": "Ring Self-intersection[79.0522888973148 39.7244934162382]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 845,
+          "ID": 911,
+          "Name": "Shengli",
+          "reason": "Ring Self-intersection[81.0064999994755 40.451500000125]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            2,
+            4
+          ]
+        },
+        {
+          "record_1based": 846,
+          "ID": 897,
+          "Name": "Shangyou",
+          "reason": "Ring Self-intersection[80.7147500001125 40.4919999999001]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1,
+            3
+          ]
+        },
+        {
+          "record_1based": 847,
+          "ID": 898,
+          "Name": "Sukuqiake",
+          "reason": "Ring Self-intersection[77.5579166670206 35.4870833335291]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 848,
+          "ID": 901,
+          "Name": "Xiaohaizi",
+          "reason": "Ring Self-intersection[78.4537500000625 39.4579166667208]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            3
+          ]
+        },
+        {
+          "record_1based": 849,
+          "ID": 894,
+          "Name": "Liugou",
+          "reason": "Ring Self-intersection[84.3269991890614 44.5895562405281]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 856,
+          "ID": 783,
+          "Name": "Zhenhai",
+          "reason": "Ring Self-intersection[112.535833333242 22.5550000003498]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 858,
+          "ID": 712,
+          "Name": "Haokun",
+          "reason": "Ring Self-intersection[106.649583332505 24.3262500001375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 871,
+          "ID": 255,
+          "Name": "Bailanghe",
+          "reason": "Ring Self-intersection[118.902916665872 36.5720833329795]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 873,
+          "ID": 230,
+          "Name": "Anfengshan",
+          "reason": "Ring Self-intersection[118.746571461704 34.3845783227314]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 890,
+          "ID": 8,
+          "Name": "Nanyin",
+          "reason": "Ring Self-intersection[126.824999999351 48.3800000000001]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1,
+            5,
+            9,
+            24,
+            37,
+            39,
+            41
+          ]
+        },
+        {
+          "record_1based": 891,
+          "ID": 16,
+          "Name": "Yuelianghu",
+          "reason": "Ring Self-intersection[123.459583332905 45.6504166672954]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 892,
+          "ID": 299,
+          "Name": "Deze",
+          "reason": "Ring Self-intersection[103.552916665971 25.5670833330295]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 896,
+          "ID": 558,
+          "Name": "Dongping",
+          "reason": "Ring Self-intersection[109.343749999663 29.6979166666209]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 898,
+          "ID": 719,
+          "Name": "Chengbihe",
+          "reason": "Ring Self-intersection[106.649583333404 24.3262500001375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 899,
+          "ID": 869,
+          "Name": "Shuangta",
+          "reason": "Ring Self-intersection[98.4220833334791 38.2912500002873]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 902,
+          "ID": 231,
+          "Name": "Shilianghe",
+          "reason": "Ring Self-intersection[117.517916667021 35.5237500000625]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 903,
+          "ID": 62,
+          "Name": "Talagan",
+          "reason": "Ring Self-intersection[118.04708333293 42.6887500003123]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 913,
+          "ID": 371,
+          "Name": "Suofengying",
+          "reason": "Ring Self-intersection[105.881666666084 27.1849999995504]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        }
+      ],
+      "raw_non_simple_rings": [
+        {
+          "record_1based": 1,
+          "ID": 1,
+          "Name": "Honghuaerji",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 240,
+          "ID": 35,
+          "Name": "Dadingzishan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 307,
+          "ID": 63,
+          "Name": "Tuerjishan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 341,
+          "ID": 117,
+          "Name": "Miyun",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 415,
+          "ID": 251,
+          "Name": "Moushan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 512,
+          "ID": 450,
+          "Name": "Xiangqi",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 514,
+          "ID": 447,
+          "Name": "Xiaoxiang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 515,
+          "ID": 449,
+          "Name": "Wuxi",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 517,
+          "ID": 443,
+          "Name": "Tugutang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 519,
+          "ID": 462,
+          "Name": "Zhuzhou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 521,
+          "ID": 453,
+          "Name": "Dayuandu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 763,
+          "ID": 884,
+          "Name": "Tekesiheshankou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 779,
+          "ID": 5,
+          "Name": "Nierji",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 780,
+          "ID": 27,
+          "Name": "Hadashan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 818,
+          "ID": 459,
+          "Name": "Xiangjiangchangsha",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 840,
+          "ID": 913,
+          "Name": "Qiala",
+          "ring_indices_0based": [
+            6
+          ]
+        },
+        {
+          "record_1based": 841,
+          "ID": 887,
+          "Name": "Yuejin",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 844,
+          "ID": 902,
+          "Name": "Yonganbananku",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 845,
+          "ID": 911,
+          "Name": "Shengli",
+          "ring_indices_0based": [
+            2,
+            4
+          ]
+        },
+        {
+          "record_1based": 846,
+          "ID": 897,
+          "Name": "Shangyou",
+          "ring_indices_0based": [
+            1,
+            3
+          ]
+        },
+        {
+          "record_1based": 847,
+          "ID": 898,
+          "Name": "Sukuqiake",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 848,
+          "ID": 901,
+          "Name": "Xiaohaizi",
+          "ring_indices_0based": [
+            3
+          ]
+        },
+        {
+          "record_1based": 849,
+          "ID": 894,
+          "Name": "Liugou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 856,
+          "ID": 783,
+          "Name": "Zhenhai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 858,
+          "ID": 712,
+          "Name": "Haokun",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 871,
+          "ID": 255,
+          "Name": "Bailanghe",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 873,
+          "ID": 230,
+          "Name": "Anfengshan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 890,
+          "ID": 8,
+          "Name": "Nanyin",
+          "ring_indices_0based": [
+            1,
+            5,
+            9,
+            24,
+            37,
+            39,
+            41
+          ]
+        },
+        {
+          "record_1based": 891,
+          "ID": 16,
+          "Name": "Yuelianghu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 892,
+          "ID": 299,
+          "Name": "Deze",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 896,
+          "ID": 558,
+          "Name": "Dongping",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 898,
+          "ID": 719,
+          "Name": "Chengbihe",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 899,
+          "ID": 869,
+          "Name": "Shuangta",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 902,
+          "ID": 231,
+          "Name": "Shilianghe",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 903,
+          "ID": 62,
+          "Name": "Talagan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 913,
+          "ID": 371,
+          "Name": "Suofengying",
+          "ring_indices_0based": [
+            0
+          ]
+        }
+      ],
+      "unassigned_holes": [],
+      "bbox_mismatches": [],
+      "null_shapes": [],
+      "shp_records": 913,
+      "shx_records": 913,
+      "dbf_records": 913,
+      "shape_types": {
+        "5": 913
+      },
+      "constructed_geometry_types": {
+        "Polygon": 906,
+        "MultiPolygon": 7
+      },
+      "vertices": 7364707,
+      "parts": 2265,
+      "outer_rings": 929,
+      "hole_rings": 1336,
+      "bbox": [
+        73.04958333310441,
+        18.355416666446047,
+        133.02208333357908,
+        51.66083333259229
+      ],
+      "valid_count": 877,
+      "invalid_count": 36,
+      "invalid_reason_counts": {
+        "Ring Self-intersection": 36
+      },
+      "all_reported_invalidities_confirmed_on_raw_rings": true,
+      "source_archive_byte_identical": true
+    },
+    {
+      "file": "IntermediateDrainageBoundary.shp",
+      "errors": [],
+      "invalid_geometries": [
+        {
+          "record_1based": 9,
+          "ID": 695,
+          "Name": "Letan",
+          "reason": "Ring Self-intersection[108.169583332705 24.3920833335791]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            9
+          ]
+        },
+        {
+          "record_1based": 10,
+          "ID": 659,
+          "Name": "Shuidong",
+          "reason": "Ring Self-intersection[117.594583333654 25.8712500002873]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 15,
+          "ID": 390,
+          "Name": "Sanxia",
+          "reason": "Ring Self-intersection[104.737916667021 27.4579166673204]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            10,
+            18
+          ]
+        },
+        {
+          "record_1based": 17,
+          "ID": 16,
+          "Name": "Yuelianghu",
+          "reason": "Ring Self-intersection[123.459583332905 45.6504166672954]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 22,
+          "ID": 123,
+          "Name": "Guanting",
+          "reason": "Ring Self-intersection[115.33208333278 41.2245833337539]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 24,
+          "ID": 27,
+          "Name": "Hadashan",
+          "reason": "Ring Self-intersection[126.517916667021 44.6645833333542]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 46,
+          "ID": 251,
+          "Name": "Moushan",
+          "reason": "Ring Self-intersection[119.105416666546 36.3329166666709]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 47,
+          "ID": 70,
+          "Name": "Shifosi",
+          "reason": "Ring Self-intersection[124.660416666596 43.9637500004622]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            7
+          ]
+        },
+        {
+          "record_1based": 53,
+          "ID": 387,
+          "Name": "Gezhouba",
+          "reason": "Ring Self-intersection[111.319583333604 30.7287500001125]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 57,
+          "ID": 231,
+          "Name": "Shilianghe",
+          "reason": "Ring Self-intersection[117.517916667021 35.5237500000625]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 68,
+          "ID": 546,
+          "Name": "Jiepai",
+          "reason": "Ring Self-intersection[116.942083333879 28.1579166668208]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 69,
+          "ID": 787,
+          "Name": "Penglatan",
+          "reason": "Ring Self-intersection[116.013750000362 23.8279166670206]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 71,
+          "ID": 539,
+          "Name": "Liaofang",
+          "reason": "Ring Self-intersection[116.182083333779 26.7995833329045]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 79,
+          "ID": 656,
+          "Name": "Shaxikou",
+          "reason": "Ring Self-intersection[117.833749999963 26.2312500002873]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 82,
+          "ID": 453,
+          "Name": "Dayuandu",
+          "reason": "Ring Self-intersection[112.861250000188 27.0754166666458]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 83,
+          "ID": 514,
+          "Name": "Yakou",
+          "reason": "Ring Self-intersection[112.214583333254 31.7362499995379]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 84,
+          "ID": 556,
+          "Name": "Shuibuya",
+          "reason": "Ring Self-intersection[108.758750000113 30.3670833333292]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 86,
+          "ID": 429,
+          "Name": "Fengtan",
+          "reason": "Ring Self-intersection[109.530416666796 28.4237499998627]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 89,
+          "ID": 443,
+          "Name": "Tugutang",
+          "reason": "Ring Self-intersection[112.809583333504 26.4512499994879]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 91,
+          "ID": 413,
+          "Name": "Dafutan",
+          "reason": "Ring Self-intersection[110.817083333529 28.0929166667708]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 94,
+          "ID": 440,
+          "Name": "Ouyanghai",
+          "reason": "Ring Self-intersection[112.654583333454 25.595416666546]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 100,
+          "ID": 505,
+          "Name": "Baishuiyu",
+          "reason": "Ring Self-intersection[111.110416666696 31.7187500001125]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 101,
+          "ID": 506,
+          "Name": "Wangfuzhou",
+          "reason": "Ring Self-intersection[111.647083334029 32.3595833333042]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 103,
+          "ID": 449,
+          "Name": "Wuxi",
+          "reason": "Ring Self-intersection[111.472083333479 26.7812500000875]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 105,
+          "ID": 447,
+          "Name": "Xiaoxiang",
+          "reason": "Ring Self-intersection[111.250416666596 26.5295833329046]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 109,
+          "ID": 410,
+          "Name": "Guanyinyan",
+          "reason": "Ring Self-intersection[108.025416666746 26.9920833328796]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 113,
+          "ID": 487,
+          "Name": "Huangjinxia",
+          "reason": "Ring Self-intersection[107.319583333504 32.9404166667958]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 114,
+          "ID": 48,
+          "Name": "Xiangshan",
+          "reason": "Ring Self-intersection[126.710416666996 50.3370833335291]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 115,
+          "ID": 62,
+          "Name": "Talagan",
+          "reason": "Ring Self-intersection[121.282916666871 43.8145833332543]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 127,
+          "ID": 314,
+          "Name": "Pubugou",
+          "reason": "Ring Self-intersection[102.301250000787 28.8987499998127]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 129,
+          "ID": 292,
+          "Name": "Guanyinyan",
+          "reason": "Ring Self-intersection[100.964583333254 26.7787499999126]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 140,
+          "ID": 147,
+          "Name": "Maerdang",
+          "reason": "Ring Self-intersection[99.787083333629 33.1062500000375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 146,
+          "ID": 711,
+          "Name": "Honghua",
+          "reason": "Ring Self-intersection[109.289583333704 24.1195833334041]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            3
+          ]
+        },
+        {
+          "record_1based": 147,
+          "ID": 381,
+          "Name": "Pengshui",
+          "reason": "Ring Self-intersection[108.763750000462 28.969583333604]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 148,
+          "ID": 180,
+          "Name": "Dongzhuang",
+          "reason": "Ring Self-intersection[106.396250000337 36.1745833330544]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 150,
+          "ID": 705,
+          "Name": "Luodong",
+          "reason": "Ring Self-intersection[108.903750000362 24.797916666521]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 155,
+          "ID": 703,
+          "Name": "Yemao",
+          "reason": "Ring Self-intersection[108.434583333254 24.4154166667458]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 157,
+          "ID": 346,
+          "Name": "Tuxikou",
+          "reason": "Ring Self-intersection[108.949583333304 31.6637499998627]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 161,
+          "ID": 723,
+          "Name": "Shanxiu",
+          "reason": "Ring Self-intersection[107.673750000662 22.4962499998377]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 162,
+          "ID": 725,
+          "Name": "Zuojiang",
+          "reason": "Ring Self-intersection[106.318750000312 23.0812500002874]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0,
+            4
+          ]
+        },
+        {
+          "record_1based": 167,
+          "ID": 685,
+          "Name": "Lubuge",
+          "reason": "Ring Self-intersection[104.056250000337 25.5087500001125]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 173,
+          "ID": 900,
+          "Name": "Aertashi",
+          "reason": "Ring Self-intersection[77.5591063972425 35.4870833335291]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            4
+          ]
+        },
+        {
+          "record_1based": 180,
+          "ID": 169,
+          "Name": "Wanjiazhai",
+          "reason": "Ring Self-intersection[112.553750000262 41.2237500003623]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 181,
+          "ID": 165,
+          "Name": "Changshantou",
+          "reason": "Ring Self-intersection[105.707083334029 37.307916666521]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 185,
+          "ID": 427,
+          "Name": "Taoyuan",
+          "reason": "Ring Self-intersection[111.53291666747 28.8337499997627]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 191,
+          "ID": 459,
+          "Name": "Xiangjiangchangsha",
+          "reason": "Ring Self-intersection[112.775416667146 28.2020833329795]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 194,
+          "ID": 201,
+          "Name": "Suyahu",
+          "reason": "Ring Self-intersection[114.312916666771 32.9704166661962]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 203,
+          "ID": 39,
+          "Name": "Lianhua",
+          "reason": "Ring Self-intersection[129.043750000762 44.932916666571]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 208,
+          "ID": 117,
+          "Name": "Miyun",
+          "reason": "Ring Self-intersection[117.057916667221 40.4637500002623]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 210,
+          "ID": 1,
+          "Name": "Honghuaerji",
+          "reason": "Ring Self-intersection[120.856666666733 48.4858333326422]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 729,
+          "ID": 5,
+          "Name": "Nierji",
+          "reason": "Ring Self-intersection[122.617916666721 51.0612500004872]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 736,
+          "ID": 894,
+          "Name": "Liugou",
+          "reason": "Ring Self-intersection[84.3269991890614 44.5895562405281]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 742,
+          "ID": 783,
+          "Name": "Zhenhai",
+          "reason": "Ring Self-intersection[112.535833333242 22.5550000003498]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 755,
+          "ID": 255,
+          "Name": "Bailanghe",
+          "reason": "Ring Self-intersection[118.902916665872 36.5720833329795]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 757,
+          "ID": 230,
+          "Name": "Anfengshan",
+          "reason": "Ring Self-intersection[118.746571461704 34.3845783227314]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 767,
+          "ID": 558,
+          "Name": "Dongping",
+          "reason": "Ring Self-intersection[109.343749999663 29.6979166666209]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 774,
+          "ID": 694,
+          "Name": "Longtan",
+          "reason": "Ring Self-intersection[107.36499999975 25.3175000002249]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            7
+          ]
+        },
+        {
+          "record_1based": 775,
+          "ID": 693,
+          "Name": "Yantan",
+          "reason": "Ring Self-intersection[107.697916666321 24.4420833334791]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 776,
+          "ID": 681,
+          "Name": "Tianshengqiaoyiji",
+          "reason": "Ring Self-intersection[104.63708333293 23.910416666496]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            67
+          ]
+        },
+        {
+          "record_1based": 777,
+          "ID": 170,
+          "Name": "Batuwan",
+          "reason": "Ring Self-intersection[108.030833332892 37.819166667208]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 779,
+          "ID": 167,
+          "Name": "Haibowan",
+          "reason": "Ring Self-intersection[107.711250000587 38.5487500003123]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 783,
+          "ID": 10,
+          "Name": "Dongsheng",
+          "reason": "Ring Self-intersection[125.116249999438 47.7445833329545]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1,
+            2
+          ]
+        },
+        {
+          "record_1based": 784,
+          "ID": 881,
+          "Name": "Qiafuqihai",
+          "reason": "Ring Self-intersection[81.8754166668459 43.3170833335291]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 786,
+          "ID": 902,
+          "Name": "Yonganbananku",
+          "reason": "Ring Self-intersection[79.0522888973148 39.7244934162381]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            31
+          ]
+        },
+        {
+          "record_1based": 787,
+          "ID": 911,
+          "Name": "Shengli",
+          "reason": "Ring Self-intersection[81.0064999994755 40.451500000125]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 788,
+          "ID": 901,
+          "Name": "Xiaohaizi",
+          "reason": "Ring Self-intersection[78.8039561815326 39.7257102960933]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            4
+          ]
+        },
+        {
+          "record_1based": 798,
+          "ID": 753,
+          "Name": "Datengxia",
+          "reason": "Ring Self-intersection[110.091666666484 23.5099999997003]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            5
+          ]
+        },
+        {
+          "record_1based": 803,
+          "ID": 727,
+          "Name": "Jiugu",
+          "reason": "Ring Self-intersection[107.893749999863 22.2104166671955]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 808,
+          "ID": 720,
+          "Name": "Baise",
+          "reason": "Ring Self-intersection[106.085833332642 23.459166667308]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 809,
+          "ID": 712,
+          "Name": "Haokun",
+          "reason": "Ring Self-intersection[106.649583332505 24.3262500001375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 810,
+          "ID": 704,
+          "Name": "Dabu",
+          "reason": "Ring Self-intersection[108.798749999313 24.7837499997627]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 811,
+          "ID": 700,
+          "Name": "Shuanghekou",
+          "reason": "Ring Self-intersection[106.647083333229 26.3962500001375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 814,
+          "ID": 683,
+          "Name": "Yunpeng",
+          "reason": "Ring Self-intersection[102.761666666384 24.4816666668832]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 815,
+          "ID": 691,
+          "Name": "Dongqing",
+          "reason": "Ring Self-intersection[105.463749999863 26.2487500006121]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 821,
+          "ID": 511,
+          "Name": "Cuijiaying",
+          "reason": "Ring Self-intersection[112.425416666046 32.0595833330046]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            2
+          ]
+        },
+        {
+          "record_1based": 822,
+          "ID": 431,
+          "Name": "Wanmipo",
+          "reason": "Ring Self-intersection[109.643750000862 29.1937499997628]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 825,
+          "ID": 416,
+          "Name": "Hongjiang",
+          "reason": "Ring Self-intersection[109.944166666958 27.5999999998003]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 828,
+          "ID": 451,
+          "Name": "Shuangpai",
+          "reason": "Ring Self-intersection[111.420416666796 24.9745833329545]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 829,
+          "ID": 473,
+          "Name": "Pankou",
+          "reason": "Ring Self-intersection[110.462083332979 31.8320833341787]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 834,
+          "ID": 384,
+          "Name": "Dahekou",
+          "reason": "Ring Self-intersection[108.797916666821 29.0379166663212]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 842,
+          "ID": 367,
+          "Name": "Hongjiadu",
+          "reason": "Ring Self-intersection[105.881666666084 27.1849999995504]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            36
+          ]
+        },
+        {
+          "record_1based": 843,
+          "ID": 363,
+          "Name": "Puding",
+          "reason": "Ring Self-intersection[105.17500000035 26.4333333333667]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 851,
+          "ID": 338,
+          "Name": "Anju",
+          "reason": "Ring Self-intersection[106.043333333267 30.0400000004997]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 862,
+          "ID": 294,
+          "Name": "Ludila",
+          "reason": "Ring Self-intersection[100.142916666671 26.0704166664959]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 866,
+          "ID": 279,
+          "Name": "Xiluodu",
+          "reason": "Ring Self-intersection[103.482916666471 27.1395833333044]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 869,
+          "ID": 270,
+          "Name": "Lizhou",
+          "reason": "Ring Self-intersection[100.737916666921 28.6829166666709]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 876,
+          "ID": 172,
+          "Name": "Wanggedu",
+          "reason": "Ring Self-intersection[108.63208333268 38.5520833329796]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 888,
+          "ID": 63,
+          "Name": "Tuerjishan",
+          "reason": "Ring Self-intersection[120.002916666371 42.8220833339788]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 889,
+          "ID": 57,
+          "Name": "Hongshan",
+          "reason": "Ring Self-intersection[119.76708333273 42.7362500000375]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 890,
+          "ID": 35,
+          "Name": "Dadingzishan",
+          "reason": "Ring Self-intersection[124.332943865267 46.8068975420881]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            94,
+            97
+          ]
+        },
+        {
+          "record_1based": 895,
+          "ID": 8,
+          "Name": "Nanyin",
+          "reason": "Ring Self-intersection[126.824999999351 48.3800000000001]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1,
+            5,
+            9,
+            30,
+            45,
+            47,
+            49
+          ]
+        },
+        {
+          "record_1based": 898,
+          "ID": 617,
+          "Name": "Xinanjiang",
+          "reason": "Ring Self-intersection[117.927083333529 29.8454166670456]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 899,
+          "ID": 293,
+          "Name": "Jinanqiao",
+          "reason": "Ring Self-intersection[100.670416666696 27.2345833336541]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 908,
+          "ID": 913,
+          "Name": "Qiala",
+          "reason": "Ring Self-intersection[86.7629999999501 41.0312500003874]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            6
+          ]
+        },
+        {
+          "record_1based": 909,
+          "ID": 912,
+          "Name": "Daxihaizierku",
+          "reason": "Ring Self-intersection[87.552916666471 40.557083333829]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            127
+          ]
+        },
+        {
+          "record_1based": 910,
+          "ID": 897,
+          "Name": "Shangyou",
+          "reason": "Ring Self-intersection[80.7147500001125 40.4919999999002]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            1,
+            3
+          ]
+        },
+        {
+          "record_1based": 912,
+          "ID": 188,
+          "Name": "Sanmenxia",
+          "reason": "Ring Self-intersection[109.898750000712 34.9587500001124]",
+          "empty": false,
+          "raw_non_simple_ring_indices_0based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "raw_non_simple_rings": [
+        {
+          "record_1based": 9,
+          "ID": 695,
+          "Name": "Letan",
+          "ring_indices_0based": [
+            9
+          ]
+        },
+        {
+          "record_1based": 10,
+          "ID": 659,
+          "Name": "Shuidong",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 15,
+          "ID": 390,
+          "Name": "Sanxia",
+          "ring_indices_0based": [
+            10,
+            18
+          ]
+        },
+        {
+          "record_1based": 17,
+          "ID": 16,
+          "Name": "Yuelianghu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 22,
+          "ID": 123,
+          "Name": "Guanting",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 24,
+          "ID": 27,
+          "Name": "Hadashan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 46,
+          "ID": 251,
+          "Name": "Moushan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 47,
+          "ID": 70,
+          "Name": "Shifosi",
+          "ring_indices_0based": [
+            7
+          ]
+        },
+        {
+          "record_1based": 53,
+          "ID": 387,
+          "Name": "Gezhouba",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 57,
+          "ID": 231,
+          "Name": "Shilianghe",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 68,
+          "ID": 546,
+          "Name": "Jiepai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 69,
+          "ID": 787,
+          "Name": "Penglatan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 71,
+          "ID": 539,
+          "Name": "Liaofang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 79,
+          "ID": 656,
+          "Name": "Shaxikou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 82,
+          "ID": 453,
+          "Name": "Dayuandu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 83,
+          "ID": 514,
+          "Name": "Yakou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 84,
+          "ID": 556,
+          "Name": "Shuibuya",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 86,
+          "ID": 429,
+          "Name": "Fengtan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 89,
+          "ID": 443,
+          "Name": "Tugutang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 91,
+          "ID": 413,
+          "Name": "Dafutan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 94,
+          "ID": 440,
+          "Name": "Ouyanghai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 100,
+          "ID": 505,
+          "Name": "Baishuiyu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 101,
+          "ID": 506,
+          "Name": "Wangfuzhou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 103,
+          "ID": 449,
+          "Name": "Wuxi",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 105,
+          "ID": 447,
+          "Name": "Xiaoxiang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 109,
+          "ID": 410,
+          "Name": "Guanyinyan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 113,
+          "ID": 487,
+          "Name": "Huangjinxia",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 114,
+          "ID": 48,
+          "Name": "Xiangshan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 115,
+          "ID": 62,
+          "Name": "Talagan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 127,
+          "ID": 314,
+          "Name": "Pubugou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 129,
+          "ID": 292,
+          "Name": "Guanyinyan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 140,
+          "ID": 147,
+          "Name": "Maerdang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 146,
+          "ID": 711,
+          "Name": "Honghua",
+          "ring_indices_0based": [
+            3
+          ]
+        },
+        {
+          "record_1based": 147,
+          "ID": 381,
+          "Name": "Pengshui",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 148,
+          "ID": 180,
+          "Name": "Dongzhuang",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 150,
+          "ID": 705,
+          "Name": "Luodong",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 155,
+          "ID": 703,
+          "Name": "Yemao",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 157,
+          "ID": 346,
+          "Name": "Tuxikou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 161,
+          "ID": 723,
+          "Name": "Shanxiu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 162,
+          "ID": 725,
+          "Name": "Zuojiang",
+          "ring_indices_0based": [
+            0,
+            4
+          ]
+        },
+        {
+          "record_1based": 167,
+          "ID": 685,
+          "Name": "Lubuge",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 173,
+          "ID": 900,
+          "Name": "Aertashi",
+          "ring_indices_0based": [
+            4
+          ]
+        },
+        {
+          "record_1based": 180,
+          "ID": 169,
+          "Name": "Wanjiazhai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 181,
+          "ID": 165,
+          "Name": "Changshantou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 185,
+          "ID": 427,
+          "Name": "Taoyuan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 191,
+          "ID": 459,
+          "Name": "Xiangjiangchangsha",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 194,
+          "ID": 201,
+          "Name": "Suyahu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 203,
+          "ID": 39,
+          "Name": "Lianhua",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 208,
+          "ID": 117,
+          "Name": "Miyun",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 210,
+          "ID": 1,
+          "Name": "Honghuaerji",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 729,
+          "ID": 5,
+          "Name": "Nierji",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 736,
+          "ID": 894,
+          "Name": "Liugou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 742,
+          "ID": 783,
+          "Name": "Zhenhai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 755,
+          "ID": 255,
+          "Name": "Bailanghe",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 757,
+          "ID": 230,
+          "Name": "Anfengshan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 767,
+          "ID": 558,
+          "Name": "Dongping",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 774,
+          "ID": 694,
+          "Name": "Longtan",
+          "ring_indices_0based": [
+            7
+          ]
+        },
+        {
+          "record_1based": 775,
+          "ID": 693,
+          "Name": "Yantan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 776,
+          "ID": 681,
+          "Name": "Tianshengqiaoyiji",
+          "ring_indices_0based": [
+            67
+          ]
+        },
+        {
+          "record_1based": 777,
+          "ID": 170,
+          "Name": "Batuwan",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 779,
+          "ID": 167,
+          "Name": "Haibowan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 783,
+          "ID": 10,
+          "Name": "Dongsheng",
+          "ring_indices_0based": [
+            1,
+            2
+          ]
+        },
+        {
+          "record_1based": 784,
+          "ID": 881,
+          "Name": "Qiafuqihai",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 786,
+          "ID": 902,
+          "Name": "Yonganbananku",
+          "ring_indices_0based": [
+            31
+          ]
+        },
+        {
+          "record_1based": 787,
+          "ID": 911,
+          "Name": "Shengli",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 788,
+          "ID": 901,
+          "Name": "Xiaohaizi",
+          "ring_indices_0based": [
+            4
+          ]
+        },
+        {
+          "record_1based": 798,
+          "ID": 753,
+          "Name": "Datengxia",
+          "ring_indices_0based": [
+            5
+          ]
+        },
+        {
+          "record_1based": 803,
+          "ID": 727,
+          "Name": "Jiugu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 808,
+          "ID": 720,
+          "Name": "Baise",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 809,
+          "ID": 712,
+          "Name": "Haokun",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 810,
+          "ID": 704,
+          "Name": "Dabu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 811,
+          "ID": 700,
+          "Name": "Shuanghekou",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 814,
+          "ID": 683,
+          "Name": "Yunpeng",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 815,
+          "ID": 691,
+          "Name": "Dongqing",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 821,
+          "ID": 511,
+          "Name": "Cuijiaying",
+          "ring_indices_0based": [
+            2
+          ]
+        },
+        {
+          "record_1based": 822,
+          "ID": 431,
+          "Name": "Wanmipo",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 825,
+          "ID": 416,
+          "Name": "Hongjiang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 828,
+          "ID": 451,
+          "Name": "Shuangpai",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 829,
+          "ID": 473,
+          "Name": "Pankou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 834,
+          "ID": 384,
+          "Name": "Dahekou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 842,
+          "ID": 367,
+          "Name": "Hongjiadu",
+          "ring_indices_0based": [
+            36
+          ]
+        },
+        {
+          "record_1based": 843,
+          "ID": 363,
+          "Name": "Puding",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 851,
+          "ID": 338,
+          "Name": "Anju",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 862,
+          "ID": 294,
+          "Name": "Ludila",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 866,
+          "ID": 279,
+          "Name": "Xiluodu",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 869,
+          "ID": 270,
+          "Name": "Lizhou",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 876,
+          "ID": 172,
+          "Name": "Wanggedu",
+          "ring_indices_0based": [
+            1
+          ]
+        },
+        {
+          "record_1based": 888,
+          "ID": 63,
+          "Name": "Tuerjishan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 889,
+          "ID": 57,
+          "Name": "Hongshan",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 890,
+          "ID": 35,
+          "Name": "Dadingzishan",
+          "ring_indices_0based": [
+            94,
+            97
+          ]
+        },
+        {
+          "record_1based": 895,
+          "ID": 8,
+          "Name": "Nanyin",
+          "ring_indices_0based": [
+            1,
+            5,
+            9,
+            30,
+            45,
+            47,
+            49
+          ]
+        },
+        {
+          "record_1based": 898,
+          "ID": 617,
+          "Name": "Xinanjiang",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 899,
+          "ID": 293,
+          "Name": "Jinanqiao",
+          "ring_indices_0based": [
+            0
+          ]
+        },
+        {
+          "record_1based": 908,
+          "ID": 913,
+          "Name": "Qiala",
+          "ring_indices_0based": [
+            6
+          ]
+        },
+        {
+          "record_1based": 909,
+          "ID": 912,
+          "Name": "Daxihaizierku",
+          "ring_indices_0based": [
+            127
+          ]
+        },
+        {
+          "record_1based": 910,
+          "ID": 897,
+          "Name": "Shangyou",
+          "ring_indices_0based": [
+            1,
+            3
+          ]
+        },
+        {
+          "record_1based": 912,
+          "ID": 188,
+          "Name": "Sanmenxia",
+          "ring_indices_0based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "unassigned_holes": [],
+      "bbox_mismatches": [],
+      "null_shapes": [],
+      "shp_records": 913,
+      "shx_records": 913,
+      "dbf_records": 913,
+      "shape_types": {
+        "5": 913
+      },
+      "constructed_geometry_types": {
+        "Polygon": 807,
+        "MultiPolygon": 106
+      },
+      "vertices": 3358034,
+      "parts": 2140,
+      "outer_rings": 1904,
+      "hole_rings": 236,
+      "bbox": [
+        73.04958333310441,
+        18.355416666446047,
+        133.02208333357908,
+        51.66041666679581
+      ],
+      "valid_count": 816,
+      "invalid_count": 97,
+      "invalid_reason_counts": {
+        "Ring Self-intersection": 97
+      },
+      "all_reported_invalidities_confirmed_on_raw_rings": true,
+      "source_archive_byte_identical": true
+    }
+  ],
+  "prj": [
+    {
+      "file": "Dam.prj",
+      "strict_ascii": true,
+      "wkt1_syntax_parsed": true,
+      "wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "parsed": {
+        "keyword": "GEOGCS",
+        "args": [
+          "GCS_WGS_1984",
+          {
+            "keyword": "DATUM",
+            "args": [
+              "D_WGS_1984",
+              {
+                "keyword": "SPHEROID",
+                "args": [
+                  "WGS_1984",
+                  6378137.0,
+                  298.257223563
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "PRIMEM",
+            "args": [
+              "Greenwich",
+              0.0
+            ]
+          },
+          {
+            "keyword": "UNIT",
+            "args": [
+              "Degree",
+              0.0174532925199433
+            ]
+          }
+        ]
+      },
+      "authority_resolved": false,
+      "same_parameters_as_dam_except_geogcs_name": true
+    },
+    {
+      "file": "FullDrainageBoundary.prj",
+      "strict_ascii": true,
+      "wkt1_syntax_parsed": true,
+      "wkt": "GEOGCS[\"GCS_unknown\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "parsed": {
+        "keyword": "GEOGCS",
+        "args": [
+          "GCS_unknown",
+          {
+            "keyword": "DATUM",
+            "args": [
+              "D_WGS_1984",
+              {
+                "keyword": "SPHEROID",
+                "args": [
+                  "WGS_1984",
+                  6378137.0,
+                  298.257223563
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "PRIMEM",
+            "args": [
+              "Greenwich",
+              0.0
+            ]
+          },
+          {
+            "keyword": "UNIT",
+            "args": [
+              "Degree",
+              0.0174532925199433
+            ]
+          }
+        ]
+      },
+      "authority_resolved": false,
+      "same_parameters_as_dam_except_geogcs_name": true
+    },
+    {
+      "file": "IntermediateDrainageBoundary.prj",
+      "strict_ascii": true,
+      "wkt1_syntax_parsed": true,
+      "wkt": "GEOGCS[\"GCS_unknown\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "parsed": {
+        "keyword": "GEOGCS",
+        "args": [
+          "GCS_unknown",
+          {
+            "keyword": "DATUM",
+            "args": [
+              "D_WGS_1984",
+              {
+                "keyword": "SPHEROID",
+                "args": [
+                  "WGS_1984",
+                  6378137.0,
+                  298.257223563
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "PRIMEM",
+            "args": [
+              "Greenwich",
+              0.0
+            ]
+          },
+          {
+            "keyword": "UNIT",
+            "args": [
+              "Degree",
+              0.0174532925199433
+            ]
+          }
+        ]
+      },
+      "authority_resolved": false,
+      "same_parameters_as_dam_except_geogcs_name": true
+    }
+  ],
+  "xml": [
+    {
+      "file": "Dam.shp.xml",
+      "bytes": 12781,
+      "strict_utf8": true,
+      "xml_parsed": true,
+      "root": "metadata",
+      "suspect_text_matches": []
+    },
+    {
+      "file": "FullDrainageBoundary.shp.xml",
+      "bytes": 13031,
+      "strict_utf8": true,
+      "xml_parsed": true,
+      "root": "metadata",
+      "suspect_text_matches": []
+    },
+    {
+      "file": "IntermediateDrainageBoundary.shp.xml",
+      "bytes": 12851,
+      "strict_utf8": true,
+      "xml_parsed": true,
+      "root": "metadata",
+      "suspect_text_matches": []
+    }
+  ],
+  "spatial_indices": [
+    {
+      "sbn": "Dam.sbn",
+      "sbx": "Dam.sbx",
+      "sbn_bytes": 8820,
+      "sbx_bytes": 580,
+      "indexed_feature_count": 913,
+      "sbx_record_count": 60,
+      "records": [
+        {
+          "record": 1,
+          "offset_words": 50,
+          "content_words": 468
+        },
+        {
+          "record": 2,
+          "offset_words": 522,
+          "content_words": 20
+        },
+        {
+          "record": 3,
+          "offset_words": 546,
+          "content_words": 16
+        },
+        {
+          "record": 4,
+          "offset_words": 566,
+          "content_words": 4
+        },
+        {
+          "record": 5,
+          "offset_words": 574,
+          "content_words": 20
+        },
+        {
+          "record": 6,
+          "offset_words": 598,
+          "content_words": 28
+        },
+        {
+          "record": 7,
+          "offset_words": 630,
+          "content_words": 4
+        },
+        {
+          "record": 8,
+          "offset_words": 638,
+          "content_words": 16
+        },
+        {
+          "record": 9,
+          "offset_words": 658,
+          "content_words": 12
+        },
+        {
+          "record": 10,
+          "offset_words": 674,
+          "content_words": 16
+        },
+        {
+          "record": 11,
+          "offset_words": 694,
+          "content_words": 4
+        },
+        {
+          "record": 12,
+          "offset_words": 702,
+          "content_words": 4
+        },
+        {
+          "record": 13,
+          "offset_words": 710,
+          "content_words": 4
+        },
+        {
+          "record": 14,
+          "offset_words": 718,
+          "content_words": 40
+        },
+        {
+          "record": 15,
+          "offset_words": 762,
+          "content_words": 4
+        },
+        {
+          "record": 16,
+          "offset_words": 770,
+          "content_words": 4
+        },
+        {
+          "record": 17,
+          "offset_words": 778,
+          "content_words": 8
+        },
+        {
+          "record": 18,
+          "offset_words": 790,
+          "content_words": 4
+        },
+        {
+          "record": 19,
+          "offset_words": 798,
+          "content_words": 32
+        },
+        {
+          "record": 20,
+          "offset_words": 834,
+          "content_words": 12
+        },
+        {
+          "record": 21,
+          "offset_words": 850,
+          "content_words": 4
+        },
+        {
+          "record": 22,
+          "offset_words": 858,
+          "content_words": 12
+        },
+        {
+          "record": 23,
+          "offset_words": 874,
+          "content_words": 12
+        },
+        {
+          "record": 24,
+          "offset_words": 890,
+          "content_words": 8
+        },
+        {
+          "record": 25,
+          "offset_words": 902,
+          "content_words": 4
+        },
+        {
+          "record": 26,
+          "offset_words": 910,
+          "content_words": 16
+        },
+        {
+          "record": 27,
+          "offset_words": 930,
+          "content_words": 8
+        },
+        {
+          "record": 28,
+          "offset_words": 942,
+          "content_words": 20
+        },
+        {
+          "record": 29,
+          "offset_words": 966,
+          "content_words": 4
+        },
+        {
+          "record": 30,
+          "offset_words": 974,
+          "content_words": 40
+        },
+        {
+          "record": 31,
+          "offset_words": 1018,
+          "content_words": 68
+        },
+        {
+          "record": 32,
+          "offset_words": 1090,
+          "content_words": 24
+        },
+        {
+          "record": 33,
+          "offset_words": 1118,
+          "content_words": 80
+        },
+        {
+          "record": 34,
+          "offset_words": 1202,
+          "content_words": 172
+        },
+        {
+          "record": 35,
+          "offset_words": 1378,
+          "content_words": 72
+        },
+        {
+          "record": 36,
+          "offset_words": 1454,
+          "content_words": 72
+        },
+        {
+          "record": 37,
+          "offset_words": 1530,
+          "content_words": 164
+        },
+        {
+          "record": 38,
+          "offset_words": 1698,
+          "content_words": 8
+        },
+        {
+          "record": 39,
+          "offset_words": 1710,
+          "content_words": 40
+        },
+        {
+          "record": 40,
+          "offset_words": 1754,
+          "content_words": 24
+        },
+        {
+          "record": 41,
+          "offset_words": 1782,
+          "content_words": 140
+        },
+        {
+          "record": 42,
+          "offset_words": 1926,
+          "content_words": 52
+        },
+        {
+          "record": 43,
+          "offset_words": 1982,
+          "content_words": 308
+        },
+        {
+          "record": 44,
+          "offset_words": 2294,
+          "content_words": 284
+        },
+        {
+          "record": 45,
+          "offset_words": 2582,
+          "content_words": 212
+        },
+        {
+          "record": 46,
+          "offset_words": 2798,
+          "content_words": 280
+        },
+        {
+          "record": 47,
+          "offset_words": 3082,
+          "content_words": 260
+        },
+        {
+          "record": 48,
+          "offset_words": 3346,
+          "content_words": 28
+        },
+        {
+          "record": 49,
+          "offset_words": 3378,
+          "content_words": 272
+        },
+        {
+          "record": 50,
+          "offset_words": 3654,
+          "content_words": 132
+        },
+        {
+          "record": 51,
+          "offset_words": 3790,
+          "content_words": 4
+        },
+        {
+          "record": 52,
+          "offset_words": 3798,
+          "content_words": 72
+        },
+        {
+          "record": 53,
+          "offset_words": 3874,
+          "content_words": 12
+        },
+        {
+          "record": 54,
+          "offset_words": 3890,
+          "content_words": 40
+        },
+        {
+          "record": 55,
+          "offset_words": 3934,
+          "content_words": 36
+        },
+        {
+          "record": 56,
+          "offset_words": 3974,
+          "content_words": 24
+        },
+        {
+          "record": 57,
+          "offset_words": 4002,
+          "content_words": 36
+        },
+        {
+          "record": 58,
+          "offset_words": 4042,
+          "content_words": 168
+        },
+        {
+          "record": 59,
+          "offset_words": 4214,
+          "content_words": 184
+        },
+        {
+          "record": 60,
+          "offset_words": 4402,
+          "content_words": 4
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sbn": "FullDrainageBoundary.sbn",
+      "sbx": "FullDrainageBoundary.sbx",
+      "sbn_bytes": 8828,
+      "sbx_bytes": 596,
+      "indexed_feature_count": 913,
+      "sbx_record_count": 62,
+      "records": [
+        {
+          "record": 1,
+          "offset_words": 50,
+          "content_words": 464
+        },
+        {
+          "record": 2,
+          "offset_words": 518,
+          "content_words": 264
+        },
+        {
+          "record": 3,
+          "offset_words": 786,
+          "content_words": 44
+        },
+        {
+          "record": 4,
+          "offset_words": 834,
+          "content_words": 68
+        },
+        {
+          "record": 5,
+          "offset_words": 906,
+          "content_words": 72
+        },
+        {
+          "record": 6,
+          "offset_words": 982,
+          "content_words": 60
+        },
+        {
+          "record": 7,
+          "offset_words": 1046,
+          "content_words": 24
+        },
+        {
+          "record": 8,
+          "offset_words": 1074,
+          "content_words": 48
+        },
+        {
+          "record": 9,
+          "offset_words": 1126,
+          "content_words": 16
+        },
+        {
+          "record": 10,
+          "offset_words": 1146,
+          "content_words": 220
+        },
+        {
+          "record": 11,
+          "offset_words": 1370,
+          "content_words": 20
+        },
+        {
+          "record": 12,
+          "offset_words": 1394,
+          "content_words": 40
+        },
+        {
+          "record": 13,
+          "offset_words": 1438,
+          "content_words": 4
+        },
+        {
+          "record": 14,
+          "offset_words": 1446,
+          "content_words": 28
+        },
+        {
+          "record": 15,
+          "offset_words": 1478,
+          "content_words": 28
+        },
+        {
+          "record": 16,
+          "offset_words": 1510,
+          "content_words": 96
+        },
+        {
+          "record": 17,
+          "offset_words": 1610,
+          "content_words": 32
+        },
+        {
+          "record": 18,
+          "offset_words": 1646,
+          "content_words": 12
+        },
+        {
+          "record": 19,
+          "offset_words": 1662,
+          "content_words": 20
+        },
+        {
+          "record": 20,
+          "offset_words": 1686,
+          "content_words": 28
+        },
+        {
+          "record": 21,
+          "offset_words": 1718,
+          "content_words": 4
+        },
+        {
+          "record": 22,
+          "offset_words": 1726,
+          "content_words": 16
+        },
+        {
+          "record": 23,
+          "offset_words": 1746,
+          "content_words": 20
+        },
+        {
+          "record": 24,
+          "offset_words": 1770,
+          "content_words": 12
+        },
+        {
+          "record": 25,
+          "offset_words": 1786,
+          "content_words": 28
+        },
+        {
+          "record": 26,
+          "offset_words": 1818,
+          "content_words": 40
+        },
+        {
+          "record": 27,
+          "offset_words": 1862,
+          "content_words": 32
+        },
+        {
+          "record": 28,
+          "offset_words": 1898,
+          "content_words": 4
+        },
+        {
+          "record": 29,
+          "offset_words": 1906,
+          "content_words": 56
+        },
+        {
+          "record": 30,
+          "offset_words": 1966,
+          "content_words": 20
+        },
+        {
+          "record": 31,
+          "offset_words": 1990,
+          "content_words": 12
+        },
+        {
+          "record": 32,
+          "offset_words": 2006,
+          "content_words": 40
+        },
+        {
+          "record": 33,
+          "offset_words": 2050,
+          "content_words": 32
+        },
+        {
+          "record": 34,
+          "offset_words": 2086,
+          "content_words": 4
+        },
+        {
+          "record": 35,
+          "offset_words": 2094,
+          "content_words": 12
+        },
+        {
+          "record": 36,
+          "offset_words": 2110,
+          "content_words": 16
+        },
+        {
+          "record": 37,
+          "offset_words": 2130,
+          "content_words": 52
+        },
+        {
+          "record": 38,
+          "offset_words": 2186,
+          "content_words": 32
+        },
+        {
+          "record": 39,
+          "offset_words": 2222,
+          "content_words": 20
+        },
+        {
+          "record": 40,
+          "offset_words": 2246,
+          "content_words": 52
+        },
+        {
+          "record": 41,
+          "offset_words": 2302,
+          "content_words": 8
+        },
+        {
+          "record": 42,
+          "offset_words": 2314,
+          "content_words": 20
+        },
+        {
+          "record": 43,
+          "offset_words": 2338,
+          "content_words": 140
+        },
+        {
+          "record": 44,
+          "offset_words": 2482,
+          "content_words": 84
+        },
+        {
+          "record": 45,
+          "offset_words": 2570,
+          "content_words": 32
+        },
+        {
+          "record": 46,
+          "offset_words": 2606,
+          "content_words": 112
+        },
+        {
+          "record": 47,
+          "offset_words": 2722,
+          "content_words": 24
+        },
+        {
+          "record": 48,
+          "offset_words": 2750,
+          "content_words": 136
+        },
+        {
+          "record": 49,
+          "offset_words": 2890,
+          "content_words": 52
+        },
+        {
+          "record": 50,
+          "offset_words": 2946,
+          "content_words": 236
+        },
+        {
+          "record": 51,
+          "offset_words": 3186,
+          "content_words": 188
+        },
+        {
+          "record": 52,
+          "offset_words": 3378,
+          "content_words": 132
+        },
+        {
+          "record": 53,
+          "offset_words": 3514,
+          "content_words": 140
+        },
+        {
+          "record": 54,
+          "offset_words": 3658,
+          "content_words": 228
+        },
+        {
+          "record": 55,
+          "offset_words": 3890,
+          "content_words": 32
+        },
+        {
+          "record": 56,
+          "offset_words": 3926,
+          "content_words": 176
+        },
+        {
+          "record": 57,
+          "offset_words": 4106,
+          "content_words": 116
+        },
+        {
+          "record": 58,
+          "offset_words": 4226,
+          "content_words": 8
+        },
+        {
+          "record": 59,
+          "offset_words": 4238,
+          "content_words": 12
+        },
+        {
+          "record": 60,
+          "offset_words": 4254,
+          "content_words": 20
+        },
+        {
+          "record": 61,
+          "offset_words": 4278,
+          "content_words": 44
+        },
+        {
+          "record": 62,
+          "offset_words": 4326,
+          "content_words": 84
+        }
+      ],
+      "errors": []
+    },
+    {
+      "sbn": "IntermediateDrainageBoundary.sbn",
+      "sbx": "IntermediateDrainageBoundary.sbx",
+      "sbn_bytes": 8852,
+      "sbx_bytes": 620,
+      "indexed_feature_count": 913,
+      "sbx_record_count": 65,
+      "records": [
+        {
+          "record": 1,
+          "offset_words": 50,
+          "content_words": 464
+        },
+        {
+          "record": 2,
+          "offset_words": 518,
+          "content_words": 104
+        },
+        {
+          "record": 3,
+          "offset_words": 626,
+          "content_words": 52
+        },
+        {
+          "record": 4,
+          "offset_words": 682,
+          "content_words": 36
+        },
+        {
+          "record": 5,
+          "offset_words": 722,
+          "content_words": 60
+        },
+        {
+          "record": 6,
+          "offset_words": 786,
+          "content_words": 56
+        },
+        {
+          "record": 7,
+          "offset_words": 846,
+          "content_words": 24
+        },
+        {
+          "record": 8,
+          "offset_words": 874,
+          "content_words": 56
+        },
+        {
+          "record": 9,
+          "offset_words": 934,
+          "content_words": 12
+        },
+        {
+          "record": 10,
+          "offset_words": 950,
+          "content_words": 132
+        },
+        {
+          "record": 11,
+          "offset_words": 1086,
+          "content_words": 8
+        },
+        {
+          "record": 12,
+          "offset_words": 1098,
+          "content_words": 40
+        },
+        {
+          "record": 13,
+          "offset_words": 1142,
+          "content_words": 4
+        },
+        {
+          "record": 14,
+          "offset_words": 1150,
+          "content_words": 16
+        },
+        {
+          "record": 15,
+          "offset_words": 1170,
+          "content_words": 12
+        },
+        {
+          "record": 16,
+          "offset_words": 1186,
+          "content_words": 4
+        },
+        {
+          "record": 17,
+          "offset_words": 1194,
+          "content_words": 88
+        },
+        {
+          "record": 18,
+          "offset_words": 1286,
+          "content_words": 32
+        },
+        {
+          "record": 19,
+          "offset_words": 1322,
+          "content_words": 12
+        },
+        {
+          "record": 20,
+          "offset_words": 1338,
+          "content_words": 32
+        },
+        {
+          "record": 21,
+          "offset_words": 1374,
+          "content_words": 28
+        },
+        {
+          "record": 22,
+          "offset_words": 1406,
+          "content_words": 4
+        },
+        {
+          "record": 23,
+          "offset_words": 1414,
+          "content_words": 16
+        },
+        {
+          "record": 24,
+          "offset_words": 1434,
+          "content_words": 20
+        },
+        {
+          "record": 25,
+          "offset_words": 1458,
+          "content_words": 12
+        },
+        {
+          "record": 26,
+          "offset_words": 1474,
+          "content_words": 28
+        },
+        {
+          "record": 27,
+          "offset_words": 1506,
+          "content_words": 32
+        },
+        {
+          "record": 28,
+          "offset_words": 1542,
+          "content_words": 4
+        },
+        {
+          "record": 29,
+          "offset_words": 1550,
+          "content_words": 4
+        },
+        {
+          "record": 30,
+          "offset_words": 1558,
+          "content_words": 56
+        },
+        {
+          "record": 31,
+          "offset_words": 1618,
+          "content_words": 28
+        },
+        {
+          "record": 32,
+          "offset_words": 1650,
+          "content_words": 12
+        },
+        {
+          "record": 33,
+          "offset_words": 1666,
+          "content_words": 36
+        },
+        {
+          "record": 34,
+          "offset_words": 1706,
+          "content_words": 12
+        },
+        {
+          "record": 35,
+          "offset_words": 1722,
+          "content_words": 4
+        },
+        {
+          "record": 36,
+          "offset_words": 1730,
+          "content_words": 16
+        },
+        {
+          "record": 37,
+          "offset_words": 1750,
+          "content_words": 16
+        },
+        {
+          "record": 38,
+          "offset_words": 1770,
+          "content_words": 12
+        },
+        {
+          "record": 39,
+          "offset_words": 1786,
+          "content_words": 32
+        },
+        {
+          "record": 40,
+          "offset_words": 1822,
+          "content_words": 20
+        },
+        {
+          "record": 41,
+          "offset_words": 1846,
+          "content_words": 56
+        },
+        {
+          "record": 42,
+          "offset_words": 1906,
+          "content_words": 8
+        },
+        {
+          "record": 43,
+          "offset_words": 1918,
+          "content_words": 32
+        },
+        {
+          "record": 44,
+          "offset_words": 1954,
+          "content_words": 156
+        },
+        {
+          "record": 45,
+          "offset_words": 2114,
+          "content_words": 84
+        },
+        {
+          "record": 46,
+          "offset_words": 2202,
+          "content_words": 36
+        },
+        {
+          "record": 47,
+          "offset_words": 2242,
+          "content_words": 120
+        },
+        {
+          "record": 48,
+          "offset_words": 2366,
+          "content_words": 32
+        },
+        {
+          "record": 49,
+          "offset_words": 2402,
+          "content_words": 24
+        },
+        {
+          "record": 50,
+          "offset_words": 2430,
+          "content_words": 136
+        },
+        {
+          "record": 51,
+          "offset_words": 2570,
+          "content_words": 56
+        },
+        {
+          "record": 52,
+          "offset_words": 2630,
+          "content_words": 260
+        },
+        {
+          "record": 53,
+          "offset_words": 2894,
+          "content_words": 224
+        },
+        {
+          "record": 54,
+          "offset_words": 3122,
+          "content_words": 168
+        },
+        {
+          "record": 55,
+          "offset_words": 3294,
+          "content_words": 188
+        },
+        {
+          "record": 56,
+          "offset_words": 3486,
+          "content_words": 236
+        },
+        {
+          "record": 57,
+          "offset_words": 3726,
+          "content_words": 32
+        },
+        {
+          "record": 58,
+          "offset_words": 3762,
+          "content_words": 232
+        },
+        {
+          "record": 59,
+          "offset_words": 3998,
+          "content_words": 116
+        },
+        {
+          "record": 60,
+          "offset_words": 4118,
+          "content_words": 36
+        },
+        {
+          "record": 61,
+          "offset_words": 4158,
+          "content_words": 8
+        },
+        {
+          "record": 62,
+          "offset_words": 4170,
+          "content_words": 12
+        },
+        {
+          "record": 63,
+          "offset_words": 4186,
+          "content_words": 20
+        },
+        {
+          "record": 64,
+          "offset_words": 4210,
+          "content_words": 96
+        },
+        {
+          "record": 65,
+          "offset_words": 4310,
+          "content_words": 112
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "source_sha256_after": {
+    "Appendix3.zip": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+    "manifest.json": "e87398aec1b1851e08a1d97d6865707a7d0a9d77baa8971e0752ac0956df8b45",
+    "_provenance\\Appendix3.zip.manifest.json": "2becc77bd6412c163ca1bba15c9c0ac677cc7e1d894b2ae63028676d1f651203",
+    "extracted\\Appendix3\\Appendix3\\Dam.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\Dam.dbf": "7eb31f082c84f1bf8dd11bc6a0a3c1ea29ff9faf7f75ca6aa714235397e0bc0c",
+    "extracted\\Appendix3\\Appendix3\\Dam.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "extracted\\Appendix3\\Appendix3\\Dam.sbn": "f8e07c0dc67e85cf785146d97c155488b9fcf337eb77640e3c50977dae52f2f2",
+    "extracted\\Appendix3\\Appendix3\\Dam.sbx": "7121231284a6ca883e0209dc4d0f77bc83ed203116f936b171f70e77e2066d24",
+    "extracted\\Appendix3\\Appendix3\\Dam.shp": "425d9ca409212dac21354f08a2a7eeb8b45d71c23ce3868b9845b4efa0b92b42",
+    "extracted\\Appendix3\\Appendix3\\Dam.shp.xml": "b434ec37216a169619088bb927c649ff86620125361c659e597a55271d64008c",
+    "extracted\\Appendix3\\Appendix3\\Dam.shx": "891cf9bfa3c16c9260a25c6fdfe06827e37d399602f952dc6a32a2d6934d58a5",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.dbf": "bebeb489197cb8175dbfc0bd45f250f25d90d7c3c21dac1b932b3567d5dc527d",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.prj": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbn": "20b8594ab87ef73337304fc9782a36094e1d2a31080bdcea22014a1e46a546b2",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.sbx": "06a597e03617fc4bf0cd9d05e46f640ce3013838e7873a7e00cb44c4525136d0",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp": "dfae2a11b182a4867e2a2b98f3ca005b8c88516a07c8a38532667f00fbd5bc81",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shp.xml": "8d343755df14650ec5309275c3f005ba183da7e43a86da168543b202d6a6b51c",
+    "extracted\\Appendix3\\Appendix3\\FullDrainageBoundary.shx": "b55c405d574308328c694d34cbe67ba3c5d18e4aa9bf40b7af3321c006bc5a0e",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.dbf": "c51687399d2ec4821c4d90f8d11685db8f5ebbaf6d41b49c61849128af12258f",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.prj": "c69b41ee32e7bda0958c84e843bb5dc34c29130c356129f66448a1ed2364ceb7",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbn": "90af998730eed89df1e436ec4cd82e22cc77d92ad6fff8662154f3fc02e9a930",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.sbx": "0cabf15668e98cdcf5f4b80b0955139f476f9c32894891348693b6a818c5890f",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp": "6ce1da5e75578bb215cf58ec891536b52bb1c92d901dcfb5ab962b4d99758951",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shp.xml": "51e17b78185648428b5911341a85bec19146e96cf1fae8fe7727c7cd6ebce91c",
+    "extracted\\Appendix3\\Appendix3\\IntermediateDrainageBoundary.shx": "f10afebb81fb898e9562fe73c2f1b606aa57ced48e3e34aeff2f87dd0975df7c"
+  },
+  "tracked_source_content_unchanged_during_audit": true,
+  "finished_utc": "2026-10-27T09:57:47.108737+00:00"
+}

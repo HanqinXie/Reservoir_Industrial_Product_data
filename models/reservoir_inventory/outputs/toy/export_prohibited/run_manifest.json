@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-27T06:29:17.242013+00:00",
+  "case_name": "repo_two_period_no_export",
+  "input_fingerprint": "66b16c4f1680e2e4a851a7cd6baeac779aadd84fcb92fa35f61c88e9056aef15",
+  "versions": {
+    "python": "3.10.6",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  },
+  "platform": "Windows-10-10.0.26100-SP0",
+  "input_file_sha256": {},
+  "source_data_sha256": {},
+  "case_metadata": {
+    "classification": "normalized artificial unit test; not engineering evidence",
+    "expected_source": "data/repo_toy_expected.json"
+  },
+  "python_source_sha256": {
+    "reservoir_inventory/__init__.py": "35685644bdbec1805fadf0e1b17e25323fdfd4d141cd179305c468928032cbc3",
+    "reservoir_inventory/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "reservoir_inventory/cases.py": "4d4fcd444104d58428409dab83e331694019e3e2c99cade987b9296e37d12162",
+    "reservoir_inventory/cli.py": "411ef648c7f0a92a2a0256411bcfd2b0e5d446bacf432cf7b1e2a944bdad2921",
+    "reservoir_inventory/io.py": "04e2b09fd23bb873030a96ad588dabc6d84857f1d4ece49bc1c3f2982b3df8a1",
+    "reservoir_inventory/model.py": "dc714f959879fdda21241de982c079744af68571e368ee473401812acc652643",
+    "reservoir_inventory/reporting.py": "4f7e0fdc0cdb323a68b74a93b53c246850f1e5837501386f283eab63f9782166"
+  },
+  "information_assumption": "All models use the same full-horizon perfect foresight.",
+  "attribution": "M1 is conditional on the particular optimal M0 hydro plan returned by HiGHS; not a unique causal allocation.",
+  "audits": {
+    "M0": {
+      "passed": true,
+      "max_lp_violation_internal_units": 0.0,
+      "max_water_balance_residual_m3": 0.0,
+      "max_product_balance_residual_t": 0.0,
+      "max_energy_balance_residual_mwh": 0.0,
+      "cost_reconstruction_error_cny": 0.0,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 1.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 16,
+      "lp_equalities": 6,
+      "lp_inequalities": 4
+    },
+    "M1": {
+      "passed": true,
+      "max_lp_violation_internal_units": 0.0,
+      "max_water_balance_residual_m3": 0.0,
+      "max_product_balance_residual_t": 0.0,
+      "max_energy_balance_residual_mwh": 0.0,
+      "cost_reconstruction_error_cny": 0.0,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 1.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 16,
+      "lp_equalities": 6,
+      "lp_inequalities": 4,
+      "max_frozen_hydro_difference_m3": 0.0
+    },
+    "M2": {
+      "passed": true,
+      "max_lp_violation_internal_units": 0.0,
+      "max_water_balance_residual_m3": 0.0,
+      "max_product_balance_residual_t": 0.0,
+      "max_energy_balance_residual_mwh": 0.0,
+      "cost_reconstruction_error_cny": 0.0,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 1.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 16,
+      "lp_equalities": 6,
+      "lp_inequalities": 4
+    }
+  },
+  "weekly_aggregation": {
+    "available": false,
+    "convention": "Monday through Sunday; partial first/last weeks retained; quantities summed, boundary states first/last.",
+    "reason": "Non-calendar period labels: weekly aggregation is not applicable.",
+    "rows": 0
+  },
+  "plot_written": true,
+  "output_sha256": {
+    "M0_dispatch.csv": "b47d6e62a91ff43fb526825101d504079e1d591d0c498405d674febf3d30a7a4",
+    "M1_dispatch.csv": "0b99ed4dea016af6a518500cf2bd71a0db3c6ab750d876a3633e978fc5a7f2aa",
+    "M2_dispatch.csv": "2be71f5423b75eed2cb17fcbba10459247f3b66b34f6458878abcf7c975397dc",
+    "cost_summary.csv": "0cefdce36372e2c5cc7a751230e17596a35826f6e5f6aa69b19151acc0f2ff92",
+    "weekly_dispatch.csv": "dfd7e64a57814fe08adb3bfb7f36b5c9441df1347a63bba1ad23499407acd891",
+    "comparison.png": "62eff806842a4020b8605cdee7a16a82542735aeb0350f424018d799df331949",
+    "comparison_summary.json": "73799d3f2308e526c54426deae53b499b3367ad85daa39c95dd98660295791be"
+  },
+  "serialization": "Non-finite metadata values are recorded as JSON null; dispatch NaNs indicate not-applicable fields."
+}

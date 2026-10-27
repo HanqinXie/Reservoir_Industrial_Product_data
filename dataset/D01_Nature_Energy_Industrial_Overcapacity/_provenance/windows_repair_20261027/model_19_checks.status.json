@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+  "start_utc": "2026-10-27T09:34:30.055684+00:00",
+  "end_utc": "2026-10-27T09:34:30.909239+00:00",
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "passed": true
+}

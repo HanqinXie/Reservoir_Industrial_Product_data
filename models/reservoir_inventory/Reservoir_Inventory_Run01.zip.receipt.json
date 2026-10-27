@@ -1,0 +1,26 @@
+{
+  "archive": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\Reservoir_Inventory_Run01.zip",
+  "git_commit": "82d7cddb27729062f6a393b703b56d9f56008331",
+  "archive_bytes": 2668590,
+  "under_400000000_bytes": true,
+  "sha256": "f721aa709648db65352eec755ff9b768bd37e9b2334fb555adb4cfecda48e3c7",
+  "member_count": 118,
+  "uncompressed_bytes": 4275643,
+  "crc_passed": true,
+  "actual_extraction_directory": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\_delivery_check\\Reservoir_Inventory_Run01",
+  "all_members_size_and_sha256_match": true,
+  "all_csv_json_png_and_text_readable": true,
+  "all_python_sources_compile": true,
+  "extensions": {
+    ".json": 35,
+    ".csv": 47,
+    ".md": 5,
+    ".png": 6,
+    ".log": 8,
+    ".py": 14,
+    ".txt": 2,
+    ".toml": 1
+  },
+  "verified_at_utc": "2026-10-27T06:35:24.140601+00:00",
+  "passed": true
+}

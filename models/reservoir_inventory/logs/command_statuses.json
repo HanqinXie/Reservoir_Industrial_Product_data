@@ -1,0 +1,95 @@
+[
+  {
+    "name": "00_pip_check",
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "pid": 97260,
+    "start_utc": "2026-10-27T06:29:14.423770+00:00",
+    "end_utc": "2026-10-27T06:29:14.843343+00:00",
+    "elapsed_seconds": 0.4194513000547886,
+    "exit_code": 0,
+    "log": "logs/00_pip_check.log"
+  },
+  {
+    "name": "01_unittest",
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "pid": 86868,
+    "start_utc": "2026-10-27T06:29:14.843343+00:00",
+    "end_utc": "2026-10-27T06:29:15.724806+00:00",
+    "elapsed_seconds": 0.8814950999803841,
+    "exit_code": 0,
+    "log": "logs/01_unittest.log"
+  },
+  {
+    "name": "02_verify_toy",
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "reservoir_inventory",
+      "verify-toy",
+      "--out",
+      "outputs/toy"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "pid": 53824,
+    "start_utc": "2026-10-27T06:29:15.725806+00:00",
+    "end_utc": "2026-10-27T06:29:17.638308+00:00",
+    "elapsed_seconds": 1.9125741999596357,
+    "exit_code": 0,
+    "log": "logs/02_verify_toy.log"
+  },
+  {
+    "name": "03_demo",
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "reservoir_inventory",
+      "demo",
+      "--config",
+      "configs/xiaowan_demo.json",
+      "--out",
+      "outputs/demo"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "pid": 46376,
+    "start_utc": "2026-10-27T06:29:17.638308+00:00",
+    "end_utc": "2026-10-27T06:29:20.126977+00:00",
+    "elapsed_seconds": 2.4885085998103023,
+    "exit_code": 0,
+    "log": "logs/03_demo.log"
+  },
+  {
+    "name": "04_sweep",
+    "argv": [
+      "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "reservoir_inventory",
+      "sweep",
+      "--inputs",
+      "outputs/demo/inputs/normal",
+      "--out",
+      "outputs/sweep"
+    ],
+    "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+    "pid": 53144,
+    "start_utc": "2026-10-27T06:29:20.127977+00:00",
+    "end_utc": "2026-10-27T06:29:22.214017+00:00",
+    "elapsed_seconds": 2.085825899615884,
+    "exit_code": 0,
+    "log": "logs/04_sweep.log"
+  }
+]

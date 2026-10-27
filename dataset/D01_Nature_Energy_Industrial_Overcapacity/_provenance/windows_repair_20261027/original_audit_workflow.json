@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-27T09:34:30.017273+00:00",
+  "status": "complete",
+  "checks": [
+    {
+      "id": "D01",
+      "name": "data.zip",
+      "status": "passed",
+      "original_bytes": 106509944,
+      "extracted_bytes": 147414509,
+      "sha256": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f",
+      "official_md5_verified": true,
+      "extraction_member_sizes_verified": 252,
+      "issues": []
+    }
+  ],
+  "scope_note": "D01 only; actual extractor and original audit functions run in isolated temporary dataset. No other dataset was re-audited or modified."
+}

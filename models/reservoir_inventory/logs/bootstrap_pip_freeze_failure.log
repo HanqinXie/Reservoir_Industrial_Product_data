@@ -1,0 +1,36 @@
+python.exe : ERROR: Exception:
+所在位置 行:2 字符: 96
++ ... trap.json'; & .\.venv\Scripts\python.exe -m pip freeze *> logs\bootst ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: Exception::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Traceback (most recent call last):
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\cli\base_command.py", line 167, in exc_logging_wrapper
+    status = run_func(*args)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\commands\freeze.py", line 87, in run
+    for line in freeze(
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\operations\freeze.py", line 43, in freeze
+    req = FrozenRequirement.from_dist(dist)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\operations\freeze.py", line 237, in from_dist
+    req, comments = _get_editable_info(dist)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\operations\freeze.py", line 181, in _get_editable_info
+    req = vcs_backend.get_src_requirement(location, dist.raw_name)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\vcs\versioncontrol.py", line 326, in get_src_requirement
+    subdir = cls.get_subdirectory(repo_dir)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\vcs\git.py", line 453, in get_subdirectory
+    return find_path_to_project_root_from_repo_root(location, repo_root)
+  File "E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\reservoir_inventory\.
+venv\lib\site-packages\pip\_internal\vcs\versioncontrol.py", line 108, in find_path_to_project_root_from_repo_root
+    if os.path.samefile(repo_root, location):
+  File "C:\Users\HanqinXie\AppData\Local\Programs\Python\Python310\lib\genericpath.py", line 100, in samefile
+    s1 = os.stat(f1)
+FileNotFoundError: [WinError 3] ϵͳ�Ҳ���ָ����·����: 'E:\\论文\\面向极�\\xab\\xaf�\\xaf水�\\xa3�险的水�\\xb5-工业协同调度与韧性优�\\x96\\cod
+e\\Reservoir_Industrial_Product_data'

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-27T06:29:19.996334+00:00",
+  "case_name": "xiaowan_scaled_representative_wet_1990",
+  "input_fingerprint": "d3b54a9ca3eaea5458443984fc4c29e71565e88441279b598db01ed6ca1ea4d4",
+  "versions": {
+    "python": "3.10.6",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  },
+  "platform": "Windows-10-10.0.26100-SP0",
+  "input_file_sha256": {
+    "reservoir.csv": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb",
+    "inflow.csv": "4718e78ac4d27f44d43eccbc1096db346a051bdeb3b1217070ce03d69bbce0c9",
+    "industry.csv": "dd42f9c9687aabff263acca4830a3ce508bf740a1a578a3e023bc7ced0c8eae8",
+    "economics.csv": "344eacbe98fd42942fd732c35d89abf84c126f362f312247cb9ce61219d9ce44",
+    "sources.csv": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765",
+    "case.json": "3c0c988f8a7b99ba1d648f536f4483b8b8be309f6e2def1a3fef9af989c5c494"
+  },
+  "source_data_sha256": {
+    "inflow_csv": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+    "reservoir_json": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b",
+    "source_manifest": "929cbedf0e109892c531771174f6a57c6d177c4f6f5051542afba51d7ceb86ae"
+  },
+  "case_metadata": {
+    "classification": "文献水文输入支持的代表性情景；工厂、交易和初末状态假设尚未现场验证",
+    "hydrological_category": "wet",
+    "hydrological_year": 1990,
+    "hydro_scale": 0.5,
+    "raw_reservoir_name": "Xiaowan",
+    "source_repository_commit": "cc1e9da360ef0ec6c557b3401d0bfcdab2a07913",
+    "source_data_sha256": {
+      "inflow_csv": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+      "reservoir_json": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b",
+      "source_manifest": "929cbedf0e109892c531771174f6a57c6d177c4f6f5051542afba51d7ceb86ae"
+    },
+    "rated_t_per_day": 1000.0,
+    "minimum_load_fraction": 0.9,
+    "baseline_utilization": 0.95,
+    "normal_inventory_capacity_t": 29450.0,
+    "extra_inventory_capacity_t": 28500.0,
+    "average_delivery_t_per_day": 950.0,
+    "delivery_schedule": "month_end",
+    "notes": [
+      "scale同时乘来水、活动库容和装机；平均耗水系数不变。该单元不是实际小湾电站的一份可交易供电权。",
+      "初末水量为情景假设；库容敏感性保持这些绝对水量，过小库容将被报告为不可行。",
+      "最低负荷90%按额定产能计算；这不是任何具体工厂可持续数月运行的已验证能力。",
+      "IAI电耗止于铝液；另加0.25MWh/t铸造电耗是敏感性参数，不是已核实实测。",
+      "月末交付当月基准总产量，仓容包含正常周转峰值与30天额外库存。",
+      "上述购售电价、持有费和接口假设只用于演示；buy/sell价格不同，双向交易不限额。",
+      "蒸发、生态最小下泄、其他用电和水电变动运维暂为0的简化情景；它们不是正式工程规定。",
+      "非电生产成本取0是因为固定总交付下的时不变成本不影响策略差值，输出不代表完整生产成本。"
+    ],
+    "year_selection": "Sum every complete calendar year's daily volumes; calculate 0.20/0.50/0.80 empirical quantiles using linear interpolation; choose the nearest observed total, breaking ties by earlier year; selected years must be distinct.",
+    "input_file_sha256": {
+      "reservoir.csv": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb",
+      "inflow.csv": "4718e78ac4d27f44d43eccbc1096db346a051bdeb3b1217070ce03d69bbce0c9",
+      "industry.csv": "dd42f9c9687aabff263acca4830a3ce508bf740a1a578a3e023bc7ced0c8eae8",
+      "economics.csv": "344eacbe98fd42942fd732c35d89abf84c126f362f312247cb9ce61219d9ce44",
+      "sources.csv": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765",
+      "case.json": "3c0c988f8a7b99ba1d648f536f4483b8b8be309f6e2def1a3fef9af989c5c494"
+    }
+  },
+  "python_source_sha256": {
+    "reservoir_inventory/__init__.py": "35685644bdbec1805fadf0e1b17e25323fdfd4d141cd179305c468928032cbc3",
+    "reservoir_inventory/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "reservoir_inventory/cases.py": "4d4fcd444104d58428409dab83e331694019e3e2c99cade987b9296e37d12162",
+    "reservoir_inventory/cli.py": "411ef648c7f0a92a2a0256411bcfd2b0e5d446bacf432cf7b1e2a944bdad2921",
+    "reservoir_inventory/io.py": "04e2b09fd23bb873030a96ad588dabc6d84857f1d4ece49bc1c3f2982b3df8a1",
+    "reservoir_inventory/model.py": "dc714f959879fdda21241de982c079744af68571e368ee473401812acc652643",
+    "reservoir_inventory/reporting.py": "4f7e0fdc0cdb323a68b74a93b53c246850f1e5837501386f283eab63f9782166"
+  },
+  "information_assumption": "All models use the same full-horizon perfect foresight.",
+  "attribution": "M1 is conditional on the particular optimal M0 hydro plan returned by HiGHS; not a unique causal allocation.",
+  "audits": {
+    "M0": {
+      "passed": true,
+      "max_lp_violation_internal_units": 7.283063041541027e-14,
+      "max_water_balance_residual_m3": 7.450580596923828e-07,
+      "max_product_balance_residual_t": 0.0,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "cost_reconstruction_error_cny": 0.0,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 5000000.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 2557,
+      "lp_equalities": 1095,
+      "lp_inequalities": 1095
+    },
+    "M1": {
+      "passed": true,
+      "max_lp_violation_internal_units": 1.865174681370263e-13,
+      "max_water_balance_residual_m3": 7.450580596923828e-07,
+      "max_product_balance_residual_t": 1.1368683772161603e-13,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "cost_reconstruction_error_cny": 0.0,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 5000000.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 2557,
+      "lp_equalities": 1095,
+      "lp_inequalities": 1095,
+      "max_frozen_hydro_difference_m3": 0.0
+    },
+    "M2": {
+      "passed": true,
+      "max_lp_violation_internal_units": 7.283063041541027e-14,
+      "max_water_balance_residual_m3": 8.940696716308594e-07,
+      "max_product_balance_residual_t": 0.0,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "cost_reconstruction_error_cny": 2.384185791015625e-07,
+      "terminal_water_error_m3": 0.0,
+      "terminal_inventory_error_t": 0.0,
+      "water_variable_scale_m3": 5000000.0,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lp_variables": 2557,
+      "lp_equalities": 1095,
+      "lp_inequalities": 1095
+    }
+  },
+  "weekly_aggregation": {
+    "available": true,
+    "convention": "Monday through Sunday; partial first/last weeks retained; quantities summed, boundary states first/last.",
+    "reason": null,
+    "rows": 159
+  },
+  "plot_written": true,
+  "output_sha256": {
+    "M0_dispatch.csv": "67a0baa6d9a283af2a76103d54497e2eaa78db3587831cd1a5232bbec1ca5819",
+    "M1_dispatch.csv": "a67b1b1eae201c73e97492cacae02559eb1b2200bdc632357089b7cca8f386ce",
+    "M2_dispatch.csv": "58cdeb8c8c53483ee57bcff30fc1d0a217d260a3a1013ef37f6fb1b05c708af1",
+    "cost_summary.csv": "fdbacb8e2ce5b32e5e1565ff581e344c4996b7cbf47d267c65328e4be705bc5c",
+    "weekly_dispatch.csv": "acfa73c7fc8529f1026ec06764d4d57196e8a5af0cd94ed968a434be36d8c128",
+    "comparison.png": "72ea05803ea775a3f8c958611632c7dea323be03d5421449943bdcd89586d784",
+    "comparison_summary.json": "437fc8c251b591cb14528a11680c5701231aa1806536e96807c47b60050900e6"
+  },
+  "serialization": "Non-finite metadata values are recorded as JSON null; dispatch NaNs indicate not-applicable fields."
+}

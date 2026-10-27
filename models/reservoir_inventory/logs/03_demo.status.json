@@ -1,0 +1,20 @@
+{
+  "name": "03_demo",
+  "argv": [
+    "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "reservoir_inventory",
+    "demo",
+    "--config",
+    "configs/xiaowan_demo.json",
+    "--out",
+    "outputs/demo"
+  ],
+  "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+  "pid": 46376,
+  "start_utc": "2026-10-27T06:29:17.638308+00:00",
+  "end_utc": "2026-10-27T06:29:20.126977+00:00",
+  "elapsed_seconds": 2.4885085998103023,
+  "exit_code": 0,
+  "log": "logs/03_demo.log"
+}

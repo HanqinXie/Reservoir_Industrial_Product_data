@@ -1,0 +1,240 @@
+{
+  "id": "D02",
+  "title": "Copernicus GloFAS历史流量再分析",
+  "directory": "D02_Copernicus GloFAS历史流量再分析",
+  "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical",
+  "status": "downloaded_with_subset",
+  "scope": "GloFAS v4.0/LISFLOOD consolidated的2015年全球请求结果（365步、原生0.05度网格）及北纬21—29度、东经97—107度矩形子集；原时间标签2015-01-02至2016-01-01，未移动。不是全部历史年份，不是省界掩膜，也不是完整相关上游流域裁剪。",
+  "reason": "本地原始ZIP及全球NetCDF已完整读取核验；云南附近矩形子集已做全值无损独立比对。旧“未下载”状态由当前文件证据取代；未取得其他年份或完整流域范围。",
+  "updated_utc": "2026-10-27T12:12:58.175604+00:00",
+  "files": [
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/235669be661d3114f1b100f81b164504.zip",
+      "name": "235669be661d3114f1b100f81b164504.zip",
+      "bytes": 2372499291,
+      "sha256": "a96b655a9dbb8e47cac247dc3ef14293e939bff6c187a90f2ab65ff10dec0f3b",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical",
+      "file_type": "zip",
+      "content_type": "application/zip",
+      "validation": {
+        "all_archive_members_crc_verified_by_complete_read": true,
+        "inner_netcdf_sha256_matches_local_source": true
+      },
+      "extraction": {
+        "status": "extracted_verified_crc",
+        "path": "D02_Copernicus GloFAS历史流量再分析",
+        "member_count": 1,
+        "uncompressed_bytes": 2372137099,
+        "members": [
+          {
+            "original_member": "data_0.nc",
+            "path": "D02_Copernicus GloFAS历史流量再分析/data_0.nc",
+            "byte_size": 2372137099,
+            "sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501",
+            "crc32": "664f36b0"
+          }
+        ]
+      }
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/yunnan_bbox_2015_glofas_v4.nc",
+      "bytes": 17113700,
+      "sha256": "f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical",
+      "file_type": "netcdf",
+      "derived_from": "D02_Copernicus GloFAS历史流量再分析/data_0.nc",
+      "validation": {
+        "record": "D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_independent_check.json",
+        "all_11680000_float32_values_bitwise_equal": true,
+        "nan_positions_preserved": true,
+        "province_boundary_mask_applied": false
+      }
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/_provenance/data_licence.pdf",
+      "bytes": 53369,
+      "sha256": "428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3",
+      "content_type": "application/pdf",
+      "source_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/licences/cems-floods/cems-floods_428a6e1019ec50b3dad9c37a90d630fab139059933a939dd5df620bfcb420cc3.pdf"
+    },
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/_provenance/download_form.json",
+      "bytes": 11585,
+      "sha256": "d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753",
+      "content_type": "application/json",
+      "source_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-historical/form_d94cdd8be45efe96c120322c149618894686c787e6f26d46e70d6bea844ec753.json"
+    },
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/api_request.txt",
+      "bytes": 917,
+      "sha256": "22219081b543b91fc5484c4dfa755912453eb903a8a70020610345590031859c",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical"
+    },
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_manifest.json",
+      "bytes": 3465,
+      "sha256": "dc5cd1aae3cd2700aa919dd5c39d36c8748657301529244716f1535ee1f0dd45",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical"
+    },
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_independent_check.json",
+      "bytes": 3843,
+      "sha256": "891f42bc60c967eabc2a9824e95e251b58bc8161057a003bca991dce573a06bf",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical"
+    },
+    {
+      "path": "D02_Copernicus GloFAS历史流量再分析/_provenance/extract_yunnan_bbox.py",
+      "bytes": 9884,
+      "sha256": "44f4b2e9a72b537f630d4d6a9016a91435ba55283872ca71603842744188ebbb",
+      "source_url": "https://ewds.climate.copernicus.eu/datasets/cems-glofas-historical"
+    }
+  ],
+  "coverage": {
+    "request_year": 2015,
+    "source_kind": "hydrological_model_reanalysis",
+    "source_grid_dimensions": {
+      "valid_time": 365,
+      "latitude": 3000,
+      "longitude": 7200
+    },
+    "source_grid_center_latitude_min_max": [
+      -59.975,
+      89.975
+    ],
+    "source_grid_center_longitude_min_max": [
+      -179.975,
+      179.975
+    ],
+    "grid_spacing_degrees": 0.05,
+    "variable": "avg_dis",
+    "dtype": "float32",
+    "units": "m**3 s**-1",
+    "time_labels_first_last": [
+      "2015-01-02 00:00:00",
+      "2016-01-01 00:00:00"
+    ],
+    "time_shifted": false,
+    "subset_bbox_degrees": {
+      "north": 29.0,
+      "south": 21.0,
+      "west": 97.0,
+      "east": 107.0
+    },
+    "subset_actual_grid_center_bounds_degrees": {
+      "latitude_min": 21.025000000003132,
+      "latitude_max": 28.975000000003245,
+      "longitude_min": 97.0250000000033,
+      "longitude_max": 106.97500000000274
+    },
+    "subset_dimensions": {
+      "valid_time": 365,
+      "latitude": 160,
+      "longitude": 200
+    },
+    "province_boundary_mask_applied": false,
+    "complete_upstream_catchments_selected": false,
+    "complete_historical_archive_acquired": false
+  },
+  "request_selection": {
+    "system_version": [
+      "version_4_0"
+    ],
+    "hydrological_model": [
+      "lisflood"
+    ],
+    "product_type": [
+      "consolidated"
+    ],
+    "variable": [
+      "average_river_discharge_in_the_last_24_hours"
+    ],
+    "year": [
+      "2015"
+    ],
+    "month": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "day": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "data_format": "netcdf",
+    "download_format": "zip",
+    "area": [
+      90,
+      -180,
+      -90,
+      180
+    ]
+  },
+  "verification": {
+    "checked_at_utc": "2026-10-27T12:12:58.175604+00:00",
+    "zip_sha256": "a96b655a9dbb8e47cac247dc3ef14293e939bff6c187a90f2ab65ff10dec0f3b",
+    "zip_crc_passed": true,
+    "zip_crc_method": "Stream-read every file member completely with zipfile; CRC verified on completion.",
+    "zip_file_member_count": 1,
+    "inner_source_netcdf_sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501",
+    "source_and_member_bytes_identical_by_sha256": true,
+    "source_sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501",
+    "subset_sha256": "f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22",
+    "exhaustive_subset_values_check_record": "D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_independent_check.json",
+    "all_11680000_float32_values_bitwise_equal": true,
+    "research_data_files_modified_for_index_update": false
+  },
+  "available_original_file_count": 1,
+  "available_original_bytes": 2372499291,
+  "history": {
+    "prior_metadata_only_manifest": "_provenance/manifest.json",
+    "prior_status_text": "_provenance/status_before_data_verification_20261027.md"
+  },
+  "github_publication": {
+    "scope": "Yunnan rectangle and inspection/provenance records only",
+    "global_netcdf_and_original_download_zip": "retained locally; not uploaded",
+    "published_netcdf": "yunnan_bbox_2015_glofas_v4.nc",
+    "province_boundary_mask_applied": false
+  }
+}

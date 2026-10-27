@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "name": "xiaowan_scaled_representative",
+  "classification": "文献水文输入支持的代表性情景；工厂、交易和初末状态假设尚未现场验证",
+  "data": {
+    "inflow_csv": "../data/xiaowan_inflow_1979_2016.csv",
+    "reservoir_json": "../data/xiaowan_reservoir.json",
+    "source_manifest": "../data/source_manifest.json"
+  },
+  "hydro": {
+    "scale": 0.5,
+    "initial_active_fraction": 0.5,
+    "terminal_active_fraction": 0.5,
+    "evaporation_m3_per_day": 0.0,
+    "min_release_m3_per_day": 0.0
+  },
+  "industry": {
+    "rated_t_per_day": 1000.0,
+    "minimum_load_fraction": 0.9,
+    "baseline_utilization": 0.95,
+    "smelting_ac_mwh_per_t": 13.203,
+    "casting_mwh_per_t_assumed": 0.25,
+    "extra_inventory_days": 30.0,
+    "delivery_schedule": "month_end",
+    "inventory_accounting": "end_delivery"
+  },
+  "economics": {
+    "wet_months": [6, 7, 8, 9, 10],
+    "wet_buy_cny_per_mwh": 450.0,
+    "dry_buy_cny_per_mwh": 650.0,
+    "wet_sell_cny_per_mwh": 250.0,
+    "dry_sell_cny_per_mwh": 350.0,
+    "import_limit_mw": null,
+    "export_limit_mw": null,
+    "other_load_mw": 0.0,
+    "holding_cost_cny_per_t_day": 3.0,
+    "production_cost_cny_per_t": 0.0,
+    "hydro_cost_cny_per_mwh": 0.0
+  },
+  "notes": [
+    "scale同时乘来水、活动库容和装机；平均耗水系数不变。该单元不是实际小湾电站的一份可交易供电权。",
+    "初末水量为情景假设；库容敏感性保持这些绝对水量，过小库容将被报告为不可行。",
+    "最低负荷90%按额定产能计算；这不是任何具体工厂可持续数月运行的已验证能力。",
+    "IAI电耗止于铝液；另加0.25MWh/t铸造电耗是敏感性参数，不是已核实实测。",
+    "月末交付当月基准总产量，仓容包含正常周转峰值与30天额外库存。",
+    "上述购售电价、持有费和接口假设只用于演示；buy/sell价格不同，双向交易不限额。",
+    "蒸发、生态最小下泄、其他用电和水电变动运维暂为0的简化情景；它们不是正式工程规定。",
+    "非电生产成本取0是因为固定总交付下的时不变成本不影响策略差值，输出不代表完整生产成本。"
+  ]
+}

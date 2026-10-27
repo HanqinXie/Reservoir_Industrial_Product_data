@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "name": "xiaowan_scaled_representative_dry_1993",
+  "inventory_accounting": "end_delivery",
+  "initial_inventory_capacity_t": 57950.0,
+  "metadata": {
+    "classification": "文献水文输入支持的代表性情景；工厂、交易和初末状态假设尚未现场验证",
+    "hydrological_category": "dry",
+    "hydrological_year": 1993,
+    "hydro_scale": 0.5,
+    "raw_reservoir_name": "Xiaowan",
+    "source_repository_commit": "cc1e9da360ef0ec6c557b3401d0bfcdab2a07913",
+    "source_data_sha256": {
+      "inflow_csv": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+      "reservoir_json": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b",
+      "source_manifest": "929cbedf0e109892c531771174f6a57c6d177c4f6f5051542afba51d7ceb86ae"
+    },
+    "rated_t_per_day": 1000.0,
+    "minimum_load_fraction": 0.9,
+    "baseline_utilization": 0.95,
+    "normal_inventory_capacity_t": 29450.0,
+    "extra_inventory_capacity_t": 28500.0,
+    "average_delivery_t_per_day": 950.0,
+    "delivery_schedule": "month_end",
+    "notes": [
+      "scale同时乘来水、活动库容和装机；平均耗水系数不变。该单元不是实际小湾电站的一份可交易供电权。",
+      "初末水量为情景假设；库容敏感性保持这些绝对水量，过小库容将被报告为不可行。",
+      "最低负荷90%按额定产能计算；这不是任何具体工厂可持续数月运行的已验证能力。",
+      "IAI电耗止于铝液；另加0.25MWh/t铸造电耗是敏感性参数，不是已核实实测。",
+      "月末交付当月基准总产量，仓容包含正常周转峰值与30天额外库存。",
+      "上述购售电价、持有费和接口假设只用于演示；buy/sell价格不同，双向交易不限额。",
+      "蒸发、生态最小下泄、其他用电和水电变动运维暂为0的简化情景；它们不是正式工程规定。",
+      "非电生产成本取0是因为固定总交付下的时不变成本不影响策略差值，输出不代表完整生产成本。"
+    ],
+    "year_selection": "Sum every complete calendar year's daily volumes; calculate 0.20/0.50/0.80 empirical quantiles using linear interpolation; choose the nearest observed total, breaking ties by earlier year; selected years must be distinct."
+  },
+  "generated_input_fingerprint": "a652f743454e9fcfae26a03bf4a365e3c03e7cca1f16190e51e3f13127ed042e",
+  "editing_note": "Editable tables are authoritative. Update source_id / sources.csv when replacing assumptions."
+}

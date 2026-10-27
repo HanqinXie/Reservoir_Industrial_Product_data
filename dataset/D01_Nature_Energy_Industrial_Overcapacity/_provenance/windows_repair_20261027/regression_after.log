@@ -1,0 +1,10 @@
+test_existing_windows_invalid_colon_mapping_is_preserved (__main__.WindowsExtractionTests) ... ok
+test_other_sources_retain_the_original_extraction_policy (__main__.WindowsExtractionTests) ... ok
+test_path_traversal_still_rejected (__main__.WindowsExtractionTests) ... ok
+test_recovers_all_chinese_shapefile_component_names_without_changing_bytes (__main__.WindowsExtractionTests) ... ok
+test_skips_only_mac_metadata_and_records_its_archive_hashes (__main__.WindowsExtractionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+OK

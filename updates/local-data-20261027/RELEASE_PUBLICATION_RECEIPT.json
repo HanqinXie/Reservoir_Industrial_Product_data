@@ -1,0 +1,51 @@
+{
+  "tag_name": "local-update-20261027-run01",
+  "release_id": 425429014,
+  "target_commit": "c9cd46afce9ee2ac28922d388d87650d470e5907",
+  "created_utc": "2026-10-27T12:27:44.808480+00:00",
+  "assets": [
+    {
+      "name": "local-data-update-20261027.tar.zst.part001",
+      "id": 681709074,
+      "bytes": 34584723,
+      "sha256": "af5edee605bb685f489fcd72d6a1e72a7e2f3d84cc35f87cfabada73bddbf03c",
+      "server_digest": "sha256:af5edee605bb685f489fcd72d6a1e72a7e2f3d84cc35f87cfabada73bddbf03c",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/download/local-update-20261027-run01/local-data-update-20261027.tar.zst.part001"
+    },
+    {
+      "name": "update_archive_manifest.json",
+      "id": 681708986,
+      "bytes": 1148,
+      "sha256": "852b28c0666c02071cb93f10d17530d70957c4ebf4e8e4e9d8ffc7550389efc5",
+      "server_digest": "sha256:852b28c0666c02071cb93f10d17530d70957c4ebf4e8e4e9d8ffc7550389efc5",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/download/local-update-20261027-run01/update_archive_manifest.json"
+    },
+    {
+      "name": "UPDATE_CHANGES.json",
+      "id": 681709066,
+      "bytes": 149115,
+      "sha256": "dc1997a75358891aa5138c3f7c69a6eef03348f87d8abccad9a276a70d360604",
+      "server_digest": "sha256:dc1997a75358891aa5138c3f7c69a6eef03348f87d8abccad9a276a70d360604",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/download/local-update-20261027-run01/UPDATE_CHANGES.json"
+    },
+    {
+      "name": "UPDATE_FILES_SHA256.json",
+      "id": 681708978,
+      "bytes": 51381,
+      "sha256": "5b78f9b1a198f0217ea34783c439afafeeee14521ca32e383b052405c4b5e252",
+      "server_digest": "sha256:5b78f9b1a198f0217ea34783c439afafeeee14521ca32e383b052405c4b5e252",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/download/local-update-20261027-run01/UPDATE_FILES_SHA256.json"
+    }
+  ],
+  "scope": "regional only; global NC and original ZIP retained locally",
+  "published_utc": "2026-10-27T13:43:33Z",
+  "html_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/tag/local-update-20261027-run01",
+  "asset_count": 4,
+  "all_server_sizes_and_sha256_verified": true,
+  "published": true,
+  "transport": "Windows curl upload; final metadata verified through GitHub connector"
+}

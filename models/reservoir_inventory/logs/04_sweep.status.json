@@ -1,0 +1,20 @@
+{
+  "name": "04_sweep",
+  "argv": [
+    "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "reservoir_inventory",
+    "sweep",
+    "--inputs",
+    "outputs/demo/inputs/normal",
+    "--out",
+    "outputs/sweep"
+  ],
+  "cwd": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory",
+  "pid": 53144,
+  "start_utc": "2026-10-27T06:29:20.127977+00:00",
+  "end_utc": "2026-10-27T06:29:22.214017+00:00",
+  "elapsed_seconds": 2.085825899615884,
+  "exit_code": 0,
+  "log": "logs/04_sweep.log"
+}

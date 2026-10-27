@@ -1,0 +1,19 @@
+{
+  "base_input_fingerprint": "478f41e7f088f76c04fe320394a49a5912d10e313d49d930feaff0890bf888f5",
+  "case_name": "xiaowan_scaled_representative_normal_1988",
+  "method": "One parameter family at a time; same input hydrology, information, deliveries, absolute initial/terminal water and product states.",
+  "normal_inventory_capacity_t": 29450.0,
+  "minimum_load_fraction_relative_to_rated_capacity": 0.9,
+  "notes": [
+    "Water-capacity sweep changes K only, not inflow, power capacity, initial water or terminal water.",
+    "Too-small K may invalidate the common initial/terminal state; marked invalid_input, never silently refilled or reset.",
+    "Rated-capacity sweep updates both the maximum and the rated-based minimum; it may invalidate conventional production.",
+    "Zero extra warehouse capacity preserves normal working inventory; this is not generally identical to zero production shifting.",
+    "Each row re-optimizes M0; its M1 attribution remains conditional on the M0 plan selected by the solver.",
+    "These are conditional operating-cost sensitivities, not a joint response surface or an investment NPV analysis."
+  ],
+  "counts": {
+    "optimal": 20,
+    "invalid_input": 2
+  }
+}

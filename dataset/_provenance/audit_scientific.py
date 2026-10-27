@@ -44,10 +44,19 @@ def main():
             ext=r.get('extraction',{})
             if ext.get('status')!='extracted_verified_crc':issues.append('ZIP extraction has not completed')
             recorded=ext.get('members',[])
+            skipped=ext.get('skipped_members',[])
             with zipfile.ZipFile(p) as z:
                 members=[i for i in z.infolist() if not i.is_dir()]
-                if len(members)!=len(recorded):issues.append('extraction member count differs from ZIP directory')
-                if sum(i.file_size for i in members)!=sum(i['byte_size'] for i in recorded):issues.append('extraction bytes differ from ZIP directory')
+                if len(members)!=len(recorded)+len(skipped):issues.append('extraction and explicitly skipped member count differs from ZIP directory')
+                if sum(i.file_size for i in members)!=sum(i['byte_size'] for i in recorded+skipped):issues.append('extraction and explicitly skipped bytes differ from ZIP directory')
+                names=[item['original_member'] for item in recorded+skipped]
+                if len(names)!=len(set(names)) or set(names)!={i.filename for i in members}:issues.append('extraction/skipped members do not exactly partition ZIP files')
+                for item in skipped:
+                    parts=pathlib.PurePosixPath(item['original_member'].replace('\\','/')).parts
+                    is_mac=bool(parts) and ('__MACOSX' in parts or parts[-1]=='.DS_Store' or parts[-1].startswith('._'))
+                    if t['id']!='D01' or not is_mac:issues.append('unapproved skipped member: '+item['original_member']);continue
+                    original=z.getinfo(item['original_member'])
+                    if original.file_size!=item['byte_size'] or hashlib.sha256(z.read(original)).hexdigest()!=item['sha256']:issues.append('skipped metadata no longer recoverable from original archive: '+item['original_member'])
             for item in recorded:
                 target=(ROOT/item['path']).resolve()
                 if not target.is_relative_to(ROOT.resolve()) or not target.is_file() or target.is_symlink() or target.stat().st_size!=item['byte_size']:

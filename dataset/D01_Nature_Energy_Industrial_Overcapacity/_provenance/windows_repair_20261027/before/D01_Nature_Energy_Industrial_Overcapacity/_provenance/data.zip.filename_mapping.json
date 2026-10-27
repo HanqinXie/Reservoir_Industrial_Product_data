@@ -1,0 +1,18 @@
+[
+  {
+    "original_member": "data/heating/DH_city:town_2020.csv",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.csv"
+  },
+  {
+    "original_member": "__MACOSX/data/heating/._DH_city:town_2020.csv",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.csv"
+  },
+  {
+    "original_member": "data/heating/DH_city:town_2020.h5",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.h5"
+  },
+  {
+    "original_member": "__MACOSX/data/heating/._DH_city:town_2020.h5",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.h5"
+  }
+]

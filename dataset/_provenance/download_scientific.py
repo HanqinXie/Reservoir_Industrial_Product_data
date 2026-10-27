@@ -96,20 +96,38 @@ def digest(path):
     with path.open('rb') as f:
         for b in iter(lambda: f.read(4*1024*1024), b''): sha.update(b); md5.update(b)
     return sha.hexdigest(), md5.hexdigest()
+def _zip_utf8_name(info):
+    """Recover unflagged UTF-8 Chinese names without guessing legacy encodings."""
+    if info.flag_bits & 0x800 or info.filename.isascii(): return info.filename
+    try: decoded = info.filename.encode('cp437').decode('utf-8')
+    except (UnicodeEncodeError, UnicodeDecodeError): return info.filename
+    return decoded if any('\u3400' <= char <= '\u9fff' for char in decoded) else info.filename
+
+def _is_macos_metadata(name):
+    parts = pathlib.PurePosixPath(name.replace('\\', '/')).parts
+    return bool(parts) and ('__MACOSX' in parts or parts[-1] == '.DS_Store' or parts[-1].startswith('._'))
+
 def extract_zip(path, dest):
     dest.mkdir(parents=True, exist_ok=True)
     base = dest.resolve()
-    members, plan, renamed = [], [], []
+    members, plan, renamed, skipped = [], [], [], []
+    windows_d01 = path.parent.name.startswith('D01_')
     prefix_map, target_map, kinds, files_seen = {}, {}, {}, set()
     reserved = {'CON','PRN','AUX','NUL'} | {f'COM{i}' for i in range(1,10)} | {f'LPT{i}' for i in range(1,10)}
     with zipfile.ZipFile(path) as z:
         for info in z.infolist():
-            name = info.filename.replace('\\', '/')
+            name = (_zip_utf8_name(info) if windows_d01 else info.filename).replace('\\', '/')
             pp = pathlib.PurePosixPath(name)
             if pp.is_absolute() or '..' in pp.parts or re.match(r'^[A-Za-z]:',name):
                 raise ValueError('Unsafe archive member: ' + name)
             if stat.S_ISLNK((info.external_attr >> 16) & 0xFFFF):
                 raise ValueError('Archive link rejected: ' + name)
+            if windows_d01 and _is_macos_metadata(name):
+                if not info.is_dir():
+                    skipped.append({'original_member': info.filename, 'byte_size': info.file_size,
+                                    'sha256': hashlib.sha256(z.read(info)).hexdigest(),
+                                    'reason': 'macOS metadata; retained in original data.zip'})
+                continue
             if not pp.parts: continue
             for idx,part in enumerate(pp.parts):
                 raw_prefix=tuple(pp.parts[:idx+1]); kind='directory' if idx<len(pp.parts)-1 or info.is_dir() else 'file'
@@ -133,7 +151,7 @@ def extract_zip(path, dest):
             if not info.is_dir():
                 if tuple(pp.parts) in files_seen:raise ValueError('Duplicate archive file member rejected: '+name)
                 files_seen.add(tuple(pp.parts))
-            if tuple(pp.parts)!=safe_parts:renamed.append({'original_member':info.filename,'extracted_path':str(target.relative_to(ROOT))})
+            if tuple(pathlib.PurePosixPath(info.filename.replace('\\', '/')).parts)!=safe_parts:renamed.append({'original_member':info.filename,'decoded_member':name,'extracted_path':str(target.relative_to(ROOT))})
             plan.append((info,target))
         for info,target in plan:
             if info.is_dir(): target.mkdir(parents=True, exist_ok=True); continue
@@ -142,7 +160,13 @@ def extract_zip(path, dest):
             with z.open(info) as src, target.open('wb') as dst:
                 for b in iter(lambda: src.read(4*1024*1024), b''): dst.write(b); sha.update(b)
             members.append({'original_member':info.filename,'path': str(target.relative_to(ROOT)), 'byte_size': target.stat().st_size, 'sha256': sha.hexdigest()})
-    return {'status': 'extracted_verified_crc', 'path': str(dest.relative_to(ROOT)), 'member_count': len(members), 'uncompressed_bytes': sum(x['byte_size'] for x in members), 'renamed_member_count':len(renamed),'renamed_members':renamed,'members': members}
+    result = {'status': 'extracted_verified_crc', 'path': str(dest.relative_to(ROOT)), 'member_count': len(members), 'uncompressed_bytes': sum(x['byte_size'] for x in members), 'renamed_member_count':len(renamed),'renamed_members':renamed,'members': members}
+    if windows_d01:
+        result.update(skipped_member_count=len(skipped), skipped_members=skipped,
+                      archive_file_member_count=len(members)+len(skipped),
+                      archive_uncompressed_bytes=sum(x['byte_size'] for x in members+skipped),
+                      windows_policy='Recover unflagged UTF-8 Chinese filenames; omit macOS metadata only; preserve research bytes.')
+    return result
 
 def run_task(task):
     folder = ROOT / task['directory']; folder.mkdir(parents=True, exist_ok=True)

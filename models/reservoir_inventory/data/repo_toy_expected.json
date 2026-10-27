@@ -1,0 +1,212 @@
+{
+  "notice": "人工构造的两期程序单元测试；不是任何真实电站/工厂数据或研究实证结果。以下最优值已以整数网格完全枚举核对；这一小测试的最优解也满足其连续线性版本。",
+  "units": "normalized: one water unit = one energy unit = production energy for one product unit",
+  "inputs": {
+    "inflow": [
+      6,
+      0
+    ],
+    "delivery": [
+      1,
+      5
+    ],
+    "production_capacity": [
+      3,
+      5
+    ],
+    "reservoir_capacity": 3,
+    "initial_and_terminal_water": 0,
+    "initial_and_terminal_product_inventory": 0,
+    "extra_product_inventory_capacity": 2,
+    "electricity_prices": [
+      1,
+      3
+    ],
+    "holding_cost_per_unit_across_periods": 0.2,
+    "hydro_and_production_conversion": 1
+  },
+  "results": {
+    "export_prohibited": {
+      "M0": {
+        "cost": 6.0,
+        "production": [
+          1,
+          5
+        ],
+        "hydro_generation": [
+          1,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          2,
+          0
+        ],
+        "product_stock": [
+          0,
+          0,
+          0
+        ],
+        "net_grid_purchase": [
+          0,
+          2
+        ]
+      },
+      "M1": {
+        "cost": 2.4,
+        "production": [
+          3,
+          3
+        ],
+        "hydro_generation": [
+          1,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          2,
+          0
+        ],
+        "product_stock": [
+          0,
+          2,
+          0
+        ],
+        "net_grid_purchase": [
+          2,
+          0
+        ]
+      },
+      "M2": {
+        "cost": 0.4,
+        "production": [
+          3,
+          3
+        ],
+        "hydro_generation": [
+          3,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          0,
+          0
+        ],
+        "product_stock": [
+          0,
+          2,
+          0
+        ],
+        "net_grid_purchase": [
+          0,
+          0
+        ]
+      },
+      "inventory_savings": 3.6,
+      "additional_hydro_coordination_savings": 2.0
+    },
+    "unlimited_symmetric_trading": {
+      "M0": {
+        "cost": 4.0,
+        "production": [
+          1,
+          5
+        ],
+        "hydro_generation": [
+          3,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          0,
+          0
+        ],
+        "product_stock": [
+          0,
+          0,
+          0
+        ],
+        "net_grid_purchase": [
+          -2,
+          2
+        ]
+      },
+      "M1": {
+        "cost": 0.4,
+        "production": [
+          3,
+          3
+        ],
+        "hydro_generation": [
+          3,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          0,
+          0
+        ],
+        "product_stock": [
+          0,
+          2,
+          0
+        ],
+        "net_grid_purchase": [
+          0,
+          0
+        ]
+      },
+      "M2": {
+        "cost": 0.4,
+        "production": [
+          3,
+          3
+        ],
+        "hydro_generation": [
+          3,
+          3
+        ],
+        "water_state": [
+          0,
+          3,
+          0
+        ],
+        "spill": [
+          0,
+          0
+        ],
+        "product_stock": [
+          0,
+          2,
+          0
+        ],
+        "net_grid_purchase": [
+          0,
+          0
+        ]
+      },
+      "inventory_savings": 3.6,
+      "additional_hydro_coordination_savings": 0.0
+    }
+  }
+}

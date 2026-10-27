@@ -17,27 +17,2183 @@
           "extraction": {
             "status": "extracted_verified_crc",
             "path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data",
-            "member_count": 553,
-            "uncompressed_bytes": 147601763,
-            "renamed_member_count": 4,
+            "member_count": 252,
+            "uncompressed_bytes": 147414509,
+            "renamed_member_count": 60,
             "renamed_members": [
               {
-                "original_member": "data/heating/DH_city:town_2020.csv",
-                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.csv"
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/线状县界.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.shx",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.shx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.shx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.shx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.sbx",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.sbx",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.sbx",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.sbx"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/中国地州界.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/线状省界.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.prj"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/国界线.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.shp",
+                "decoded_member": "data/province_shapes/CHN_adm/县城驻地.shp",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.shp",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.shp"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/省级行政区.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbn",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.sbn",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbn",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.sbn"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/经纬网.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.dbf",
+                "decoded_member": "data/province_shapes/CHN_adm/省会城市.dbf",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.dbf",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.dbf"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.prj",
+                "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.prj",
+                "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.prj",
+                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.prj"
+              }
+            ],
+            "skipped_member_count": 301,
+            "skipped_members": [
+              {
+                "original_member": "__MACOSX/._data",
+                "byte_size": 276,
+                "sha256": "c0144d467d70f707afdc1550eec566abe05d32b5cdd66be4a91cb52245b479c8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._existing_infrastructure",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._costs",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/.DS_Store",
+                "byte_size": 28676,
+                "sha256": "df0c57e5918c3f0cdb31b5f1039249edd73806b7184cc8072c8408e6ef3fc145",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._province_shapes",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._resources",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._override_component_attrs",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._grids",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._population",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._README.md",
+                "byte_size": 219,
+                "sha256": "bdccd794a22e3807fe10f097ec41d43b42da8a694d409e3277cd7026d8fe1291",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._load",
+                "byte_size": 219,
+                "sha256": "f6eafc5b568b46e216ddfb421e42a38805fc5f0666758a748512e94f7489ee6c",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._costs_constant",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._heating",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._p_nom",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._aluminum_demand",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/._hydro",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._Global-Gas-Plant-Tracker-GGPT-February-2023-v2.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._nuclear capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/existing_infrastructure/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "96c3c01210ba90910ef6fe15b78758162645f530730c22ba040c8b3b551094fb",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._Global-Solar-Power-Tracker-May-2023.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._onwind capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._CHP gas capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._China_current_capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._offwind capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._coal boiler capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._solar thermal capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._solar capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._Global-Coal-Plant-Tracker-add-CHP.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._CHP coal capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._Global-Coal-Plant-Tracker-July-2023.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._OCGT capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._China_current_capacity.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._coal capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._ground heat pump capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._China_current_capacity.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._hydroelectricity capacity.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._China_current_capacity.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._China_current_capacity.cpg",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._decentral coal boiler percentrage.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/existing_infrastructure/._Global-Wind-Power-Tracker-May-2023.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2045.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2050.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/costs/.DS_Store",
+                "byte_size": 10244,
+                "sha256": "6c139d50ea75c029569a9f3727cfc5006ac0eb95f252d50fa38b11fee6aee710",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._.DS_Store",
+                "byte_size": 219,
+                "sha256": "7ec01e8209591af8066751b83486356a0e84dcaca929c231a4f68b7d44cd5fa0",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2040.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2055.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2025.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2030.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2035.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs/._costs_2060.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.cpg",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.shp",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/province_shapes/.DS_Store",
+                "byte_size": 10244,
+                "sha256": "d2ca5c0bad5648c5a285fc285c3ceb01cefbfee1a3d2d50fb52253872f6a3101",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm1.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_full_adm",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._CHN_adm",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/._chn_adm_ocha_2020_shp",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/resources/._regions_offshore.geojson",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/resources/._regions_onshore.geojson",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/resources/._regions_offshore_province.geojson",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/override_component_attrs/._buses.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/override_component_attrs/._links.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/override_component_attrs/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "806495cea40adb09bb3ff58280a1b167c5a9f372833ab2be800df20a1ee2f0d5",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/override_component_attrs/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/grids/.DS_Store",
+                "byte_size": 8196,
+                "sha256": "6c96543cb26e0152f91c2b4a4f22087a8c4407be533f44af9651f98df46136d2",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/._edges.txt",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/._old",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/._edges_current_neighbor.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/._edges_current.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/population/._population_gridcell_map.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/population/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "caf17e846a5c85f2ab91e6654af74b7c40a1e664a34b4327804fb5f3374fe0ae",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/population/._.DS_Store",
+                "byte_size": 219,
+                "sha256": "7ec01e8209591af8066751b83486356a0e84dcaca929c231a4f68b7d44cd5fa0",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/population/._population_from_National_Data_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/population/._population.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/population/._CFSR_grid.nc",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2055_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2035_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/load/.DS_Store",
+                "byte_size": 8196,
+                "sha256": "d85eca362de503be0bca54ebce15ae0a1640780193e81e26853a0f14f160f164",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._Hourly_demand_of_31_province_China_modified - V2.1.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2025_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2060_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2045_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2030_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2050_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._Province_Load_2020_2060.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2040_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/load/._load_2020_weatheryears_1979_2016_TWh.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2045.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2050.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs",
+                "byte_size": 176,
+                "sha256": "51478b6b806a682b10f65edb4af28c05e66f42f4f3f9b22512910bf500a3c4a8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/costs_constant/.DS_Store",
+                "byte_size": 10244,
+                "sha256": "8209b52b35e09264d568b8eb55ab318a7cabb69c09972825bf8865bdadb9930a",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2040.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2055.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2025.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2030.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2035.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/._costs_2060.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._solar_thermal-45.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._central_heating.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/heating/.DS_Store",
+                "byte_size": 8196,
+                "sha256": "a61c3ff2b0429f2923b994561dfa963c502615ef036a45612f6e5b0294bd06ce",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_load_profile_DK_AdamJensen.csv",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._DH_percent2020_V1.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2055.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._central_SPH_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2030.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2020.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2045.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2060.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2035.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2050.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2040.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_mean_2025.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._cop.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2060.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._SPH_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._temp.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2035.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2050.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2040.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2025.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
               },
               {
                 "original_member": "__MACOSX/data/heating/._DH_city:town_2020.csv",
-                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.csv"
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
               },
               {
-                "original_member": "data/heating/DH_city:town_2020.h5",
-                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.h5"
+                "original_member": "__MACOSX/data/heating/._decentral_SPH_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2055.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2030.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2020.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_constant_2045.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2025.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2040.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2060.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2050.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2035.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2025.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2040.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2050.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2060.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2035.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
               },
               {
                 "original_member": "__MACOSX/data/heating/._DH_city:town_2020.h5",
-                "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.h5"
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2045.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2020.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2030.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_2055.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2045.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2020.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2030.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/heating/._heat_demand_profile_positive_2055.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._hydro_p_nom.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/p_nom/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "ce7596b102039b5e174e28b04cf98a08e75a40c9e38c45c1ab18cbc83e67a5c2",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._nuclear_p_nom.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._hydro_p_nom.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._p_nom_max_cc.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._41467_2021_23282_MOESM4_ESM.xlsx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._biomass_potential.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._al_production_ratio.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._hydro_p_max_pu.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._al_smelter_p_max.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/p_nom/._nuclear_p_nom.h5",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/aluminum_demand/._aluminum_demand_all_scenarios.json",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/aluminum_demand/._aluminum_capacity_by_province.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/aluminum_demand/._aluminum_demand_by_province.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/hydro/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "4b3c805fef6e400d9a68e8fdbf90d28c5b312e17103f490dd7a3cffc6596b77d",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._PHS_p_nom.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._reservoir_cap.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._reservoir_total_capacity.pickle",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._reservoir_initial_capacity.pickle",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._reservoir_effective_capacity.pickle",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._daily_hydro_inflow_per_dam_1979_2016_m3.pickle",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._Capacities_2014_MWh.pickle",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._dams_large.csv",
+                "byte_size": 212,
+                "sha256": "6e91cd1e3588caef7ec686cf2a44d15da25ac68778fc0b2967d8d942d1e78af8",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._installed_hydro_capacity_2015_MW.pickle",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/hydro/._daily_hydro_inflow_per_dam_1979_2016_GWh.pickle",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_full_adm/._CHN_full_adm.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_full_adm/._CHN_full_adm.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/province_shapes/CHN_full_adm/.DS_Store",
+                "byte_size": 6148,
+                "sha256": "91ef5d883f4c9a513617048b07fd693df09fb9b8b68345306f0c2883aa138715",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_full_adm/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_full_adm/._CHN_full_adm.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_full_adm/._CHN_full_adm.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢σÄ┐τòî.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._Σ╕¡σ¢╜σ£░σ╖₧τòî.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ║┐τè╢τ£üτòî.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ¢╜τòîτ║┐.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σÄ┐σƒÄΘ⌐╗σ£░.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üτ║ºΦíîµö┐σî║.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ╗Åτ║¼τ╜æ.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._τ£üΣ╝ÜσƒÄσ╕é.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/CHN_adm/._σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.shp.xml",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.shp.xml",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.CPG",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.shp.xml",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.shp.xml",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.cpg",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.sbn",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._CHN COD-AB 2020_09_10.pdf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm0_ocha_2020.prj",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm1_ocha_2020.CPG",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.CPG",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.shp",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.shx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbndl_ALL_ocha_2020.dbf",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/province_shapes/chn_adm_ocha_2020_shp/._chn_admbnda_adm2_ocha_2020.sbx",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/grids/old/.DS_Store",
+                "byte_size": 8196,
+                "sha256": "ba6dacd5df2a0d0ed7bb1fe2042ed36ac5e7c93f2f1c0bc3060820c5a54f1f1f",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._edges.txt",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._edges_current.txt",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._edges_current_FCG.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._edges_current_neighbor.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/grids/old/._edges_current.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2045.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2050.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "data/costs_constant/costs/.DS_Store",
+                "byte_size": 10244,
+                "sha256": "f0bdb64a01cbd1560b5e730c0ddd9b6e4cfd624fc740a8254f85f0fa98219b68",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._.DS_Store",
+                "byte_size": 176,
+                "sha256": "7179d7e6233590f799e15ae9e80ad3e953edd55ffcfb65dd3dc477df0b79f4e6",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2040.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2055.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2025.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2030.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2020.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2035.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
+              },
+              {
+                "original_member": "__MACOSX/data/costs_constant/costs/._costs_2060.csv",
+                "byte_size": 163,
+                "sha256": "32e1f9951292ea38ee5349690269d28535e629e3b0fe28a5a8a215eefcb83cda",
+                "reason": "macOS metadata; retained in original data.zip"
               }
-            ]
+            ],
+            "archive_file_member_count": 553,
+            "archive_uncompressed_bytes": 147601763,
+            "windows_policy": "Recover unflagged UTF-8 Chinese names; omit macOS metadata only; research content unchanged."
           }
         }
       ],
@@ -48,9 +2204,10 @@
       },
       "reason": "All selected unique publicly listed files downloaded, original archives retained, archive extraction verified.",
       "original_bytes": 106509944,
-      "extracted_bytes": 147601763,
+      "extracted_bytes": 147414509,
       "expected_file_count": 1,
-      "verified_file_count": 1
+      "verified_file_count": 1,
+      "windows_repair_record": "D01_Nature_Energy_Industrial_Overcapacity\\_provenance\\windows_repair_20261027\\verification.json"
     },
     {
       "id": "D05",
@@ -442,5 +2599,6 @@
     }
   ],
   "expected_source_count": 7,
-  "expected_file_count": 25
+  "expected_file_count": 25,
+  "windows_repair_utc": "2026-10-27T09:32:52.380775+00:00"
 }

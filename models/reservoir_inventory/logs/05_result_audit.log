@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "highs_version": "1.8.0",
+  "readable_outputs": {
+    ".png": 5,
+    ".json": 17,
+    ".csv": 42
+  },
+  "annual_summary": [
+    {
+      "category": "dry",
+      "year": 1993,
+      "days": 365,
+      "M0_cost_cny": -283500268.7654153,
+      "M1_cost_cny": -283530097.32774526,
+      "M2_cost_cny": -283916668.76541436,
+      "inventory_savings_with_fixed_hydro_cny": 29828.56232994795,
+      "additional_hydro_coordination_savings_cny": 386571.4376690984,
+      "total_savings_cny": 416399.9999990463,
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0,
+      "max_water_balance_residual_m3": 6.51925802230835e-07,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "max_product_balance_residual_t": 1.7053025658242404e-12
+    },
+    {
+      "category": "normal",
+      "year": 1988,
+      "days": 366,
+      "M0_cost_cny": -668555380.7066175,
+      "M1_cost_cny": -668646660.9298005,
+      "M2_cost_cny": -668973880.7066166,
+      "inventory_savings_with_fixed_hydro_cny": 91280.22318303585,
+      "additional_hydro_coordination_savings_cny": 327219.7768161297,
+      "total_savings_cny": 418499.99999916553,
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0,
+      "max_water_balance_residual_m3": 8.493661880493164e-07,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "max_product_balance_residual_t": 1.7053025658242404e-12
+    },
+    {
+      "category": "wet",
+      "year": 1990,
+      "days": 365,
+      "M0_cost_cny": -1210208649.4497743,
+      "M1_cost_cny": -1212716174.4497743,
+      "M2_cost_cny": -1214030564.4497747,
+      "inventory_savings_with_fixed_hydro_cny": 2507525.0,
+      "additional_hydro_coordination_savings_cny": 1314390.0000004768,
+      "total_savings_cny": 3821915.000000477,
+      "M2_max_post_delivery_inventory_t": 3050.0,
+      "M2_peak_warehouse_inventory_t": 32500.0,
+      "max_water_balance_residual_m3": 8.940696716308594e-07,
+      "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+      "max_product_balance_residual_t": 1.1368683772161603e-13
+    }
+  ],
+  "sweep": {
+    "points": 22,
+    "status_counts": {
+      "optimal": 20,
+      "invalid_input": 2
+    },
+    "family_counts": {
+      "water_capacity_multiplier": 6,
+      "rated_to_baseline_ratio": 6,
+      "extra_inventory_days": 5,
+      "holding_cost_cny_per_t_day": 5
+    },
+    "invalid_points": [
+      {
+        "parameter": "water_capacity_multiplier",
+        "value": 0.25,
+        "status": "invalid_input",
+        "reason": "initial_water_m3 lies outside the storage bounds; do not reset it during capacity sweeps"
+      },
+      {
+        "parameter": "rated_to_baseline_ratio",
+        "value": 1.15,
+        "status": "invalid_input",
+        "reason": "baseline production violates the same physical production bounds used in M1/M2"
+      }
+    ],
+    "max_absolute_differences_vs_example_by_column": {
+      "value": 0.0,
+      "initial_water_m3": 0.0,
+      "terminal_water_m3": 0.0,
+      "total_delivery_t": 0.0,
+      "M0_cost_cny": 0.0,
+      "M1_cost_cny": 0.0,
+      "M2_cost_cny": 0.0,
+      "inventory_savings_with_fixed_hydro_cny": 0.0,
+      "additional_hydro_coordination_savings_cny": 0.0,
+      "total_savings_cny": 0.0,
+      "M2_peak_inventory_t": 0.0,
+      "M2_spill_m3": 0.0,
+      "water_trajectory_max_change_m3": 0.0,
+      "max_water_balance_residual_m3": 0.0
+    }
+  }
+}
