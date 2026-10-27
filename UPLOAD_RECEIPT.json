@@ -1,0 +1,512 @@
+{
+  "completed_utc": "2026-10-27T04:18:14.767260+00:00",
+  "repository": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data",
+  "initial_commit": "a5372ca359cc545f0b55e2672a2cd064a5557733",
+  "release_url": "https://github.com/HanqinXie/Reservoir_Industrial_Product_data/releases/tag/snapshot-20261027",
+  "release_tag": "snapshot-20261027",
+  "source_file_count": 22592,
+  "source_bytes": 65981334519,
+  "compressed_bytes": 31903214706,
+  "part_count": 50,
+  "source_manifest_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+  "remote_asset_verification": {
+    "verified_utc": "2026-10-27T04:18:13.111378+00:00",
+    "release_id": 424977326,
+    "tag": "snapshot-20261027",
+    "draft": true,
+    "expected_assets": 54,
+    "verified_assets": 54,
+    "expected_bytes": 31909774858,
+    "checks": [
+      {
+        "name": "research-snapshot-20261027.tar.zst.part001",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "94d250ad0dbf8d63f9c98547197f4aea4a4f7c17d1c30d8f49cde2dcd0d8de47",
+        "remote_digest": "sha256:94d250ad0dbf8d63f9c98547197f4aea4a4f7c17d1c30d8f49cde2dcd0d8de47",
+        "asset_id": 680230733
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part002",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "4a99b12118a4d911a2e763e53a29f09919cb17af82b199112c4a10d3ae638485",
+        "remote_digest": "sha256:4a99b12118a4d911a2e763e53a29f09919cb17af82b199112c4a10d3ae638485",
+        "asset_id": 680230737
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part003",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "e5e10554c400af7a10b606efa8528b98dfe92d21e82bdbb514f6fdce56aa5bc0",
+        "remote_digest": "sha256:e5e10554c400af7a10b606efa8528b98dfe92d21e82bdbb514f6fdce56aa5bc0",
+        "asset_id": 680230731
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part004",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "b05aa64f9ec24df4321c82bc8e305a5aa788eef0210c060052a58e340e232eb6",
+        "remote_digest": "sha256:b05aa64f9ec24df4321c82bc8e305a5aa788eef0210c060052a58e340e232eb6",
+        "asset_id": 680230724
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part005",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "209b529bb9fb40524a27ec1fb91bcbb8810071e04098b4290d1bd4b2349c8817",
+        "remote_digest": "sha256:209b529bb9fb40524a27ec1fb91bcbb8810071e04098b4290d1bd4b2349c8817",
+        "asset_id": 680230791
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part006",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "04a761ac9c19f3d63bdeade2e2e82ed2dd83d468e01515d3020c9dabecbc541d",
+        "remote_digest": "sha256:04a761ac9c19f3d63bdeade2e2e82ed2dd83d468e01515d3020c9dabecbc541d",
+        "asset_id": 680230741
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part007",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "69808abce53d7e8c3263731632b2b848c5f5d651cc68f42d168c10b8426c198b",
+        "remote_digest": "sha256:69808abce53d7e8c3263731632b2b848c5f5d651cc68f42d168c10b8426c198b",
+        "asset_id": 680230732
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part008",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "d112bd43d8ea89fd75797aef94c3adc47594c4a18e18502a69e03e75b43d3b90",
+        "remote_digest": "sha256:d112bd43d8ea89fd75797aef94c3adc47594c4a18e18502a69e03e75b43d3b90",
+        "asset_id": 680230738
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part009",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "5dd807105874338e14f5836255a8e19948057f442f429f514cc860cd802c9de6",
+        "remote_digest": "sha256:5dd807105874338e14f5836255a8e19948057f442f429f514cc860cd802c9de6",
+        "asset_id": 680230700
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part010",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "28bbb4941bb79befc21e7b8ae932ee5cf650d8e6b6525a2c615c6c857514fe6c",
+        "remote_digest": "sha256:28bbb4941bb79befc21e7b8ae932ee5cf650d8e6b6525a2c615c6c857514fe6c",
+        "asset_id": 680230734
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part011",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "00025aa65f76f3c8a07b33495eeb260426baa491e443c6c6c82258e5daf1a038",
+        "remote_digest": "sha256:00025aa65f76f3c8a07b33495eeb260426baa491e443c6c6c82258e5daf1a038",
+        "asset_id": 680230692
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part012",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "b1d71ac25b30edc7adab9b0f5e1038019789f8e8b6a6babb8b173534bd61cff9",
+        "remote_digest": "sha256:b1d71ac25b30edc7adab9b0f5e1038019789f8e8b6a6babb8b173534bd61cff9",
+        "asset_id": 680230699
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part013",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "87747f64dae439f31cc25c18f9b13d18a994e2324e1832cadcd20a88f3e55e4f",
+        "remote_digest": "sha256:87747f64dae439f31cc25c18f9b13d18a994e2324e1832cadcd20a88f3e55e4f",
+        "asset_id": 680230686
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part014",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "8de601b08cdea9937fad13faee92bbb2326d28a7e9420ae1f4715c9a72bed71a",
+        "remote_digest": "sha256:8de601b08cdea9937fad13faee92bbb2326d28a7e9420ae1f4715c9a72bed71a",
+        "asset_id": 680230698
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part015",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "7f3d804b06408bbf658e2d1a24d6b1c3dc30edf6c559e58571eb13be1f3b1a75",
+        "remote_digest": "sha256:7f3d804b06408bbf658e2d1a24d6b1c3dc30edf6c559e58571eb13be1f3b1a75",
+        "asset_id": 680230687
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part016",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "0d70811817147bd132e607a95bf2c341d001421da88e40d432517ea1e54c819e",
+        "remote_digest": "sha256:0d70811817147bd132e607a95bf2c341d001421da88e40d432517ea1e54c819e",
+        "asset_id": 680230694
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part017",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "29731cfdf428350197b1b4fec140373faace462052a699913bf69509300dc3c0",
+        "remote_digest": "sha256:29731cfdf428350197b1b4fec140373faace462052a699913bf69509300dc3c0",
+        "asset_id": 680290453
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part018",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "559636c9e25ba2c870616ebe6e954bddd23a449cb7948e17e448b46195feaa90",
+        "remote_digest": "sha256:559636c9e25ba2c870616ebe6e954bddd23a449cb7948e17e448b46195feaa90",
+        "asset_id": 680290400
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part019",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "184ee6a64db3b2dfcbb2d172a4ec6d969043d45ce867b02b66eb7c439bf91bfd",
+        "remote_digest": "sha256:184ee6a64db3b2dfcbb2d172a4ec6d969043d45ce867b02b66eb7c439bf91bfd",
+        "asset_id": 680290481
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part020",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "676efdf3b4763f24cd528cb78e32952a51f37b1430ef4f1efb1eef8f1634b0ac",
+        "remote_digest": "sha256:676efdf3b4763f24cd528cb78e32952a51f37b1430ef4f1efb1eef8f1634b0ac",
+        "asset_id": 680290912
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part021",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "8ac37c0e997bd1ad91727c46e4813663fd0f63a1f7e4338c6dec51a0abb70a25",
+        "remote_digest": "sha256:8ac37c0e997bd1ad91727c46e4813663fd0f63a1f7e4338c6dec51a0abb70a25",
+        "asset_id": 680291582
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part022",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "f08eceee787646ecd6be1d7af42f39e456a96efbe014e2ebce4732037fdcfea5",
+        "remote_digest": "sha256:f08eceee787646ecd6be1d7af42f39e456a96efbe014e2ebce4732037fdcfea5",
+        "asset_id": 680292156
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part023",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "0d33816118d1ac0262542d8b5102f8652be671e2f2a067c9c2be8069845223b1",
+        "remote_digest": "sha256:0d33816118d1ac0262542d8b5102f8652be671e2f2a067c9c2be8069845223b1",
+        "asset_id": 680304696
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part024",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "de29f93332cecd3b00bd1a7452fd5e0d0e2f2538f7e1278417f749ac05c3fa84",
+        "remote_digest": "sha256:de29f93332cecd3b00bd1a7452fd5e0d0e2f2538f7e1278417f749ac05c3fa84",
+        "asset_id": 680300915
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part025",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "2dddb7ab86e5ed08745f5b1650f84da27d9a1892492eaaaaf7e0759034c67fec",
+        "remote_digest": "sha256:2dddb7ab86e5ed08745f5b1650f84da27d9a1892492eaaaaf7e0759034c67fec",
+        "asset_id": 680302535
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part026",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "637dd7cfc1742b037075e0e16888beaa46b8c255e242952da5feed5229b72483",
+        "remote_digest": "sha256:637dd7cfc1742b037075e0e16888beaa46b8c255e242952da5feed5229b72483",
+        "asset_id": 680307442
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part027",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "7e2257c6eb1b38fdf8feab29016e821ed2051f6a89256600c73cff8cf4bb39e0",
+        "remote_digest": "sha256:7e2257c6eb1b38fdf8feab29016e821ed2051f6a89256600c73cff8cf4bb39e0",
+        "asset_id": 680304708
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part028",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "16faf70310ed3d46c3d6f840b37e6f4223e139c753b41170c249d45c4612aaa7",
+        "remote_digest": "sha256:16faf70310ed3d46c3d6f840b37e6f4223e139c753b41170c249d45c4612aaa7",
+        "asset_id": 680295589
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part029",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "dac987e13a69cba4fadb415ba8077c3e4394ee5fbb7d9a3d581d1011fff24532",
+        "remote_digest": "sha256:dac987e13a69cba4fadb415ba8077c3e4394ee5fbb7d9a3d581d1011fff24532",
+        "asset_id": 680295959
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part030",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "45b71a6df6a0306efd4939485398660e2d5b1ba301b6d622e2da52a88a32b887",
+        "remote_digest": "sha256:45b71a6df6a0306efd4939485398660e2d5b1ba301b6d622e2da52a88a32b887",
+        "asset_id": 680296061
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part031",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "4ddc6350bbda0f98b4d88f6f4b00a1928a3e723be33a79e0a0677e7fc009f64d",
+        "remote_digest": "sha256:4ddc6350bbda0f98b4d88f6f4b00a1928a3e723be33a79e0a0677e7fc009f64d",
+        "asset_id": 680302612
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part032",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "babeec2700ad9adf2d937bc7e0475d6c1d7f1ca77af727ab11a4ad0951744317",
+        "remote_digest": "sha256:babeec2700ad9adf2d937bc7e0475d6c1d7f1ca77af727ab11a4ad0951744317",
+        "asset_id": 680307610
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part033",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "5bfb945efb7c3e7bd96b2e91e1f00245337fb73a4d114305c4d28b81374c2eb7",
+        "remote_digest": "sha256:5bfb945efb7c3e7bd96b2e91e1f00245337fb73a4d114305c4d28b81374c2eb7",
+        "asset_id": 680343352
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part034",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "291981fc1d1b30c17914d794a14593df63f83caf576f5c06c43deded7ecc23ad",
+        "remote_digest": "sha256:291981fc1d1b30c17914d794a14593df63f83caf576f5c06c43deded7ecc23ad",
+        "asset_id": 680343367
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part035",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "192f054d8166a96d77f43742e50c1d622d5dd97c53b7724f91f2dd6da9dacb58",
+        "remote_digest": "sha256:192f054d8166a96d77f43742e50c1d622d5dd97c53b7724f91f2dd6da9dacb58",
+        "asset_id": 680344300
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part036",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "638ed622cf6198adf2945bf163f560cbe36e9408e359d18801009eaac380a1f6",
+        "remote_digest": "sha256:638ed622cf6198adf2945bf163f560cbe36e9408e359d18801009eaac380a1f6",
+        "asset_id": 680344828
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part037",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "2322d5098604a383895e2f188dafdd9b76e6963432e4205cc8ce129376898026",
+        "remote_digest": "sha256:2322d5098604a383895e2f188dafdd9b76e6963432e4205cc8ce129376898026",
+        "asset_id": 680345052
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part038",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "f502cdd1ee42e906c4f9e85caab2162a1d8ad3cbef387ad24f2c433642c4eac9",
+        "remote_digest": "sha256:f502cdd1ee42e906c4f9e85caab2162a1d8ad3cbef387ad24f2c433642c4eac9",
+        "asset_id": 680353386
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part039",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "76c1fa4254a3e75e109f7cbce26a2f243d54a6bc764213cfdda7e92d06f64039",
+        "remote_digest": "sha256:76c1fa4254a3e75e109f7cbce26a2f243d54a6bc764213cfdda7e92d06f64039",
+        "asset_id": 680346519
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part040",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "3b3b6e3a0eb5e5960eedf67d6a26edd5098faf38831eca6bd135f2c0a5194b7b",
+        "remote_digest": "sha256:3b3b6e3a0eb5e5960eedf67d6a26edd5098faf38831eca6bd135f2c0a5194b7b",
+        "asset_id": 680346783
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part041",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "a1604efc99e83b37ee0699e95ef18bf067bfa49bfea194edec974d5e96c88527",
+        "remote_digest": "sha256:a1604efc99e83b37ee0699e95ef18bf067bfa49bfea194edec974d5e96c88527",
+        "asset_id": 680348712
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part042",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "43036b585b3792925784c9808b94cdcace94149d04aaa198fe3c53a616abb070",
+        "remote_digest": "sha256:43036b585b3792925784c9808b94cdcace94149d04aaa198fe3c53a616abb070",
+        "asset_id": 680351473
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part043",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "ab6c541b816b5a2acd19f676de7a49f6c36988a6ce7350c63a403e4efc1398f7",
+        "remote_digest": "sha256:ab6c541b816b5a2acd19f676de7a49f6c36988a6ce7350c63a403e4efc1398f7",
+        "asset_id": 680354127
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part044",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "73e76c661259adbe23d8356c9765db8130ffce882d9468d1a182697024f63301",
+        "remote_digest": "sha256:73e76c661259adbe23d8356c9765db8130ffce882d9468d1a182697024f63301",
+        "asset_id": 680354202
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part045",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "2e6eda517fb1f2388c0f2843a9561c175a5a3d2e0873778fd81aee501320dba9",
+        "remote_digest": "sha256:2e6eda517fb1f2388c0f2843a9561c175a5a3d2e0873778fd81aee501320dba9",
+        "asset_id": 680354253
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part046",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "1c1fa8f517f3d51b141176fc116d3c7a4e42ca110b37adb3097513a58f4fbbcd",
+        "remote_digest": "sha256:1c1fa8f517f3d51b141176fc116d3c7a4e42ca110b37adb3097513a58f4fbbcd",
+        "asset_id": 680357857
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part047",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "236603f3e60c63e7b06a658833dc47f2495f85a4dd005519fb3e2208d74089a6",
+        "remote_digest": "sha256:236603f3e60c63e7b06a658833dc47f2495f85a4dd005519fb3e2208d74089a6",
+        "asset_id": 680364340
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part048",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "5b01070c77f19f98a1952104aff5d80f012691ff6042caf9c0cbd740a1f41582",
+        "remote_digest": "sha256:5b01070c77f19f98a1952104aff5d80f012691ff6042caf9c0cbd740a1f41582",
+        "asset_id": 680362586
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part049",
+        "matched": true,
+        "expected_bytes": 640000000,
+        "remote_bytes": 640000000,
+        "expected_sha256": "4f4b981d6662096c559a325065943422d4a3fc878a8b18a95d6b7292edbf571c",
+        "remote_digest": "sha256:4f4b981d6662096c559a325065943422d4a3fc878a8b18a95d6b7292edbf571c",
+        "asset_id": 680388948
+      },
+      {
+        "name": "research-snapshot-20261027.tar.zst.part050",
+        "matched": true,
+        "expected_bytes": 543214706,
+        "remote_bytes": 543214706,
+        "expected_sha256": "cd8b29d5ca372a76ca891f4f36366eb8d9cb77eddbd272658ba9bfc944e592ce",
+        "remote_digest": "sha256:cd8b29d5ca372a76ca891f4f36366eb8d9cb77eddbd272658ba9bfc944e592ce",
+        "asset_id": 680389288
+      },
+      {
+        "name": "archive_manifest.json",
+        "matched": true,
+        "expected_bytes": 9981,
+        "remote_bytes": 9981,
+        "expected_sha256": "b7a62e27e85d888eccacb3e0badf0798a69564fe3ba5ffa37d73c1d0e8c3d94d",
+        "remote_digest": "sha256:b7a62e27e85d888eccacb3e0badf0798a69564fe3ba5ffa37d73c1d0e8c3d94d",
+        "asset_id": 680211146
+      },
+      {
+        "name": "SOURCE_FILES_SHA256.json",
+        "matched": true,
+        "expected_bytes": 6532418,
+        "remote_bytes": 6532418,
+        "expected_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+        "remote_digest": "sha256:e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+        "asset_id": 680211214
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "matched": true,
+        "expected_bytes": 6172,
+        "remote_bytes": 6172,
+        "expected_sha256": "382cbb00d6733ab767a272c95a7bd2e3f95132833176aec6490dc0810cba1dcc",
+        "remote_digest": "sha256:382cbb00d6733ab767a272c95a7bd2e3f95132833176aec6490dc0810cba1dcc",
+        "asset_id": 680211541
+      },
+      {
+        "name": "snapshot_verification.json",
+        "matched": true,
+        "expected_bytes": 11581,
+        "remote_bytes": 11581,
+        "expected_sha256": "2bdb0121c78e705231af1c34fab138821b51a321db69e5cacb4360ada6676df9",
+        "remote_digest": "sha256:2bdb0121c78e705231af1c34fab138821b51a321db69e5cacb4360ada6676df9",
+        "asset_id": 680211636
+      }
+    ],
+    "status": "passed"
+  },
+  "independent_integrity_report_sha256": "64f485781c805782f74967588f9211b16b98226a7fb5cbb5b55a7b65f0ced68f",
+  "status": "all_requested_source_files_preserved_in_published_release"
+}

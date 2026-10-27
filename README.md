@@ -1,6 +1,6 @@
 # 水库—工业产品数据与研究资料
 
-> Upload in progress: complete archive parts are being transferred and verified.
+> 完整快照已上传并通过服务端大小与SHA-256核验。详见 `UPLOAD_RECEIPT.json`。
 
 本仓库保存用户指定的五个本地目录。完整快照包含全部原始文件、已下载的压缩包、解压数据、溯源记录与未完成下载分片，保持原目录名和文件字节。
 
