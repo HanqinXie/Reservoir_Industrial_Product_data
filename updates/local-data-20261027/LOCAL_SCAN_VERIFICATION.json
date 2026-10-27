@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-27T12:04:24.773118+00:00",
+  "completed_at_utc": "2026-10-27T12:07:22.126919+00:00",
+  "elapsed_seconds": 177.34400000004098,
+  "baseline_manifest_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+  "totals": {
+    "baseline_dataset_files": 22050,
+    "baseline_dataset_bytes": 65548316969,
+    "current_dataset_files_including_excluded": 21790,
+    "current_dataset_bytes_including_excluded": 70351861101,
+    "current_audited_files": 21789,
+    "current_audited_bytes": 70351844227,
+    "excluded_new_cache_files": 1,
+    "excluded_new_cache_bytes": 16874,
+    "baseline_cache_files_retained": 64,
+    "counts": {
+      "new": 100,
+      "changed": 9,
+      "deleted": 361,
+      "unchanged": 21680,
+      "error": 0
+    },
+    "bytes_by_classification": {
+      "new": 4814170136,
+      "changed": 23848770,
+      "unchanged": 65513825321,
+      "error": 0,
+      "deleted": 11122953
+    },
+    "unstable_during_hash_count": 0
+  },
+  "passed": true,
+  "scope": "full local dataset byte hashes, followed by refreshed explicit metadata and verified model payload"
+}

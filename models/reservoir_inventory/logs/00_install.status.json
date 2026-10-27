@@ -1,0 +1,6 @@
+﻿{
+    "start_utc":  "2026-10-27T06:27:17.0898877Z",
+    "command":  ".\\.venv\\Scripts\\python.exe -m pip install -e .",
+    "end_utc":  "2026-10-27T06:27:44.4193024Z",
+    "exit_code":  0
+}

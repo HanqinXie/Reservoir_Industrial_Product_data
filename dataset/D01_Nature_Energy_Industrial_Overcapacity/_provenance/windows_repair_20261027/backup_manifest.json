@@ -1,0 +1,47 @@
+[
+  {
+    "path": "D01_Nature_Energy_Industrial_Overcapacity/SOURCE.md",
+    "sha256": "e33d750f7f01b648764b6392a74a78a786676713bba25cf3a417f33e01df35c9",
+    "bytes": 1048
+  },
+  {
+    "path": "D01_Nature_Energy_Industrial_Overcapacity/manifest.json",
+    "sha256": "57a800d67cb5c9e59abdbc09b325b5efbbd21f54086619944d9596ccdb49090f",
+    "bytes": 213648
+  },
+  {
+    "path": "D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.manifest.json",
+    "sha256": "9b94524a75e5373e3e25d2baac4650b961fcc7670da1f166b1980588d022d60f",
+    "bytes": 199816
+  },
+  {
+    "path": "D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.filename_mapping.json",
+    "sha256": "567ce85714ab07f218456b46ac607f56f085a7a03c20519072a7339c9321007b",
+    "bytes": 825
+  },
+  {
+    "path": "_provenance/download_scientific.py",
+    "sha256": "d0065b4edda2884d1f359103e2ed6988f2e97052be971aeb471defab59f1be5a",
+    "bytes": 12629
+  },
+  {
+    "path": "_provenance/audit_scientific.py",
+    "sha256": "608e7a191f8bf1940aee45683f268b803b03bba2b5100c8878bdad48235e2aa7",
+    "bytes": 8756
+  },
+  {
+    "path": "_provenance/manifest_all_sources.json",
+    "sha256": "e1653a5bb2330a9eccf80ed2cf56364d3928317d08bbbf42bd49cf9934544d00",
+    "bytes": 12001344
+  },
+  {
+    "path": "_provenance/manifest_scientific.json",
+    "sha256": "e9cafe9ef8d56d28bb3177bb71af27fa84142070277a640071b9ab458347dd22",
+    "bytes": 10910832
+  },
+  {
+    "path": "_provenance/manifest_scientific_sources.json",
+    "sha256": "40a046c2cd6c240aac31645303d74e668ca402785d481ee111db6c2bf9d64654",
+    "bytes": 19797
+  }
+]

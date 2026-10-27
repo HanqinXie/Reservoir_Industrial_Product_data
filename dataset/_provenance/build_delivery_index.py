@@ -18,7 +18,7 @@ BASE = pathlib.Path(__file__).resolve().parents[1]
 PROV = BASE / '_provenance'
 WORKSPACE = BASE.parent
 CATALOG = WORKSPACE / '水库_工业库存_研究计划与文献数据标准包_20261026' / '03_data_catalog.md'
-UNAVAILABLE = {'D02', 'D03', 'D04', 'D09', 'D10', 'D11', 'D12', 'D13', 'D23'}
+UNAVAILABLE = {'D03', 'D04', 'D09', 'D10', 'D11', 'D12', 'D13', 'D23'}
 SCIENCE_IDS = {'D01', 'D05', 'D06', 'D07', 'D08', 'D24', 'D25'}
 WARNINGS: list[str] = []
 READ_INPUTS: list[str] = []
@@ -204,9 +204,29 @@ def main():
     done_names = '、'.join(x['name'] for x in completed) or '暂无核验完成文件'
     doc['scope'] = f"计划{len(planned)}个原始文件，已下载并完成所需核验{len(completed)}个。已可用：{done_names}。其余下载/解压/审计进行中。" + doc['scope']
   else:
-   src = official.get(sid) or root.get(sid)
+   src = (read_json(BASE / doc['directory'] / 'manifest.json', {})
+          if sid == 'D02' else official.get(sid) or root.get(sid))
    if not src:
     doc.update(category='in_progress', status='no_group_manifest_yet', scope='尚未收到该组的取得范围清单。')
+   elif sid == 'D02':
+    # The local verified acquisition supersedes the older metadata-only snapshot.
+    relative_manifest = doc['directory'] + '/manifest.json'
+    doc.update(status=src.get('status', 'local_acquisition_not_verified'),
+               scope=src.get('scope', '尚无核验完成的本地取得记录。'),
+               reason=src.get('reason'), acquisition_manifests=[relative_manifest])
+    for item in src.get('files', []):
+     file = canonical_file(item, cat['source_url'])
+     if file['exists'] and file['size_matches_manifest'] and not item.get('validation_error'):
+      doc['files'].append(file)
+     else:
+      doc['evidence_files'].append(file)
+      WARNINGS.append(f"D02: 文件缺失/大小不符/格式错误：{file['path']}")
+    doc['evidence_files'] += [canonical_file(x, cat['source_url']) for x in src.get('evidence_files', [])]
+    doc['derived_files'] = [canonical_file(x, cat['source_url']) for x in src.get('derived_files', [])]
+    doc['category'] = 'available' if doc['files'] and src.get('status') == 'downloaded_with_subset' else 'in_progress'
+    for key in ['coverage', 'request_selection', 'verification']:
+     if key in src:
+      doc[key] = src[key]
    else:
     doc.update(status=src.get('status'), scope=src.get('scope') or src.get('reason') or '',
                reason=src.get('reason'), directory=src.get('directory') or doc['directory'])
@@ -285,7 +305,8 @@ def main():
    lines += ['', '无。']
   lines += ['']
  lines += ['## 后续取得条件', '',
- '- **D02、D09—D13：** 需CDS/EWDS账户、接受相应数据许可并配置本人API访问后，再按云南及相关上游流域、变量和时段提交任务；目前仅元数据和许可。',
+ '- **D02：** 已取得2015年全球请求结果及北纬21—29度、东经97—107度矩形子集；其他年份和完整相关上游流域仍需另行取得与核验。矩形子集没有省界掩膜，原时间标签未移动。',
+ '- **D09—D13：** 需CDS/EWDS账户、接受相应数据许可并配置本人API访问后，再按云南及相关上游流域、变量和时段提交任务；目前仅元数据和许可。',
  '- **D03：** 官方Google Drive亚洲pfaf04文件明确返回“Quota exceeded”。需发布方配额恢复或官方提供可用镜像；`.part`和`.segments`仅供合法续传，尚不构成完整NetCDF。',
  '- **D04：** 需按GRDC要求选择测站/区域并用真实申请人资料提交申请、接受用途条件；下载链接由其通过邮件提供。',
  '- **D23：** 实际企业账单、计量点和电量资料需要对应主体账户或正式授权；本次没有取得私人账单。',

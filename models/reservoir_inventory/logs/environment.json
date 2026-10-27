@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-10-27T06:29:12.941118+00:00",
+  "python": "3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]",
+  "executable": "E:\\论文\\面向极端枯水风险的水电-工业协同调度与韧性优化\\code\\Reservoir_Industrial_Product_data\\models\\reservoir_inventory\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "pip": "22.2.1",
+    "setuptools": "63.2.0",
+    "pillow": "12.3.0"
+  },
+  "git_head": "82d7cddb27729062f6a393b703b56d9f56008331",
+  "branch": "feat/reservoir-inventory-prototype",
+  "remote_branch_head": "82d7cddb27729062f6a393b703b56d9f56008331\trefs/heads/feat/reservoir-inventory-prototype",
+  "tracked_diff": "",
+  "git_status": "?? logs/",
+  "sparse_checkout": "models/reservoir_inventory"
+}

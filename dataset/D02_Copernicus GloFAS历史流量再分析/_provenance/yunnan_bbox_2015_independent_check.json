@@ -1,0 +1,134 @@
+{
+  "checked_at_utc": "2026-10-27T11:24:08.303566+00:00",
+  "scope": "Independent read-only exhaustive cropped-array comparison; no source or subset mutations. File access times intentionally excluded from immutable-state test.",
+  "source": "data_0.nc",
+  "subset": "yunnan_bbox_2015_glofas_v4.nc",
+  "checks": {
+    "dimensions_exact": true,
+    "variable_names_exact": true,
+    "latitude_exact": true,
+    "longitude_exact": true,
+    "time_raw_exact": true,
+    "time_attributes_exact": true,
+    "latitude_attributes_exact": true,
+    "longitude_attributes_exact": true,
+    "surface_exact": true,
+    "surface_attributes_exact": true,
+    "dtype_exact": true,
+    "variable_dims_exact": true,
+    "units_exact": true,
+    "fill_value_exact": true,
+    "grib_missing_value_exact": true,
+    "full_value_exact": true,
+    "full_bitwise_exact": true,
+    "nan_mask_exact": true,
+    "complete_count": true
+  },
+  "read_values": 11680000,
+  "value_mismatches": 0,
+  "bit_pattern_mismatches": 0,
+  "nan_mask_mismatches": 0,
+  "source_subset_nan_count": 0,
+  "output_nan_count": 0,
+  "finite_min": 0.0,
+  "finite_max": 23571.4375,
+  "source_slices": {
+    "latitude": [
+      1220,
+      1380
+    ],
+    "longitude": [
+      5540,
+      5740
+    ]
+  },
+  "coordinate_limits": {
+    "latitude": [
+      28.975000000003245,
+      21.025000000003132
+    ],
+    "longitude": [
+      97.0250000000033,
+      106.97500000000274
+    ]
+  },
+  "time_numeric_endpoints": [
+    1420156800,
+    1451606400
+  ],
+  "time_decoded_endpoints": [
+    "2015-01-02 00:00:00",
+    "2016-01-01 00:00:00"
+  ],
+  "variable_attr_changes": {
+    "GRIB_Ny": {
+      "source": "3000",
+      "subset": "160"
+    },
+    "GRIB_latitudeOfFirstGridPointInDegrees": {
+      "source": "89.975",
+      "subset": "28.975000000003245"
+    },
+    "GRIB_latitudeOfLastGridPointInDegrees": {
+      "source": "-59.975",
+      "subset": "21.025000000003132"
+    },
+    "GRIB_longitudeOfFirstGridPointInDegrees": {
+      "source": "180.025",
+      "subset": "97.0250000000033"
+    },
+    "GRIB_numberOfPoints": {
+      "source": "21600000",
+      "subset": "32000"
+    },
+    "GRIB_Nx": {
+      "source": "7200",
+      "subset": "200"
+    },
+    "GRIB_longitudeOfLastGridPointInDegrees": {
+      "source": "179.975",
+      "subset": "106.97500000000274"
+    }
+  },
+  "updated_grid_metadata": {
+    "GRIB_Nx": 200,
+    "GRIB_Ny": 160,
+    "GRIB_numberOfPoints": 32000,
+    "GRIB_latitudeOfFirstGridPointInDegrees": 28.975000000003245,
+    "GRIB_latitudeOfLastGridPointInDegrees": 21.025000000003132,
+    "GRIB_longitudeOfFirstGridPointInDegrees": 97.0250000000033,
+    "GRIB_longitudeOfLastGridPointInDegrees": 106.97500000000274
+  },
+  "source_sha256_after": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501",
+  "output_sha256_after": "f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22",
+  "source_stat_before": {
+    "size": 2372137099,
+    "mtime_ns": 1793060204000000000,
+    "ctime_ns": 1793099172965068300,
+    "inode": 844424931448027
+  },
+  "source_stat_after": {
+    "size": 2372137099,
+    "mtime_ns": 1793060204000000000,
+    "ctime_ns": 1793099172965068300,
+    "inode": 844424931448027
+  },
+  "output_stat_before": {
+    "size": 17113700,
+    "mtime_ns": 1793100209564636500,
+    "ctime_ns": 1793100208024590600,
+    "inode": 281474978027174
+  },
+  "output_stat_after": {
+    "size": 17113700,
+    "mtime_ns": 1793100209564636500,
+    "ctime_ns": 1793100208024590600,
+    "inode": 281474978027174
+  },
+  "source_original_sha256_match": true,
+  "source_stat_unchanged": true,
+  "output_stat_unchanged": true,
+  "output_reported_sha256_match": true,
+  "elapsed_seconds": 2.4265579003840685,
+  "passed": true
+}

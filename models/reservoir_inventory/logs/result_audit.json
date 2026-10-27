@@ -1,0 +1,1440 @@
+{
+  "recorded_at_utc": "2026-10-27T06:35:22.991772+00:00",
+  "absolute_tolerances_rtol_zero": {
+    "water_m3": 0.0001,
+    "energy_mwh": 1e-07,
+    "product_t": 1e-07,
+    "cost_cny": 0.001,
+    "example_cost_cny": 0.01,
+    "toy_cost_cny": 1e-07
+  },
+  "highs_version": "1.8.0",
+  "annual_cases": [
+    {
+      "category": "dry",
+      "year": 1993,
+      "days": 365,
+      "input_fingerprint_matches_example": true,
+      "scenarios": {
+        "M0": {
+          "cost_cny": -283500268.7654153,
+          "max_water_balance_residual_m3": 5.662441253662109e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 0.0,
+          "inventory_tonne_days": 5277725.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 7.016609515630989e-14,
+            "max_water_balance_residual_m3": 5.662441253662109e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 5.960464477539063e-08,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095
+          }
+        },
+        "M1": {
+          "cost_cny": -283530097.32774526,
+          "max_water_balance_residual_m3": 5.662441253662109e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 1.7053025658242404e-12,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 2.2737367544323206e-13,
+          "inventory_tonne_days": 5267782.145889992,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 1.830358087318018e-11,
+            "max_water_balance_residual_m3": 5.662441253662109e-07,
+            "max_product_balance_residual_t": 1.7053025658242404e-12,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 0.0,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095,
+            "max_frozen_hydro_difference_m3": 0.0
+          }
+        },
+        "M2": {
+          "cost_cny": -283916668.76541436,
+          "max_water_balance_residual_m3": 6.51925802230835e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 0.0,
+          "inventory_tonne_days": 5138925.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 9.592326932761353e-14,
+            "max_water_balance_residual_m3": 6.51925802230835e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 5.960464477539063e-08,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095
+          }
+        }
+      },
+      "example_deltas": {
+        "M0_cost_cny": 0.0,
+        "M1_cost_cny": 0.0,
+        "M2_cost_cny": 0.0,
+        "inventory_savings_with_fixed_hydro_cny": 0.0,
+        "additional_hydro_coordination_savings_cny": 0.0,
+        "total_savings_cny": 0.0
+      },
+      "input_fingerprint": "a652f743454e9fcfae26a03bf4a365e3c03e7cca1f16190e51e3f13127ed042e",
+      "M1_max_frozen_difference_m3": 0.0,
+      "inventory_savings_with_fixed_hydro_cny": 29828.56232994795,
+      "additional_hydro_coordination_savings_cny": 386571.4376690984,
+      "total_savings_cny": 416399.9999990463,
+      "M2_month_end_inventory": [
+        {
+          "period": "1993-01-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-02-28",
+          "delivery_t": 26600,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-03-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-04-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-05-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-06-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-07-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-08-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-09-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-10-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-11-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1993-12-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        }
+      ],
+      "M2_monthly_production": [
+        {
+          "month": 1,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 2,
+          "production_t": 26600,
+          "delivery_t": 26600,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 3,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 4,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 5,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 6,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 7,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 8,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 9,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 10,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 11,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 12,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        }
+      ],
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0
+    },
+    {
+      "category": "normal",
+      "year": 1988,
+      "days": 366,
+      "input_fingerprint_matches_example": true,
+      "scenarios": {
+        "M0": {
+          "cost_cny": -668555380.7066175,
+          "max_water_balance_residual_m3": 6.705522537231445e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 0.0,
+          "inventory_tonne_days": 5304800.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 7.105427357601002e-14,
+            "max_water_balance_residual_m3": 6.705522537231445e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 0.0,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2564,
+            "lp_equalities": 1098,
+            "lp_inequalities": 1098
+          }
+        },
+        "M1": {
+          "cost_cny": -668646660.9298005,
+          "max_water_balance_residual_m3": 6.705522537231445e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 1.7053025658242404e-12,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 2.2737367544323206e-13,
+          "inventory_tonne_days": 5274373.258938916,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 1.830358087318018e-11,
+            "max_water_balance_residual_m3": 6.705522537231445e-07,
+            "max_product_balance_residual_t": 1.7053025658242404e-12,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 2.384185791015625e-07,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2564,
+            "lp_equalities": 1098,
+            "lp_inequalities": 1098,
+            "max_frozen_hydro_difference_m3": 0.0
+          }
+        },
+        "M2": {
+          "cost_cny": -668973880.7066166,
+          "max_water_balance_residual_m3": 8.493661880493164e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 0.0,
+          "inventory_tonne_days": 5165300.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 1.1368683772161603e-13,
+            "max_water_balance_residual_m3": 8.493661880493164e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 1.1920928955078125e-07,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2564,
+            "lp_equalities": 1098,
+            "lp_inequalities": 1098
+          }
+        }
+      },
+      "example_deltas": {
+        "M0_cost_cny": 0.0,
+        "M1_cost_cny": 0.0,
+        "M2_cost_cny": 0.0,
+        "inventory_savings_with_fixed_hydro_cny": 0.0,
+        "additional_hydro_coordination_savings_cny": 0.0,
+        "total_savings_cny": 0.0
+      },
+      "input_fingerprint": "478f41e7f088f76c04fe320394a49a5912d10e313d49d930feaff0890bf888f5",
+      "M1_max_frozen_difference_m3": 0.0,
+      "inventory_savings_with_fixed_hydro_cny": 91280.22318303585,
+      "additional_hydro_coordination_savings_cny": 327219.7768161297,
+      "total_savings_cny": 418499.99999916553,
+      "M2_month_end_inventory": [
+        {
+          "period": "1988-01-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-02-29",
+          "delivery_t": 27550,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-03-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-04-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-05-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-06-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-07-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-08-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-09-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-10-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-11-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1988-12-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        }
+      ],
+      "M2_monthly_production": [
+        {
+          "month": 1,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 2,
+          "production_t": 27550,
+          "delivery_t": 27550,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 3,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 4,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 5,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 6,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 7,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 8,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 9,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 10,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 11,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 12,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        }
+      ],
+      "M2_max_post_delivery_inventory_t": 0.0,
+      "M2_peak_warehouse_inventory_t": 29450.0
+    },
+    {
+      "category": "wet",
+      "year": 1990,
+      "days": 365,
+      "input_fingerprint_matches_example": true,
+      "scenarios": {
+        "M0": {
+          "cost_cny": -1210208649.4497743,
+          "max_water_balance_residual_m3": 7.450580596923828e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 29450.0,
+          "max_post_delivery_inventory_t": 0.0,
+          "inventory_tonne_days": 5277725.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 7.283063041541027e-14,
+            "max_water_balance_residual_m3": 7.450580596923828e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 0.0,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095
+          }
+        },
+        "M1": {
+          "cost_cny": -1212716174.4497743,
+          "max_water_balance_residual_m3": 7.450580596923828e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 1.1368683772161603e-13,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 32200.0,
+          "max_post_delivery_inventory_t": 2750.0,
+          "inventory_tonne_days": 5675075.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 1.865174681370263e-13,
+            "max_water_balance_residual_m3": 7.450580596923828e-07,
+            "max_product_balance_residual_t": 1.1368683772161603e-13,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 0.0,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095,
+            "max_frozen_hydro_difference_m3": 0.0
+          }
+        },
+        "M2": {
+          "cost_cny": -1214030564.4497747,
+          "max_water_balance_residual_m3": 8.940696716308594e-07,
+          "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+          "max_product_balance_residual_t": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "boundary_errors": {
+            "initial_water_m3": 0.0,
+            "terminal_water_m3": 0.0,
+            "initial_inventory_t": 0.0,
+            "terminal_inventory_t": 0.0
+          },
+          "warehouse_peak_t": 32500.0,
+          "max_post_delivery_inventory_t": 3050.0,
+          "inventory_tonne_days": 5371475.0,
+          "solver_audit": {
+            "passed": true,
+            "max_lp_violation_internal_units": 7.283063041541027e-14,
+            "max_water_balance_residual_m3": 8.940696716308594e-07,
+            "max_product_balance_residual_t": 0.0,
+            "max_energy_balance_residual_mwh": 7.275957614183426e-12,
+            "cost_reconstruction_error_cny": 2.384185791015625e-07,
+            "terminal_water_error_m3": 0.0,
+            "terminal_inventory_error_t": 0.0,
+            "water_variable_scale_m3": 5000000.0,
+            "solver_status": 0,
+            "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "lp_variables": 2557,
+            "lp_equalities": 1095,
+            "lp_inequalities": 1095
+          }
+        }
+      },
+      "example_deltas": {
+        "M0_cost_cny": 0.0,
+        "M1_cost_cny": 0.0,
+        "M2_cost_cny": 0.0,
+        "inventory_savings_with_fixed_hydro_cny": 0.0,
+        "additional_hydro_coordination_savings_cny": 0.0,
+        "total_savings_cny": 0.0
+      },
+      "input_fingerprint": "d3b54a9ca3eaea5458443984fc4c29e71565e88441279b598db01ed6ca1ea4d4",
+      "M1_max_frozen_difference_m3": 0.0,
+      "inventory_savings_with_fixed_hydro_cny": 2507525.0,
+      "additional_hydro_coordination_savings_cny": 1314390.0000004768,
+      "total_savings_cny": 3821915.000000477,
+      "M2_month_end_inventory": [
+        {
+          "period": "1990-01-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-02-28",
+          "delivery_t": 26600,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-03-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-04-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-05-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-06-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-07-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-08-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        },
+        {
+          "period": "1990-09-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 1500.0
+        },
+        {
+          "period": "1990-10-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 3050.0
+        },
+        {
+          "period": "1990-11-30",
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 1550.0
+        },
+        {
+          "period": "1990-12-31",
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0
+        }
+      ],
+      "M2_monthly_production": [
+        {
+          "month": 1,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 2,
+          "production_t": 26600,
+          "delivery_t": 26600,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 3,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 4,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 5,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 6,
+          "production_t": 28500,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 7,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 8,
+          "production_t": 29450,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": 0
+        },
+        {
+          "month": 9,
+          "production_t": 30000,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 1500.0,
+          "production_minus_delivery_t": 1500
+        },
+        {
+          "month": 10,
+          "production_t": 31000,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 3050.0,
+          "production_minus_delivery_t": 1550
+        },
+        {
+          "month": 11,
+          "production_t": 27000,
+          "delivery_t": 28500,
+          "post_delivery_inventory_t": 1550.0,
+          "production_minus_delivery_t": -1500
+        },
+        {
+          "month": 12,
+          "production_t": 27900,
+          "delivery_t": 29450,
+          "post_delivery_inventory_t": 0.0,
+          "production_minus_delivery_t": -1550
+        }
+      ],
+      "M2_max_post_delivery_inventory_t": 3050.0,
+      "M2_peak_warehouse_inventory_t": 32500.0
+    }
+  ],
+  "toy_cases": {
+    "export_prohibited": {
+      "costs_cny": {
+        "M0": 6.0,
+        "M1": 2.4,
+        "M2": 0.4000000000000001
+      },
+      "additional_coordination_cny": 1.9999999999999998,
+      "audits": {
+        "M0": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        },
+        "M1": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4,
+          "max_frozen_hydro_difference_m3": 0.0
+        },
+        "M2": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        }
+      },
+      "weekly_aggregation": {
+        "available": false,
+        "convention": "Monday through Sunday; partial first/last weeks retained; quantities summed, boundary states first/last.",
+        "reason": "Non-calendar period labels: weekly aggregation is not applicable.",
+        "rows": 0
+      }
+    },
+    "unlimited_symmetric_trading": {
+      "costs_cny": {
+        "M0": 4.0,
+        "M1": 0.4000000000000001,
+        "M2": 0.4000000000000001
+      },
+      "additional_coordination_cny": 0.0,
+      "audits": {
+        "M0": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        },
+        "M1": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4,
+          "max_frozen_hydro_difference_m3": 0.0
+        },
+        "M2": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        }
+      },
+      "weekly_aggregation": {
+        "available": false,
+        "convention": "Monday through Sunday; partial first/last weeks retained; quantities summed, boundary states first/last.",
+        "reason": "Non-calendar period labels: weekly aggregation is not applicable.",
+        "rows": 0
+      }
+    }
+  },
+  "file_readability": {
+    "all_readable": true,
+    "extension_counts": {
+      ".png": 5,
+      ".json": 17,
+      ".csv": 42
+    },
+    "files": [
+      {
+        "path": "outputs/demo/dry/comparison.png",
+        "bytes": 422506,
+        "sha256": "6e493957ea13dcb675d45c3651b3466d9db82545f13d9a00e516ea9f0be4bf9e",
+        "dimensions": [
+          2240,
+          1600
+        ]
+      },
+      {
+        "path": "outputs/demo/dry/comparison_summary.json",
+        "bytes": 9409,
+        "sha256": "721292820d8d417108b93432fa2c4cf9fa4d02c07fd5e6c72b0cde1a48037c73"
+      },
+      {
+        "path": "outputs/demo/dry/cost_summary.csv",
+        "bytes": 1278,
+        "sha256": "6ca06011b559f51429921e267db19fa46ff675aec9afb88876b413698566306b",
+        "rows": 3,
+        "columns": 23
+      },
+      {
+        "path": "outputs/demo/dry/M0_dispatch.csv",
+        "bytes": 76929,
+        "sha256": "c7174c307b9b9ad6e9858bbcb7654810bc3656429a748baf5393f093f7a7714a",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/dry/M1_dispatch.csv",
+        "bytes": 95649,
+        "sha256": "563f195c6b07087de61387fd43b98f1f1b6fdbbbd742855d947cccf261865cc9",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/dry/M2_dispatch.csv",
+        "bytes": 75065,
+        "sha256": "514981a6849934ee69e0c0eb151343863f4e23fe4c772b0c70acf69500c8cfc8",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/dry/run_manifest.json",
+        "bytes": 8225,
+        "sha256": "da16fd772d061826cc082d4b98a5bc1f0ece76fb1f024a9f821d53938ce36636"
+      },
+      {
+        "path": "outputs/demo/dry/weekly_dispatch.csv",
+        "bytes": 46786,
+        "sha256": "8f3f0723030ec5679f8b09852cd365ec5fd898b9706d1c63a930b1b5d980816b",
+        "rows": 159,
+        "columns": 34
+      },
+      {
+        "path": "outputs/demo/inputs/dry/case.json",
+        "bytes": 2586,
+        "sha256": "23991d868b04278a81c2a1704aa2fc68b737596877ff7fcbac3e8a69daa250d2"
+      },
+      {
+        "path": "outputs/demo/inputs/dry/economics.csv",
+        "bytes": 23544,
+        "sha256": "f4da5ae72ec872f241a99a651fbc3abdd46d217709af63de9b6a5a3557baa9bb",
+        "rows": 365,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/dry/industry.csv",
+        "bytes": 34484,
+        "sha256": "69b9860829517f4a8b383502cd168a0aa503d0b87a2ab4fb6cd8b6f7732ad402",
+        "rows": 365,
+        "columns": 8
+      },
+      {
+        "path": "outputs/demo/inputs/dry/inflow.csv",
+        "bytes": 35490,
+        "sha256": "fc0e9257adc155fbec7cd07bf0f6ca234e394fa5260884755a76924422fe3070",
+        "rows": 365,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/dry/reservoir.csv",
+        "bytes": 431,
+        "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb",
+        "rows": 8,
+        "columns": 4
+      },
+      {
+        "path": "outputs/demo/inputs/dry/sources.csv",
+        "bytes": 2799,
+        "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765",
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "path": "outputs/demo/inputs/normal/case.json",
+        "bytes": 2592,
+        "sha256": "144e9096ff2a6e7db90f3b1d4864e23bedada5edb0d4eb0198c34e7a1ceae6c1"
+      },
+      {
+        "path": "outputs/demo/inputs/normal/economics.csv",
+        "bytes": 23608,
+        "sha256": "4b1d9cb7109104f8f7c06c7609c16c3fc488adbcf2ebe793ab2faca4aab62ce0",
+        "rows": 366,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/normal/industry.csv",
+        "bytes": 34578,
+        "sha256": "7ef717f8ed17196604acf62d14c33cf66046584b523dd9c278f4b6fd0b5e49a5",
+        "rows": 366,
+        "columns": 8
+      },
+      {
+        "path": "outputs/demo/inputs/normal/inflow.csv",
+        "bytes": 35593,
+        "sha256": "3ad6389f5efdaf1a518dcdd87ed775fa4ec088ed602fad092e9aa4d19159a0c2",
+        "rows": 366,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/normal/reservoir.csv",
+        "bytes": 431,
+        "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb",
+        "rows": 8,
+        "columns": 4
+      },
+      {
+        "path": "outputs/demo/inputs/normal/sources.csv",
+        "bytes": 2799,
+        "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765",
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "path": "outputs/demo/inputs/prepared_cases.json",
+        "bytes": 62,
+        "sha256": "1e466e855b62ee28f7bbe5d443f18cfea679c5e93eb8130ac3195813576ea108"
+      },
+      {
+        "path": "outputs/demo/inputs/resolved_config.json",
+        "bytes": 2329,
+        "sha256": "26af39306ca7466c4d3429df53f3959c599e422358e35594dbc0be100641ce92"
+      },
+      {
+        "path": "outputs/demo/inputs/wet/case.json",
+        "bytes": 2586,
+        "sha256": "3c0c988f8a7b99ba1d648f536f4483b8b8be309f6e2def1a3fef9af989c5c494"
+      },
+      {
+        "path": "outputs/demo/inputs/wet/economics.csv",
+        "bytes": 23544,
+        "sha256": "344eacbe98fd42942fd732c35d89abf84c126f362f312247cb9ce61219d9ce44",
+        "rows": 365,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/wet/industry.csv",
+        "bytes": 34484,
+        "sha256": "dd42f9c9687aabff263acca4830a3ce508bf740a1a578a3e023bc7ced0c8eae8",
+        "rows": 365,
+        "columns": 8
+      },
+      {
+        "path": "outputs/demo/inputs/wet/inflow.csv",
+        "bytes": 35500,
+        "sha256": "4718e78ac4d27f44d43eccbc1096db346a051bdeb3b1217070ce03d69bbce0c9",
+        "rows": 365,
+        "columns": 10
+      },
+      {
+        "path": "outputs/demo/inputs/wet/reservoir.csv",
+        "bytes": 431,
+        "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb",
+        "rows": 8,
+        "columns": 4
+      },
+      {
+        "path": "outputs/demo/inputs/wet/sources.csv",
+        "bytes": 2799,
+        "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765",
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "path": "outputs/demo/normal/comparison.png",
+        "bytes": 450341,
+        "sha256": "49fb9e5bec88dc8d426915ab9ffdf0cb9ab25467c4cdb9498129bf41adf69f98",
+        "dimensions": [
+          2240,
+          1600
+        ]
+      },
+      {
+        "path": "outputs/demo/normal/comparison_summary.json",
+        "bytes": 9426,
+        "sha256": "10c4305f30ebb6f05d7701eca88bdd8d044fa49f0dd1c43fcb8154d97dbf7731"
+      },
+      {
+        "path": "outputs/demo/normal/cost_summary.csv",
+        "bytes": 1286,
+        "sha256": "3964a42779978d07a6f213b066ceb96e758053316326cf127c5813110268ea07",
+        "rows": 3,
+        "columns": 23
+      },
+      {
+        "path": "outputs/demo/normal/M0_dispatch.csv",
+        "bytes": 80056,
+        "sha256": "f5fc345833805000a35ea32e5ab63aea8608156f31d6608812d03b0568f6cde9",
+        "rows": 366,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/normal/M1_dispatch.csv",
+        "bytes": 98803,
+        "sha256": "9b9eb9b03bdede16338e944a018c3e3d0b9489e0aa76cb03cdae4518b7dce04a",
+        "rows": 366,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/normal/M2_dispatch.csv",
+        "bytes": 78077,
+        "sha256": "2b16953afc96844b1e858db20f5de530fa9185043250b75386bc24efefea69be",
+        "rows": 366,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/normal/run_manifest.json",
+        "bytes": 8234,
+        "sha256": "7f200febe13e3a77cf9a37fa16ed7a029006ce944aaf47995e08bcaf8af7bc67"
+      },
+      {
+        "path": "outputs/demo/normal/weekly_dispatch.csv",
+        "bytes": 48370,
+        "sha256": "81fbde38fa12666ad7f21803d38dd1208cdbeaf812f4de69ae84ba6c87fbf3b7",
+        "rows": 159,
+        "columns": 34
+      },
+      {
+        "path": "outputs/demo/representative_years_summary.csv",
+        "bytes": 1729,
+        "sha256": "02a6a20c3ed02085710945aedf09119caa04025830ccd0e379687b2f5c9b92e3",
+        "rows": 3,
+        "columns": 18
+      },
+      {
+        "path": "outputs/demo/wet/comparison.png",
+        "bytes": 458832,
+        "sha256": "72ea05803ea775a3f8c958611632c7dea323be03d5421449943bdcd89586d784",
+        "dimensions": [
+          2240,
+          1600
+        ]
+      },
+      {
+        "path": "outputs/demo/wet/comparison_summary.json",
+        "bytes": 9360,
+        "sha256": "437fc8c251b591cb14528a11680c5701231aa1806536e96807c47b60050900e6"
+      },
+      {
+        "path": "outputs/demo/wet/cost_summary.csv",
+        "bytes": 1242,
+        "sha256": "fdbacb8e2ce5b32e5e1565ff581e344c4996b7cbf47d267c65328e4be705bc5c",
+        "rows": 3,
+        "columns": 23
+      },
+      {
+        "path": "outputs/demo/wet/M0_dispatch.csv",
+        "bytes": 84645,
+        "sha256": "67a0baa6d9a283af2a76103d54497e2eaa78db3587831cd1a5232bbec1ca5819",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/wet/M1_dispatch.csv",
+        "bytes": 89900,
+        "sha256": "a67b1b1eae201c73e97492cacae02559eb1b2200bdc632357089b7cca8f386ce",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/wet/M2_dispatch.csv",
+        "bytes": 82394,
+        "sha256": "58cdeb8c8c53483ee57bcff30fc1d0a217d260a3a1013ef37f6fb1b05c708af1",
+        "rows": 365,
+        "columns": 30
+      },
+      {
+        "path": "outputs/demo/wet/run_manifest.json",
+        "bytes": 8208,
+        "sha256": "46b2e3b48390291e421ff6af71dd48029fd6fac76a2ef297f2dccf1d793941e8"
+      },
+      {
+        "path": "outputs/demo/wet/weekly_dispatch.csv",
+        "bytes": 48259,
+        "sha256": "acfa73c7fc8529f1026ec06764d4d57196e8a5af0cd94ed968a434be36d8c128",
+        "rows": 159,
+        "columns": 34
+      },
+      {
+        "path": "outputs/sweep/sensitivity.csv",
+        "bytes": 7243,
+        "sha256": "31f4763a4cc9707372204cbd21d450db9a368ab98a3d6ceff696a610600cae6a",
+        "rows": 22,
+        "columns": 19
+      },
+      {
+        "path": "outputs/sweep/sensitivity_manifest.json",
+        "bytes": 1222,
+        "sha256": "d5de553a6ca2af05d162a0114b866f568664646b4013a09c2224161091498518"
+      },
+      {
+        "path": "outputs/toy/export_prohibited/comparison.png",
+        "bytes": 213386,
+        "sha256": "62eff806842a4020b8605cdee7a16a82542735aeb0350f424018d799df331949",
+        "dimensions": [
+          2240,
+          1600
+        ]
+      },
+      {
+        "path": "outputs/toy/export_prohibited/comparison_summary.json",
+        "bytes": 6166,
+        "sha256": "73799d3f2308e526c54426deae53b499b3367ad85daa39c95dd98660295791be"
+      },
+      {
+        "path": "outputs/toy/export_prohibited/cost_summary.csv",
+        "bytes": 941,
+        "sha256": "0cefdce36372e2c5cc7a751230e17596a35826f6e5f6aa69b19151acc0f2ff92",
+        "rows": 3,
+        "columns": 23
+      },
+      {
+        "path": "outputs/toy/export_prohibited/M0_dispatch.csv",
+        "bytes": 656,
+        "sha256": "b47d6e62a91ff43fb526825101d504079e1d591d0c498405d674febf3d30a7a4",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/export_prohibited/M1_dispatch.csv",
+        "bytes": 691,
+        "sha256": "0b99ed4dea016af6a518500cf2bd71a0db3c6ab750d876a3633e978fc5a7f2aa",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/export_prohibited/M2_dispatch.csv",
+        "bytes": 679,
+        "sha256": "2be71f5423b75eed2cb17fcbba10459247f3b66b34f6458878abcf7c975397dc",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/export_prohibited/run_manifest.json",
+        "bytes": 4595,
+        "sha256": "a0b5392e57b0496fdb9b66023706867ef1c8361ec724af2c1c0ce4fb9c26d974"
+      },
+      {
+        "path": "outputs/toy/export_prohibited/weekly_dispatch.csv",
+        "bytes": 545,
+        "sha256": "dfd7e64a57814fe08adb3bfb7f36b5c9441df1347a63bba1ad23499407acd891",
+        "rows": 0,
+        "columns": 34
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/comparison.png",
+        "bytes": 196322,
+        "sha256": "29d857474dd1824ff392cb681c0f3a0456fbdfec3ed4e242e8efa89f204e7f38",
+        "dimensions": [
+          2240,
+          1600
+        ]
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/comparison_summary.json",
+        "bytes": 6181,
+        "sha256": "b938c290d93b9cc06a7daa2f699a97952455ba0f948bb4eb6966bfd81ad30f58"
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/cost_summary.csv",
+        "bytes": 942,
+        "sha256": "ca5facdb63dee2be2c4819a5e7fe3362e4885f9caa03ec25ed3088f6118719c7",
+        "rows": 3,
+        "columns": 23
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/M0_dispatch.csv",
+        "bytes": 643,
+        "sha256": "04cf05a0a5a383db2d646ed91b5a755a9a7d9c36fa05d4383d530501e33c57de",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/M1_dispatch.csv",
+        "bytes": 678,
+        "sha256": "90bf37ae45f0361a318ced1b356e6b566a83d0d70eaaa324e3dab7745b0924da",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/M2_dispatch.csv",
+        "bytes": 678,
+        "sha256": "90bf37ae45f0361a318ced1b356e6b566a83d0d70eaaa324e3dab7745b0924da",
+        "rows": 2,
+        "columns": 30
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/run_manifest.json",
+        "bytes": 4595,
+        "sha256": "a709059600cadc50d3d4570184b8da951dd704689c01c0c2ee22d0a98d028c17"
+      },
+      {
+        "path": "outputs/toy/unlimited_symmetric_trading/weekly_dispatch.csv",
+        "bytes": 545,
+        "sha256": "dfd7e64a57814fe08adb3bfb7f36b5c9441df1347a63bba1ad23499407acd891",
+        "rows": 0,
+        "columns": 34
+      },
+      {
+        "path": "outputs/toy/verification.json",
+        "bytes": 5487,
+        "sha256": "9bf52928bdeab5063d2e74b00c4edd994ad0e5af292af636c14264b1eafbb697"
+      }
+    ]
+  },
+  "source_data_manifest_hashes_match": {
+    "xiaowan_inflow_1979_2016.csv": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5",
+    "annual_hydrology.csv": "3beb7ab054cd29012ef9c2d2892d6f0786ea1a813b842def5e51134a480ba0ab",
+    "xiaowan_reservoir.json": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b"
+  },
+  "sensitivity": {
+    "points": 22,
+    "status_counts": {
+      "optimal": 20,
+      "invalid_input": 2
+    },
+    "family_counts": {
+      "water_capacity_multiplier": 6,
+      "rated_to_baseline_ratio": 6,
+      "extra_inventory_days": 5,
+      "holding_cost_cny_per_t_day": 5
+    },
+    "invalid_points": [
+      {
+        "parameter": "water_capacity_multiplier",
+        "value": 0.25,
+        "status": "invalid_input",
+        "reason": "initial_water_m3 lies outside the storage bounds; do not reset it during capacity sweeps"
+      },
+      {
+        "parameter": "rated_to_baseline_ratio",
+        "value": 1.15,
+        "status": "invalid_input",
+        "reason": "baseline production violates the same physical production bounds used in M1/M2"
+      }
+    ],
+    "max_absolute_differences_vs_example_by_column": {
+      "value": 0.0,
+      "initial_water_m3": 0.0,
+      "terminal_water_m3": 0.0,
+      "total_delivery_t": 0.0,
+      "M0_cost_cny": 0.0,
+      "M1_cost_cny": 0.0,
+      "M2_cost_cny": 0.0,
+      "inventory_savings_with_fixed_hydro_cny": 0.0,
+      "additional_hydro_coordination_savings_cny": 0.0,
+      "total_savings_cny": 0.0,
+      "M2_peak_inventory_t": 0.0,
+      "M2_spill_m3": 0.0,
+      "water_trajectory_max_change_m3": 0.0,
+      "max_water_balance_residual_m3": 0.0
+    }
+  },
+  "default_config_sha256_matches_example": true,
+  "sensitivity_csv_identical_after_newline_normalization": true,
+  "unit_and_io_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "tracked_files_unchanged": true,
+  "passed": true
+}

@@ -1,0 +1,176 @@
+{
+  "verified_at_utc": "2026-10-27T09:34:32.291973+00:00",
+  "archive_sha256": "18a4b3861a5efd0cf2e4be619b28a6af8317b9fea7d971731a2aff12c87adf3f",
+  "archive_crc_passed": true,
+  "research_files": 252,
+  "research_bytes": 147414509,
+  "all_research_content_identical_to_original_archive": true,
+  "chinese_filenames_repaired": 60,
+  "chinese_shapefile_groups_repaired": 10,
+  "skipped_macos_metadata_files": 301,
+  "skipped_macos_metadata_bytes": 187254,
+  "remaining_mac_metadata_files_in_extracted_directory": 0,
+  "utf8_text_files_verified": 101,
+  "gis_structural_checks": [
+    {
+      "name": "China_current_capacity.shp",
+      "records": 31,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "CHN_adm1.shp",
+      "records": 31,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "CHN_full_adm.shp",
+      "records": 35,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "线状县界.shp",
+      "records": 5782,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "线状省界.shp",
+      "records": 161,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "全国县级统计数据.shp",
+      "records": 2390,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "地级城市驻地.shp",
+      "records": 347,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "省级行政区.shp",
+      "records": 34,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "省会城市.shp",
+      "records": 34,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "经纬网.shp",
+      "records": 7,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "国界线.shp",
+      "records": 1382,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "中国地州界.shp",
+      "records": 385,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "县城驻地.shp",
+      "records": 2423,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "chn_admbnda_adm0_ocha_2020.shp",
+      "records": 1,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "chn_admbndl_ALL_ocha_2020.shp",
+      "records": 1576,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "chn_admbnda_adm1_ocha_2020.shp",
+      "records": 34,
+      "paired_shx_dbf_verified": true
+    },
+    {
+      "name": "chn_admbnda_adm2_ocha_2020.shp",
+      "records": 361,
+      "paired_shx_dbf_verified": true
+    }
+  ],
+  "upstream_text_issues_preserved_without_guessing": [
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2045.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2050.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2040.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2055.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2025.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2030.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2020.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2035.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    },
+    {
+      "path": "extracted\\data\\data\\costs\\costs_2060.csv",
+      "line": 588,
+      "replacement_character_count": 2,
+      "original_archive_has_identical_bytes": true,
+      "column": "source",
+      "row_key": "technology=solar, parameter=investment"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,64 @@
+Obtaining file:///E:/%E8%AE%BA%E6%96%87/%E9%9D%A2%E5%90%91%E6%9E%81%E7%AB%AF%E6%9E%AF%E6%B0%B4%E9%A3%8E%E9%99%A9%E7%9A%84%E6%B0%B4%E7%94%B5-%E5%B7%A5%E4%B8%9A%E5%8D%8F%E5%90%8C%E8%B0%83%E5%BA%A6%E4%B8%8E%E9%9F%A7%E6%80%A7%E4%BC%98%E5%8C%96/code/Reservoir_Industrial_Product_data/models/reservoir_inventory
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting scipy<2,>=1.11
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Collecting pandas<3,>=2.1
+  Using cached pandas-2.3.3-cp310-cp310-win_amd64.whl (11.3 MB)
+Collecting numpy<3,>=1.24
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Collecting matplotlib<4,>=3.7
+  Using cached matplotlib-3.10.9-cp310-cp310-win_amd64.whl (8.2 MB)
+Collecting cycler>=0.10
+  Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting kiwisolver>=1.3.1
+  Downloading kiwisolver-1.5.1-cp310-cp310-win_amd64.whl (70 kB)
+     -------------------------------------- 70.6/70.6 kB 554.2 kB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+     ---------------------------------------- 94.7/94.7 kB 1.8 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+     -------------------------------------- 130.0/130.0 kB 1.3 MB/s eta 0:00:00
+Collecting pyparsing>=3
+  Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+     -------------------------------------- 126.4/126.4 kB 3.7 MB/s eta 0:00:00
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.65.0-cp310-cp310-win_amd64.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 3.2 MB/s eta 0:00:00
+Collecting pillow>=8
+  Using cached pillow-12.3.0-cp310-cp310-win_amd64.whl (7.2 MB)
+Collecting contourpy>=1.0.1
+  Using cached contourpy-1.3.2-cp310-cp310-win_amd64.whl (221 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2026.5-py2.py3-none-any.whl (506 kB)
+     -------------------------------------- 506.3/506.3 kB 2.0 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+     -------------------------------------- 348.0/348.0 kB 1.2 MB/s eta 0:00:00
+Collecting six>=1.6
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: reservoir-inventory-prototype
+  Building editable for reservoir-inventory-prototype (pyproject.toml): started
+  Building editable for reservoir-inventory-prototype (pyproject.toml): finished with status 'done'
+  Created wheel for reservoir-inventory-prototype: filename=reservoir_inventory_prototype-0.1.0-0.editable-py3-none-any.whl size=1954 sha256=6bc92001d40e644511a303cbb151179fb50b987b201293ebd5fdd846767ce379
+  Stored in directory: C:\Users\HanqinXie\AppData\Local\Temp\pip-ephem-wheel-cache-hxj89abn\wheels\24\b5\37\9cce9b3bad433d16586551edb0a624b2331488055fa9e8f707
+Successfully built reservoir-inventory-prototype
+Installing collected packages: pytz, tzdata, six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, contourpy, pandas, matplotlib, reservoir-inventory-prototype
+Successfully installed contourpy-1.3.2 cycler-0.12.1 fonttools-4.65.0 kiwisolver-1.5.1 matplotlib-3.10.9 numpy-2.2.6 packaging-26.3 pandas-2.3.3 pillow-12.3.0 pyparsing-3.3.3 python-dateutil-3.0.0 pytz-2026.5 reservoir-inventory-prototype-0.1.0 scipy-1.15.3 six-1.17.0 tzdata-2026.5
+python.exe : 
+所在位置 行:2 字符: 120
++ ... tring('o'); & .\.venv\Scripts\python.exe -m pip install -e . *> logs\ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip available: 22.2.1 -> 26.2.2
+[notice] To update, run: E:\����\���򼫶˿�ˮ���յ�ˮ��-��ҵЭͬ�����������Ż�\code\Reservoir_Industrial_Product_data\models\rese
+rvoir_inventory\.venv\Scripts\python.exe -m pip install --upgrade pip

@@ -1,18 +1,362 @@
 [
   {
-    "original_member": "data/heating/DH_city:town_2020.csv",
-    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.csv"
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.sbn"
   },
   {
-    "original_member": "__MACOSX/data/heating/._DH_city:town_2020.csv",
-    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.csv"
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.dbf"
   },
   {
-    "original_member": "data/heating/DH_city:town_2020.h5",
-    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\heating\\DH_city_town_2020.h5"
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.sbn"
   },
   {
-    "original_member": "__MACOSX/data/heating/._DH_city:town_2020.h5",
-    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\__MACOSX\\data\\heating\\._DH_city_town_2020.h5"
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢σÄ┐τòî.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/线状县界.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢σÄ┐τòî.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状县界.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.shx",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.shx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.shx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.shx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.sbx",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.sbx",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.sbx",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.sbx"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/Σ╕¡σ¢╜σ£░σ╖₧τòî.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/中国地州界.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\Σ╕¡σ¢╜σ£░σ╖₧τòî.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\中国地州界.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ║┐τè╢τ£üτòî.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/线状省界.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ║┐τè╢τ£üτòî.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\线状省界.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/全国县级统计数据.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σà¿σ¢╜σÄ┐τ║ºτ╗ƒΦ«íµò░µì«.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\全国县级统计数据.prj"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ¢╜τòîτ║┐.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/国界线.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ¢╜τòîτ║┐.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\国界线.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σÄ┐σƒÄΘ⌐╗σ£░.shp",
+    "decoded_member": "data/province_shapes/CHN_adm/县城驻地.shp",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σÄ┐σƒÄΘ⌐╗σ£░.shp",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\县城驻地.shp"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üτ║ºΦíîµö┐σî║.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/省级行政区.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üτ║ºΦíîµö┐σî║.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省级行政区.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbn",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.sbn",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.sbn",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.sbn"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ╗Åτ║¼τ╜æ.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/经纬网.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ╗Åτ║¼τ╜æ.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\经纬网.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/τ£üΣ╝ÜσƒÄσ╕é.dbf",
+    "decoded_member": "data/province_shapes/CHN_adm/省会城市.dbf",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\τ£üΣ╝ÜσƒÄσ╕é.dbf",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\省会城市.dbf"
+  },
+  {
+    "original_member": "data/province_shapes/CHN_adm/σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.prj",
+    "decoded_member": "data/province_shapes/CHN_adm/地级城市驻地.prj",
+    "previous_extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\σ£░τ║ºσƒÄσ╕éΘ⌐╗σ£░.prj",
+    "extracted_path": "D01_Nature_Energy_Industrial_Overcapacity\\extracted\\data\\data\\province_shapes\\CHN_adm\\地级城市驻地.prj"
   }
 ]

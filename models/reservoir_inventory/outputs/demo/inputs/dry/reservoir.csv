@@ -1,0 +1,9 @@
+name,value,unit,source_id
+water_capacity_m3,5000000000,m3,D01_RESERVOIR;SCENARIO_HYDRO
+water_min_m3,0,m3,SCENARIO_HYDRO
+hydro_capacity_mw,2100,MW,D01_RESERVOIR;SCENARIO_HYDRO
+water_consumption_m3_per_kwh,1.8500000000000001,m3/kWh,D01_RESERVOIR
+initial_water_m3,2500000000,m3,SCENARIO_HYDRO
+terminal_water_m3,2500000000,m3,SCENARIO_HYDRO
+initial_inventory_t,0,t,SCENARIO_INDUSTRY
+terminal_inventory_t,0,t,SCENARIO_INDUSTRY

@@ -1,0 +1,136 @@
+{
+  "checked_at_beijing": "2026-10-27T17:58:02.947794+08:00",
+  "scope": "D24 only; source files are read without modification",
+  "native_application_launch_tested": false,
+  "source_files": [
+    {
+      "name": "Appendix1.xlsx",
+      "bytes": 106395,
+      "sha256": "13e31a83ce1fbc7576a9b376652ed1801de70e8b9882922f19edec9aec0b91da",
+      "md5": "02a822f1ece36ed68ce1831f4bae2d4a",
+      "crc_passed": true,
+      "all_xml_parts_parsed": true
+    },
+    {
+      "name": "Appendix2.xlsx",
+      "bytes": 384089,
+      "sha256": "9853e7124725bd9cfa80dee11e579ec6dfc42d711128f34658dc1217b615d5bd",
+      "md5": "8841fe650968596aa27200045dd90f51",
+      "crc_passed": true,
+      "all_xml_parts_parsed": true
+    },
+    {
+      "name": "Appendix3.zip",
+      "bytes": 47699156,
+      "sha256": "b4110982aa9cc5372910929369139382b1712acaed6bcad8b981545a4ce71e6a",
+      "md5": "887ce086d7f89648befa8bc4efc8a697",
+      "crc_passed": true,
+      "all_xml_parts_parsed": true
+    },
+    {
+      "name": "CLEARv1.2UpdateLog.docx",
+      "bytes": 24874,
+      "sha256": "3985603fae54c31a90576d49bb2e9b750991fa621181e2b61dcb7b116cba0aaa",
+      "md5": "decb32193ff9b934edf3c05e6276b381",
+      "crc_passed": true,
+      "all_xml_parts_parsed": true
+    }
+  ],
+  "workbooks": [
+    {
+      "name": "Appendix1.xlsx",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "declared_range": "A1:XFB18",
+          "last_nonempty_column": "O",
+          "nonempty_cells": 196,
+          "formula_count": 0,
+          "error_cells": [],
+          "mojibake_candidates": [],
+          "invisible_format_characters": []
+        }
+      ]
+    },
+    {
+      "name": "Appendix2.xlsx",
+      "sheets": [
+        {
+          "sheet": "Instruction",
+          "declared_range": "A1:N20",
+          "last_nonempty_column": "A",
+          "nonempty_cells": 2,
+          "formula_count": 0,
+          "error_cells": [],
+          "mojibake_candidates": [],
+          "invisible_format_characters": []
+        },
+        {
+          "sheet": "Attribute",
+          "declared_range": "A1:AH914",
+          "last_nonempty_column": "AH",
+          "nonempty_cells": 31076,
+          "formula_count": 0,
+          "error_cells": [],
+          "mojibake_candidates": [],
+          "invisible_format_characters": [
+            {
+              "cell": "AG265",
+              "value": "Irrigation, water supply, power generation‌‌",
+              "characters": [
+                "U+200C",
+                "U+200C"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "docx": {
+    "name": "CLEARv1.2UpdateLog.docx",
+    "paragraphs": 32,
+    "tables": 0,
+    "characters": 5277,
+    "mojibake_markers_found": [],
+    "readable": true
+  },
+  "notes": [
+    "Appendix1.xlsx declares A1:XFB18 although nonempty cells end in O; source dimension metadata is overextended, not a decoding failure.",
+    "Appendix2.xlsx Attribute!AG265 (reservoir ID264) has two trailing U+200C characters; original source content, not file corruption.",
+    "GIS topology findings are recorded separately after full layer validation.",
+    "File readability was tested by library/container parsing; Microsoft Office/QGIS UI was not launched.",
+    "Boundary PRJ GEOGCS name is GCS_unknown; strict WKT1 syntax passes and remaining parameters equal Dam PRJ. No EPSG authority identification was performed."
+  ],
+  "mac_metadata_paths": [],
+  "source_files_unchanged": true,
+  "gis_detail_record": "_provenance/gis_readability_check_20261027.json",
+  "gis_detail_sha256": "e212d0502eb08316d73bff75374206c092921924c129b27af0118521221fc23d",
+  "gis_summary": {
+    "source_zip_crc_and_sha256_passed": true,
+    "extracted_members_matching_source": 24,
+    "features_in_each_layer": 913,
+    "Dam": {
+      "valid": 913,
+      "invalid": 0
+    },
+    "FullDrainageBoundary": {
+      "valid": 877,
+      "invalid": 36
+    },
+    "IntermediateDrainageBoundary": {
+      "valid": 816,
+      "invalid": 97
+    },
+    "invalid_reason": "Ring Self-intersection",
+    "validation_engine": "Shapely 2.1.2 / GEOS 3.13.1",
+    "dbf_utf8_text_cells_strictly_decoded": 32868,
+    "no_binary_structure_errors": true,
+    "invalid_records_are_present_in_original_zip": true,
+    "distinct_reservoir_ids_with_invalid_boundaries": 106,
+    "invalid_layer_records": 133
+  },
+  "conclusion": "No filename/text mojibake or unreadable containers found. Existing source issues: overextended Appendix1 worksheet dimension, two trailing U+200C in reservoir264 MU, 36 full-boundary and 97 intermediate-boundary ring self-intersections. Source data was not edited.",
+  "file_readability_passed": true,
+  "gis_topology_validation_passed": false
+}

@@ -1,0 +1,24 @@
+test_five_table_write_load_round_trip_preserves_physical_fingerprint (test_io.InputPreparationIntegrationTests) ... ok
+test_month_end_warehouse_contains_normal_turnover_and_minimum_uses_rated_capacity (test_io.InputPreparationIntegrationTests) ... ok
+test_reordered_dates_and_unregistered_sources_are_rejected (test_io.InputPreparationIntegrationTests) ... ok
+test_three_source_years_keep_calendar_and_scale_inflow_capacity_and_power (test_io.InputPreparationIntegrationTests) ... ok
+test_end_delivery_charges_intra_period_stock_and_respects_peak (test_model.ModelScientificTests) ... ok
+test_export_revenue_may_make_objective_negative (test_model.ModelScientificTests) ... ok
+test_fixed_production_has_no_inventory_or_coordination_savings (test_model.ModelScientificTests) ... ok
+test_initial_water_and_products_cannot_be_consumed_at_horizon_end (test_model.ModelScientificTests) ... ok
+test_insufficient_water_raises_instead_of_relaxing_mandatory_release (test_model.ModelScientificTests) ... ok
+test_m0_degeneracy_does_not_imply_a_unique_m1_attribution (test_model.ModelScientificTests) ... ok
+test_m1_rejects_hydro_plan_from_different_inputs (test_model.ModelScientificTests) ... ok
+test_minimum_output_is_applied_to_the_supplied_rated_based_bound (test_model.ModelScientificTests) ... ok
+test_nonconvex_buy_sell_price_order_is_rejected (test_model.ModelScientificTests) ... ok
+test_original_two_period_export_prohibited (test_model.ModelScientificTests) ... ok
+test_required_release_uses_turbine_water_and_losses_are_period_volumes (test_model.ModelScientificTests) ... ok
+test_uniform_stock_cost_scales_with_days_but_energy_cost_does_not (test_model.ModelScientificTests) ... ok
+test_unlimited_symmetric_trading_removes_additional_hydro_value (test_model.ModelScientificTests) ... ok
+test_volume_scale_changes_do_not_change_energy_or_economic_results (test_model.ModelScientificTests) ... ok
+test_zero_inventory_under_uniform_delivery_prevents_shifting (test_model.ModelScientificTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.361s
+
+OK

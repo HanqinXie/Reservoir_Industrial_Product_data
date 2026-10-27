@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "source": "data/repo_toy_expected.json",
+  "cases": {
+    "export_prohibited": {
+      "costs_cny": {
+        "M0": 6.0,
+        "M1": 2.4,
+        "M2": 0.4000000000000001
+      },
+      "inventory_savings_with_fixed_hydro_cny": 3.6,
+      "additional_hydro_coordination_savings_cny": 1.9999999999999998,
+      "total_savings_cny": 5.6,
+      "attribution": "M1 is conditional on the particular optimal M0 hydro plan returned by HiGHS; not a unique causal allocation.",
+      "information_assumption": "All models use the same full-horizon perfect foresight.",
+      "water_trajectory_max_change_M2_vs_M0_m3": 0.0,
+      "hydro_energy_max_period_change_M2_vs_M0_mwh": 2.0,
+      "audits": {
+        "M0": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        },
+        "M1": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4,
+          "max_frozen_hydro_difference_m3": 0.0
+        },
+        "M2": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        }
+      }
+    },
+    "unlimited_symmetric_trading": {
+      "costs_cny": {
+        "M0": 4.0,
+        "M1": 0.4000000000000001,
+        "M2": 0.4000000000000001
+      },
+      "inventory_savings_with_fixed_hydro_cny": 3.6,
+      "additional_hydro_coordination_savings_cny": 0.0,
+      "total_savings_cny": 3.6,
+      "attribution": "M1 is conditional on the particular optimal M0 hydro plan returned by HiGHS; not a unique causal allocation.",
+      "information_assumption": "All models use the same full-horizon perfect foresight.",
+      "water_trajectory_max_change_M2_vs_M0_m3": 0.0,
+      "hydro_energy_max_period_change_M2_vs_M0_mwh": 0.0,
+      "audits": {
+        "M0": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        },
+        "M1": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4,
+          "max_frozen_hydro_difference_m3": 0.0
+        },
+        "M2": {
+          "passed": true,
+          "max_lp_violation_internal_units": 0.0,
+          "max_water_balance_residual_m3": 0.0,
+          "max_product_balance_residual_t": 0.0,
+          "max_energy_balance_residual_mwh": 0.0,
+          "cost_reconstruction_error_cny": 0.0,
+          "terminal_water_error_m3": 0.0,
+          "terminal_inventory_error_t": 0.0,
+          "water_variable_scale_m3": 1.0,
+          "solver_status": 0,
+          "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "lp_variables": 16,
+          "lp_equalities": 6,
+          "lp_inequalities": 4
+        }
+      }
+    }
+  }
+}

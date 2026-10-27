@@ -1,0 +1,1189 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-27T12:14:29.572320+00:00",
+  "path_basis": "workspace-relative POSIX paths",
+  "source_file_count": 236,
+  "source_bytes": 4845018397,
+  "files": [
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/ENCODING_REPAIR.md",
+      "bytes": 3413,
+      "sha256": "49f2cb23e0cd2be63b4b0c2c02da5036598689ccb7e30b4cd650a09cd52b24af"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/README_请先看这里.txt",
+      "bytes": 610,
+      "sha256": "3697516a79996eb895a0e956ef212156cf176d72d8f95b1afffe60657929083b"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/SOURCE.md",
+      "bytes": 1349,
+      "sha256": "e178b86be77625238278454a144fae7970fc55b83aeadb7311eba44cff1cb184"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.filename_mapping.json",
+      "bytes": 28589,
+      "sha256": "c9526d4caf5b16d2aea7b980f702e2d6645aaf313d11bf9cfb0ed118851906b1"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.manifest.json",
+      "bytes": 225925,
+      "sha256": "e5963890f53b78d9355de5de8f7fc227dfd91b457a4fee029b400c5537c0b1cf"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/repair_windows.py",
+      "bytes": 16503,
+      "sha256": "fe58b7369642a9fb6a2cd672d466d8c9c790299e820088b0b0ab3da98df65f60"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/test_windows_extraction.py",
+      "bytes": 4996,
+      "sha256": "f2c4d627d3ab4dcf6b551a445463fc42d3ae96cb029dd159ce5a43823bb0e2f4"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/verify_repair_workflow.py",
+      "bytes": 7438,
+      "sha256": "ac04c878d33b26ebdfdcfed8244fcca058d05dbb5259dae2d471cb5fd5c0de05"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/backup_manifest.json",
+      "bytes": 1634,
+      "sha256": "f1a4c013af043563a347f2a069603ced9768817a41fb99b6abb88ea698671114"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/D01_Nature_Energy_Industrial_Overcapacity/SOURCE.md",
+      "bytes": 1048,
+      "sha256": "e33d750f7f01b648764b6392a74a78a786676713bba25cf3a417f33e01df35c9"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.filename_mapping.json",
+      "bytes": 825,
+      "sha256": "567ce85714ab07f218456b46ac607f56f085a7a03c20519072a7339c9321007b"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/D01_Nature_Energy_Industrial_Overcapacity/_provenance/data.zip.manifest.json",
+      "bytes": 199816,
+      "sha256": "9b94524a75e5373e3e25d2baac4650b961fcc7670da1f166b1980588d022d60f"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/D01_Nature_Energy_Industrial_Overcapacity/manifest.json",
+      "bytes": 213648,
+      "sha256": "57a800d67cb5c9e59abdbc09b325b5efbbd21f54086619944d9596ccdb49090f"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/_provenance/audit_scientific.py",
+      "bytes": 8756,
+      "sha256": "608e7a191f8bf1940aee45683f268b803b03bba2b5100c8878bdad48235e2aa7"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/_provenance/download_scientific.py",
+      "bytes": 12629,
+      "sha256": "d0065b4edda2884d1f359103e2ed6988f2e97052be971aeb471defab59f1be5a"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/_provenance/manifest_all_sources.json",
+      "bytes": 12001344,
+      "sha256": "e1653a5bb2330a9eccf80ed2cf56364d3928317d08bbbf42bd49cf9934544d00"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/_provenance/manifest_scientific.json",
+      "bytes": 10910832,
+      "sha256": "e9cafe9ef8d56d28bb3177bb71af27fa84142070277a640071b9ab458347dd22"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/before/_provenance/manifest_scientific_sources.json",
+      "bytes": 19797,
+      "sha256": "40a046c2cd6c240aac31645303d74e668ca402785d481ee111db6c2bf9d64654"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/model_19_checks.log",
+      "bytes": 2123,
+      "sha256": "3097c789cbc91ded5bb98ea1029bc8282285a567da2617de1790a37b02e2d3c2"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/model_19_checks.status.json",
+      "bytes": 621,
+      "sha256": "a05dafba088edea1c20097dd4b49dd415c907ac01aee689cdf6244a453c3081d"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/original_audit_workflow.json",
+      "bytes": 615,
+      "sha256": "c9b446d9f45f66c92f2f520612f49286c755aba8292499166e76bde6a793322d"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/original_audit_workflow.log",
+      "bytes": 118,
+      "sha256": "3aa4d033209aca27eb5950f7fd8afe335a3e8620724e885677c099abaf6121a5"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/regression_after.log",
+      "bytes": 597,
+      "sha256": "814b7270ac5a37adc754f33278b6a3bbd508c8ff6e8ba8e6448cb7e3f78c79da"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/regression_after.status.json",
+      "bytes": 660,
+      "sha256": "213d809b274e5cc822cba1314099833d04ce5d0a50f94ac5e543767d7c7c5bbe"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/regression_before.log",
+      "bytes": 2337,
+      "sha256": "6e1cc38d4aec356f3ccc19f844635ed9624d10527ff6984471add34f75eee493"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/regression_before.status.json",
+      "bytes": 660,
+      "sha256": "bb13d31cd81afbcfc6c60e5d51bc573e9b89d894a87e88fdc4473485046015d8"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/repair_plan.json",
+      "bytes": 292919,
+      "sha256": "9864e3d1a45022625bd38097a341e399b27ec8dc2437ed525d1053a4de5f31e0"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/verification.json",
+      "bytes": 5160,
+      "sha256": "8ca46e901f3de01e8218f2e27ec8a70d6c1539e401a6b2854893bfde58d7dffb"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/_provenance/windows_repair_20261027/workflow_verification.json",
+      "bytes": 2592,
+      "sha256": "0115ef71cf2cbded958c6a8c73ab58a0c873e0aeaa8302ac7b62b7b9b91fa019"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.dbf",
+      "bytes": 8568,
+      "sha256": "698553dd61335387cf38a86d3fe7dc35215a98cc86055ee118eb7a4ef93fd0f6"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.sbn",
+      "bytes": 3868,
+      "sha256": "d480ad40fc49c11efff71833538658428dd52fc4e2ac486269c424907e51283d"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.sbx",
+      "bytes": 412,
+      "sha256": "cfb8d3150539b65a0b1bb51e5a0e942eb11fa227d3bb0f992537efd85eeef991"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.shp",
+      "bytes": 1205224,
+      "sha256": "e0601e429367d47e3a37f27e863b81ad0e954dcc02f098fdd0c9c517c83cc07d"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/中国地州界.shx",
+      "bytes": 3180,
+      "sha256": "fb4a8b1762b4e42d4aad5e626d9e570dd467a0fe4a5a63bb079d0fa04e5a404e"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.dbf",
+      "bytes": 2214806,
+      "sha256": "6764b87e2d44b6f9684c81e4fb7fd611eb663580e5b372d8eb8b234bc6d71276"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.sbn",
+      "bytes": 24636,
+      "sha256": "65c19c523c9d68f17a2826f0054a48165b287af84ca08d1bfaef2eef47c0faec"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.sbx",
+      "bytes": 1780,
+      "sha256": "1e47d5351361ec0c99b3974764c488f78fdc68ebe82b9f5e4b48507b647641fc"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.shp",
+      "bytes": 2681920,
+      "sha256": "fe6b77deeca97e64875c551c7efd45c2f2d26611fdc5617fd71062059dc27d9f"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/全国县级统计数据.shx",
+      "bytes": 19220,
+      "sha256": "7e6ebe8095a4ab929c296cdda1d625f720d90f20e8ea97a589b30e8e1738d5b1"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.dbf",
+      "bytes": 172163,
+      "sha256": "83ab81ee444f37f47b3713f09fa89570344dd07a2c9f879f33aadaa70a05f0c5"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.sbn",
+      "bytes": 25060,
+      "sha256": "bf939b0dc4e04b36ef71b03edc83801d5c20863b79d3cf6b6145f3cd2d6a05e8"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.sbx",
+      "bytes": 1796,
+      "sha256": "0ba6d23c661c5214b7ca930edfbd2b0ec4344a60a675ead58c37aa5032d66c77"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.shp",
+      "bytes": 67944,
+      "sha256": "8d4385c1b620780151c865c5a9a73746b176147123c126bbf8c86c0fecbcf56a"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/县城驻地.shx",
+      "bytes": 19484,
+      "sha256": "b85bf83f34e544a7c322021f3bba9b5e8f8f2c8e23fe14452cbcd5ea7453689a"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.dbf",
+      "bytes": 121906,
+      "sha256": "5d73014c161c33e529f01d3affdd0b20f3b834ae0ce52fe854c9f3641a25587d"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.sbn",
+      "bytes": 13228,
+      "sha256": "b8370bea4e86591b0ae597422f6af808335f64e81e3d06b7f8b058aaa673baba"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.sbx",
+      "bytes": 676,
+      "sha256": "071bbdc73601fb6d21cc8eaca74f55d2062673ab0b31975f493c7a2994c065c6"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.shp",
+      "bytes": 1141972,
+      "sha256": "f49bca06a74e5108a220258a467fb0e245d4f17437c49d5fe18deb194424a6f2"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/国界线.shx",
+      "bytes": 11156,
+      "sha256": "117bdad6ec0d3f0761f961f55695021060367eb9f1daa18b34d9a37d5aa2e34c"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.dbf",
+      "bytes": 24767,
+      "sha256": "0a531a61d1b5d4317f576e9ed2970010a7878be4efcebd5e34a23a67d5be40bc"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.sbn",
+      "bytes": 3588,
+      "sha256": "dcd7b8ba7cfe83a649febfac217d7df0cc9009daff319a77ec9efb039e9cfbdc"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.sbx",
+      "bytes": 348,
+      "sha256": "86f5f3a0360b43500a521bf00770d11a7d3b5b6aa9487b9fd2e48ebdac8d8740"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.shp",
+      "bytes": 9816,
+      "sha256": "cff215f3c410741ab79807772bd8bd47b803851c52dcbbf23312ce1014be61aa"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/地级城市驻地.shx",
+      "bytes": 2876,
+      "sha256": "3a1171a1a4669f2564d28c53c0ec4997f872becae15a638d7e2115abddb1c8fe"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.dbf",
+      "bytes": 3906,
+      "sha256": "7186816d4ef13c6617a3660eafb3222cd20adc83570bc4c45c793c775db7ac15"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.sbn",
+      "bytes": 468,
+      "sha256": "51c37ab501316807b7dc3817840dead0dee0f602f9d1eb1b492013851ef0fa41"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.sbx",
+      "bytes": 140,
+      "sha256": "0544278b3714caac25928156ef5700b1767401b0985a868834f0d2e178f940f4"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.shp",
+      "bytes": 1052,
+      "sha256": "e00c6de918d43a7d6ef59be1ad54f11acdd4b261a891f466732bc179767a19f3"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省会城市.shx",
+      "bytes": 372,
+      "sha256": "5628163e6d0ac374d169008893f78ad6c8f5d02b9fcde88a993f7f56087b25f0"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.dbf",
+      "bytes": 81054,
+      "sha256": "9648db3750b7f89878939ab07f4c829ad890c206fddb11279628d309615b03e7"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.sbn",
+      "bytes": 460,
+      "sha256": "1c920d8c8081576cc0ec8085882fcd02d1e419a4856730f56181405983fac01c"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.sbx",
+      "bytes": 148,
+      "sha256": "5de132aab04d214edbd0a11ba998eb34da29ea97ab90aa221ce9021f0762adda"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.shp",
+      "bytes": 455348,
+      "sha256": "b89de3b67a122518be66e6391d52870e435d30e32cf2657cfca37b9658e303fb"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/省级行政区.shx",
+      "bytes": 372,
+      "sha256": "e4b547fa89accfff0362879c0a5246b31b37ca7c885f766ac0d6a286547b3693"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.dbf",
+      "bytes": 497510,
+      "sha256": "cbf450a0c01d78333a43b7dcc63df9fc7cddbe99e3d939f9fccd625f0719dbac"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.sbn",
+      "bytes": 57364,
+      "sha256": "8f49a61e9a7181d6d538c63fa22b025a4f1fce85f003db7eb2b257da19845b18"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.sbx",
+      "bytes": 3356,
+      "sha256": "7c7dea31755c2b94cf21cc093f2c0510974be00d6db01dda8c05b1be106e5ac7"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.shp",
+      "bytes": 1442852,
+      "sha256": "68a9d85409545da3a8e0ac054418f1fc6a1ebd12328e1d010e4c5c5efa431869"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状县界.shx",
+      "bytes": 46356,
+      "sha256": "a44e7e0bb351e3c99d5ea8bd0be21f36824a9365f3f10e655077e977cbe215f1"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.dbf",
+      "bytes": 1998,
+      "sha256": "3ed81bf4dc974e84eeed72649e3b59f4f33eea6c819894741a292b1cb231b772"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.sbn",
+      "bytes": 1716,
+      "sha256": "9a84296b0174445becc85f2cc113c4195b1e3db4c31ed08e58f5514294d2181b"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.sbx",
+      "bytes": 244,
+      "sha256": "95c909e3e378a79c5ec25c3fb0815e85e2560f0301d9ce83624cb35dba89d81b"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.shp",
+      "bytes": 551816,
+      "sha256": "ce0cc0599c6e5a902e76d016b0d3356a5b9768fb8121417275f273a75fadc822"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/线状省界.shx",
+      "bytes": 1388,
+      "sha256": "f7f0a08d5fa036472f4e2ef847b92f4c0b09fac4b22cae7edf971fcde8d41c48"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.dbf",
+      "bytes": 385,
+      "sha256": "5e1bbb05addca8607b007d31a4604d9e8bf624467fa23a28e818a902c547896b"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.prj",
+      "bytes": 458,
+      "sha256": "7a2314e3e103d759e87808c5296c809496f3ad74066389af8eda731992080985"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.sbn",
+      "bytes": 212,
+      "sha256": "b77ae51dd998a0e728364796200f6837cb113770f1a3f28220b5aa37b4563f59"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.sbx",
+      "bytes": 132,
+      "sha256": "7495c086d73ec26d77c53500218678bfcb1a82eea7f100ef0e47271beba136b9"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.shp",
+      "bytes": 1920,
+      "sha256": "23d4d2400eaecf5b8b2ff26e176a708621d2c785b1add55577f8b8a5ac89e2ca"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/extracted/data/data/province_shapes/CHN_adm/经纬网.shx",
+      "bytes": 156,
+      "sha256": "b32bc52db08fa38296eda29e8fd816e5ae5abf2a337ae0ad9a4a752479e3af61"
+    },
+    {
+      "path": "dataset/D01_Nature_Energy_Industrial_Overcapacity/manifest.json",
+      "bytes": 242299,
+      "sha256": "ac49b95f49fe583d55a4dfe8d9c5e54af78c34dbfb466e643e74bec57c0a744a"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/235669be661d3114f1b100f81b164504.zip",
+      "bytes": 2372499291,
+      "sha256": "a96b655a9dbb8e47cac247dc3ef14293e939bff6c187a90f2ab65ff10dec0f3b"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/SOURCE.md",
+      "bytes": 1963,
+      "sha256": "1610b7dff03d45f2adf566b0bdc0f127cf580d91a34e3133587e6dabe228d264"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extract_yunnan_bbox.py",
+      "bytes": 9884,
+      "sha256": "44f4b2e9a72b537f630d4d6a9016a91435ba55283872ca71603842744188ebbb"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extraction_attempts/attempt01.json",
+      "bytes": 429,
+      "sha256": "a4f29745fea7cb3e3d9bb938f2107231f4a2c245b227c0ad57ae93d7094a27ea"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/extraction_attempts/attempt01.partial.nc",
+      "bytes": 17113700,
+      "sha256": "0cedcd688175d776c50e2d8a3966b33f76d6515d7a3b4f021794f5c6ef14eb30"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/status_before_data_verification_20261027.md",
+      "bytes": 466,
+      "sha256": "68784ff9e40eb45f1f9f7ec274137188d85df6450ce82ec573cc256dcbd0261c"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_independent_check.json",
+      "bytes": 3843,
+      "sha256": "891f42bc60c967eabc2a9824e95e251b58bc8161057a003bca991dce573a06bf"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/_provenance/yunnan_bbox_2015_manifest.json",
+      "bytes": 3465,
+      "sha256": "dc5cd1aae3cd2700aa919dd5c39d36c8748657301529244716f1535ee1f0dd45"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/api_request.txt",
+      "bytes": 917,
+      "sha256": "22219081b543b91fc5484c4dfa755912453eb903a8a70020610345590031859c"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/data_0.nc",
+      "bytes": 2372137099,
+      "sha256": "180eb17eddb594349bed700faa83e1d3a703c2e4c9641d9291c348cbb74d2501"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/manifest.json",
+      "bytes": 8430,
+      "sha256": "790ec926eecb02bf370a9b663d848c86bf25ec4ccc6913585b6569c33af116b0"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/yunnan_bbox_2015_README.txt",
+      "bytes": 819,
+      "sha256": "abfb960ab87de17beda89b03bb040e044ddd5a1bb72a8a0e3b178a0b5150f93c"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/yunnan_bbox_2015_glofas_v4.nc",
+      "bytes": 17113700,
+      "sha256": "f152afa1a78a53cd4e2170b5e1ab64e00efacc779c6e03a46816c24f0b312a22"
+    },
+    {
+      "path": "dataset/D02_Copernicus GloFAS历史流量再分析/下载状态.md",
+      "bytes": 1251,
+      "sha256": "49feb927461a00c815ed26ac8c0ee21d1f8009fd88b9eeab1d132619084a1eff"
+    },
+    {
+      "path": "dataset/D03_GRADES自然化河流流量/44007315_history_series.csv",
+      "bytes": 499245,
+      "sha256": "a971a9812bb7cf52fd323eac50c638f5083fdf3c687c23d0e40d966cf8b2a522"
+    },
+    {
+      "path": "dataset/D24_CLEAR/_provenance/gis_readability_check_20261027.json",
+      "bytes": 135484,
+      "sha256": "e212d0502eb08316d73bff75374206c092921924c129b27af0118521221fc23d"
+    },
+    {
+      "path": "dataset/D24_CLEAR/_provenance/readability_check_20261027.json",
+      "bytes": 4834,
+      "sha256": "3382423cbfe4e2a962e5e2a5d6793e9bdc067d03d2bc77756c6ae97c8346be5d"
+    },
+    {
+      "path": "dataset/_provenance/audit_scientific.py",
+      "bytes": 9799,
+      "sha256": "ebeef7da591830acb73913282c55393e14a7d99cbed19f476384ef3a3f00c9e3"
+    },
+    {
+      "path": "dataset/_provenance/build_delivery_index.py",
+      "bytes": 19783,
+      "sha256": "8dd4d4bdfb6ba2c670de01e0f0942e16fa0809b0f676617b4e16b5fef02a5809"
+    },
+    {
+      "path": "dataset/_provenance/download_scientific.py",
+      "bytes": 14269,
+      "sha256": "c9d5c8f0f4c1cafa4a0d5eb402f595c01b58addef4605a42c9fdd3b278e3d84e"
+    },
+    {
+      "path": "dataset/_provenance/manifest_all_sources.json",
+      "bytes": 12210444,
+      "sha256": "16179291f2ef44cacdecb0e7f0f3c32cc517d0368e2e6b118b5d3f37881df2af"
+    },
+    {
+      "path": "dataset/_provenance/manifest_scientific.json",
+      "bytes": 10970357,
+      "sha256": "3bbd0b51ad45025cbd12ea672c6f51f4105adff3b436043d4ec6676135665ebd"
+    },
+    {
+      "path": "dataset/_provenance/manifest_scientific_sources.json",
+      "bytes": 153691,
+      "sha256": "73599fc1f624acc11bc0b83fd64fa326df4432a9d02b5eea2821f826b9f6b614"
+    },
+    {
+      "path": "dataset/下载清单.md",
+      "bytes": 14241,
+      "sha256": "cee0cfb7b5f38fe8818a216973a24f84ebf275f2305af997fde5fad8dd53f00a"
+    },
+    {
+      "path": "models/reservoir_inventory/.gitignore",
+      "bytes": 91,
+      "sha256": "17444f5a75f0d020f565486a045eb00242476029d94abbe88942215af54cd2c5"
+    },
+    {
+      "path": "models/reservoir_inventory/PACKAGE_MANIFEST.json",
+      "bytes": 20784,
+      "sha256": "eb82b0733ae8be1b48f4d6bea852f6f1c97be177e01a0d92edfb9b954770d6b0"
+    },
+    {
+      "path": "models/reservoir_inventory/README.md",
+      "bytes": 8159,
+      "sha256": "92eab475bb9a7047e6abb4027c4de1943e0aaf378e758f3023bf7cb052fe29f6"
+    },
+    {
+      "path": "models/reservoir_inventory/RUN_REPORT.md",
+      "bytes": 16188,
+      "sha256": "ebf9ceaf4eda17e9d72a8bb37d56a082454af31a718886a659b6f0e0aae287fb"
+    },
+    {
+      "path": "models/reservoir_inventory/Reservoir_Inventory_Run01.zip",
+      "bytes": 2668590,
+      "sha256": "f721aa709648db65352eec755ff9b768bd37e9b2334fb555adb4cfecda48e3c7"
+    },
+    {
+      "path": "models/reservoir_inventory/Reservoir_Inventory_Run01.zip.receipt.json",
+      "bytes": 1020,
+      "sha256": "9e5a8be05ecff3cb9df24ea271b60f1626dd2fc70af010dc9b11c81d6b06bc34"
+    },
+    {
+      "path": "models/reservoir_inventory/Reservoir_Inventory_Run01.zip.sha256",
+      "bytes": 97,
+      "sha256": "e71328d7a9e73db4ac9f6d92915dc2498c766aa9bf8b7a451a7429bae755b58b"
+    },
+    {
+      "path": "models/reservoir_inventory/configs/xiaowan_demo.json",
+      "bytes": 2237,
+      "sha256": "9d4a0adc3b27967c2ddda1130c071d177ebe70b2766c490432b77b18c4d3701d"
+    },
+    {
+      "path": "models/reservoir_inventory/data/annual_hydrology.csv",
+      "bytes": 2741,
+      "sha256": "3beb7ab054cd29012ef9c2d2892d6f0786ea1a813b842def5e51134a480ba0ab"
+    },
+    {
+      "path": "models/reservoir_inventory/data/repo_toy_expected.json",
+      "bytes": 3700,
+      "sha256": "27ce19b67aa32ece1373aaa7b8e14df2bbff02f3e02600e2fc9fe8cccf4dc48a"
+    },
+    {
+      "path": "models/reservoir_inventory/data/source_manifest.json",
+      "bytes": 8042,
+      "sha256": "929cbedf0e109892c531771174f6a57c6d177c4f6f5051542afba51d7ceb86ae"
+    },
+    {
+      "path": "models/reservoir_inventory/data/xiaowan_inflow_1979_2016.csv",
+      "bytes": 414886,
+      "sha256": "4d98891e191ae11a1b8fa99ee44264fd0f310167cd12c03d37c8bf1449c0c8c5"
+    },
+    {
+      "path": "models/reservoir_inventory/data/xiaowan_reservoir.json",
+      "bytes": 1405,
+      "sha256": "fdb2867a4fed067ea222e4656f217967e0076d36aea85ff6edeb0578c0113b1b"
+    },
+    {
+      "path": "models/reservoir_inventory/docs/assumptions.md",
+      "bytes": 6813,
+      "sha256": "4876c4ab4f352e091c56cbf1df01308ff53f1d4d56ea4e85a9039a3645014c22"
+    },
+    {
+      "path": "models/reservoir_inventory/docs/model_formulation.md",
+      "bytes": 8066,
+      "sha256": "ffdd68774bee0f23b068da08badb486bdc71b09bf30234541a9b3c4397912f50"
+    },
+    {
+      "path": "models/reservoir_inventory/examples/README.md",
+      "bytes": 4429,
+      "sha256": "373a2193daaed853e65c107173c774b1451db83eb728e0a6eb3ad0c179f8964c"
+    },
+    {
+      "path": "models/reservoir_inventory/examples/representative_years_summary.csv",
+      "bytes": 852,
+      "sha256": "7e0e89d51b1b3680920abcd9376d6161e6c501bff5716490ddf041c517af73bb"
+    },
+    {
+      "path": "models/reservoir_inventory/examples/sensitivity_normal.csv",
+      "bytes": 7220,
+      "sha256": "825cf8fcd3463037da1b80ed0fedd138426dcbb63b5134fd189f2d1ef5f1029f"
+    },
+    {
+      "path": "models/reservoir_inventory/examples/validation_record.json",
+      "bytes": 4226,
+      "sha256": "4bf9c89344f3a31744f9d3d9ae78504ab30d104d67bf304fcbbb640093c31bba"
+    },
+    {
+      "path": "models/reservoir_inventory/examples/wet_comparison.png",
+      "bytes": 486229,
+      "sha256": "c4c84497c589e543fdc9e8f479ef95fc28c95703d882adabadf25efaa1a437da"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/00_install.log",
+      "bytes": 4526,
+      "sha256": "3e27045c7c67f5103e11ab1ee8ee5b7be4a604862313038951a9c50c1ac28f3f"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/00_install.status.json",
+      "bytes": 200,
+      "sha256": "fab4efdb3bae1a05fc5789a04592665d2c5bcc5d6ed1c546f17fdce034633632"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/00_pip_check.log",
+      "bytes": 31,
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/00_pip_check.status.json",
+      "bytes": 651,
+      "sha256": "f7370a240947400c85c523377a45b28ea6d3cfa23ea56000dbe0225ea774e1cd"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/01_unittest.log",
+      "bytes": 2123,
+      "sha256": "01e066ac4308429b7338366f3c814384de88ead8a268a23feb0e7235bbb0315c"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/01_unittest.status.json",
+      "bytes": 693,
+      "sha256": "a9892002b9ffd30c4d8698d191859ea735ca017c8045ca7f2254cda4e54ffce3"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/02_verify_toy.log",
+      "bytes": 59,
+      "sha256": "44a502a8b4ed716147734a7c97f5ac6ae12127aab32a8dd239e258c21627eee0"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/02_verify_toy.status.json",
+      "bytes": 708,
+      "sha256": "4da5222deb1b9d68ee8c933f71a43d2a4307c9b06c99e28e833abad67f0fcfb7"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/03_demo.log",
+      "bytes": 741,
+      "sha256": "e2c261110e9d29299922bba60f00efb6759ba6520080c5139920d0e27f057ea9"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/03_demo.status.json",
+      "bytes": 742,
+      "sha256": "57766da9975ed17333e752a783f75b911e43024ccd886dbfc17110938561d174"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/04_sweep.log",
+      "bytes": 852,
+      "sha256": "ba69eca82ef719d4108d5a97d9086dfb159dc5278ad4bfd4ffcdab0218a488ee"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/04_sweep.status.json",
+      "bytes": 746,
+      "sha256": "993ccd946f1ac5f9eb9f926574f3a64b74fb3dc71f1de2b58916f1654b4cbf6e"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/05_result_audit.log",
+      "bytes": 3573,
+      "sha256": "9eefddd9c861dd5d37f6dfc5f6b2887f99d0feea0512408d26b8c964c61f5827"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/05_result_audit.status.json",
+      "bytes": 188,
+      "sha256": "5ffc58ad59de601652830029358ec91213ae325ca27a06163adb11abf33837b0"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/annual_checked_summary.csv",
+      "bytes": 930,
+      "sha256": "39b94c686c13ed0f83b15f4fc5da0d9320491c8965034c409b8bb3bc65203274"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/audit_results.py",
+      "bytes": 16105,
+      "sha256": "f20f7fb62a9ef4e4088d668170060690bb9fe426c2d8c947059259880629f272"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/bootstrap_pip_freeze_failure.log",
+      "bytes": 3367,
+      "sha256": "ceccd381e47d8cdcf0f982b9a71b1d9de7bba10535e79804bedd19721cb996ad"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/bootstrap_pip_freeze_failure.status.json",
+      "bytes": 162,
+      "sha256": "5937dba80bceaf26514d56fa1c5a52b5ce1180ed01e93ed393e73fc73bba7198"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/command_statuses.json",
+      "bytes": 3736,
+      "sha256": "e129dd09d57ebd05a2513e0b8a0670a6ac2b66fdb52454f040dd523faf02cb17"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/environment.json",
+      "bytes": 930,
+      "sha256": "13f609ca7e635f448b6dfcdb0b9cee248d7aaec9c67f785a869d54b92f605a16"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/environment_bootstrap.json",
+      "bytes": 930,
+      "sha256": "039b46cb0f056f4d6ce44360349955eea202cacd1a43d506d5a35f95357e502f"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/package_run01.py",
+      "bytes": 5705,
+      "sha256": "e6f0d7551ec46262830511ad688c5134498d01f6975d05e3de48d7a6daf184c9"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/pip_list_freeze.txt",
+      "bytes": 325,
+      "sha256": "848ead5ef87501e31b55dac8520fecc24b18ada634c2b5c42377ee6463b93393"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/requirements_run01.txt",
+      "bytes": 293,
+      "sha256": "59f00ea0c5691b52b50ffc6d6e02f155a2686404876c9ca8c232acad6e0cfa33"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/result_audit.json",
+      "bytes": 50077,
+      "sha256": "c59d391afedec4dabc7d75b40283481d14cbe296dbf38ec68cccabf3aefceaf8"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/run_commands.py",
+      "bytes": 3821,
+      "sha256": "96c1aa22108addff1102da5f09439049048792755ed4d005be7f7d606d276398"
+    },
+    {
+      "path": "models/reservoir_inventory/logs/write_report.py",
+      "bytes": 18438,
+      "sha256": "482b4bb8cef3c379249f31fb8dbafbe24e7bc30eb1e63aa645b1065059c43825"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/M0_dispatch.csv",
+      "bytes": 76929,
+      "sha256": "c7174c307b9b9ad6e9858bbcb7654810bc3656429a748baf5393f093f7a7714a"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/M1_dispatch.csv",
+      "bytes": 95649,
+      "sha256": "563f195c6b07087de61387fd43b98f1f1b6fdbbbd742855d947cccf261865cc9"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/M2_dispatch.csv",
+      "bytes": 75065,
+      "sha256": "514981a6849934ee69e0c0eb151343863f4e23fe4c772b0c70acf69500c8cfc8"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/comparison.png",
+      "bytes": 422506,
+      "sha256": "6e493957ea13dcb675d45c3651b3466d9db82545f13d9a00e516ea9f0be4bf9e"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/comparison_summary.json",
+      "bytes": 9409,
+      "sha256": "721292820d8d417108b93432fa2c4cf9fa4d02c07fd5e6c72b0cde1a48037c73"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/cost_summary.csv",
+      "bytes": 1278,
+      "sha256": "6ca06011b559f51429921e267db19fa46ff675aec9afb88876b413698566306b"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/run_manifest.json",
+      "bytes": 8225,
+      "sha256": "da16fd772d061826cc082d4b98a5bc1f0ece76fb1f024a9f821d53938ce36636"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/dry/weekly_dispatch.csv",
+      "bytes": 46786,
+      "sha256": "8f3f0723030ec5679f8b09852cd365ec5fd898b9706d1c63a930b1b5d980816b"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/case.json",
+      "bytes": 2586,
+      "sha256": "23991d868b04278a81c2a1704aa2fc68b737596877ff7fcbac3e8a69daa250d2"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/economics.csv",
+      "bytes": 23544,
+      "sha256": "f4da5ae72ec872f241a99a651fbc3abdd46d217709af63de9b6a5a3557baa9bb"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/industry.csv",
+      "bytes": 34484,
+      "sha256": "69b9860829517f4a8b383502cd168a0aa503d0b87a2ab4fb6cd8b6f7732ad402"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/inflow.csv",
+      "bytes": 35490,
+      "sha256": "fc0e9257adc155fbec7cd07bf0f6ca234e394fa5260884755a76924422fe3070"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/reservoir.csv",
+      "bytes": 431,
+      "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/dry/sources.csv",
+      "bytes": 2799,
+      "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/case.json",
+      "bytes": 2592,
+      "sha256": "144e9096ff2a6e7db90f3b1d4864e23bedada5edb0d4eb0198c34e7a1ceae6c1"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/economics.csv",
+      "bytes": 23608,
+      "sha256": "4b1d9cb7109104f8f7c06c7609c16c3fc488adbcf2ebe793ab2faca4aab62ce0"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/industry.csv",
+      "bytes": 34578,
+      "sha256": "7ef717f8ed17196604acf62d14c33cf66046584b523dd9c278f4b6fd0b5e49a5"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/inflow.csv",
+      "bytes": 35593,
+      "sha256": "3ad6389f5efdaf1a518dcdd87ed775fa4ec088ed602fad092e9aa4d19159a0c2"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/reservoir.csv",
+      "bytes": 431,
+      "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/normal/sources.csv",
+      "bytes": 2799,
+      "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/prepared_cases.json",
+      "bytes": 62,
+      "sha256": "1e466e855b62ee28f7bbe5d443f18cfea679c5e93eb8130ac3195813576ea108"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/resolved_config.json",
+      "bytes": 2329,
+      "sha256": "26af39306ca7466c4d3429df53f3959c599e422358e35594dbc0be100641ce92"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/case.json",
+      "bytes": 2586,
+      "sha256": "3c0c988f8a7b99ba1d648f536f4483b8b8be309f6e2def1a3fef9af989c5c494"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/economics.csv",
+      "bytes": 23544,
+      "sha256": "344eacbe98fd42942fd732c35d89abf84c126f362f312247cb9ce61219d9ce44"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/industry.csv",
+      "bytes": 34484,
+      "sha256": "dd42f9c9687aabff263acca4830a3ce508bf740a1a578a3e023bc7ced0c8eae8"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/inflow.csv",
+      "bytes": 35500,
+      "sha256": "4718e78ac4d27f44d43eccbc1096db346a051bdeb3b1217070ce03d69bbce0c9"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/reservoir.csv",
+      "bytes": 431,
+      "sha256": "4811a9db979d7c0979c18d49447335f589e9c3be439e58413a87d0e0ca272feb"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/inputs/wet/sources.csv",
+      "bytes": 2799,
+      "sha256": "2533c088a1f27a69f9cbb93cb25688f735d972ad719253dfdf095c903ebd9765"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/M0_dispatch.csv",
+      "bytes": 80056,
+      "sha256": "f5fc345833805000a35ea32e5ab63aea8608156f31d6608812d03b0568f6cde9"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/M1_dispatch.csv",
+      "bytes": 98803,
+      "sha256": "9b9eb9b03bdede16338e944a018c3e3d0b9489e0aa76cb03cdae4518b7dce04a"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/M2_dispatch.csv",
+      "bytes": 78077,
+      "sha256": "2b16953afc96844b1e858db20f5de530fa9185043250b75386bc24efefea69be"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/comparison.png",
+      "bytes": 450341,
+      "sha256": "49fb9e5bec88dc8d426915ab9ffdf0cb9ab25467c4cdb9498129bf41adf69f98"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/comparison_summary.json",
+      "bytes": 9426,
+      "sha256": "10c4305f30ebb6f05d7701eca88bdd8d044fa49f0dd1c43fcb8154d97dbf7731"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/cost_summary.csv",
+      "bytes": 1286,
+      "sha256": "3964a42779978d07a6f213b066ceb96e758053316326cf127c5813110268ea07"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/run_manifest.json",
+      "bytes": 8234,
+      "sha256": "7f200febe13e3a77cf9a37fa16ed7a029006ce944aaf47995e08bcaf8af7bc67"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/normal/weekly_dispatch.csv",
+      "bytes": 48370,
+      "sha256": "81fbde38fa12666ad7f21803d38dd1208cdbeaf812f4de69ae84ba6c87fbf3b7"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/representative_years_summary.csv",
+      "bytes": 1729,
+      "sha256": "02a6a20c3ed02085710945aedf09119caa04025830ccd0e379687b2f5c9b92e3"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/M0_dispatch.csv",
+      "bytes": 84645,
+      "sha256": "67a0baa6d9a283af2a76103d54497e2eaa78db3587831cd1a5232bbec1ca5819"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/M1_dispatch.csv",
+      "bytes": 89900,
+      "sha256": "a67b1b1eae201c73e97492cacae02559eb1b2200bdc632357089b7cca8f386ce"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/M2_dispatch.csv",
+      "bytes": 82394,
+      "sha256": "58cdeb8c8c53483ee57bcff30fc1d0a217d260a3a1013ef37f6fb1b05c708af1"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/comparison.png",
+      "bytes": 458832,
+      "sha256": "72ea05803ea775a3f8c958611632c7dea323be03d5421449943bdcd89586d784"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/comparison_summary.json",
+      "bytes": 9360,
+      "sha256": "437fc8c251b591cb14528a11680c5701231aa1806536e96807c47b60050900e6"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/cost_summary.csv",
+      "bytes": 1242,
+      "sha256": "fdbacb8e2ce5b32e5e1565ff581e344c4996b7cbf47d267c65328e4be705bc5c"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/run_manifest.json",
+      "bytes": 8208,
+      "sha256": "46b2e3b48390291e421ff6af71dd48029fd6fac76a2ef297f2dccf1d793941e8"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/demo/wet/weekly_dispatch.csv",
+      "bytes": 48259,
+      "sha256": "acfa73c7fc8529f1026ec06764d4d57196e8a5af0cd94ed968a434be36d8c128"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/sweep/sensitivity.csv",
+      "bytes": 7243,
+      "sha256": "31f4763a4cc9707372204cbd21d450db9a368ab98a3d6ceff696a610600cae6a"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/sweep/sensitivity_manifest.json",
+      "bytes": 1222,
+      "sha256": "d5de553a6ca2af05d162a0114b866f568664646b4013a09c2224161091498518"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/M0_dispatch.csv",
+      "bytes": 656,
+      "sha256": "b47d6e62a91ff43fb526825101d504079e1d591d0c498405d674febf3d30a7a4"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/M1_dispatch.csv",
+      "bytes": 691,
+      "sha256": "0b99ed4dea016af6a518500cf2bd71a0db3c6ab750d876a3633e978fc5a7f2aa"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/M2_dispatch.csv",
+      "bytes": 679,
+      "sha256": "2be71f5423b75eed2cb17fcbba10459247f3b66b34f6458878abcf7c975397dc"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/comparison.png",
+      "bytes": 213386,
+      "sha256": "62eff806842a4020b8605cdee7a16a82542735aeb0350f424018d799df331949"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/comparison_summary.json",
+      "bytes": 6166,
+      "sha256": "73799d3f2308e526c54426deae53b499b3367ad85daa39c95dd98660295791be"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/cost_summary.csv",
+      "bytes": 941,
+      "sha256": "0cefdce36372e2c5cc7a751230e17596a35826f6e5f6aa69b19151acc0f2ff92"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/run_manifest.json",
+      "bytes": 4595,
+      "sha256": "a0b5392e57b0496fdb9b66023706867ef1c8361ec724af2c1c0ce4fb9c26d974"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/export_prohibited/weekly_dispatch.csv",
+      "bytes": 545,
+      "sha256": "dfd7e64a57814fe08adb3bfb7f36b5c9441df1347a63bba1ad23499407acd891"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/M0_dispatch.csv",
+      "bytes": 643,
+      "sha256": "04cf05a0a5a383db2d646ed91b5a755a9a7d9c36fa05d4383d530501e33c57de"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/M1_dispatch.csv",
+      "bytes": 678,
+      "sha256": "90bf37ae45f0361a318ced1b356e6b566a83d0d70eaaa324e3dab7745b0924da"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/M2_dispatch.csv",
+      "bytes": 678,
+      "sha256": "90bf37ae45f0361a318ced1b356e6b566a83d0d70eaaa324e3dab7745b0924da"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/comparison.png",
+      "bytes": 196322,
+      "sha256": "29d857474dd1824ff392cb681c0f3a0456fbdfec3ed4e242e8efa89f204e7f38"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/comparison_summary.json",
+      "bytes": 6181,
+      "sha256": "b938c290d93b9cc06a7daa2f699a97952455ba0f948bb4eb6966bfd81ad30f58"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/cost_summary.csv",
+      "bytes": 942,
+      "sha256": "ca5facdb63dee2be2c4819a5e7fe3362e4885f9caa03ec25ed3088f6118719c7"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/run_manifest.json",
+      "bytes": 4595,
+      "sha256": "a709059600cadc50d3d4570184b8da951dd704689c01c0c2ee22d0a98d028c17"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/unlimited_symmetric_trading/weekly_dispatch.csv",
+      "bytes": 545,
+      "sha256": "dfd7e64a57814fe08adb3bfb7f36b5c9441df1347a63bba1ad23499407acd891"
+    },
+    {
+      "path": "models/reservoir_inventory/outputs/toy/verification.json",
+      "bytes": 5487,
+      "sha256": "9bf52928bdeab5063d2e74b00c4edd994ad0e5af292af636c14264b1eafbb697"
+    },
+    {
+      "path": "models/reservoir_inventory/pyproject.toml",
+      "bytes": 496,
+      "sha256": "129062cb1843f12af44423c147b2b9caba9009de307c82746565da58fb15802b"
+    },
+    {
+      "path": "models/reservoir_inventory/scripts/prepare_xiaowan_csv.py",
+      "bytes": 18192,
+      "sha256": "7d19e481db2c1c5e7fd8336db16572bd4c52b1647a598ae96369cd917a8d2862"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/__init__.py",
+      "bytes": 299,
+      "sha256": "35685644bdbec1805fadf0e1b17e25323fdfd4d141cd179305c468928032cbc3"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/__main__.py",
+      "bytes": 79,
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/cases.py",
+      "bytes": 11833,
+      "sha256": "4d4fcd444104d58428409dab83e331694019e3e2c99cade987b9296e37d12162"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/cli.py",
+      "bytes": 11568,
+      "sha256": "411ef648c7f0a92a2a0256411bcfd2b0e5d446bacf432cf7b1e2a944bdad2921"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/io.py",
+      "bytes": 9339,
+      "sha256": "04e2b09fd23bb873030a96ad588dabc6d84857f1d4ece49bc1c3f2982b3df8a1"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/model.py",
+      "bytes": 20948,
+      "sha256": "dc714f959879fdda21241de982c079744af68571e368ee473401812acc652643"
+    },
+    {
+      "path": "models/reservoir_inventory/src/reservoir_inventory/reporting.py",
+      "bytes": 13722,
+      "sha256": "4f7e0fdc0cdb323a68b74a93b53c246850f1e5837501386f283eab63f9782166"
+    },
+    {
+      "path": "models/reservoir_inventory/tests/test_io.py",
+      "bytes": 7620,
+      "sha256": "9219ec6a75cea32a3c0a53a3f3a0ac6b1955dd0f5da289d54c3a67a610e88f75"
+    },
+    {
+      "path": "models/reservoir_inventory/tests/test_model.py",
+      "bytes": 17044,
+      "sha256": "90160ea9f3ceb40d82a7e0599d37e2a6f4294eee23464ecd8bdbf6152bf73ebb"
+    }
+  ]
+}

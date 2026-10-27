@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-27T12:14:56.321510+00:00",
+  "archive_format": "tar+zstd",
+  "tar_format": "POSIX PAX",
+  "tar_path_encoding": "UTF-8",
+  "archive_stream": "one zstandard frame concatenated from parts in listed order",
+  "source_manifest": "UPDATE_FILES_SHA256.json",
+  "source_manifest_sha256": "450f1377c3aefa559c9c7fb9993c29e3b6aeab51428bc098f1e71d603032f401",
+  "changes_manifest": "UPDATE_CHANGES.json",
+  "changes_manifest_sha256": "61d06e2feaa4622a544de402f1500080df24d283f63dbc30160cff774cffa2e2",
+  "base_snapshot_tag": "snapshot-20261027",
+  "base_source_manifest_sha256": "e28bf34756a0785712ddbe432c20e9c374b482eaa23fbf012b1170a5c9a1b7fe",
+  "source_file_count": 236,
+  "source_bytes": 4845018397,
+  "compressed_bytes": 4603979089,
+  "part_count": 14,
+  "part_size_limit": 350000000,
+  "compression_level": 3,
+  "zstandard_version": "0.25.0",
+  "zstandard_frame_checksum": true,
+  "parts": [
+    {
+      "name": "local-data-update-20261027.tar.zst.part001",
+      "bytes": 350000000,
+      "sha256": "16993936abafe766073d20b705d4ec426dc7be98e11bfafeb18fbd825ab09ea1"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part002",
+      "bytes": 350000000,
+      "sha256": "390f41b2cfe295af3b385a3f99dfe2c6d49287fbb08806271159e2c5e66dd7a4"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part003",
+      "bytes": 350000000,
+      "sha256": "84995a64fbd29ed3867e7ea96a00eaa4e7cf0a5c56d03eef47fe6e22f530b332"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part004",
+      "bytes": 350000000,
+      "sha256": "b778f77697b4e5fe041995fef438289c9b0437086aef80059caabf71981304e6"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part005",
+      "bytes": 350000000,
+      "sha256": "3fe0893bec84d5dc7a5475cc048e3320c1d492ea76e96d024f1c80563237d5af"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part006",
+      "bytes": 350000000,
+      "sha256": "029e8099a1ffb1ebf87dbb031f4a1aa02c57ce9aa711b8795fb356960a1b563f"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part007",
+      "bytes": 350000000,
+      "sha256": "5a07fc60aa3ff9b37660c5f500abd4ad885a8a8bd26f85a17a3c26db4fcdd988"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part008",
+      "bytes": 350000000,
+      "sha256": "9d7ff4214ba2f257d4d29f3f014c8dcef56b020c05efb2816695a84e75e0ddbf"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part009",
+      "bytes": 350000000,
+      "sha256": "85e8fdc6fcfbf15c7ce0387b50b7aba3aa86b0bc0381414d5a79f1a9a0aa877c"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part010",
+      "bytes": 350000000,
+      "sha256": "365bac098fd269714e5d7fc4121a4e1af61d6638aa4e6f550e81732c8564e143"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part011",
+      "bytes": 350000000,
+      "sha256": "c2c8ad23aa747280689adf4f3e95b963cfe372ade69319090714a5dbefaa384c"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part012",
+      "bytes": 350000000,
+      "sha256": "cb5e26449826747a3f54abe36606a91fd584430ee3a38a65d7585cf434cfdd78"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part013",
+      "bytes": 350000000,
+      "sha256": "e90bd34adebe44fe28bb9814997525091072d0b9b1583c82d3ee827f9e9ffa1f"
+    },
+    {
+      "name": "local-data-update-20261027.tar.zst.part014",
+      "bytes": 53979089,
+      "sha256": "73aa0fd30e2759254403298c3d076754ef5171936310f01751d985e905d7500c"
+    }
+  ]
+}

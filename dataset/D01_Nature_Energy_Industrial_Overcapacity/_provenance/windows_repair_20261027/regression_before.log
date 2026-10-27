@@ -1,0 +1,39 @@
+test_existing_windows_invalid_colon_mapping_is_preserved (__main__.WindowsExtractionTests) ... ok
+test_other_sources_retain_the_original_extraction_policy (__main__.WindowsExtractionTests) ... ok
+test_path_traversal_still_rejected (__main__.WindowsExtractionTests) ... ok
+test_recovers_all_chinese_shapefile_component_names_without_changing_bytes (__main__.WindowsExtractionTests) ... FAIL
+test_skips_only_mac_metadata_and_records_its_archive_hashes (__main__.WindowsExtractionTests) ... FAIL
+
+======================================================================
+FAIL: test_recovers_all_chinese_shapefile_component_names_without_changing_bytes (__main__.WindowsExtractionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\论文\面向极端枯水风险的水电-工业协同调度与韧性优化\dataset\D01_Nature_Energy_Industrial_Overcapacity\_provenance\test_windows_extraction.py", line 64, in test_recovers_all_chinese_shapefile_component_names_without_changing_bytes
+    self.assertEqual({p.name for p in (self.dest / "data").iterdir()}, {"国界线"+ext for ext in (".shp", ".shx", ".dbf", ".prj", ".sbn", ".sbx")})
+AssertionError: Items in the first set but not the second:
+'σ¢╜τòîτ║┐.shp'
+'σ¢╜τòîτ║┐.sbx'
+'σ¢╜τòîτ║┐.shx'
+'σ¢╜τòîτ║┐.prj'
+'σ¢╜τòîτ║┐.dbf'
+'σ¢╜τòîτ║┐.sbn'
+Items in the second set but not the first:
+'国界线.shp'
+'国界线.sbn'
+'国界线.shx'
+'国界线.dbf'
+'国界线.prj'
+'国界线.sbx'
+
+======================================================================
+FAIL: test_skips_only_mac_metadata_and_records_its_archive_hashes (__main__.WindowsExtractionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\论文\面向极端枯水风险的水电-工业协同调度与韧性优化\dataset\D01_Nature_Energy_Industrial_Overcapacity\_provenance\test_windows_extraction.py", line 73, in test_skips_only_mac_metadata_and_records_its_archive_hashes
+    self.assertFalse((self.dest / "__MACOSX").exists())
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+FAILED (failures=2)

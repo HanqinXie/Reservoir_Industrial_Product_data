@@ -1,0 +1,7 @@
+xiaowan_scaled_representative_dry_1993: M0=-283,500,268.765415 CNY, M1=-283,530,097.327745 CNY, M2=-283,916,668.765414 CNY
+  fixed-hydro inventory savings=29,828.562330; additional hydro coordination=386,571.437669 CNY
+xiaowan_scaled_representative_normal_1988: M0=-668,555,380.706617 CNY, M1=-668,646,660.929801 CNY, M2=-668,973,880.706617 CNY
+  fixed-hydro inventory savings=91,280.223183; additional hydro coordination=327,219.776816 CNY
+xiaowan_scaled_representative_wet_1990: M0=-1,210,208,649.449774 CNY, M1=-1,212,716,174.449774 CNY, M2=-1,214,030,564.449775 CNY
+  fixed-hydro inventory savings=2,507,525.000000; additional hydro coordination=1,314,390.000000 CNY
+Completed 3 complete hydrological years; outputs: outputs\demo

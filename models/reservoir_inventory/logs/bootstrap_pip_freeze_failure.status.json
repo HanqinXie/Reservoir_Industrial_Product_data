@@ -1,0 +1,5 @@
+﻿{
+    "phase":  "bootstrap metadata only; no model command started",
+    "command":  ".\\.venv\\Scripts\\python.exe -m pip freeze",
+    "exit_code":  2
+}
